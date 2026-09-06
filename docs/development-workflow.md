@@ -7,7 +7,8 @@ status: current
 Sourdough keeps knowledge as Markdown and uses optional QMD search.
 Each checkout has its own index. Git hooks refresh it in the background.
 Track work in [GitHub Issues](https://github.com/jubishop/sourdough/issues).
-Application code and application-specific setup are not present yet.
+The public site uses Next.js. See [site and hosting](site-and-hosting.md) for
+recipe editing, local development, and Vercel deployment.
 
 ## First setup
 
@@ -19,7 +20,9 @@ bin/doctor
 bin/check
 ```
 
-Setup requires Git and Python 3.9 or later. Checks also require ShellCheck,
+Setup requires Git, Python 3.9 or later, Node.js 24, and pnpm 11.25.0.
+It also installs application dependencies from the lockfile.
+Checks require ShellCheck,
 available through the operating system's package manager. QMD and direnv are
 optional. Missing optional tools produce clear notices; an installed but
 failing QMD returns an error. Install QMD using its
@@ -200,7 +203,9 @@ local file links and ordinary heading anchors, Python syntax for these tools,
 shell syntax (Bash for `.envrc`, POSIX shell for the bundled hooks), and the
 copied foundation's behavior. The tests use disposable
 repositories and simulated QMD/direnv, with no model downloads or network access.
-Remote URLs are not fetched. Use `bin/check --documents-only` for focused edits.
+The foundation checks do not fetch remote URLs. Application checks then run
+TypeScript, lint, and the Next.js production build. The build can download
+the site's Google fonts. Use `bin/check --documents-only` for focused edits.
 
 Keep the foundation checks when adding application tests, builds, and linters.
 For generated or externally owned docs, add deliberate patterns to

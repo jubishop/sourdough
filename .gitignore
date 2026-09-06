@@ -8,3 +8,11 @@
 __pycache__/
 *.py[cod]
 worktrees/
+
+# Application dependencies and generated output
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts

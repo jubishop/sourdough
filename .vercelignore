@@ -1,0 +1,11 @@
+.cache
+.config
+.github
+bin
+docs
+memory
+tests
+worktrees
+AGENTS.md
+.env*
+!.env.example

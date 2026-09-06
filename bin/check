@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
+from pathlib import Path
+import subprocess
 import sys
 sys.dont_write_bytecode = True
 from _checks import main
-sys.exit(main())
+
+result = main()
+root = Path(__file__).resolve().parents[1]
+if result == 0 and not sys.argv[1:] and (root / "package.json").exists():
+    try:
+        for command in (["pnpm", "typecheck"], ["pnpm", "lint"], ["pnpm", "build"]):
+            result = subprocess.run(command, cwd=root).returncode
+            if result:
+                break
+    except FileNotFoundError:
+        print("pnpm is required. Run bin/setup before bin/check.", file=sys.stderr)
+        result = 1
+sys.exit(result)

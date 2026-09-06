@@ -22,5 +22,12 @@ jobs:
           persist-credentials: false
       - name: Install ShellCheck
         run: sudo apt-get update && sudo apt-get install --yes shellcheck
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - name: Install application dependencies
+        run: pnpm install --frozen-lockfile
       - name: Check repository
         run: bin/check
