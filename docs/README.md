@@ -56,3 +56,5 @@ searched. Do not exempt hand-written pages merely to bypass failed checks.
 
 - [Development workflow](development-workflow.md): setup, search, hooks,
   worktrees, diagnostics, and recovery.
+- [Site and hosting](site-and-hosting.md): recipe source, public access,
+  local development, and Vercel deployment.

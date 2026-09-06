@@ -20,11 +20,12 @@ class KnowledgeTests(unittest.TestCase):
         self.base = Path(self.temp.name).resolve()
         self.repo = self.base / "main checkout"
         self.repo.mkdir()
-        for name in ("bin", "docs", "memory", "tests", ".github"):
+        # Include application paths referenced by docs, without installing the app.
+        for name in ("bin", "docs", "memory", "tests", ".github", "app", "hooks", "public"):
             shutil.copytree(SOURCE / name, self.repo / name, ignore=shutil.ignore_patterns("__pycache__"))
         (self.repo / ".config").mkdir()
         shutil.copy2(SOURCE / ".config/knowledge.json", self.repo / ".config/knowledge.json")
-        for name in ("README.md", "AGENTS.md", ".gitignore", ".project-starter.json"):
+        for name in ("README.md", "AGENTS.md", ".gitignore", ".project-starter.json", "vercel.json", ".env.example"):
             shutil.copy2(SOURCE / name, self.repo / name)
         if (SOURCE / ".envrc").exists():
             shutil.copy2(SOURCE / ".envrc", self.repo / ".envrc")
