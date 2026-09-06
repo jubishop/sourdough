@@ -10,6 +10,12 @@ checklist runs in the browser. No database or account service is required.
 
 ## Accepted scope
 
+On 2026-09-06, the user confirmed that the ChatGPT-hosted site is abandoned.
+Use [this GitHub repository](https://github.com/jubishop/sourdough) and the
+Vercel production site below for all future recipe edits and publishing.
+The original site is only historical source material; do not update its
+repository or publish it as a substitute for the Vercel site.
+
 On 2026-09-05, the user requested a port from ChatGPT Sites to Vercel and
 confirmed that the whole site must be public, with no starter-log form or
 login restrictions. The reason is to maintain the sourdough baking and recipe

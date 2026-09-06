@@ -265,3 +265,16 @@ wording.
 
 [King Arthur's starter troubleshooting guidance](https://www.kingarthurbaking.com/blog/2018/03/09/sourdough-starter-troubleshooting-2)
 supports this distinction. The source was checked on 2026-09-05.
+
+## Mother maintenance ratio
+
+On 2026-09-06, the user chose 1:3:3 by weight for mother maintenance,
+matching the recovery-feeding ratio. The user explicitly corrected the
+initially written 3:1:1 to 1:3:3: one part starter, three parts water, and
+three parts fresh flour. This supersedes the former 1:2:2 maintenance feed.
+
+Apply it to weekly feeding, the bake-day mother refresh, and the feed used
+to return a recovered starter to storage. Retain around 20 g and weigh the
+actual portion: 20 g takes 60 g each water and flour; 22 g takes 66 g each.
+Keep the storage-rest guidance based on when the mother will next be used,
+and keep the separate baking-build range and readiness checks.

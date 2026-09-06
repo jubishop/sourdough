@@ -51,4 +51,5 @@ review records or convert them into ordinary memory pages.
 
 ## Active pages
 
-Add links as durable knowledge is established. Do not seed invented memories.
+- [Use the active Vercel site](active-site-workflow.md): find the correct
+  repository and publishing target; leave the abandoned ChatGPT site alone.
