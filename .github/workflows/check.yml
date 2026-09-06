@@ -30,4 +30,4 @@ jobs:
       - name: Install application dependencies
         run: pnpm install --frozen-lockfile
       - name: Check repository
-        run: bin/check
+        run: bin/check --full

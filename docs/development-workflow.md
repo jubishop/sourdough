@@ -17,7 +17,7 @@ Run from the repository root:
 ```sh
 bin/setup
 bin/doctor
-bin/check
+bin/check --full
 ```
 
 Setup requires Git, Python 3.9 or later, Node.js 24, and pnpm 11.25.0.
@@ -198,21 +198,41 @@ its log. Manually replacing the database requires a forced refresh.
 
 ## Checks and project extensions
 
-`bin/check` validates the documented frontmatter subset, index coverage,
-local file links and ordinary heading anchors, Python syntax for these tools,
-shell syntax (Bash for `.envrc`, POSIX shell for the bundled hooks), and the
-copied foundation's behavior. The tests use disposable
-repositories and simulated QMD/direnv, with no model downloads or network access.
-The foundation checks do not fetch remote URLs. Application checks then run
-TypeScript, lint, and the Next.js production build. The build can download
-the site's Google fonts. Use `bin/check --documents-only` for focused edits.
+Choose validation by the changed files and the stage of the work:
+
+| Work | Check |
+| --- | --- |
+| Discussion, planning, or read-only inspection | No checks. |
+| A batch of Markdown edits | `bin/check --documents-only`. |
+| Code edits during development | Focused application tests and `bin/check`. |
+| Initial setup; changes to foundation tools, hooks, configuration, tests, or CI | `bin/check --full` after the edits are complete. |
+| A code PR or release ready for delivery | `bin/check --full` once for the final changes. |
+
+Batch related edits before checking. A conversational reply is not a release
+gate. Reuse a passing result while its relevant source, configuration, and
+dependencies are unchanged. Repeat a check when those inputs change or a
+failure needs verification. CI always runs the full check.
+
+`bin/check --documents-only` validates the documented frontmatter subset,
+index coverage, local file links, and ordinary heading anchors.
+`bin/check` adds Python syntax checks for the tools and tests, shell checks
+(Bash for `.envrc`, POSIX shell for the bundled hooks), and Git whitespace
+checks. It does not run the disposable-repository tests.
+
+`bin/check --full` adds all copied foundation behavior tests. They use
+disposable repositories and simulated QMD/direnv, with no model downloads or
+network access. Remote URLs are not fetched by foundation checks.
+
+Application checks add TypeScript and lint to `bin/check`. Only
+`bin/check --full` runs the Next.js production build, which can download
+the site's Google fonts. `--documents-only` skips application commands.
 
 Keep the foundation checks when adding application tests, builds, and linters.
 For generated or externally owned docs, add deliberate patterns to
 `checks.exclude` in `.config/knowledge.json`. Avoid broad exclusions that hide
 hand-written project knowledge.
 
-[Repository checks](../.github/workflows/check.yml) run `bin/check` for pull
+[Repository checks](../.github/workflows/check.yml) run `bin/check --full` for pull
 requests and pushes to `main` on GitHub Actions. The Ubuntu 24.04 runner
 installs ShellCheck before running the checks. The workflow has read-only
 repository permissions. QMD and direnv are optional and are simulated by

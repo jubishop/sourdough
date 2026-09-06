@@ -19,8 +19,10 @@ after cloning to prepare local search and install application dependencies.
 QMD and direnv are optional; setup reports skipped features. Start the site
 with `pnpm dev` and open the local URL printed by Next.js.
 
-Run `bin/check` before delivering changes. It requires ShellCheck and runs
-the foundation checks, TypeScript checks, application lint, and production build.
+Use `bin/check --documents-only` for Markdown edits. `bin/check` runs fast
+foundation checks, TypeScript checks, and application lint. It requires
+ShellCheck. Run `bin/check --full` after setup or foundation changes, and before
+a code PR or deployment; it adds foundation tests and the production build.
 Use `bin/doctor` for diagnostics. See the
 [development workflow](docs/development-workflow.md) for search, worktrees,
 hook integration, and recovery.
@@ -30,7 +32,7 @@ hook integration, and recovery.
 - [Memory](memory/README.md): durable guidance and non-code context.
 - [Docs](docs/README.md): designs, decisions, research, and reference guides.
 
-GitHub Actions runs `bin/check` for pull requests and pushes to `main` on
+GitHub Actions runs `bin/check --full` for pull requests and pushes to `main` on
 Ubuntu 24.04, including the application checks and build.
 
 The foundation comes from
