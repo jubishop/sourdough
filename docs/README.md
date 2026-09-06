@@ -58,3 +58,5 @@ searched. Do not exempt hand-written pages merely to bypass failed checks.
   worktrees, diagnostics, and recovery.
 - [Site and hosting](site-and-hosting.md): recipe source, public access,
   local development, and Vercel deployment.
+- [Recipe guide decisions](recipe-guide.md): accepted choices for the baking
+  instructions.

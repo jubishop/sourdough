@@ -5,8 +5,8 @@ status: current
 # Site and hosting
 
 This repository contains Justin's public whole-wheat sourdough recipe site.
-Next.js builds the recipe page as static content. Scaling, timers, and the
-checklist run in the browser. No database or account service is required.
+Next.js builds the one-loaf recipe page as static content. The
+checklist runs in the browser. No database or account service is required.
 
 ## Accepted scope
 
@@ -15,6 +15,9 @@ confirmed that the whole site must be public, with no starter-log form or
 login restrictions. The reason is to maintain the sourdough baking and recipe
 work in this repository. This is a hosting port; preserve the current recipe
 and visual design.
+
+On 2026-09-05, the user requested removal of the two-loaf calculator as
+unnecessary complexity. Keep the recipe fixed at one loaf.
 
 The baseline is version 64 of
 [the original site](https://sourdough.jubishop.chatgpt.site), at source commit
@@ -31,8 +34,8 @@ transfer is implemented.
 
 ## Edit the recipe
 
-- [Recipe page](../app/recipe-page.tsx): ingredients, steps, starter care,
-  troubleshooting, timers, and page markup.
+- [Recipe page](../app/recipe-page.tsx): recipe steps, starter care,
+  troubleshooting and page markup.
 - [Styles](../app/globals.css): layout, colors, and responsive behavior.
 - [Layout](../app/layout.tsx): fonts, title, description, and sharing metadata.
 - [Checklist hook](../hooks/use-checklist.ts): device-local progress. It reads
@@ -41,8 +44,9 @@ transfer is implemented.
   fail, the current page can still track progress without saving it.
 - [Public assets](../public): the original favicon and sharing image.
 
-Recipe text comes from the imported source. The port does not independently
-reassess the baking advice.
+Recipe text began with the imported source. The port did not independently
+reassess the baking advice. Subsequent accepted changes are recorded in
+[recipe guide decisions](recipe-guide.md).
 
 ## Local development
 
@@ -95,6 +99,6 @@ supports this deployment. Its
 provide the generated hostnames. These references were checked on 2026-09-05.
 
 After deployment, check the public URL without a session. Confirm the recipe,
-styles, and sharing image load, then check scaling, timers, checklist persistence,
+styles, and sharing image load, then check checklist persistence,
 and the mobile layout. Track delivery in
 [issue 1](https://github.com/jubishop/sourdough/issues/1).

@@ -1,7 +1,7 @@
 # Sourdough
 
 Justin's whole-wheat sourdough recipe and baking tools. The public site includes
-ingredient scaling, a kitchen timer, starter-care guidance, and a bake checklist
+a one-loaf formula, starter-care guidance, and a bake checklist
 saved in the browser. It has no login, starter-log form, or database.
 
 [Open the sourdough site](https://sourdough-eosin.vercel.app).

@@ -1,8 +1,7 @@
 'use client';
 
-import { Fragment, useEffect, useState } from 'react';
+import { Fragment } from 'react';
 import {
-  Check,
   CheckCircle2,
   ChevronRight,
   Circle,
@@ -10,37 +9,29 @@ import {
   CookingPot,
   Flame,
   FlaskConical,
-  Pause,
-  Play,
   RotateCcw,
   Scale,
   Snowflake,
   Sparkles,
   Sprout,
-  TimerReset,
   Wheat,
 } from 'lucide-react';
 
-import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
 import { useChecklist } from '@/hooks/use-checklist';
 
-const ingredients = [
-  { name: 'Whole-wheat flour', grams: 500, note: '100% of the flour' },
-  { name: 'Water', grams: 400, note: 'About 82% total hydration' },
-  { name: 'Active starter', grams: 100, note: '100% hydration; ripe and near peak' },
-  { name: 'Fine salt', grams: 11, note: '2% of total flour' },
-];
+const starterInspection = 'Discard the entire starter if you see mold or pink/orange streaks. A layer of liquid—even dark liquid—does not by itself mean the starter has spoiled.';
 
 const steps = [
   {
     id: 'starter',
     phase: 'Before you mix',
-    time: '~6–12 hr to double',
+    time: '~6–12 hr to double with 20 g starter',
     icon: Sprout,
     title: 'Wake up the starter',
     body: 'Make the baking build in a separate temporary container so you can clean the mother jar while it ripens.',
     details: [
+      starterInspection,
       'Take the mother starter from the refrigerator. Move 20–60 g into the temporary container; discard what remains in the mother jar.',
       'Add 60 g water + 60 g flour. Use less mother starter when you have more time and more when you want the build ready sooner.',
       'Wash and dry the empty mother jar while the build ripens at your pantry temperature.',
@@ -57,15 +48,14 @@ const steps = [
     phase: 'Day 1',
     time: '60 min',
     overlap: 'Overlaps Step 1',
-    timer: 60,
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
     body: 'Mix 500 g whole-wheat flour and 375 g water until no dry pockets remain. Cover and rest for 60 minutes.',
     details: [
-      'Keep 60 minutes as the baseline if the dough feels smoother and stretches more easily afterward.',
+      'After the 60-minute rest, check whether the dough feels smoother and stretches more easily.',
       'If it remains stiff or tears easily, try 75 minutes next time. If it becomes slack or weak, try 45 minutes next time.',
     ],
-    cue: 'Save the final 25 g water. The rest gives the bran time to soften.',
+    cue: 'Start this when Step 1 looks about 60 minutes from ready. Save the final 25 g water.',
   },
   {
     id: 'mix',
@@ -86,21 +76,24 @@ const steps = [
     id: 'fold-one',
     phase: 'Early bulk',
     time: '+30 min',
-    timer: 30,
     icon: RotateCcw,
     title: 'First fold',
-    body: 'Keep the bowl covered on the counter for 30 minutes. Then stretch one side up and across. Turn the bowl and repeat four times.',
+    body: 'Keep the bowl covered on the counter for 30 minutes. Then stretch one side up and across. Turn the bowl and repeat on the remaining three sides, for four folds total.',
     cue: 'This should take about 20 seconds. Be gentle. Judge hydration from the dough here: if it remains unusually stiff or tears easily after trying the longer autolyse, use 10–20 g more water on a later loaf.',
   },
   {
     id: 'fold-two',
     phase: 'Early bulk',
-    time: '+30 min',
-    timer: 30,
+    time: '30 min + optional 30 min',
     icon: RotateCcw,
-    title: 'Second and final fold',
+    title: 'Second fold and strength check',
     body: 'Cover and rest another 30 minutes, then repeat one gentle set of four folds.',
-    cue: 'After this, leave the dough alone. The aliquot sample remains undisturbed throughout.',
+    details: [
+      'After this set, the dough should gather into a cohesive mound, stretch with some resistance, and hold its shape briefly. Some spreading as it rests is normal.',
+      'If it still feels weak and spreads immediately, cover and rest another 30 minutes, then give it one additional gentle set of four folds.',
+      'Stop stretching when the dough resists. Do not pull until it tears.',
+    ],
+    cue: 'After the second set, or the optional third set, leave the dough alone for the rest of bulk. The extra rest is part of total bulk time. Keep the aliquot sample undisturbed throughout.',
   },
   {
     id: 'bulk',
@@ -108,7 +101,7 @@ const steps = [
     time: '~6–10 hr total',
     icon: FlaskConical,
     title: 'Aim for a 40–50% rise',
-    body: 'Use 40–50% on the tube’s printed scale as your starting target for this whole-wheat loaf and overnight cold proof. Check the main dough too: it should look inflated and rounded, with bubbles at the edges and a gentle jiggle.',
+    body: 'Aim for 40–50% rise on the tube’s printed scale. Check the main dough too: it should look inflated and rounded, with bubbles at the edges and a gentle jiggle.',
     details: [
       'Ready feels airy and softly bouncy, with enough elasticity to hold together. Airiness is a good sign; dough becoming progressively weaker, tearing easily, or collapsing is a reason to shape sooner. Stickiness alone does not mean it has gone too far.',
       'If it is still tight and poorly aerated at the target, give it more time and recheck.',
@@ -118,13 +111,12 @@ const steps = [
       'If the dough loses strength before your target, shape now rather than chasing the number. If that pattern and a flat, weak loaf repeat, try 5–10 percentage points less rise next time.',
       'Warmer dough keeps fermenting faster while it cools in the fridge, so it generally needs an earlier cutoff; cooler dough may tolerate more rise. Pantry temperature helps compare bakes, but actual dough temperature controls fermentation. Whole-wheat dough may show less rise than white dough: do not automatically wait for doubling.',
     ],
-    cue: 'In your 70°F pantry, allow roughly 6–10 hours of total bulk from starter addition with a ripe, active starter. This is a starting estimate to refine from your own bakes, not a deadline; a weaker starter or cooler dough can take longer, and warmer dough can finish sooner. Count the fold-and-rest time in that total. Keep 40–50% as the baseline and use the dough cues above.',
+    cue: 'In your 70°F pantry, allow roughly 6–10 hours of total bulk from starter addition with a ripe, active starter. Use this estimate for planning; a weaker starter or cooler dough can take longer, and warmer dough can finish sooner. Count the fold-and-rest time in that total. Aim for 40–50% rise and use the dough cues above to decide when to shape.',
   },
   {
     id: 'shape',
     phase: 'Day 1',
     time: '10–20 min, as needed',
-    timer: 10,
     icon: Circle,
     title: 'Shape and place in the banneton',
     body: 'Dust the banneton generously with rice flour before shaping the loaf.',
@@ -133,7 +125,9 @@ const steps = [
       'Rest it uncovered for 10 minutes, then check it. Continue to the final shape once it has relaxed slightly but still holds its rounded form. Wait up to another 10 minutes if it still springs back.',
       'Shorten or skip the rest if the dough is already relaxed or spreading. Cover it if the surface starts to form a dry skin.',
       'If bulk timing was correct but the dough is still slack and spreads even after shortening or skipping the rest, use 10–20 g less water next loaf.',
-      'Final-shape the dough, creating firm surface tension without tearing it.',
+      'Lightly dust the top of the rested round with flour and turn it over. Fold the near edge into the center, then the left and right edges, then the far edge, to make a compact parcel.',
+      'Turn it seam-side down on a patch of counter with very little flour. Cup both hands behind the dough and gently pull it toward you a short distance, letting the bottom grip the counter and tighten the outer skin.',
+      'Turn the dough a quarter-turn and repeat the gentle pull until the top is smooth and taut and the dough holds a round shape. Stop if the skin starts to tear.',
       'Lift the shaped loaf into the banneton. Put the smooth side down against the basket and leave the seam side facing up.',
     ],
     cue: 'The rest makes final shaping easier; a longer rest does not automatically make a better loaf. The seam faces you in the banneton.',
@@ -142,7 +136,6 @@ const steps = [
     id: 'cold-proof',
     phase: 'Overnight',
     time: '12 hr at ~38°F',
-    timer: 720,
     icon: Snowflake,
     title: 'Cold-proof overnight',
     body: 'Cover and refrigerate immediately for 12 hours. Bake the loaf directly from the refrigerator.',
@@ -153,7 +146,6 @@ const steps = [
     phase: 'Day 2',
     time: 'At least 45 min',
     overlap: 'Overlaps Step 8',
-    timer: 45,
     icon: Flame,
     title: 'Preheat the Dutch oven',
     body: 'At least 45 minutes before the 12-hour cold proof ends, preheat the oven and Dutch oven to 475°F. You can begin earlier.',
@@ -178,27 +170,29 @@ const steps = [
     id: 'covered-bake',
     phase: 'Bake',
     time: '30 min covered',
-    timer: 30,
     icon: CookingPot,
     title: 'Bake covered at 450°F',
-    body: 'Lower the oven to 450°F and bake with the lid on for 30 minutes. The trapped steam keeps the crust flexible so the loaf can expand.',
-    cue: 'Skip added ice and water. The loaf supplies its own steam. More covered time keeps steam around the loaf longer and favors a thinner, softer crust.',
+    body: 'Lower the oven to 450°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
+    cue: 'Skip added ice and water. The loaf supplies its own steam.',
   },
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '12 min uncovered',
-    timer: 12,
+    time: 'Check after 12 min',
     icon: Flame,
     title: 'Finish uncovered at 425°F',
-    body: 'Remove the lid, lower the oven to 425°F, and bake for 12 minutes. Removing the lid lets the crust dry and brown.',
-    cue: 'Use total bake time to tune crumb moisture, the covered/uncovered split to tune crust texture, and temperature to tune browning speed. Adjust time by 5 minutes or temperature by 25°F, and change only one thing per loaf. If the bottom scorches, place a sheet pan on the rack below.',
+    body: 'Remove the lid, lower the oven to 425°F, and bake for 12 minutes. The uncovered bake lets the crust dry and brown. Then check the crust.',
+    details: [
+      'Look for a deep golden-brown crust on the exposed top and sides. Flour dusting can stay pale, so judge the crust beneath it.',
+      'If the exposed crust is still pale, continue baking uncovered in 5-minute increments, checking the color each time.',
+      'Crust color cannot confirm the condition of the center. After the loaf has cooled for at least 3 hours, check the crumb when slicing and use the result to refine the bake time next time.',
+    ],
+    cue: 'If the bottom scorches, place a sheet pan on the rack below.',
   },
   {
     id: 'cool',
     phase: 'Finish',
     time: 'At least 3 hr',
-    timer: 180,
     icon: Sparkles,
     title: 'Let the crumb set',
     body: 'Cool the loaf for at least 3 hours before slicing. Whole-wheat bread needs this time to finish setting inside.',
@@ -206,45 +200,20 @@ const steps = [
   },
 ];
 
-const timerPresets: { label: string; minutes: number; display?: string }[] = [
-  { label: 'Autolyse', minutes: 60 },
-  { label: 'Between folds', minutes: 30 },
-  { label: 'Bench rest', minutes: 10, display: '10–20 min' },
-  { label: 'Cold proof', minutes: 720 },
-  { label: 'Preheat', minutes: 45 },
-  { label: 'Covered bake', minutes: 30 },
-  { label: 'Uncovered bake', minutes: 12 },
-  { label: 'Cool', minutes: 180 },
-];
-
-const gear = [
-  'Digital scale', 'Large mixing bowl with cover', 'Small container for the starter build', 'Aliquot tube and vacuum pump',
-  'Banneton or towel-lined bowl', 'Rice flour', 'Dutch oven',
-  'Parchment and scoring blade',
-];
-
 const diagnoses = [
-  ['Dense, tight crumb + little spring', 'End bulk later next time.'],
-  ['Loose, flat loaf + weak spring', 'End bulk sooner next time.'],
-  ['Fully cooled crumb is wet or gummy', 'Add 5 minutes to the covered bake time.'],
-  ['Fully cooled crumb is dry', 'Remove 5 minutes from the covered bake time.'],
-  ['Crust too thick or hard', 'Shift 5 minutes from uncovered to covered next time. Keep the total bake time the same.'],
-  ['Crust too soft or not crisp enough', 'Shift 5 minutes from covered to uncovered next time. Keep the total bake time the same.'],
-  ['Crust too dark', 'Lower the uncovered temperature by 25°F next time.'],
-  ['Crust too pale', 'Raise the uncovered temperature by 25°F next time.'],
+  ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, try 5–10 percentage points more rise next bake. Small holes alone are normal in whole-wheat bread.'],
+  ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, try 5–10 percentage points less rise next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
+  ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
+  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake. Still follow the visual crust check in Step 12.'],
+  ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
+  ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
+  ['Crust too dark', 'If the finished crust is too dark for your taste, try lowering the uncovered temperature by 25°F next bake. Keep the bake time as your first trial.'],
+  ['Crust too pale', 'If the finished crust is pale and the cooled crumb is moist and well baked, try 5 more minutes uncovered next bake. If the crumb is already too dry, try raising the uncovered temperature by 25°F instead.'],
   ['Good structure, want more tang', 'Extend the cold proof.'],
   ['Good structure, want less tang', 'Shorten the cold proof.'],
   ['Good structure, flavor tastes flat', 'Use 1 g more salt next time.'],
   ['Good structure, tastes too salty', 'Use 1 g less salt next time.'],
 ];
-
-function formatTime(totalSeconds: number) {
-  const hours = Math.floor(totalSeconds / 3600);
-  const minutes = Math.floor((totalSeconds % 3600) / 60);
-  const seconds = totalSeconds % 60;
-  if (hours) return `${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-  return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-}
 
 function MotherStorageGuidance() {
   return (
@@ -265,26 +234,7 @@ function MotherStorageGuidance() {
 }
 
 export function RecipePage() {
-  const [loaves, setLoaves] = useState(1);
   const [completed, setCompleted] = useChecklist();
-  const [timerSeconds, setTimerSeconds] = useState(60 * 60);
-  const [timerInitial, setTimerInitial] = useState(60 * 60);
-  const [timerRunning, setTimerRunning] = useState(false);
-
-  useEffect(() => {
-    if (!timerRunning || timerSeconds <= 0) return;
-    const interval = window.setInterval(() => {
-      setTimerSeconds((value) => {
-        if (value <= 1) {
-          setTimerRunning(false);
-          return 0;
-        }
-        return value - 1;
-      });
-    }, 1000);
-    return () => window.clearInterval(interval);
-  }, [timerRunning, timerSeconds]);
-
   const completedSteps = steps.filter((step) => completed.includes(step.id)).length;
   const progress = Math.round((completedSteps / steps.length) * 100);
   const motherRefrigerated = completed.includes('mother-refrigerated');
@@ -292,14 +242,6 @@ export function RecipePage() {
     setCompleted((current) =>
       checked ? [...new Set([...current, id])] : current.filter((item) => item !== id),
     );
-  }
-
-  function setTimer(minutes: number) {
-    const seconds = minutes * 60;
-    setTimerInitial(seconds);
-    setTimerSeconds(seconds);
-    setTimerRunning(true);
-    document.getElementById('kitchen-timer')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
   return (
@@ -310,7 +252,7 @@ export function RecipePage() {
           <span>Sourdough</span>
         </a>
         <nav aria-label="Main navigation">
-          <a href="#starter">Starter</a><a href="#recipe">Recipe</a><a href="#workflow">Workflow</a><a href="#troubleshooting">Troubleshooting</a>
+          <a href="#starter">Starter</a><a href="#workflow">Workflow</a><a href="#troubleshooting">Troubleshooting</a>
         </nav>
         <a className="header-action" href="#workflow">Start baking <ChevronRight aria-hidden="true" /></a>
       </header>
@@ -320,6 +262,42 @@ export function RecipePage() {
           <h1 className="font-display">Whole-wheat sourdough</h1>
           <a className="primary-link" href="#workflow">Open checklist <ChevronRight /></a>
         </div>
+        <section className="schedule-overview" aria-labelledby="schedule-title">
+          <h2 id="schedule-title" className="font-display">Plan your bake</h2>
+          <p className="schedule-intro">Starter and bulk times are planning estimates for your 70°F pantry. Use the readiness cues in the checklist.</p>
+          <ol className="schedule-list">
+            <li>
+              <h3>Starter build</h3>
+              <strong>~6–12 hr to double with 20 g starter</strong>
+              <p>Wait for near-peak readiness. Start the 60-minute autolyse when the build looks about an hour from ready.</p>
+            </li>
+            <li>
+              <h3>Mix and bulk</h3>
+              <strong>~6–10 hr from starter addition</strong>
+              <p>This includes the folds and rests. Aim for 40–50% rise and use the dough cues to decide when to shape.</p>
+            </li>
+            <li>
+              <h3>Shape</h3>
+              <strong>Bench rest: 10–20 min, as needed</strong>
+              <p>Preshape, rest, then final-shape and refrigerate. Shorten or skip the rest if the dough is already relaxed.</p>
+            </li>
+            <li>
+              <h3>Cold proof</h3>
+              <strong>12 hr at ~38°F</strong>
+              <p>Keep the loaf refrigerated for the full 12 hours. Preheat the oven and Dutch oven to 475°F for at least the final 45 minutes.</p>
+            </li>
+            <li>
+              <h3>Bake</h3>
+              <strong>30 min covered + 12 min to first crust check</strong>
+              <p>Bake at 450°F covered, then 425°F uncovered. If the crust is still pale, continue in 5-minute increments.</p>
+            </li>
+            <li>
+              <h3>Cool</h3>
+              <strong>At least 3 hr</strong>
+              <p>Cool uncovered on a wire rack before slicing.</p>
+            </li>
+          </ol>
+        </section>
       </section>
 
       <section id="starter" className="section shell starter-section">
@@ -333,6 +311,7 @@ export function RecipePage() {
               <div className="starter-card-heading"><Snowflake aria-hidden="true" /><div><p className="kicker">Keep it ready</p><h3>Feed it weekly</h3></div></div>
               <ol className="starter-steps">
                 <li>Feed the mother starter about once a week. A mother-starter refresh on a bake day counts as that feeding.</li>
+                <li>{starterInspection}</li>
                 <li>Take it from the refrigerator and move around <strong>20 g</strong> into the temporary container. Weigh the amount you actually transfer, discard the rest, and wash and dry the mother jar.</li>
                 <li>Return the reserved starter to the mother jar. Add <strong>twice its weight in water and twice its weight in fresh flour</strong>. For example: 20 g starter + 40 g water + 40 g flour.</li>
                 <li>Mix, cover, and mark the starting level. Let it rest in your <strong>70°F pantry</strong>, choosing how far to let it rise from the guide below, then refrigerate.</li>
@@ -344,43 +323,11 @@ export function RecipePage() {
         </details>
       </section>
 
-      <section id="recipe" className="section shell recipe-section">
-        <h2 className="sr-only">Recipe</h2>
-        <div className="gear-card recipe-gear"><p className="kicker">Before you begin</p><h2 className="font-display">Gear check</h2><div className="gear-list">{gear.map((item) => <p key={item}><Check />{item}</p>)}</div></div>
-        <div className="recipe-grid ingredient-only">
-          <div className="ingredient-panel">
-            <div className="panel-header">
-              <div><p className="kicker">Ingredient scale</p><h3>{loaves === 1 ? 'One loaf' : 'Two loaves'}</h3></div>
-              <div className="quantity-toggle" aria-label="Number of loaves">
-                {[1, 2].map((count) => <button key={count} type="button" className={loaves === count ? 'active' : ''} onClick={() => setLoaves(count)}>{count}</button>)}
-              </div>
-            </div>
-            <div className="ingredient-list">
-              {ingredients.map((ingredient) => (
-                <div className="ingredient-row" key={ingredient.name}><div><strong>{ingredient.name}</strong><span>{ingredient.note}</span></div><b>{ingredient.grams * loaves}<small> g</small></b></div>
-              ))}
-            </div>
-            <p className="panel-note"><Check aria-hidden="true" /> Use traditional whole wheat for a deep, nutty loaf. Golden whole wheat makes it lighter.</p>
-            <p className="panel-note"><Scale aria-hidden="true" /> Formula note: The 100%-hydration starter contributes equal flour and water. Including it, the dough is about 82% hydrated and the salt is 2% of total flour. The aliquot sample removes ingredients proportionally, so those percentages stay the same.</p>
-          </div>
-        </div>
-      </section>
-
       <section id="workflow" className="section workflow-section">
         <div className="shell">
           <h2 className="sr-only">Bake checklist</h2>
           <div className="workflow-toolbar">
             <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
-          </div>
-          <div id="kitchen-timer" className="timer-panel">
-            <div className="timer-heading"><div className="timer-icon"><Clock3 aria-hidden="true" /></div><div><p className="kicker">Kitchen timer</p><h3>{formatTime(timerSeconds)}</h3></div></div>
-            <div className="timer-presets" aria-label="Timer presets">
-              {timerPresets.map((preset) => <button key={preset.label} type="button" onClick={() => setTimer(preset.minutes)}>{preset.label}<span>{preset.display ?? (preset.minutes >= 60 ? `${preset.minutes / 60} hr` : `${preset.minutes} min`)}</span></button>)}
-            </div>
-            <div className="timer-controls">
-              <Button className="timer-main" onClick={() => setTimerRunning((value) => !value)} disabled={timerSeconds === 0}>{timerRunning ? <Pause /> : <Play />} {timerRunning ? 'Pause' : 'Start'}</Button>
-              <Button variant="outline" size="icon-lg" aria-label="Reset timer" onClick={() => { setTimerSeconds(timerInitial); setTimerRunning(false); }}><TimerReset /></Button>
-            </div>
           </div>
           <div className="parallel-prep" aria-label="Steps 1 and 2 can overlap">
             <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 60 minutes from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
@@ -393,14 +340,6 @@ export function RecipePage() {
           <div className="steps-list">
             {steps.map((step, index) => {
               const Icon = step.icon; const checked = completed.includes(step.id);
-              const stepBody = step.id === 'autolyse'
-                ? `Mix ${500 * loaves} g whole-wheat flour and ${375 * loaves} g water until no dry pockets remain. Cover the bowl.`
-                : step.id === 'mix'
-                  ? `Add ${100 * loaves} g active starter, ${11 * loaves} g salt, and the remaining ${25 * loaves} g water. Squeeze and fold until reasonably uniform. No kneading.`
-                  : step.body;
-              const stepCue = step.id === 'autolyse'
-                ? `Start this when Step 1 looks about 60 minutes from ready. Save the final ${25 * loaves} g water.`
-                : step.cue;
               return (
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
@@ -415,7 +354,7 @@ export function RecipePage() {
                   )}
                   <article className={`step-card ${checked ? 'complete' : ''}`}>
                     <div className="step-number">{String(index + 1).padStart(2, '0')}</div><div className="step-icon"><Icon aria-hidden="true" /></div>
-                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{stepBody}</p>{step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}<p className="step-cue">{stepCue}</p>{step.timer && <button className="set-timer" type="button" onClick={() => setTimer(step.timer!)}><Clock3 /> Set {step.timer >= 60 ? `${step.timer / 60}-hour` : `${step.timer}-minute`} timer</button>}</div>
+                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{step.body}</p>{step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}<p className="step-cue">{step.cue}</p></div>
                     <label className="step-check" htmlFor={`step-${step.id}`}><Checkbox id={`step-${step.id}`} checked={checked} onCheckedChange={(value) => toggleStep(step.id, value)} aria-label={`Mark ${step.title} complete`} /><span>{checked ? 'Done' : 'Mark done'}</span></label>
                   </article>
                   {step.id === 'starter' && (
@@ -451,7 +390,7 @@ export function RecipePage() {
             <span className="expandable-summary-title"><span className="eyebrow"><span /> After the bake</span><span className="expandable-summary-heading font-display">Troubleshooting</span></span>
             <span className="expandable-summary-action">Adjust next loaf</span>
           </summary>
-          <div className="diagnosis-card"><div className="diagnosis-list">{diagnoses.map(([signal, adjustment]) => <div key={signal}><strong>{signal}</strong><span><ChevronRight />{adjustment}</span></div>)}</div></div>
+          <div className="diagnosis-card"><p className="panel-note">Judge the finished loaf after at least 3 hours of cooling. Earlier dough observations can help identify the cause. Once you choose an adjustment, update the recipe for the next bake. Change one thing at a time and compare the result.</p><div className="diagnosis-list">{diagnoses.map(([signal, adjustment]) => <div key={signal}><strong>{signal}</strong><span><ChevronRight />{adjustment}</span></div>)}</div></div>
         </details>
       </section>
     </main>
