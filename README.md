@@ -19,10 +19,11 @@ after cloning to prepare local search and install application dependencies.
 QMD and direnv are optional; setup reports skipped features. Start the site
 with `pnpm dev` and open the local URL printed by Next.js.
 
-Use `bin/check --documents-only` for Markdown edits. `bin/check` runs fast
-foundation checks, TypeScript checks, and application lint. It requires
-ShellCheck. Run `bin/check --full` after setup or foundation changes, and before
-a code PR or deployment; it adds foundation tests and the production build.
+Use `bin/check --documents-only` for Markdown edits. `bin/check` runs foundation
+checks only and requires ShellCheck. Run `bin/check --full` after setup or
+foundation changes, and before a code PR or deployment; it adds foundation
+tests, TypeScript checks, application lint, and the production build.
+Use `pnpm typecheck` or `pnpm lint` explicitly when relevant to code edits.
 Use `bin/doctor` for diagnostics. See the
 [development workflow](docs/development-workflow.md) for search, worktrees,
 hook integration, and recovery.

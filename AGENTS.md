@@ -13,10 +13,11 @@ Use direct reads for known files or when search is unavailable or stale.
 Markdown source files are authoritative. Update existing pages when possible.
 
 Run `bin/setup` after cloning. Use `bin/check --documents-only` for Markdown
-edits and `bin/check` for fast foundation checks, typechecking, and lint.
+edits and `bin/check` for foundation checks only. Application tools must not
+run in either mode. For code edits, run relevant application checks explicitly.
 Run `bin/check --full` after setup or foundation changes, and before a code PR
-or deployment; it adds foundation tests and the production build. Do not run
-checks for discussion or read-only work. Batch related edits before checking
+or deployment; it adds foundation tests, typechecking, lint, and the production
+build. Do not run checks for discussion or read-only work. Batch related edits before checking
 and reuse passing results while relevant inputs are unchanged.
 Use `bin/doctor` to inspect local setup and `bin/qmd-index` to refresh search
 after uncommitted knowledge edits when current search results are needed.

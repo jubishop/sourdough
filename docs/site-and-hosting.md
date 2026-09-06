@@ -58,11 +58,12 @@ pnpm dev
 ```
 
 Open the local URL printed by Next.js. No environment values are required.
-Use `bin/check` for fast foundation checks, TypeScript checks, and application
-lint after a batch of code edits. Use `bin/check --documents-only` for Markdown
-edits. Run `bin/check --full` before a code PR or deployment; it also runs the
-foundation tests and production build. Reuse a passing result until relevant
-inputs change. Use `pnpm start` to serve the completed production build locally.
+Use `bin/check` for foundation checks only, or `bin/check --documents-only`
+for Markdown edits. Run `pnpm typecheck` or `pnpm lint` explicitly when code
+edits need them. Run `bin/check --full` before a code PR or deployment; it adds
+foundation tests, typechecking, lint, and the production build. Reuse a passing
+result until relevant inputs change. Use `pnpm start` to serve the completed
+production build locally.
 
 ## Vercel deployment
 

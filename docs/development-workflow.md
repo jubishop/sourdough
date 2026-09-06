@@ -204,7 +204,8 @@ Choose validation by the changed files and the stage of the work:
 | --- | --- |
 | Discussion, planning, or read-only inspection | No checks. |
 | A batch of Markdown edits | `bin/check --documents-only`. |
-| Code edits during development | Focused application tests and `bin/check`. |
+| Code edits during development | Relevant application checks, such as `pnpm typecheck` or `pnpm lint`, run explicitly. |
+| Foundation tooling edits | `bin/check` during development; `--full` when complete. |
 | Initial setup; changes to foundation tools, hooks, configuration, tests, or CI | `bin/check --full` after the edits are complete. |
 | A code PR or release ready for delivery | `bin/check --full` once for the final changes. |
 
@@ -223,9 +224,10 @@ checks. It does not run the disposable-repository tests.
 disposable repositories and simulated QMD/direnv, with no model downloads or
 network access. Remote URLs are not fetched by foundation checks.
 
-Application checks add TypeScript and lint to `bin/check`. Only
-`bin/check --full` runs the Next.js production build, which can download
-the site's Google fonts. `--documents-only` skips application commands.
+Application commands run only with `bin/check --full`: TypeScript, lint, and
+the Next.js production build, which can download the site's Google fonts.
+The default and `--documents-only` modes do not start pnpm or application tools.
+Choose `pnpm typecheck` or `pnpm lint` explicitly when code edits need them.
 
 Keep the foundation checks when adding application tests, builds, and linters.
 For generated or externally owned docs, add deliberate patterns to
