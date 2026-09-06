@@ -76,6 +76,36 @@ production build locally.
 The production site is [sourdough-eosin.vercel.app](https://sourdough-eosin.vercel.app).
 The Vercel project is `artisanal-software/sourdough`.
 
+The project ID is `prj_kLYoyycFstxYJVjvXD2Y3JpDTLOa`; the team ID is
+`team_G6Ne98tjomMFr4bTlq6RwnOy`. These identifiers were checked through the
+Vercel connection on 2026-09-06. If access to this team is rejected, reconnect
+Vercel with access to `artisanal-software`; do not select a different project.
+
+### Publish through the connected Vercel tool
+
+The connected `deploy_to_vercel` tool accepts source files directly, so an
+authenticated local CLI is not required. First run the required checks and
+commit and push the source. Prepare the tracked files from that revision,
+respecting `.vercelignore`; exclude local credentials, caches, and build output.
+Preserve binary assets by encoding their original bytes as base64.
+
+Call the tool with `name: "sourdough"`, the team ID above,
+`target: "production"`, and a `files` array. Each entry contains `file` (the
+root-relative path), `data` (the complete contents), and `encoding` (`utf-8`
+or `base64`). Use `projectSettings` with `framework: "nextjs"`,
+`buildCommand: "pnpm build"`, and
+`installCommand: "pnpm install --frozen-lockfile"`.
+
+Poll the returned deployment ID with `get_deployment` and the same team ID
+until it reaches `READY` or a terminal failure. Check build logs if it fails.
+Then verify the intended content at the production URL above, rather than
+treating an upload, a Git push, or an initializing deployment as publication.
+This workflow was checked against the
+[Vercel MCP tool reference](https://vercel.com/docs/agent-resources/vercel-mcp/tools)
+on 2026-09-06.
+
+### Publish through the CLI
+
 The root [Vercel configuration](../vercel.json) selects Next.js and uses the
 pnpm lockfile. Deploy from the repository root. With an authenticated Vercel
 CLI, link the project and publish:
