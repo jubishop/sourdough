@@ -4,6 +4,8 @@ Justin's whole-wheat sourdough recipe and baking tools. The public site includes
 ingredient scaling, a kitchen timer, starter-care guidance, and a bake checklist
 saved in the browser. It has no login, starter-log form, or database.
 
+[Open the sourdough site](https://sourdough-eosin.vercel.app).
+
 The app uses Next.js and deploys to Vercel. See the
 [site and hosting guide](docs/site-and-hosting.md) for the source revision,
 deployment setup, and recipe editing paths.

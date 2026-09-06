@@ -60,6 +60,9 @@ the completed production build locally.
 
 ## Vercel deployment
 
+The production site is [sourdough-eosin.vercel.app](https://sourdough-eosin.vercel.app).
+The Vercel project is `artisanal-software/sourdough`.
+
 The root [Vercel configuration](../vercel.json) selects Next.js and uses the
 pnpm lockfile. Deploy from the repository root. With an authenticated Vercel
 CLI, link the project and publish:
@@ -72,6 +75,12 @@ vercel --prod
 The link file under `.vercel/` is local and ignored by Git. Verify the selected
 account before linking. No database, authentication keys, or secret environment
 values are needed. Keep the production domain accessible to anonymous visitors.
+
+Direct CLI deployment is configured. To enable deployment on Git pushes,
+connect GitHub in the Vercel account's login settings, then run
+`vercel git connect --scope artisanal-software` and select this repository.
+The initial connection attempt returned "You need to add a Login Connection
+to your GitHub account first." This does not prevent direct deployment.
 
 Sharing metadata uses Vercel's production hostname for production builds and
 the deployment hostname for previews. Set the optional `SITE_URL` to an
