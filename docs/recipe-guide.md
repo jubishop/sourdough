@@ -170,8 +170,8 @@ in the current bake.
 
 Put process troubleshooting at the relevant step. For example, a slow
 starter build belongs with Step 1 and starter recovery; weak dough during
-folding belongs with the fold step; stalled bulk belongs with Step 6;
-and a pale crust during baking belongs with Step 12. This keeps help where
+folding belongs with the fold step; stalled bulk belongs with Step 5;
+and a pale crust during baking belongs with Step 11. This keeps help where
 the baker needs it and reserves the final table for reviewing the result.
 
 Compare the fully cooled crumb with observations from mixing, bulk, and
@@ -187,7 +187,7 @@ shaping. In particular:
   more bake time. Keep the visual baking endpoint; do not add a probe check.
 - Separate freshly baked dry crumb from bread that has dried during storage.
 - Base next-bake crust adjustments on the cooled crumb and crust together.
-  Keep the current-bake visual checks in Step 12.
+  Keep the current-bake visual checks in Step 11.
 
 Keep numerical adjustments as small trials, changing one variable per bake.
 The table offers hypotheses to test, not guaranteed diagnoses. This adds
@@ -205,11 +205,18 @@ strength. This supersedes the 2026-09-05 rule of two required sets and an
 optional third. The reason is to let dough strength determine when to stop,
 at the cost of assessing the dough instead of following a fixed set count.
 
+On 2026-09-07, the user also requested combining the first set and later
+checks into one Step 4: fold every 30 minutes as needed. This simplifies
+the checklist while keeping the same strength checks and stopping cues.
+Renumber the later steps and their references. Keep the former
+folding-complete checklist key so saved progress still means folding is
+finished; a saved first-set check alone does not complete the combined step.
+
 In Step 4, perform the first gentle set 30 minutes after adding the starter.
 Four folds, one from each side, make one set. Use lightly wet hands and stop
 each stretch when the dough resists; avoid tearing it.
 
-In Step 5, cover and rest about 30 minutes, then check before folding again.
+Cover and rest about 30 minutes, then check before folding again.
 If the dough looks smoother and stays gathered with rounded edges after the
 rest, stop folding. One set may be enough. Some spreading is normal; this
 wet whole-wheat dough does not need to stay in a tight ball. If it still
@@ -219,10 +226,10 @@ about 30 minutes, and reassess.
 Keep folds within roughly the first 2 hours after starter addition, stopping
 sooner if the dough is already puffy and airy. This is a practical limit for
 this recipe to keep handling in early bulk, not a universal fermentation
-deadline. If it remains loose then, stop folding and use Step 6's bulk
+deadline. If it remains loose then, stop folding and use Step 5's bulk
 checks. Do not keep folding through the whole rise to chase a firm ball.
 
-Mark Step 5 complete when folding is finished, even if only the first set
+Mark Step 4 complete when folding is finished, even if only the first set
 was needed. Leave the dough covered and undisturbed for the rest of bulk.
 Count all folds and rests within total bulk time and keep the aliquot
 sample undisturbed.
@@ -238,7 +245,7 @@ References checked on 2026-09-07:
 ## Shaping instructions
 
 On 2026-09-05, the user accepted concrete hand movements for final shaping
-in Step 7 because this guidance would help them for now. Replace the
+in Step 6 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
 a parcel, turning it seam-side down, and cupping and gently pulling it
 across the counter. Rotate and repeat until the skin is smooth and taut;
@@ -264,7 +271,7 @@ Leave the guide without one for now.
 
 ## Aliquot rise target
 
-On 2026-09-05, the user chose to keep the existing tube guidance in Step 6:
+On 2026-09-05, the user chose to keep the existing tube guidance in Step 5:
 use a 40–50% sample rise as the current target, alongside the existing
 dough cues. The sample stays beside the main dough in the approximately
 70°F pantry. The user wants a useful, repeatable measurement and declined

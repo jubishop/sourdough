@@ -73,25 +73,19 @@ const steps = [
     cue: 'The printed scale shows the rise directly—no millimeter conversion is needed.',
   },
   {
-    id: 'fold-one',
-    phase: 'Early bulk',
-    time: '+30 min',
-    icon: RotateCcw,
-    title: 'First fold set',
-    body: 'Keep the bowl covered on the counter for 30 minutes. With lightly wet hands, gently stretch one side up and across. Turn the bowl and repeat on the remaining three sides. These four folds make one set. Stop each stretch when the dough resists; do not pull until it tears.',
-    cue: 'This should take about 20 seconds. Be gentle. Judge hydration from the dough here: if it remains unusually stiff or tears easily after trying the longer autolyse, use 10–20 g more water on a later loaf.',
-  },
-  {
+    // Keep the former folding-complete key so saved progress remains accurate.
     id: 'fold-two',
     phase: 'Early bulk',
     time: 'Check every ~30 min',
     icon: RotateCcw,
-    title: 'Check strength and fold as needed',
-    body: 'After the first set, cover and rest about 30 minutes. Check the dough before deciding whether it needs another set.',
+    title: 'Fold every 30 minutes as needed',
+    body: 'Keep the bowl covered on the counter for 30 minutes after adding the starter, then give the dough one gentle fold set. Cover and rest about 30 minutes between further sets, repeating only while the dough needs more strength.',
     details: [
+      'With lightly wet hands, gently stretch one side up and across. Turn the bowl and repeat on the remaining three sides. These four folds make one set and should take about 20 seconds. Stop each stretch when the dough resists; do not force it or tear it.',
       'If it looks smoother and stays gathered with rounded edges after the rest, stop folding. One set may be enough. Some spreading is normal; this wet whole-wheat dough does not need to stay in a tight ball.',
-      'If it still feels slack and quickly flattens, give it another gentle set of four folds. Cover, rest about 30 minutes, and check again. Repeat only while it needs more strength. Stop each stretch when the dough resists; do not force it or tear it.',
-      'Keep these folds within roughly the first 2 hours after adding the starter. Stop sooner if the dough is already puffy and airy. If it remains loose at that point, stop folding and follow the bulk checks in Step 6; do not keep folding through the whole rise.',
+      'If it still feels slack and quickly flattens after the rest, give it another gentle set, cover, and check again in about 30 minutes.',
+      'Keep these folds within roughly the first 2 hours after adding the starter. Stop sooner if the dough is already puffy and airy. If it remains loose at that point, stop folding and follow the bulk checks in Step 5; do not keep folding through the whole rise.',
+      'If the dough remains unusually stiff or tears easily after trying the longer autolyse, use 10–20 g more water on a later loaf.',
     ],
     cue: 'Mark this step done when folding is finished, even if only the first set was needed. Leave the dough covered and undisturbed for the rest of bulk. All folds and rests count toward total bulk time. Keep the aliquot sample undisturbed throughout.',
   },
@@ -111,7 +105,6 @@ const steps = [
       'If the dough loses strength before your target, shape now rather than chasing the number. If that pattern and a flat, weak loaf repeat, try 5–10 percentage points less rise next time.',
       'Warmer dough keeps fermenting faster while it cools in the fridge, so it generally needs an earlier cutoff; cooler dough may tolerate more rise. Pantry temperature helps compare bakes, but actual dough temperature controls fermentation. Whole-wheat dough may show less rise than white dough: do not automatically wait for doubling.',
     ],
-    cue: 'In your 70°F pantry, allow roughly 6–10 hours of total bulk from starter addition with a ripe, active starter. Use this estimate for planning; a weaker starter or cooler dough can take longer, and warmer dough can finish sooner. Count the fold-and-rest time in that total. Aim for 40–50% rise and use the dough cues above to decide when to shape.',
   },
   {
     id: 'shape',
@@ -130,7 +123,6 @@ const steps = [
       'Turn the dough a quarter-turn and repeat the gentle pull until the top is smooth and taut and the dough holds a round shape. Stop if the skin starts to tear.',
       'Lift the shaped loaf into the banneton. Put the smooth side down against the basket and leave the seam side facing up.',
     ],
-    cue: 'The rest makes final shaping easier; a longer rest does not automatically make a better loaf. The seam faces you in the banneton.',
   },
   {
     id: 'cold-proof',
@@ -142,13 +134,13 @@ const steps = [
     details: [
       'Longer fermentation can build more acidity and a tangier flavor. The change depends on your starter, dough, and refrigerator temperature.',
     ],
-    cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
+    cue: 'Choose your bake time within the 12–24-hour range. Start Step 8 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
     phase: 'Day 2',
     time: 'At least 45 min',
-    overlap: 'Overlaps Step 8',
+    overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven',
     body: 'At least 45 minutes before your planned bake time, preheat the oven and Dutch oven to 475°F. You can begin earlier.',
@@ -207,7 +199,7 @@ const diagnoses = [
   ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, try 5–10 percentage points more rise next bake. Small holes alone are normal in whole-wheat bread.'],
   ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, try 5–10 percentage points less rise next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
   ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
-  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake. Still follow the visual crust check in Step 12.'],
+  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake. Still follow the visual crust check in Step 11.'],
   ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too dark', 'If the finished crust is too dark for your taste, try lowering the uncovered temperature by 25°F next bake. Keep the bake time as your first trial.'],
@@ -347,18 +339,18 @@ export function RecipePage() {
               return (
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
-                    <div className="parallel-prep" aria-label="Steps 8 and 9 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 9 at least 45 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 10.</span></div>
+                    <div className="parallel-prep" aria-label="Steps 7 and 8 can overlap">
+                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 8 at least 45 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 9.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>8 · Cold proof</b><i /><span>12–24 hr</span></div>
-                        <div className="timeline-row overlap-line"><b>9 · Preheat</b><i /><span>45+ min</span></div>
-                        <div className="timeline-merge"><ChevronRight /> Step 10 · Score and load</div>
+                        <div className="timeline-row"><b>7 · Cold proof</b><i /><span>12–24 hr</span></div>
+                        <div className="timeline-row overlap-line"><b>8 · Preheat</b><i /><span>45+ min</span></div>
+                        <div className="timeline-merge"><ChevronRight /> Step 9 · Score and load</div>
                       </div>
                     </div>
                   )}
                   <article className={`step-card ${checked ? 'complete' : ''}`}>
                     <div className="step-number">{String(index + 1).padStart(2, '0')}</div><div className="step-icon"><Icon aria-hidden="true" /></div>
-                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{step.body}</p>{step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}<p className="step-cue">{step.cue}</p></div>
+                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{step.body}</p>{step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}{step.cue && <p className="step-cue">{step.cue}</p>}</div>
                     <label className="step-check" htmlFor={`step-${step.id}`}><Checkbox id={`step-${step.id}`} checked={checked} onCheckedChange={(value) => toggleStep(step.id, value)} aria-label={`Mark ${step.title} complete`} /><span>{checked ? 'Done' : 'Mark done'}</span></label>
                   </article>
                   {step.id === 'starter' && (
