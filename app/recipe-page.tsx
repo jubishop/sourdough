@@ -25,7 +25,7 @@ const starterInspection = 'Discard the entire starter if you see mold or pink/or
 const steps = [
   {
     id: 'starter',
-    phase: 'Before you mix',
+    phase: 'Evening before day 1',
     time: '~6–12 hr to double with 20 g starter',
     icon: Sprout,
     title: 'Wake up the starter',
@@ -320,6 +320,7 @@ export function RecipePage() {
                 <li>Mix, cover, and mark the starting level. Let it rest in your <strong>70°F pantry</strong>, choosing how far to let it rise from the guide below, then refrigerate.</li>
               </ol>
               <MotherStorageGuidance />
+              <div className="starter-note"><strong>Has the mother started to fall?</strong><p>A slight fall after peak is normal. Continue with the usual 1:3:3 feeding. If it has been neglected or the next feed rises weakly, use the recovery routine below. Judge its strength by how it responds to fresh food, rather than by its appearance coming out of the refrigerator.</p></div>
               <div className="starter-note"><strong>Is it sluggish?</strong><p>If it has been neglected or its baking builds rise weakly, keep it at room temperature for recovery feedings at <strong>1:3:3 by weight: 1 part starter, 3 parts water, and 3 parts fresh flour.</strong> For example, keep 20 g starter and add 60 g water + 60 g flour, making 140 g total. At each new feeding, retain a small portion and discard the rest, then add three times the retained weight in both water and flour.</p><p>Mark the starting level and note when it doubles. Let each feed reach its highest rise, with the top leveling off or just beginning to recede, before feeding again. Do not automatically re-feed after 12 hours if it is still slowly rising; a cold start can take longer.</p><p><strong>Return-to-baking benchmark:</strong> aim for two consecutive 1:3:3 feeds, started and kept at about 70°F, that each double within 10 hours. This is a practical consistency target for planning your bakes, not a universal definition of a healthy starter. If a feed takes longer, continue the recovery routine. Once it meets that target, use the near-peak readiness cues in Step 1; the first cold feed is not one of these two room-temperature checks.</p><p>To return a recovered starter to storage, use the same 1:3:3 maintenance feed above, then choose its counter rest from the storage guide based on your next bake. The storage rest is not a test of baking readiness.</p></div>
             </article>
           </div>

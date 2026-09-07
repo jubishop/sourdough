@@ -279,6 +279,10 @@ planning estimate describes. Keep the existing near-peak readiness cues;
 choosing the amount helps manage timing but does not guarantee an exact
 readiness time.
 
+On 2026-09-07, the user chose to begin Step 1 the night before mixing so
+the starter develops overnight. Label its phase "Evening before day 1".
+Keep the current starter amounts, timing estimate, and readiness checks.
+
 [King Arthur's feeding-ratio trials](https://www.kingarthurbaking.com/blog/2025/03/13/sourdough-feeding-ratios)
 support using the feeding ratio to adjust ripening time. The source was
 checked on 2026-09-05.
@@ -310,3 +314,21 @@ to return a recovered starter to storage. Retain around 20 g and weigh the
 actual portion: 20 g takes 60 g each water and flour; 22 g takes 66 g each.
 Keep the storage-rest guidance based on when the mother will next be used,
 and keep the separate baking-build range and readiness checks.
+
+## Mother collapse and recovery
+
+On 2026-09-07, the user accepted a short clarification before the mother
+recovery routine: a slight fall after peak is normal, so continue with the
+usual 1:3:3 feeding. Use the existing recovery routine if the mother has
+been neglected or the next feed rises weakly. Judge strength by its response
+to fresh food, not its appearance coming out of the refrigerator.
+
+This makes the recovery trigger clearer while retaining the current feeding
+ratio and recovery benchmark. A slight fall alone does not require a smaller
+mother portion or additional strengthening stages. The bake-day mother
+refresh continues to use a portion of the freshly ripened baking build.
+
+[The Perfect Loaf's starter maintenance guide](https://www.theperfectloaf.com/sourdough-starter-maintenance-routine/)
+was checked on 2026-09-07. It distinguishes a starter just beginning to fall
+from one left collapsed for an extended period and advises judging several
+signs together.
