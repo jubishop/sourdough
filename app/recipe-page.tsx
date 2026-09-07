@@ -50,12 +50,12 @@ const steps = [
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'Mix 500 g whole-wheat flour and 375 g water until no dry pockets remain. Cover and rest for 60 minutes.',
+    body: 'Mix 500 g whole-wheat flour and all 400 g water until no dry pockets remain. Cover and rest for 60 minutes.',
     details: [
       'After the 60-minute rest, check whether the dough feels smoother and stretches more easily.',
       'If it remains stiff or tears easily, try 75 minutes next time. If it becomes slack or weak, try 45 minutes next time.',
     ],
-    cue: 'Start this when Step 1 looks about 60 minutes from ready. Save the final 25 g water.',
+    cue: 'Start this when Step 1 looks about 60 minutes from ready.',
   },
   {
     id: 'mix',
@@ -63,10 +63,10 @@ const steps = [
     time: 'Until uniform',
     icon: Scale,
     title: 'Add starter, salt, and take a sample',
-    body: 'Add 100 g active starter, 11 g salt, and the remaining 25 g water. Squeeze and fold until reasonably uniform. No kneading.',
+    body: 'Add 100 g active starter and 11 g salt. Squeeze and fold until reasonably uniform. No kneading.',
     details: [
       'The dough will feel sticky at about 82% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
-      'Take the sample immediately after the starter, salt, and reserved water are fully mixed in.',
+      'Take the sample immediately after the starter and salt are fully mixed in.',
       'Use the vacuum pump to draw dough into the tube and establish its 0% starting level.',
       'Keep the filled tube beside the bowl at the same temperature. Do not disturb it or return the sample to the loaf.',
     ],
