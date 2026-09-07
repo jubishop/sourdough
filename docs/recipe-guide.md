@@ -27,10 +27,31 @@ a change, update the recipe itself, including affected steps, quantities,
 and schedule text. Until then, the recipe's current settings remain
 the instructions to follow.
 
-For cold proofing, keep the full 12 hours at approximately 38°F. The user
-declined making that duration flexible. If a different duration is adopted
-later, revise the recipe to that exact duration. This prioritizes a clear,
-repeatable procedure and requires maintaining the recipe as choices change.
+Cold-proof timing is also flexible within 12–24 hours at approximately 38°F.
+See [Cold-proof timing and flavor](#cold-proof-timing-and-flavor) for the
+decision that supersedes the earlier fixed 12-hour instruction.
+
+## Cold-proof timing and flavor
+
+On 2026-09-06, the user requested a range instead of a fixed 12-hour cold
+proof, with an accurate explanation of how a longer proof affects sourness.
+Use 12–24 hours at approximately 38°F: aim near 12 hours for a milder loaf,
+or closer to 24 hours for more tang. Longer fermentation can build more
+acidity, but the flavor change depends on the starter, dough, and refrigerator
+temperature. Do not promise that more time always makes a loaf more sour.
+
+This supersedes the 2026-09-05 decision to keep a fixed 12-hour proof. Update
+the schedule, checklist, preheat overlap, and flavor troubleshooting together.
+Preheat the oven and Dutch oven to 475°F for at least 45 minutes before the
+chosen bake time. Keep the loaf refrigerated until ready to score and load.
+
+References checked on 2026-09-06:
+
+- [King Arthur: how to make sourdough more or less sour, part 2](https://www.kingarthurbaking.com/blog/2022/02/22/how-to-make-your-sourdough-bread-more-or-less-sour-part-2)
+  explains that refrigeration often increases sour flavor, but the effect
+  depends on the rest of the fermentation process.
+- [King Arthur: artisan sourdough bread tips, part 2](https://www.kingarthurbaking.com/blog/2015/10/14/artisan-sourdough-bread-tips-part-2)
+  describes refrigerating shaped dough for up to 24 hours.
 
 ## Separate gear and ingredient sections
 
@@ -73,7 +94,7 @@ shaping, cold proofing, baking, and cooling.
 
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
-a 10–20 minute bench rest when needed, a full 12-hour cold proof, 30 minutes
+a 10–20 minute bench rest when needed, a 12–24-hour cold proof, 30 minutes
 covered followed by 12 minutes to the first uncovered crust check, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 optional shorter bench rest, and visual baking endpoint clear.

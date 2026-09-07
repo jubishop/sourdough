@@ -135,11 +135,14 @@ const steps = [
   {
     id: 'cold-proof',
     phase: 'Overnight',
-    time: '12 hr at ~38°F',
+    time: '12–24 hr at ~38°F',
     icon: Snowflake,
     title: 'Cold-proof overnight',
-    body: 'Cover and refrigerate immediately for 12 hours. Bake the loaf directly from the refrigerator.',
-    cue: 'Keep the loaf refrigerated for the full 12 hours. Start Step 9 during the final 45 minutes or earlier.',
+    body: 'Cover and refrigerate immediately for 12–24 hours. Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Bake directly from the refrigerator.',
+    details: [
+      'Longer fermentation can build more acidity and a tangier flavor. The change depends on your starter, dough, and refrigerator temperature.',
+    ],
+    cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
@@ -148,16 +151,16 @@ const steps = [
     overlap: 'Overlaps Step 8',
     icon: Flame,
     title: 'Preheat the Dutch oven',
-    body: 'At least 45 minutes before the 12-hour cold proof ends, preheat the oven and Dutch oven to 475°F. You can begin earlier.',
-    cue: 'Keep the loaf refrigerated until both the full 12-hour proof and the preheat are complete.',
+    body: 'At least 45 minutes before your planned bake time, preheat the oven and Dutch oven to 475°F. You can begin earlier.',
+    cue: 'Keep the loaf refrigerated until your chosen 12–24-hour proof and the preheat are complete.',
   },
   {
     id: 'load',
     phase: 'Day 2',
-    time: 'After 12 hr',
+    time: 'After 12–24 hr',
     icon: CookingPot,
     title: 'Score and load the loaf',
-    body: 'When the 12-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
+    body: 'When your chosen 12–24-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
       'Cut a sheet of parchment paper large enough to use as a sling.',
       'Invert the cold loaf from the banneton onto the parchment. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
@@ -209,8 +212,8 @@ const diagnoses = [
   ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too dark', 'If the finished crust is too dark for your taste, try lowering the uncovered temperature by 25°F next bake. Keep the bake time as your first trial.'],
   ['Crust too pale', 'If the finished crust is pale and the cooled crumb is moist and well baked, try 5 more minutes uncovered next bake. If the crumb is already too dry, try raising the uncovered temperature by 25°F instead.'],
-  ['Good structure, want more tang', 'Extend the cold proof.'],
-  ['Good structure, want less tang', 'Shorten the cold proof.'],
+  ['Good structure, want more tang', 'Try a cold proof closer to 24 hours. A longer proof can develop more acidity; compare the flavor next bake.'],
+  ['Good structure, want less tang', 'Try a cold proof closer to 12 hours, at the shorter end of the range.'],
   ['Good structure, flavor tastes flat', 'Use 1 g more salt next time.'],
   ['Good structure, tastes too salty', 'Use 1 g less salt next time.'],
 ];
@@ -283,8 +286,8 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Cold proof</h3>
-              <strong>12 hr at ~38°F</strong>
-              <p>Keep the loaf refrigerated for the full 12 hours. Preheat the oven and Dutch oven to 475°F for at least the final 45 minutes.</p>
+              <strong>12–24 hr at ~38°F</strong>
+              <p>Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Preheat the oven and Dutch oven to 475°F for at least the final 45 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>
@@ -344,9 +347,9 @@ export function RecipePage() {
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
                     <div className="parallel-prep" aria-label="Steps 8 and 9 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 9 at least 45 minutes before the 12-hour cold proof ends.</strong><span>Keep the loaf cold. Both steps finish before Step 10.</span></div>
+                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 9 at least 45 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 10.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>8 · Cold proof</b><i /><span>12 hr</span></div>
+                        <div className="timeline-row"><b>8 · Cold proof</b><i /><span>12–24 hr</span></div>
                         <div className="timeline-row overlap-line"><b>9 · Preheat</b><i /><span>45+ min</span></div>
                         <div className="timeline-merge"><ChevronRight /> Step 10 · Score and load</div>
                       </div>
