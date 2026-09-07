@@ -199,25 +199,41 @@ was checked on 2026-09-05 and identifies multiple causes of gummy crumb.
 
 ## Fold strength checkpoint
 
-On 2026-09-05, the user accepted a strength checkpoint and an optional third
-fold set. Perform two sets, with the third only when the strength check
-calls for it. Put this guidance in Step 5, where
-it helps the baker assess dough during early bulk.
+On 2026-09-07, the user requested at least one fold set, followed by checks
+about every 30 minutes and further sets only while the dough needs more
+strength. This supersedes the 2026-09-05 rule of two required sets and an
+optional third. The reason is to let dough strength determine when to stop,
+at the cost of assessing the dough instead of following a fixed set count.
 
-After the second set, look for dough that gathers into a cohesive mound,
-stretches with some resistance, and holds its shape briefly. Some spreading
-during the rest is normal. If it remains weak and spreads immediately,
-cover and rest another 30 minutes, then perform one additional gentle set
-of four folds. Stop stretching when the dough resists; avoid tearing it.
+In Step 4, perform the first gentle set 30 minutes after adding the starter.
+Four folds, one from each side, make one set. Use lightly wet hands and stop
+each stretch when the dough resists; avoid tearing it.
 
-Leave the dough alone after the second or optional third set. Count the
-extra rest within total bulk time and keep the aliquot sample undisturbed.
-This allows extra strengthening when needed, at the cost of another brief
-handling step. It does not add a mandatory third set to every bake.
+In Step 5, cover and rest about 30 minutes, then check before folding again.
+If the dough looks smoother and stays gathered with rounded edges after the
+rest, stop folding. One set may be enough. Some spreading is normal; this
+wet whole-wheat dough does not need to stay in a tight ball. If it still
+feels slack and quickly flattens, give it another gentle set, cover, rest
+about 30 minutes, and reassess.
 
-[The Perfect Loaf's folding guide](https://www.theperfectloaf.com/how-to-stretch-and-fold-sourdough-bread-dough/)
-supports adjusting folds to the dough's strength. It was checked on
-2026-09-05.
+Keep folds within roughly the first 2 hours after starter addition, stopping
+sooner if the dough is already puffy and airy. This is a practical limit for
+this recipe to keep handling in early bulk, not a universal fermentation
+deadline. If it remains loose then, stop folding and use Step 6's bulk
+checks. Do not keep folding through the whole rise to chase a firm ball.
+
+Mark Step 5 complete when folding is finished, even if only the first set
+was needed. Leave the dough covered and undisturbed for the rest of bulk.
+Count all folds and rests within total bulk time and keep the aliquot
+sample undisturbed.
+
+References checked on 2026-09-07:
+
+- [The Perfect Loaf's folding guide](https://www.theperfectloaf.com/how-to-stretch-and-fold-sourdough-bread-dough/)
+  supports roughly 30-minute rests and checking dough strength before
+  deciding whether another set is needed.
+- [King Arthur: what folding bread dough means](https://www.kingarthurbaking.com/blog/2023/07/31/what-does-folding-bread-dough-mean-exactly)
+  places the folds early in bulk, followed by undisturbed fermentation.
 
 ## Shaping instructions
 
