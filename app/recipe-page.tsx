@@ -122,7 +122,7 @@ const steps = [
     time: '10–20 min, as needed',
     icon: Circle,
     title: 'Shape and place in the banneton',
-    body: 'Dust the banneton generously with rice flour before shaping the loaf.',
+    body: 'Use your cotton banneton without dusting it with flour.',
     video: {
       url: 'https://www.youtube.com/watch?v=0zCPoagZk4Q',
       title: 'Watch: shape a round loaf with a bench scraper',
@@ -134,7 +134,7 @@ const steps = [
       'Check by gently stretching one edge a short distance. If it resists and pulls back strongly, rest another 5 minutes, then check again. Repeat once if needed, for about 20 minutes total.',
       'If the edge stretches and folds easily while the dough remains a rounded mound, stop resting and shape using the video. A little spreading is normal; the dough can still have some elasticity.',
       'If the dough quickly spreads wide and becomes flat, stop resting and shape promptly, even if 10 minutes have not passed.',
-      'Follow the video for final shaping, then place the loaf in your rice-floured banneton with the smooth side down and the seam side up.',
+      'Follow the video for final shaping, then place the loaf in your cotton banneton with the smooth side down and the seam side up.',
     ],
     cue: 'If dough sticks to your hand or scraper, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
   },

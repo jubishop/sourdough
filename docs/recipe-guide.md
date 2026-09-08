@@ -294,9 +294,14 @@ enough to tear. This replaces the routine counter and top dusting and the
 earlier instruction to tighten the loaf with both hands.
 
 The tradeoff is that final shaping can still need a little flour to release
-this wet dough without damage. Keep the generous rice flour in the banneton
-to prevent sticking during the cold proof; the scraper does not replace it.
-The rest checks below and the final basket orientation remain unchanged.
+this wet dough without damage. The rest checks below and the final basket
+orientation remain unchanged.
+
+On 2026-09-08, the user requested removal of the rice-flour requirement
+because their cotton banneton releases the dough well without it. Use that
+banneton without flour dusting. This supersedes the earlier instruction to
+dust the banneton generously with rice flour. This choice is based on the
+user's basket and observed results.
 
 Later on 2026-09-07, the user requested a YouTube demonstration in place of
 the written shaping motions. Use Alexandra's Kitchen's
@@ -309,7 +314,7 @@ both hands to tighten the loaf.
 
 Replace the detailed fold, pull, rotate, and lift instructions with a clear
 link in Step 6. Keep the recipe's initial gentle round, rest checks, optional
-counter-flour guidance, rice-floured banneton, and final orientation. The
+counter-flour guidance, cotton banneton, and final orientation. The
 video teaches the movements; its bowl does not replace the user's banneton.
 This supersedes the earlier request for written shaping motions.
 
