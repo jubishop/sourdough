@@ -42,6 +42,23 @@ This replaces the 375 g autolyse plus 25 g reserved-water split. The total
 water and final hydration stay the same; only the timing of the water
 addition changes.
 
+## Mixing starter and salt
+
+On 2026-09-07, the user requested a targeted video for Step 3 if a good
+match was available. Use Sunrise Flour Mill's
+[20-second Pincer Method video](https://www.youtube.com/watch?v=YOt3IJFhFCw).
+Its overhead close-up shows the pinch-and-fold mixing motion with a wet
+hand. The publisher's [technique guide](https://sunriseflourmill.com/blogs/back-to-baking-school/pincer-method)
+also identifies this method as a way to incorporate sourdough starter.
+The video and its public availability were checked on 2026-09-07.
+
+The clip demonstrates the movement, not the full mixing duration or the
+addition of every ingredient. Keep the instruction to mix 100 g starter
+and 11 g salt into the rested dough until reasonably uniform, with no
+kneading. Keep lightly wet hands, no added flour, and taking the tube sample
+only after both ingredients are fully mixed in. Step 2 remains a written
+instruction to mix flour and water and rest for the autolyse.
+
 ## Cold-proof timing and flavor
 
 On 2026-09-06, the user requested a range instead of a fixed 12-hour cold

@@ -64,6 +64,11 @@ const steps = [
     icon: Scale,
     title: 'Add starter, salt, and take a sample',
     body: 'Add 100 g active starter and 11 g salt. Squeeze and fold until reasonably uniform. No kneading.',
+    video: {
+      url: 'https://www.youtube.com/watch?v=YOt3IJFhFCw',
+      title: 'Watch: pinch and fold to mix the dough',
+      caption: 'Sunrise Flour Mill · 20 seconds · YouTube',
+    },
     details: [
       'The dough will feel sticky at about 82% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
       'Take the sample immediately after the starter and salt are fully mixed in.',
