@@ -253,6 +253,20 @@ stop if it starts to tear.
 
 Keep the final orientation in the banneton: smooth side down, seam side up.
 
+On 2026-09-07, the user accepted a bench scraper method to avoid routine
+flour dusting during Step 6. Start on a clean, dry, unfloured counter. Use
+the scraper and a supporting hand to gather, release, turn, tighten, and
+transfer the dough. Lightly dampen the scraper or hand if dough sticks to
+them, but keep the counter dry so the dough can grip it during tightening.
+Use a tiny dusting of flour at a sticking spot only if the dough sticks
+enough to tear. This replaces the routine counter and top dusting and the
+earlier instruction to tighten the loaf with both hands.
+
+The tradeoff is that final shaping can still need a little flour to release
+this wet dough without damage. Keep the generous rice flour in the banneton
+to prevent sticking during the cold proof; the scraper does not replace it.
+The rest checks below and the final basket orientation remain unchanged.
+
 On 2026-09-07, the user requested clearer bench-rest instructions because
 the notes did not make it clear when to keep resting or proceed to shaping.
 Explain that the rest lets the preshaped round relax enough to fold easily.
