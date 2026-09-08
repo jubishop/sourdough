@@ -119,7 +119,6 @@ const steps = [
       'Check by gently stretching one edge a short distance. If it resists and pulls back strongly, rest another 5 minutes, then check again. Repeat once if needed, for about 20 minutes total.',
       'If the edge stretches and folds easily while the dough remains a rounded mound, stop resting and do the final shape below. A little spreading is normal; the dough can still have some elasticity.',
       'If the dough quickly spreads wide and becomes flat, stop resting and shape promptly, even if 10 minutes have not passed.',
-      'If bulk timing was correct but the dough is still slack and spreads even after shortening or skipping the rest, use 10–20 g less water next loaf.',
       'Lightly dust the top of the round with flour and turn it over. Fold the near edge into the center, then the left and right edges, then the far edge, to make a compact parcel.',
       'Turn it seam-side down on a patch of counter with very little flour. Cup both hands behind the dough and gently pull it toward you a short distance, letting the bottom grip the counter and tighten the outer skin.',
       'Turn the dough a quarter-turn and repeat the gentle pull until the top is smooth and taut and the dough holds a round shape. Stop if the skin starts to tear.',
