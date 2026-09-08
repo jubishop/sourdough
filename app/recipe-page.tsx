@@ -187,10 +187,10 @@ const steps = [
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: 'Check after 12 min',
+    time: 'Check after 15 min',
     icon: Flame,
     title: 'Finish uncovered at 425°F',
-    body: 'Remove the lid, lower the oven to 425°F, and bake for 12 minutes. The uncovered bake lets the crust dry and brown. Then check the crust.',
+    body: 'Remove the lid, lower the oven to 425°F, and bake for 15 minutes. The uncovered bake lets the crust dry and brown. Then check the crust.',
     details: [
       'Look for a deep golden-brown crust on the exposed top and sides. Flour dusting can stay pale, so judge the crust beneath it.',
       'If the exposed crust is still pale, continue baking uncovered in 5-minute increments, checking the color each time.',
@@ -296,7 +296,7 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Bake</h3>
-              <strong>30 min covered + 12 min to first crust check</strong>
+              <strong>30 min covered + 15 min to first crust check</strong>
               <p>Bake at 450°F covered, then 425°F uncovered. If the crust is still pale, continue in 5-minute increments.</p>
             </li>
             <li>

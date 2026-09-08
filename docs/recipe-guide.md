@@ -123,7 +123,7 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 a 10–20 minute bench rest when needed, a 12–24-hour cold proof, 30 minutes
-covered followed by 12 minutes to the first uncovered crust check, and at
+covered followed by 15 minutes to the first uncovered crust check, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 optional shorter bench rest, and visual baking endpoint clear.
 
@@ -139,8 +139,11 @@ On 2026-09-05, the user chose visual guidance for checking the baked loaf.
 They do not have or want to use a probe to measure its center temperature.
 Do not require an internal-temperature reading in the baking instructions.
 
-Keep 30 minutes covered at 450°F and an initial 12 minutes uncovered at 425°F.
-After the initial 12 minutes uncovered, inspect the exposed crust for a deep
+On 2026-09-08, the user extended the initial uncovered bake in Step 11 from
+12 to 15 minutes. This replaces the earlier 12-minute setting.
+
+Keep 30 minutes covered at 450°F and an initial 15 minutes uncovered at 425°F.
+After the initial 15 minutes uncovered, inspect the exposed crust for a deep
 golden-brown color. Distinguish flour dusting from pale crust. If the crust
 is still pale, continue uncovered in five-minute increments and check again.
 
