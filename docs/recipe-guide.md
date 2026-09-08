@@ -216,6 +216,20 @@ In Step 4, perform the first gentle set 30 minutes after adding the starter.
 Four folds, one from each side, make one set. Use lightly wet hands and stop
 each stretch when the dough resists; avoid tearing it.
 
+On 2026-09-07, the user requested a YouTube demonstration in place of the
+written stretch-and-fold movements in Step 4. Use The Perfect Loaf's
+[29-second stretch-and-fold video](https://www.youtube.com/watch?v=mwtTZK7_t08).
+Its overhead view clearly shows wet hands and the four-sided bowl fold.
+The video and its public availability were checked on 2026-09-07. The
+source calls this a vigorous set; keep this recipe's gentle handling and
+stop-at-resistance rule. This is the ordinary stretch-and-fold movement,
+not the separate coil-fold method in the source's gentle-fold video.
+
+Replace the written hand movements with the same video-link treatment used
+in Step 6. Keep the four-fold set, timing, strength checks, stopping cues,
+troubleshooting, and checklist behavior. The video teaches the movement;
+the recipe's checks determine whether another set is needed.
+
 Cover and rest about 30 minutes, then check before folding again.
 If the dough looks smoother and stays gathered with rounded edges after the
 rest, stop folding. One set may be enough. Some spreading is normal; this

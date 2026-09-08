@@ -80,8 +80,13 @@ const steps = [
     icon: RotateCcw,
     title: 'Fold every 30 minutes as needed',
     body: 'Keep the bowl covered on the counter for 30 minutes after adding the starter, then give the dough one gentle fold set. Cover and rest about 30 minutes between further sets, repeating only while the dough needs more strength.',
+    video: {
+      url: 'https://www.youtube.com/watch?v=mwtTZK7_t08',
+      title: 'Watch: stretch and fold sourdough',
+      caption: 'The Perfect Loaf · 29 seconds · YouTube',
+    },
     details: [
-      'With lightly wet hands, gently stretch one side up and across. Turn the bowl and repeat on the remaining three sides. These four folds make one set and should take about 20 seconds. Stop each stretch when the dough resists; do not force it or tear it.',
+      'Follow the video for one set of four folds, using lightly wet hands. Keep each stretch gentle and stop when the dough resists; do not force it or tear it.',
       'If it looks smoother and stays gathered with rounded edges after the rest, stop folding. One set may be enough. Some spreading is normal; this wet whole-wheat dough does not need to stay in a tight ball.',
       'If it still feels slack and quickly flattens after the rest, give it another gentle set, cover, and check again in about 30 minutes.',
       'Keep these folds within roughly the first 2 hours after adding the starter. Stop sooner if the dough is already puffy and airy. If it remains loose at that point, stop folding and follow the bulk checks in Step 5; do not keep folding through the whole rise.',
