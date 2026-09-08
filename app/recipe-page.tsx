@@ -156,8 +156,8 @@ const steps = [
     time: 'At least 45 min',
     overlap: 'Overlaps Step 7',
     icon: Flame,
-    title: 'Preheat the Dutch oven',
-    body: 'At least 45 minutes before your planned bake time, preheat the oven and Dutch oven to 475°F. You can begin earlier.',
+    title: 'Preheat the Dutch oven and pizza stone',
+    body: 'At least 45 minutes before your planned bake time, put the pizza stone on the rack directly below the Dutch oven. Preheat the oven, Dutch oven, and pizza stone to 475°F. You can begin earlier.',
     cue: 'Keep the loaf refrigerated until your chosen 12–24-hour proof and the preheat are complete.',
   },
   {
@@ -196,7 +196,6 @@ const steps = [
       'If the exposed crust is still pale, continue baking uncovered in 5-minute increments, checking the color each time.',
       'Crust color cannot confirm the condition of the center. After the loaf has cooled for at least 3 hours, check the crumb when slicing and use the result to refine the bake time next time.',
     ],
-    cue: 'If the bottom scorches, place a sheet pan on the rack below.',
   },
   {
     id: 'cool',
@@ -293,7 +292,7 @@ export function RecipePage() {
             <li>
               <h3>Cold proof</h3>
               <strong>12–24 hr at ~38°F</strong>
-              <p>Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Preheat the oven and Dutch oven to 475°F for at least the final 45 minutes.</p>
+              <p>Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Preheat the oven, Dutch oven, and pizza stone to 475°F for at least the final 45 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>

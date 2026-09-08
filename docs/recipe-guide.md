@@ -129,7 +129,7 @@ optional shorter bench rest, and visual baking endpoint clear.
 
 Show the overlaps: start the 60-minute autolyse when the starter looks about
 an hour from ready; folds and their rests count within bulk; preheat the
-oven and Dutch oven for at least the final 45 minutes of the cold proof.
+oven, Dutch oven, and pizza stone for at least the final 45 minutes of the cold proof.
 The starter and bulk estimates assume the user's 70°F pantry. Do not turn
 them into guaranteed clock times or promise a fixed total duration.
 
@@ -155,6 +155,14 @@ References checked on 2026-09-05:
   uses crust color as a baking cue and recommends cooling before slicing.
 - [King Arthur: using a thermometer with yeast bread](https://www.kingarthurbaking.com/blog/2017/04/07/using-a-thermometer-with-yeast-bread)
   explains why baking endpoints depend on the bread and desired texture.
+
+## Preheat the pizza stone with the Dutch oven
+
+On 2026-09-08, the user chose to place a pizza stone on the rack directly
+below the Dutch oven at the start of Step 8. Preheat both together and leave
+the stone in place for the bake.
+Remove the conditional note about adding a sheet pan if the bottom scorches.
+The stone is now part of the normal bake instructions.
 
 ## Bake phase explanations
 
