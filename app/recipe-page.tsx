@@ -115,10 +115,12 @@ const steps = [
     body: 'Dust the banneton generously with rice flour before shaping the loaf.',
     details: [
       'Turn the dough onto a lightly floured counter and form a gentle round.',
-      'Rest it uncovered for 10 minutes, then check it. Continue to the final shape once it has relaxed slightly but still holds its rounded form. Wait up to another 10 minutes if it still springs back.',
-      'Shorten or skip the rest if the dough is already relaxed or spreading. Cover it if the surface starts to form a dry skin.',
+      'Rest the round uncovered for 10 minutes so it becomes easier to fold. Skip the rest if it is already loose and easy to fold. Cover it if the surface starts to form a dry skin.',
+      'Check by gently stretching one edge a short distance. If it resists and pulls back strongly, rest another 5 minutes, then check again. Repeat once if needed, for about 20 minutes total.',
+      'If the edge stretches and folds easily while the dough remains a rounded mound, stop resting and do the final shape below. A little spreading is normal; the dough can still have some elasticity.',
+      'If the dough quickly spreads wide and becomes flat, stop resting and shape promptly, even if 10 minutes have not passed.',
       'If bulk timing was correct but the dough is still slack and spreads even after shortening or skipping the rest, use 10–20 g less water next loaf.',
-      'Lightly dust the top of the rested round with flour and turn it over. Fold the near edge into the center, then the left and right edges, then the far edge, to make a compact parcel.',
+      'Lightly dust the top of the round with flour and turn it over. Fold the near edge into the center, then the left and right edges, then the far edge, to make a compact parcel.',
       'Turn it seam-side down on a patch of counter with very little flour. Cup both hands behind the dough and gently pull it toward you a short distance, letting the bottom grip the counter and tighten the outer skin.',
       'Turn the dough a quarter-turn and repeat the gentle pull until the top is smooth and taut and the dough holds a round shape. Stop if the skin starts to tear.',
       'Lift the shaped loaf into the banneton. Put the smooth side down against the basket and leave the seam side facing up.',
@@ -274,7 +276,7 @@ export function RecipePage() {
             <li>
               <h3>Shape</h3>
               <strong>Bench rest: 10–20 min, as needed</strong>
-              <p>Preshape, rest, then final-shape and refrigerate. Shorten or skip the rest if the dough is already relaxed.</p>
+              <p>Form a gentle round. Rest only until the dough is easy to fold, then do the final shape and refrigerate. Shape promptly if it quickly spreads flat.</p>
             </li>
             <li>
               <h3>Cold proof</h3>

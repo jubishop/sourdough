@@ -251,8 +251,31 @@ a parcel, turning it seam-side down, and cupping and gently pulling it
 across the counter. Rotate and repeat until the skin is smooth and taut;
 stop if it starts to tear.
 
-Keep the existing bench-rest timing and dough-based exceptions. Keep the
-final orientation in the banneton: smooth side down, seam side up.
+Keep the final orientation in the banneton: smooth side down, seam side up.
+
+On 2026-09-07, the user requested clearer bench-rest instructions because
+the notes did not make it clear when to keep resting or proceed to shaping.
+Explain that the rest lets the preshaped round relax enough to fold easily.
+Use 10 minutes as the first check, with these explicit cues and actions:
+
+- Skip the rest if the dough is already loose and easy to fold.
+- Gently stretch one edge a short distance. If it resists and pulls back
+  strongly, rest another 5 minutes and check again. Repeat once if needed,
+  for about 20 minutes total.
+- When the edge stretches and folds easily and the dough remains a rounded
+  mound, proceed to the final shape. A little spreading is normal; some
+  elasticity can remain.
+- If the dough quickly spreads wide and becomes flat, shape promptly,
+  even before the first 10 minutes have passed.
+
+This replaces the ambiguous "springs back" and "already relaxed or spreading"
+wording. Keep the schedule consistent with these checks. Cover the dough if
+its surface starts to form a dry skin.
+
+[The Perfect Loaf's preshaping guide](https://www.theperfectloaf.com/guides/how-to-preshape-bread-dough/)
+explains that bench rest allows enough relaxation for shaping without forcing
+or tearing the dough. Some outward spread is expected. This source was
+checked on 2026-09-07; the 10–20-minute guidance remains specific to this recipe.
 
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
