@@ -267,6 +267,21 @@ this wet dough without damage. Keep the generous rice flour in the banneton
 to prevent sticking during the cold proof; the scraper does not replace it.
 The rest checks below and the final basket orientation remain unchanged.
 
+Later on 2026-09-07, the user requested a YouTube demonstration in place of
+the written shaping motions. Use Alexandra's Kitchen's
+[58-second final shaping video](https://www.youtube.com/watch?v=0zCPoagZk4Q).
+The overhead view shows folding the dough, tightening it with a bench
+scraper, and transferring it seam-side up into a floured, lined bowl. The
+video and its public availability were checked on 2026-09-07. It is a closer
+match for the accepted scraper method than demonstrations that mainly use
+both hands to tighten the loaf.
+
+Replace the detailed fold, pull, rotate, and lift instructions with a clear
+link in Step 6. Keep the recipe's initial gentle round, rest checks, optional
+counter-flour guidance, rice-floured banneton, and final orientation. The
+video teaches the movements; its bowl does not replace the user's banneton.
+This supersedes the earlier request for written shaping motions.
+
 On 2026-09-07, the user requested clearer bench-rest instructions because
 the notes did not make it clear when to keep resting or proceed to shaping.
 Explain that the rest lets the preshaped round relax enough to fold easily.

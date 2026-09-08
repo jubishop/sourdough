@@ -113,18 +113,20 @@ const steps = [
     icon: Circle,
     title: 'Shape and place in the banneton',
     body: 'Dust the banneton generously with rice flour before shaping the loaf.',
+    video: {
+      url: 'https://www.youtube.com/watch?v=0zCPoagZk4Q',
+      title: 'Watch: shape a round loaf with a bench scraper',
+      caption: 'Alexandra’s Kitchen · 58 seconds · YouTube',
+    },
     details: [
-      'Turn the dough onto a clean, dry counter without flour. Use a bench scraper and your free hand to gather it gently into a round. Slide the scraper under the dough to release and move it instead of pulling stuck dough with your fingers.',
-      'If dough sticks to the scraper or your hand, dampen them lightly. Keep the counter dry so the dough can grip it. If it sticks to the counter enough to tear, use a tiny dusting of flour at the sticking spot.',
+      'Turn the dough onto a clean, dry counter without flour and use a bench scraper to form a gentle round.',
       'Rest the round uncovered for 10 minutes so it becomes easier to fold. Skip the rest if it is already loose and easy to fold. Cover it if the surface starts to form a dry skin.',
       'Check by gently stretching one edge a short distance. If it resists and pulls back strongly, rest another 5 minutes, then check again. Repeat once if needed, for about 20 minutes total.',
-      'If the edge stretches and folds easily while the dough remains a rounded mound, stop resting and do the final shape below. A little spreading is normal; the dough can still have some elasticity.',
+      'If the edge stretches and folds easily while the dough remains a rounded mound, stop resting and shape using the video. A little spreading is normal; the dough can still have some elasticity.',
       'If the dough quickly spreads wide and becomes flat, stop resting and shape promptly, even if 10 minutes have not passed.',
-      'Slide the scraper under the rested round and turn it over. Fold the near edge into the center, then the left and right edges, then the far edge, to make a compact parcel. Use the scraper to lift any edge that sticks.',
-      'Turn it seam-side down on a dry patch of counter. Hold the scraper behind the dough with its edge just under it, and cup your free hand around the side. Gently draw the dough toward you a short distance, letting the bottom grip the counter and tighten the outer skin.',
-      'Turn the dough a quarter-turn and repeat the gentle pull until the top is smooth and taut and the dough holds a round shape. Stop if the skin starts to tear.',
-      'Slide the scraper under the shaped loaf and support it with your free hand as you lift it into the rice-floured banneton. Put the smooth side down against the basket and leave the seam side facing up.',
+      'Follow the video for final shaping, then place the loaf in your rice-floured banneton with the smooth side down and the seam side up.',
     ],
+    cue: 'If dough sticks to your hand or scraper, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
   },
   {
     id: 'cold-proof',
@@ -352,7 +354,9 @@ export function RecipePage() {
                   )}
                   <article className={`step-card ${checked ? 'complete' : ''}`}>
                     <div className="step-number">{String(index + 1).padStart(2, '0')}</div><div className="step-icon"><Icon aria-hidden="true" /></div>
-                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{step.body}</p>{step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}{step.cue && <p className="step-cue">{step.cue}</p>}</div>
+                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{step.body}</p>
+                    {step.video && <a className="step-video" href={step.video.url} target="_blank" rel="noopener noreferrer"><span><strong>{step.video.title}</strong><span>{step.video.caption}</span></span><ChevronRight aria-hidden="true" /></a>}
+                    {step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}{step.cue && <p className="step-cue">{step.cue}</p>}</div>
                     <label className="step-check" htmlFor={`step-${step.id}`}><Checkbox id={`step-${step.id}`} checked={checked} onCheckedChange={(value) => toggleStep(step.id, value)} aria-label={`Mark ${step.title} complete`} /><span>{checked ? 'Done' : 'Mark done'}</span></label>
                   </article>
                   {step.id === 'starter' && (
