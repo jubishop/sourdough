@@ -65,21 +65,26 @@ const steps = [
     ],
   },
   {
-    // Keep the former folding-complete key so saved progress remains accurate.
-    id: 'fold-two',
+    id: 'fold-one',
     phase: 'Early bulk',
-    time: '2 sets · 30 min apart',
+    time: '30 min after mixing',
     icon: RotateCcw,
-    title: 'Fold twice',
-    body: 'Rest the covered dough for 30 minutes after adding the starter, then do one fold set. Cover and rest for another 30 minutes, then do the second set.',
+    title: 'First fold',
+    body: 'Rest the covered dough for 30 minutes after adding the starter, then do one set of four gentle folds with lightly wet hands.',
     video: {
       url: 'https://www.youtube.com/watch?v=mwtTZK7_t08',
       title: 'Watch: stretch and fold sourdough',
       caption: 'The Perfect Loaf · 29 seconds · YouTube',
     },
-    details: [
-      'For each set, follow the video for four gentle folds, using lightly wet hands.',
-    ],
+  },
+  {
+    // Keep the folding-complete key for the second set.
+    id: 'fold-two',
+    phase: 'Early bulk',
+    time: '30 min after the first fold',
+    icon: RotateCcw,
+    title: 'Second fold',
+    body: 'Cover and rest for 30 minutes after the first fold, then do another set of four gentle folds with lightly wet hands.',
     cue: 'After the second set, cover and leave undisturbed for the rest of bulk. Both sets and rests count toward total bulk time.',
   },
   {
@@ -131,13 +136,13 @@ const steps = [
     details: [
       'Longer fermentation can build more acidity and a tangier flavor. The change depends on your starter, dough, and refrigerator temperature.',
     ],
-    cue: 'Choose your bake time within the 12–24-hour range. Start Step 8 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
+    cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
     phase: 'Day 2',
     time: 'At least 45 min',
-    overlap: 'Overlaps Step 7',
+    overlap: 'Overlaps Step 8',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
     body: 'At least 45 minutes before your planned bake time, put the pizza stone on the rack directly below the Dutch oven. Preheat the oven, Dutch oven, and pizza stone to 475°F. You can begin earlier.',
@@ -195,7 +200,7 @@ const diagnoses = [
   ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, try 5–10 percentage points more rise next bake. Small holes alone are normal in whole-wheat bread.'],
   ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, try 5–10 percentage points less rise next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
   ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
-  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake. Still follow the visual crust check in Step 11.'],
+  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake. Still follow the visual crust check in Step 12.'],
   ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too dark', 'If the finished crust is too dark for your taste, try lowering the uncovered temperature by 25°F next bake. Keep the bake time as your first trial.'],
@@ -330,12 +335,12 @@ export function RecipePage() {
               return (
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
-                    <div className="parallel-prep" aria-label="Steps 7 and 8 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 8 at least 45 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 9.</span></div>
+                    <div className="parallel-prep" aria-label="Steps 8 and 9 can overlap">
+                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 9 at least 45 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 10.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>7 · Cold proof</b><i /><span>12–24 hr</span></div>
-                        <div className="timeline-row overlap-line"><b>8 · Preheat</b><i /><span>45+ min</span></div>
-                        <div className="timeline-merge"><ChevronRight /> Step 9 · Score and load</div>
+                        <div className="timeline-row"><b>8 · Cold proof</b><i /><span>12–24 hr</span></div>
+                        <div className="timeline-row overlap-line"><b>9 · Preheat</b><i /><span>45+ min</span></div>
+                        <div className="timeline-merge"><ChevronRight /> Step 10 · Score and load</div>
                       </div>
                     </div>
                   )}

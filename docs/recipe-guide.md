@@ -154,7 +154,7 @@ On 2026-09-05, the user chose visual guidance for checking the baked loaf.
 They do not have or want to use a probe to measure its center temperature.
 Do not require an internal-temperature reading in the baking instructions.
 
-On 2026-09-08, the user extended the initial uncovered bake in Step 11 from
+On 2026-09-08, the user extended the initial uncovered bake in Step 12 from
 12 to 15 minutes. This replaces the earlier 12-minute setting.
 
 Keep 30 minutes covered at 450°F and an initial 15 minutes uncovered at 425°F.
@@ -177,7 +177,7 @@ References checked on 2026-09-05:
 ## Preheat the pizza stone with the Dutch oven
 
 On 2026-09-08, the user chose to place a pizza stone on the rack directly
-below the Dutch oven at the start of Step 8. Preheat both together and leave
+below the Dutch oven at the start of Step 9. Preheat both together and leave
 the stone in place for the bake.
 Remove the conditional note about adding a sheet pan if the bottom scorches.
 The stone is now part of the normal bake instructions.
@@ -213,8 +213,8 @@ in the current bake.
 
 Put process troubleshooting at the relevant step. For example, a slow
 starter build belongs with Step 1; weak dough during
-folding belongs with the fold step; stalled bulk belongs with Step 5;
-and a pale crust during baking belongs with Step 11. This keeps help where
+folding belongs with the fold step; stalled bulk belongs with Step 6;
+and a pale crust during baking belongs with Step 12. This keeps help where
 the baker needs it and reserves the final table for reviewing the result.
 
 Compare the fully cooled crumb with observations from mixing, bulk, and
@@ -230,7 +230,7 @@ shaping. In particular:
   more bake time. Keep the visual baking endpoint; do not add a probe check.
 - Separate freshly baked dry crumb from bread that has dried during storage.
 - Base next-bake crust adjustments on the cooled crumb and crust together.
-  Keep the current-bake visual checks in Step 11.
+  Keep the current-bake visual checks in Step 12.
 
 Keep numerical adjustments as small trials, changing one variable per bake.
 The table offers hypotheses to test, not guaranteed diagnoses. This adds
@@ -254,10 +254,17 @@ set. Each set consists of four gentle folds with lightly wet hands.
 After the second set, cover and leave the dough undisturbed for the rest
 of bulk. Both sets and rests count toward total bulk time.
 
-Keep Step 4 as one checklist item with the existing `fold-two` key so
-saved progress remains attached to the same step. Remove the old
-strength checks, optional additional sets, early-stop instructions, and
-advice to change water on a later loaf.
+Later on 2026-09-09, the user requested one checklist step per fold so
+they can track how many sets they have done. Step 4 is "First fold" and
+Step 5 is "Second fold", each with an independent saved checkbox. Use
+`fold-one` for the first set and keep `fold-two` for the second. This
+supersedes the combined folding item while keeping exactly two sets and
+the 30-minute rest between them.
+
+The checklist now has 13 steps. Update all later step numbers and their
+cross-references, including cold proof, preheat, loading, and troubleshooting.
+Keep the old strength checks, optional additional sets, early-stop
+instructions, and later-loaf water advice out of the folding steps.
 
 On 2026-09-07, the user requested a YouTube demonstration in place of the
 written stretch-and-fold movements in Step 4. Keep The Perfect Loaf's
@@ -270,7 +277,7 @@ sets.
 ## Shaping instructions
 
 On 2026-09-05, the user accepted concrete hand movements for final shaping
-in Step 6 because this guidance would help them for now. Replace the
+in Step 7 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
 a parcel, turning it seam-side down, and cupping and gently pulling it
 across the counter. Rotate and repeat until the skin is smooth and taut;
@@ -279,7 +286,7 @@ stop if it starts to tear.
 Keep the final orientation in the banneton: smooth side down, seam side up.
 
 On 2026-09-07, the user accepted a bench scraper method to avoid routine
-flour dusting during Step 6. Start on a clean, dry, unfloured counter. Use
+flour dusting during Step 7. Start on a clean, dry, unfloured counter. Use
 the scraper and a supporting hand to gather, release, turn, tighten, and
 transfer the dough. Lightly dampen the scraper or hand if dough sticks to
 them, but keep the counter dry so the dough can grip it during tightening.
@@ -307,7 +314,7 @@ match for the accepted scraper method than demonstrations that mainly use
 both hands to tighten the loaf.
 
 Replace the detailed fold, pull, rotate, and lift instructions with a clear
-link in Step 6. Keep the recipe's initial gentle round, rest checks, optional
+link in Step 7. Keep the recipe's initial gentle round, rest checks, optional
 counter-flour guidance, cotton banneton, and final orientation. The
 video teaches the movements; its bowl does not replace the user's banneton.
 This supersedes the earlier request for written shaping motions.
@@ -353,7 +360,7 @@ Leave the guide without one for now.
 
 ## Aliquot rise target
 
-On 2026-09-05, the user chose to keep the existing tube guidance in Step 5:
+On 2026-09-05, the user chose to keep the existing tube guidance in Step 6:
 use a 40–50% sample rise as the current target, alongside the existing
 dough cues. The sample stays beside the main dough in the approximately
 70°F pantry. The user wants a useful, repeatable measurement and declined
