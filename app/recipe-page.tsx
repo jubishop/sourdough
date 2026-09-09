@@ -97,17 +97,12 @@ const steps = [
     details: [
       'Ready feels airy and softly bouncy, with enough elasticity to hold together. Airiness is a good sign; dough becoming progressively weaker, tearing easily, or collapsing is a reason to shape sooner. Stickiness alone does not mean it has gone too far.',
       'If it is still tight and poorly aerated at the target, give it more time and recheck.',
-      'At 10 hours of total bulk: if the sample is still below 40%, check the actual dough temperature and that the intended starter amount was added. Note the sample level and check again at 12 hours. Little or no further rise over those 2 hours, together with few bubbles, is a stalled-progress flag. These checkpoints prompt troubleshooting; they do not prove the starter is weak.',
-      'A brisk Step 1 build makes starter weakness less likely. If this dough is still gaining volume and holding together, give it more time. If it is losing strength or collapsing, shape promptly rather than waiting for a number. There is no reliable clock-only cutoff for abandoning a mixed loaf.',
-      'Underfermentation means the dough needed more fermentation time before baking. In the cooled loaf, look for unusually dense areas, sometimes with a few large holes or tunnels surrounded by tight crumb. Whole-wheat bread naturally has a tighter crumb, so small holes alone do not prove underfermentation. If these signs agree with dough that was tight at shaping, try 5–10 percentage points more rise next loaf—for example, 50% to 55–60%—while keeping other variables steady.',
-      'If the dough loses strength before your target, shape now rather than chasing the number. If that pattern and a flat, weak loaf repeat, try 5–10 percentage points less rise next time.',
-      'Warmer dough keeps fermenting faster while it cools in the fridge, so it generally needs an earlier cutoff; cooler dough may tolerate more rise. Pantry temperature helps compare bakes, but actual dough temperature controls fermentation. Whole-wheat dough may show less rise than white dough: do not automatically wait for doubling.',
     ],
   },
   {
     id: 'shape',
     phase: 'Day 1',
-    time: '10–20 min, as needed',
+    time: '10 min rest',
     icon: Circle,
     title: 'Shape and place in the banneton',
     body: 'Use your cotton banneton without dusting it with flour.',
@@ -118,10 +113,7 @@ const steps = [
     },
     details: [
       'Turn the dough onto a clean, dry counter without flour and use a bench scraper to form a gentle round.',
-      'Rest the round uncovered for 10 minutes so it becomes easier to fold. Skip the rest if it is already loose and easy to fold. Cover it if the surface starts to form a dry skin.',
-      'Check by gently stretching one edge a short distance. If it resists and pulls back strongly, rest another 5 minutes, then check again. Repeat once if needed, for about 20 minutes total.',
-      'If the edge stretches and folds easily while the dough remains a rounded mound, stop resting and shape using the video. A little spreading is normal; the dough can still have some elasticity.',
-      'If the dough quickly spreads wide and becomes flat, stop resting and shape promptly, even if 10 minutes have not passed.',
+      'Rest the round uncovered for 10 minutes so it becomes easier to fold.',
       'Follow the video for final shaping, then place the loaf in your cotton banneton with the smooth side down and the seam side up.',
     ],
     cue: 'If dough sticks to your hand or scraper, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
@@ -133,9 +125,6 @@ const steps = [
     icon: Snowflake,
     title: 'Cold-proof overnight',
     body: 'Cover and refrigerate immediately for 12–24 hours. Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Bake directly from the refrigerator.',
-    details: [
-      'Longer fermentation can build more acidity and a tangier flavor. The change depends on your starter, dough, and refrigerator temperature.',
-    ],
     cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
@@ -179,11 +168,6 @@ const steps = [
     icon: Flame,
     title: 'Finish uncovered at 425°F',
     body: 'Remove the lid, lower the oven to 425°F, and bake for 15 minutes. The uncovered bake lets the crust dry and brown. Then check the crust.',
-    details: [
-      'Look for a deep golden-brown crust on the exposed top and sides. Flour dusting can stay pale, so judge the crust beneath it.',
-      'If the exposed crust is still pale, continue baking uncovered in 5-minute increments, checking the color each time.',
-      'Crust color cannot confirm the condition of the center. After the loaf has cooled for at least 3 hours, check the crumb when slicing and use the result to refine the bake time next time.',
-    ],
   },
   {
     id: 'cool',
@@ -271,8 +255,8 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Shape</h3>
-              <strong>Bench rest: 10–20 min, as needed</strong>
-              <p>Form a gentle round. Rest only until the dough is easy to fold, then do the final shape and refrigerate. Shape promptly if it quickly spreads flat.</p>
+              <strong>Bench rest: 10 min</strong>
+              <p>Form a gentle round. Rest uncovered for 10 minutes, then do the final shape and refrigerate.</p>
             </li>
             <li>
               <h3>Cold proof</h3>

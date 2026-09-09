@@ -16,7 +16,7 @@ temperatures, and durations directly. Avoid optional alternatives or loose
 "baseline" wording when a fixed instruction is practical.
 
 Retain condition-based decisions where needed, such as starter readiness,
-dough strength, bulk fermentation, bench rest, and the accepted visual
+dough strength, bulk fermentation, and the accepted visual
 baking endpoint. Give a specific cue and action for each exception.
 
 The starter-build amount is also intentionally flexible so the user can
@@ -88,6 +88,10 @@ the schedule, checklist, preheat overlap, and flavor troubleshooting together.
 Preheat the oven and Dutch oven to 475°F for at least 45 minutes before the
 chosen bake time. Keep the loaf refrigerated until ready to score and load.
 
+On 2026-09-09, the user requested removal of the cold-proof step's sole
+substep about fermentation, acidity, and flavor. Keep the main instruction
+and preheat timing note. The reason was not stated.
+
 References checked on 2026-09-06:
 
 - [King Arthur: how to make sourdough more or less sour, part 2](https://www.kingarthurbaking.com/blog/2022/02/22/how-to-make-your-sourdough-bread-more-or-less-sour-part-2)
@@ -137,10 +141,10 @@ shaping, cold proofing, baking, and cooling.
 
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
-a 10–20 minute bench rest when needed, a 12–24-hour cold proof, 30 minutes
+a 10-minute bench rest, a 12–24-hour cold proof, 30 minutes
 covered followed by 15 minutes to the first uncovered crust check, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
-optional shorter bench rest, and visual baking endpoint clear.
+10-minute bench rest, and visual baking endpoint clear.
 
 Show the overlaps: start the 60-minute autolyse when the starter looks about
 an hour from ready; folds and their rests count within bulk; preheat the
@@ -166,6 +170,12 @@ Color cannot confirm the condition of the center. Keep the existing minimum
 three-hour cooling period, then use the cooled crumb to refine future bake
 timing. This method avoids a probe but depends more on experience with the
 oven and results from previous loaves.
+
+On 2026-09-09, the user requested removal of all substeps from the
+uncovered-bake step. This supersedes the choice to include the detailed
+crust-color, extra-baking-time, and cooled-crumb instructions there. Keep
+the main 15-minute baking instruction and its closing crust check. The
+reason was not stated.
 
 References checked on 2026-09-05:
 
@@ -295,8 +305,7 @@ enough to tear. This replaces the routine counter and top dusting and the
 earlier instruction to tighten the loaf with both hands.
 
 The tradeoff is that final shaping can still need a little flour to release
-this wet dough without damage. The rest checks below and the final basket
-orientation remain unchanged.
+this wet dough without damage. The final basket orientation remains unchanged.
 
 On 2026-09-08, the user requested removal of the rice-flour requirement
 because their cotton banneton releases the dough well without it. Use that
@@ -314,34 +323,20 @@ match for the accepted scraper method than demonstrations that mainly use
 both hands to tighten the loaf.
 
 Replace the detailed fold, pull, rotate, and lift instructions with a clear
-link in Step 7. Keep the recipe's initial gentle round, rest checks, optional
+link in Step 7. Keep the recipe's initial gentle round, 10-minute rest, optional
 counter-flour guidance, cotton banneton, and final orientation. The
 video teaches the movements; its bowl does not replace the user's banneton.
 This supersedes the earlier request for written shaping motions.
 
-On 2026-09-07, the user requested clearer bench-rest instructions because
-the notes did not make it clear when to keep resting or proceed to shaping.
-Explain that the rest lets the preshaped round relax enough to fold easily.
-Use 10 minutes as the first check, with these explicit cues and actions:
+On 2026-09-09, the user removed the instructions to skip or cover the
+bench rest and the three substeps for extending or stopping the rest.
+Rest the preshaped round uncovered for 10 minutes, then follow the video
+for final shaping. Keep the initial preshape and final basket placement.
+The reason was not stated.
 
-- Skip the rest if the dough is already loose and easy to fold.
-- Gently stretch one edge a short distance. If it resists and pulls back
-  strongly, rest another 5 minutes and check again. Repeat once if needed,
-  for about 20 minutes total.
-- When the edge stretches and folds easily and the dough remains a rounded
-  mound, proceed to the final shape. A little spreading is normal; some
-  elasticity can remain.
-- If the dough quickly spreads wide and becomes flat, shape promptly,
-  even before the first 10 minutes have passed.
-
-This replaces the ambiguous "springs back" and "already relaxed or spreading"
-wording. Keep the schedule consistent with these checks. Cover the dough if
-its surface starts to form a dry skin.
-
-[The Perfect Loaf's preshaping guide](https://www.theperfectloaf.com/guides/how-to-preshape-bread-dough/)
-explains that bench rest allows enough relaxation for shaping without forcing
-or tearing the dough. Some outward spread is expected. This source was
-checked on 2026-09-07; the 10–20-minute guidance remains specific to this recipe.
+This supersedes the 2026-09-07 choice to use 10–20 minutes with checks for
+whether the dough is ready sooner or needs more rest. Keep the step's
+timing label and schedule consistent with the fixed 10-minute rest.
 
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
@@ -359,6 +354,12 @@ On 2026-09-05, the user chose to skip adding a crumb reference photo.
 Leave the guide without one for now.
 
 ## Aliquot rise target
+
+On 2026-09-09, the user requested that the bulk-fermentation step keep
+only its first two substeps. Retain the airy, softly bouncy dough check
+and the instruction to wait and recheck if the dough is still tight at
+the target. Remove the later timing, diagnosis, temperature, and next-loaf
+adjustment substeps. The reason was not stated.
 
 On 2026-09-05, the user chose to keep the existing tube guidance in Step 6:
 use a 40–50% sample rise as the current target, alongside the existing
