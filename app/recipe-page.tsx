@@ -50,7 +50,7 @@ const steps = [
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'Mix 500 g whole-wheat flour and all 400 g water until no dry pockets remain. Cover and rest for 60 minutes.',
+    body: 'Mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for 60 minutes.',
     details: [
       'After the 60-minute rest, check whether the dough feels smoother and stretches more easily.',
       'If it remains stiff or tears easily, try 75 minutes next time. If it becomes slack or weak, try 45 minutes next time.',
@@ -70,7 +70,7 @@ const steps = [
       caption: 'Sunrise Flour Mill · 20 seconds · YouTube',
     },
     details: [
-      'The dough will feel sticky at about 82% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+      'The dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
       'Take the sample immediately after the starter and salt are fully mixed in.',
       'Use the vacuum pump to draw dough into the tube and establish its 0% starting level.',
       'Keep the filled tube beside the bowl at the same temperature. Do not disturb it or return the sample to the loaf.',

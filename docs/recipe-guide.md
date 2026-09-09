@@ -33,14 +33,20 @@ decision that supersedes the earlier fixed 12-hour instruction.
 
 ## Autolyse water
 
-On 2026-09-07, the user requested all 400 g of dough water in the autolyse
-because 375 g left the mixture too dry. Mix it with the 500 g whole-wheat
-flour and keep the 60-minute rest. Add only the 100 g active starter and
-11 g salt in Step 3, then take the sample once they are fully mixed in.
+On 2026-09-09, the user chose 420 g of dough water because 400 g was still
+difficult to mix into all the whole-wheat flour, and the dough felt too tight
+during folding. The 20 g increase is a cautious first adjustment. Mix all
+420 g water with the 500 g whole-wheat flour and rest for 60 minutes. Add
+only the 100 g active starter and 11 g salt in Step 3, then take the sample
+once they are fully mixed in.
 
-This replaces the 375 g autolyse plus 25 g reserved-water split. The total
-water and final hydration stay the same; only the timing of the water
-addition changes.
+The autolyse is at 84% hydration. With a 100%-hydration starter contributing
+50 g each of flour and water, the final dough has 470 g water and 550 g flour:
+about 85.5% total hydration, up from about 81.8%.
+
+This supersedes the 400 g quantity selected on 2026-09-07 and the earlier
+375 g autolyse plus 25 g reserved-water split. All dough water goes into
+the autolyse; no water is reserved for Step 3.
 
 ## Mixing starter and salt
 
