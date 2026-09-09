@@ -20,7 +20,7 @@ import {
 import { Checkbox } from '@/components/ui/checkbox';
 import { useChecklist } from '@/hooks/use-checklist';
 
-const starterInspection = 'Discard the entire starter if you see mold or pink/orange streaks. A layer of liquid—even dark liquid—does not by itself mean the starter has spoiled.';
+const starterInspection = 'Discard the entire starter if you see mold or pink/orange streaks.';
 
 const steps = [
   {
@@ -35,13 +35,7 @@ const steps = [
       'Take the mother starter from the refrigerator. Move 20–60 g into the temporary container; discard what remains in the mother jar.',
       'Add 60 g water + 60 g flour. Use less mother starter when you have more time and more when you want the build ready sooner.',
       'Wash and dry the empty mother jar while the build ripens at your pantry temperature.',
-      'In your 70°F pantry, use roughly 6–12 hours from feeding to first doubling as an initial planning range for 20 g cold mother starter + 60 g pantry-temperature water + 60 g flour (1:3:3). A larger seed amount generally shortens the wait. This estimate assumes an established, reasonably active starter; peak can come later than doubling.',
-      'Use roughly doubling as the usual readiness checkpoint, then look for bubbles throughout and a domed top beginning to level off near its highest rise. If your build regularly rises beyond double, let its familiar near-peak appearance guide you instead of using it at the first doubling.',
-      'At 12 hours: if it has not doubled, postpone the loaf and switch to the 1:3:3 recovery routine in Mother starter maintenance. Stop the bake plan at this point; let a still-rising feed reach peak before feeding it again. This is your practical go/no-go cutoff for the 20/60/60 g build at 70°F, not a universal test of starter health. A slow first feed from the fridge may recover well with further feedings.',
-      'Peak is a useful window, not an exact moment. A build that has only just started to recede can still work; if it has collapsed substantially, re-feed and let it ripen again for a more predictable bake.',
-      'Once ripe, reserve around 20 g for the separate mother-starter refresh below. Keep 100 g ready for Step 3, then discard any extra.',
     ],
-    cue: 'This is the checkpoint for starter strength before committing flour to the loaf. A brisk, repeatable rise here makes normal bulk timing more likely. Mark this step done when the baking build is ready; the mother-starter refresh runs separately.',
   },
   {
     id: 'autolyse',
@@ -51,10 +45,6 @@ const steps = [
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
     body: 'Mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for 60 minutes.',
-    details: [
-      'After the 60-minute rest, check whether the dough feels smoother and stretches more easily.',
-      'If it remains stiff or tears easily, try 75 minutes next time. If it becomes slack or weak, try 45 minutes next time.',
-    ],
     cue: 'Start this when Step 1 looks about 60 minutes from ready.',
   },
   {
@@ -72,32 +62,25 @@ const steps = [
     details: [
       'The dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
       'Take the sample immediately after the starter and salt are fully mixed in.',
-      'Use the vacuum pump to draw dough into the tube and establish its 0% starting level.',
-      'Keep the filled tube beside the bowl at the same temperature. Do not disturb it or return the sample to the loaf.',
     ],
-    cue: 'The printed scale shows the rise directly—no millimeter conversion is needed.',
   },
   {
     // Keep the former folding-complete key so saved progress remains accurate.
     id: 'fold-two',
     phase: 'Early bulk',
-    time: 'Check every ~30 min',
+    time: '2 sets · 30 min apart',
     icon: RotateCcw,
-    title: 'Fold every 30 minutes as needed',
-    body: 'Keep the bowl covered on the counter for 30 minutes after adding the starter, then give the dough one gentle fold set. Cover and rest about 30 minutes between further sets, repeating only while the dough needs more strength.',
+    title: 'Fold twice',
+    body: 'Rest the covered dough for 30 minutes after adding the starter, then do one fold set. Cover and rest for another 30 minutes, then do the second set.',
     video: {
       url: 'https://www.youtube.com/watch?v=mwtTZK7_t08',
       title: 'Watch: stretch and fold sourdough',
       caption: 'The Perfect Loaf · 29 seconds · YouTube',
     },
     details: [
-      'Follow the video for one set of four folds, using lightly wet hands. Keep each stretch gentle and stop when the dough resists; do not force it or tear it.',
-      'If it looks smoother and stays gathered with rounded edges after the rest, stop folding. One set may be enough. Some spreading is normal; this wet whole-wheat dough does not need to stay in a tight ball.',
-      'If it still feels slack and quickly flattens after the rest, give it another gentle set, cover, and check again in about 30 minutes.',
-      'Keep these folds within roughly the first 2 hours after adding the starter. Stop sooner if the dough is already puffy and airy. If it remains loose at that point, stop folding and follow the bulk checks in Step 5; do not keep folding through the whole rise.',
-      'If the dough remains unusually stiff or tears easily after trying the longer autolyse, use 10–20 g more water on a later loaf.',
+      'For each set, follow the video for four gentle folds, using lightly wet hands.',
     ],
-    cue: 'Mark this step done when folding is finished, even if only the first set was needed. Leave the dough covered and undisturbed for the rest of bulk. All folds and rests count toward total bulk time. Keep the aliquot sample undisturbed throughout.',
+    cue: 'After the second set, cover and leave undisturbed for the rest of bulk. Both sets and rests count toward total bulk time.',
   },
   {
     id: 'bulk',
@@ -110,7 +93,7 @@ const steps = [
       'Ready feels airy and softly bouncy, with enough elasticity to hold together. Airiness is a good sign; dough becoming progressively weaker, tearing easily, or collapsing is a reason to shape sooner. Stickiness alone does not mean it has gone too far.',
       'If it is still tight and poorly aerated at the target, give it more time and recheck.',
       'At 10 hours of total bulk: if the sample is still below 40%, check the actual dough temperature and that the intended starter amount was added. Note the sample level and check again at 12 hours. Little or no further rise over those 2 hours, together with few bubbles, is a stalled-progress flag. These checkpoints prompt troubleshooting; they do not prove the starter is weak.',
-      'A brisk Step 1 build makes starter weakness less likely. If this dough is still gaining volume and holding together, give it more time. If it is losing strength or collapsing, shape promptly rather than waiting for a number. There is no reliable clock-only cutoff for abandoning a mixed loaf. Before the next bake, test the reserved starter with the timed 1:3:3 recovery routine if bulk was persistently sluggish; refeeding helps the starter for that future loaf.',
+      'A brisk Step 1 build makes starter weakness less likely. If this dough is still gaining volume and holding together, give it more time. If it is losing strength or collapsing, shape promptly rather than waiting for a number. There is no reliable clock-only cutoff for abandoning a mixed loaf.',
       'Underfermentation means the dough needed more fermentation time before baking. In the cooled loaf, look for unusually dense areas, sometimes with a few large holes or tunnels surrounded by tight crumb. Whole-wheat bread naturally has a tighter crumb, so small holes alone do not prove underfermentation. If these signs agree with dough that was tight at shaping, try 5–10 percentage points more rise next loaf—for example, 50% to 55–60%—while keeping other variables steady.',
       'If the dough loses strength before your target, shape now rather than chasing the number. If that pattern and a flat, weak loaf repeat, try 5–10 percentage points less rise next time.',
       'Warmer dough keeps fermenting faster while it cools in the fridge, so it generally needs an earlier cutoff; cooler dough may tolerate more rise. Pantry temperature helps compare bakes, but actual dough temperature controls fermentation. Whole-wheat dough may show less rise than white dough: do not automatically wait for doubling.',
@@ -231,12 +214,9 @@ function MotherStorageGuidance() {
         <thead><tr><th scope="col">Next use</th><th scope="col">Before refrigerating</th></tr></thead>
         <tbody>
           <tr><th scope="row">Within a few days</th><td>Let it rise substantially toward peak. Roughly doubled and still rising is a practical target; doubling may come before its actual peak, so you do not need to chase its maximum height.</td></tr>
-          <tr><th scope="row">Around a week</th><td>Refrigerate earlier in its rise to leave more food for storage. About 1–2 hours at 70°F is a reasonable starting point; small new bubbles or slight expansion are useful cues, but a healthy starter may show little visible change.</td></tr>
-          <tr><th scope="row">Several weeks or longer</th><td>Refrigerate soon after feeding, once fermentation has begun. Plan on refreshment feedings at room temperature before the next bake; for longer breaks, consider drying a backup.</td></tr>
+          <tr><th scope="row">A week or longer</th><td>Refrigerate earlier in its rise to leave more food for storage. About 1–2 hours at 70°F is a reasonable starting point; small new bubbles or slight expansion are useful cues, but a healthy starter may show little visible change.</td></tr>
         </tbody>
       </table>
-      <p>These are flexible guidelines, not deadlines. If your plans are uncertain, a substantial rise while it is still growing is a reasonable compromise. The fridge slows fermentation gradually; it does not hold the starter at peak. A longer warm rest lets the microbes multiply, but also uses more food and develops more acidity.</p>
-      <p>You will feed a portion of cold mother to build a fresh levain in Step 1, so the mother does not need to come out of storage at peak. Judge readiness by that new build, and use recovery feedings if it is sluggish.</p>
     </div>
   );
 }
@@ -325,8 +305,6 @@ export function RecipePage() {
                 <li>Mix, cover, and mark the starting level. Let it rest in your <strong>70°F pantry</strong>, choosing how far to let it rise from the guide below, then refrigerate.</li>
               </ol>
               <MotherStorageGuidance />
-              <div className="starter-note"><strong>Has the mother started to fall?</strong><p>A slight fall after peak is normal. Continue with the usual 1:3:3 feeding. If it has been neglected or the next feed rises weakly, use the recovery routine below. Judge its strength by how it responds to fresh food, rather than by its appearance coming out of the refrigerator.</p></div>
-              <div className="starter-note"><strong>Is it sluggish?</strong><p>If it has been neglected or its baking builds rise weakly, keep it at room temperature for recovery feedings at <strong>1:3:3 by weight: 1 part starter, 3 parts water, and 3 parts fresh flour.</strong> For example, keep 20 g starter and add 60 g water + 60 g flour, making 140 g total. At each new feeding, retain a small portion and discard the rest, then add three times the retained weight in both water and flour.</p><p>Mark the starting level and note when it doubles. Let each feed reach its highest rise, with the top leveling off or just beginning to recede, before feeding again. Do not automatically re-feed after 12 hours if it is still slowly rising; a cold start can take longer.</p><p><strong>Return-to-baking benchmark:</strong> aim for two consecutive 1:3:3 feeds, started and kept at about 70°F, that each double within 10 hours. This is a practical consistency target for planning your bakes, not a universal definition of a healthy starter. If a feed takes longer, continue the recovery routine. Once it meets that target, use the near-peak readiness cues in Step 1; the first cold feed is not one of these two room-temperature checks.</p><p>To return a recovered starter to storage, use the same 1:3:3 maintenance feed above, then choose its counter rest from the storage guide based on your next bake. The storage rest is not a test of baking readiness.</p></div>
             </article>
           </div>
         </details>

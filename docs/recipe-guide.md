@@ -48,6 +48,10 @@ This supersedes the 400 g quantity selected on 2026-09-07 and the earlier
 375 g autolyse plus 25 g reserved-water split. All dough water goes into
 the autolyse; no water is reserved for Step 3.
 
+On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
+main mixing instruction, the 60-minute rest, and the starter-overlap cue.
+The reason was not stated.
+
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
@@ -64,6 +68,11 @@ and 11 g salt into the rested dough until reasonably uniform, with no
 kneading. Keep lightly wet hands, no added flour, and taking the tube sample
 only after both ingredients are fully mixed in. Step 2 remains a written
 instruction to mix flour and water and rest for the autolyse.
+
+On 2026-09-09, the user requested removal of Step 3 substeps 3 and 4,
+which described filling and placing the sample tube, and the closing note
+about millimeter conversion. Keep the first two substeps. The reason was
+not stated.
 
 ## Cold-proof timing and flavor
 
@@ -203,7 +212,7 @@ standalone problems with the ongoing process or instructions to intervene
 in the current bake.
 
 Put process troubleshooting at the relevant step. For example, a slow
-starter build belongs with Step 1 and starter recovery; weak dough during
+starter build belongs with Step 1; weak dough during
 folding belongs with the fold step; stalled bulk belongs with Step 5;
 and a pale crust during baking belongs with Step 11. This keeps help where
 the baker needs it and reserves the final table for reviewing the result.
@@ -231,64 +240,32 @@ the next loaf. Existing flavor-preference rows remain in place.
 The [whole-wheat recipe and troubleshooting reference](https://www.theperfectloaf.com/100-whole-wheat-sourdough/)
 was checked on 2026-09-05 and identifies multiple causes of gummy crumb.
 
-## Fold strength checkpoint
+## Folding
 
-On 2026-09-07, the user requested at least one fold set, followed by checks
-about every 30 minutes and further sets only while the dough needs more
-strength. This supersedes the 2026-09-05 rule of two required sets and an
-optional third. The reason is to let dough strength determine when to stop,
-at the cost of assessing the dough instead of following a fixed set count.
+On 2026-09-09, the user chose exactly two fold sets for Step 4 and asked
+to remove the instructions for judging how many sets to perform. This
+supersedes the 2026-09-07 choice to check dough strength every 30 minutes
+and stop after one set or add further sets as needed. The user wants a
+fixed count instead of these extra judgments.
 
-On 2026-09-07, the user also requested combining the first set and later
-checks into one Step 4: fold every 30 minutes as needed. This simplifies
-the checklist while keeping the same strength checks and stopping cues.
-Renumber the later steps and their references. Keep the former
-folding-complete checklist key so saved progress still means folding is
-finished; a saved first-set check alone does not complete the combined step.
+Rest the covered dough for 30 minutes after adding the starter, then do
+the first set. Cover and rest for another 30 minutes, then do the second
+set. Each set consists of four gentle folds with lightly wet hands.
+After the second set, cover and leave the dough undisturbed for the rest
+of bulk. Both sets and rests count toward total bulk time.
 
-In Step 4, perform the first gentle set 30 minutes after adding the starter.
-Four folds, one from each side, make one set. Use lightly wet hands and stop
-each stretch when the dough resists; avoid tearing it.
+Keep Step 4 as one checklist item with the existing `fold-two` key so
+saved progress remains attached to the same step. Remove the old
+strength checks, optional additional sets, early-stop instructions, and
+advice to change water on a later loaf.
 
 On 2026-09-07, the user requested a YouTube demonstration in place of the
-written stretch-and-fold movements in Step 4. Use The Perfect Loaf's
+written stretch-and-fold movements in Step 4. Keep The Perfect Loaf's
 [29-second stretch-and-fold video](https://www.youtube.com/watch?v=mwtTZK7_t08).
-Its overhead view clearly shows wet hands and the four-sided bowl fold.
-The video and its public availability were checked on 2026-09-07. The
-source calls this a vigorous set; keep this recipe's gentle handling and
-stop-at-resistance rule. This is the ordinary stretch-and-fold movement,
-not the separate coil-fold method in the source's gentle-fold video.
-
-Replace the written hand movements with the same video-link treatment used
-in Step 6. Keep the four-fold set, timing, strength checks, stopping cues,
-troubleshooting, and checklist behavior. The video teaches the movement;
-the recipe's checks determine whether another set is needed.
-
-Cover and rest about 30 minutes, then check before folding again.
-If the dough looks smoother and stays gathered with rounded edges after the
-rest, stop folding. One set may be enough. Some spreading is normal; this
-wet whole-wheat dough does not need to stay in a tight ball. If it still
-feels slack and quickly flattens, give it another gentle set, cover, rest
-about 30 minutes, and reassess.
-
-Keep folds within roughly the first 2 hours after starter addition, stopping
-sooner if the dough is already puffy and airy. This is a practical limit for
-this recipe to keep handling in early bulk, not a universal fermentation
-deadline. If it remains loose then, stop folding and use Step 5's bulk
-checks. Do not keep folding through the whole rise to chase a firm ball.
-
-Mark Step 4 complete when folding is finished, even if only the first set
-was needed. Leave the dough covered and undisturbed for the rest of bulk.
-Count all folds and rests within total bulk time and keep the aliquot
-sample undisturbed.
-
-References checked on 2026-09-07:
-
-- [The Perfect Loaf's folding guide](https://www.theperfectloaf.com/how-to-stretch-and-fold-sourdough-bread-dough/)
-  supports roughly 30-minute rests and checking dough strength before
-  deciding whether another set is needed.
-- [King Arthur: what folding bread dough means](https://www.kingarthurbaking.com/blog/2023/07/31/what-does-folding-bread-dough-mean-exactly)
-  places the folds early in bulk, followed by undisturbed fermentation.
+Its overhead view shows wet hands and the four-sided bowl fold. The video
+and its public availability were checked on 2026-09-07. Keep this recipe's
+gentle handling. The video teaches the movement; the recipe specifies two
+sets.
 
 ## Shaping instructions
 
@@ -411,6 +388,12 @@ On 2026-09-07, the user chose to begin Step 1 the night before mixing so
 the starter develops overnight. Label its phase "Evening before day 1".
 Keep the current starter amounts, timing estimate, and readiness checks.
 
+On 2026-09-09, the user requested that Step 1 end after substep 4, which
+instructs them to wash and dry the empty mother jar. Remove substeps 5–9
+and the closing checkpoint note. This supersedes the earlier choice to
+keep the detailed readiness checks within Step 1. The reason was not stated.
+The separate mother-starter refresh task remains.
+
 [King Arthur's feeding-ratio trials](https://www.kingarthurbaking.com/blog/2025/03/13/sourdough-feeding-ratios)
 support using the feeding ratio to adjust ripening time. The source was
 checked on 2026-09-05.
@@ -419,8 +402,11 @@ checked on 2026-09-05.
 
 On 2026-09-05, the user accepted a contamination check in Step 1 and mother
 starter maintenance. Before retaining a portion or feeding, discard the
-entire starter if it has visible mold or pink/orange streaks. A layer of
-liquid, even dark liquid, does not by itself establish spoilage.
+entire starter if it has visible mold or pink/orange streaks.
+
+On 2026-09-09, the user requested removal of the sentence about a layer of
+liquid from both locations. The reason was not stated. Keep the discard
+instruction.
 
 Place this check before the feeding instructions so a contaminated culture
 is not treated as a merely sluggish starter. Keep it out of the final
@@ -428,7 +414,7 @@ finished-loaf troubleshooting section. The two locations share the same
 wording.
 
 [King Arthur's starter troubleshooting guidance](https://www.kingarthurbaking.com/blog/2018/03/09/sourdough-starter-troubleshooting-2)
-supports this distinction. The source was checked on 2026-09-05.
+supports the contamination check. The source was checked on 2026-09-05.
 
 ## Mother maintenance ratio
 
@@ -443,7 +429,22 @@ actual portion: 20 g takes 60 g each water and flour; 22 g takes 66 g each.
 Keep the storage-rest guidance based on when the mother will next be used,
 and keep the separate baking-build range and readiness checks.
 
+## Mother storage guide
+
+On 2026-09-09, the user chose "A week or longer" as the second storage
+option and removed the separate "Several weeks or longer" option. Keep
+"Within a few days" and the existing instructions for both remaining rows.
+Use the same table for weekly maintenance and the bake-day mother refresh.
+
+The user also requested removal of all explanatory paragraphs below the
+table, including the notes about a falling or sluggish mother starter.
+The reason was not stated. Remove the bulk-step reference to the deleted
+recovery routine.
+
 ## Mother collapse and recovery
+
+The 2026-09-09 storage-guide change above supersedes the following choice
+to include collapse and recovery notes in the recipe.
 
 On 2026-09-07, the user accepted a short clarification before the mother
 recovery routine: a slight fall after peak is normal, so continue with the
