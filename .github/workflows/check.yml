@@ -20,8 +20,9 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           persist-credentials: false
-      - name: Install ShellCheck
-        run: sudo apt-get update && sudo apt-get install --yes shellcheck
+      # Ubuntu 24.04 includes ShellCheck; avoid unrelated apt repository failures.
+      - name: Verify ShellCheck
+        run: shellcheck --version
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:

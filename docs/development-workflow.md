@@ -236,8 +236,9 @@ hand-written project knowledge.
 
 [Repository checks](../.github/workflows/check.yml) run `bin/check --full` for pull
 requests and pushes to `main` on GitHub Actions. The Ubuntu 24.04 runner
-installs ShellCheck before running the checks. The workflow has read-only
-repository permissions. QMD and direnv are optional and are simulated by
+includes ShellCheck; the workflow verifies it without refreshing apt package
+repositories. The workflow has read-only repository permissions.
+QMD and direnv are optional and are simulated by
 the foundation tests; CI does not download search models.
 
 `.project-starter.json` records the copied release and tested QMD version.
