@@ -312,6 +312,12 @@ banneton without flour dusting. This supersedes the earlier instruction to
 dust the banneton generously with rice flour. This choice is based on the
 user's basket and observed results.
 
+On 2026-09-10, the user requested placing the entire banneton inside a
+large Ziploc bag after adding the shaped loaf. Seal the bag to keep the
+moisture in, then keep it sealed during the refrigerated cold proof.
+Add this as the final shaping substep and replace the cold-proof step's
+general covering instruction with keeping the bag sealed.
+
 Later on 2026-09-07, the user requested a YouTube demonstration in place of
 the written shaping motions. Use Alexandra's Kitchen's
 [58-second final shaping video](https://www.youtube.com/watch?v=0zCPoagZk4Q).

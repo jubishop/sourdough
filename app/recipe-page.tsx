@@ -111,6 +111,7 @@ const steps = [
       'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
       'Rest the round uncovered for 10 minutes so it becomes easier to fold.',
       'Follow 1:58–3:02 of the video for hand shaping. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
+      'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',
     ],
     cue: 'If dough sticks to your hands, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
   },
@@ -120,7 +121,7 @@ const steps = [
     time: '12–24 hr at ~38°F',
     icon: Snowflake,
     title: 'Cold-proof overnight',
-    body: 'Cover and refrigerate immediately for 12–24 hours. Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Bake directly from the refrigerator.',
+    body: 'Keep the bag sealed and refrigerate immediately for 12–24 hours. Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Bake directly from the refrigerator.',
     cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
