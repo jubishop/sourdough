@@ -5,7 +5,6 @@ import {
   CheckCircle2,
   ChevronRight,
   Circle,
-  Clock3,
   CookingPot,
   Flame,
   FlaskConical,
@@ -21,6 +20,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { useChecklist } from '@/hooks/use-checklist';
 
 const starterInspection = 'Discard the entire starter if you see mold or pink/orange streaks.';
+const motherStorageGuidance = 'Let it develop more before refrigerating if you plan to use it again sooner.';
 
 const steps = [
   {
@@ -191,21 +191,6 @@ const diagnoses = [
   ['Good structure, tastes too salty', 'Use 1 g less salt next time.'],
 ];
 
-function MotherStorageGuidance() {
-  return (
-    <div className="mother-storage-guide">
-      <table>
-        <caption>Choose the rest by when you will next use the mother</caption>
-        <thead><tr><th scope="col">Next use</th><th scope="col">Before refrigerating</th></tr></thead>
-        <tbody>
-          <tr><th scope="row">Within a few days</th><td>Let it rise substantially toward peak. Roughly doubled and still rising is a practical target; doubling may come before its actual peak, so you do not need to chase its maximum height.</td></tr>
-          <tr><th scope="row">A week or longer</th><td>Refrigerate earlier in its rise to leave more food for storage. About 1–2 hours at 70°F is a reasonable starting point; small new bubbles or slight expansion are useful cues, but a healthy starter may show little visible change.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  );
-}
-
 export function RecipePage() {
   const [completed, setCompleted] = useChecklist();
   const completedSteps = steps.filter((step) => completed.includes(step.id)).length;
@@ -287,9 +272,8 @@ export function RecipePage() {
                 <li>{starterInspection}</li>
                 <li>Take it from the refrigerator and move around <strong>20 g</strong> into the temporary container. Weigh the amount you actually transfer, discard the rest, and wash and dry the mother jar.</li>
                 <li>Return the reserved starter to the mother jar. Feed at <strong>1:3:3 by weight: 1 part starter, 3 parts water, and 3 parts fresh flour</strong>. Add three times the starter’s actual weight in both water and fresh flour. For example: 20 g starter + 60 g water + 60 g flour, making 140 g total.</li>
-                <li>Mix, cover, and mark the starting level. Let it rest in your <strong>70°F pantry</strong>, choosing how far to let it rise from the guide below, then refrigerate.</li>
+                <li>Mix and cover. Let it rest in your <strong>70°F pantry</strong>, then refrigerate. {motherStorageGuidance}</li>
               </ol>
-              <MotherStorageGuidance />
             </article>
           </div>
         </details>
@@ -338,14 +322,11 @@ export function RecipePage() {
                           <Snowflake aria-hidden="true" />
                           <div><p className="mother-task-label">Alongside the bake</p><h3 id="mother-refresh-title">Refresh the mother starter</h3></div>
                         </div>
-                        <p className="mother-task-timing"><Clock3 aria-hidden="true" /> Rest depends on when you will next use the mother</p>
                         <p className="mother-task-flow"><strong>Keep making the loaf while this jar rests.</strong></p>
                         <ol className="mother-task-instructions">
-                          <li><strong>Feed the reserved portion at 1:3:3.</strong> Put around 20 g of ripe build into the clean mother jar. Weigh the amount you actually transfer, then add three times that weight in water and three times that weight in fresh flour. For example: 22 g starter + 66 g water + 66 g flour.</li>
-                          <li><strong>Rest while you make the dough.</strong> Mix, cover, and mark the starting level. Leave it in your 70°F pantry and choose the rest from the guide below. Continue Steps 2 and 3 on their own schedule.</li>
-                          <li><strong>Return it to the fridge.</strong> Once it reaches your chosen stage, refrigerate and check this task off. You do not need to wait for its exact peak.</li>
+                          <li><strong>Feed at 1:3:3.</strong> Put around 20 g of ripe build into the clean mother jar. Add three times its actual weight in water and in fresh flour.</li>
+                          <li><strong>Rest, then refrigerate.</strong> Mix and cover. Let it rest in your 70°F pantry. {motherStorageGuidance}</li>
                         </ol>
-                        <MotherStorageGuidance />
                       </div>
                       <label className="step-check mother-task-check" htmlFor="mother-refrigerated"><Checkbox id="mother-refrigerated" checked={motherRefrigerated} onCheckedChange={(value) => toggleStep('mother-refrigerated', value)} aria-label="Mark mother starter back in the fridge" /><span>Back in the fridge</span></label>
                     </aside>

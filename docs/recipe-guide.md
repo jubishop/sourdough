@@ -438,10 +438,18 @@ and keep the separate baking-build range and readiness checks.
 
 ## Mother storage guide
 
-On 2026-09-09, the user chose "A week or longer" as the second storage
-option and removed the separate "Several weeks or longer" option. Keep
-"Within a few days" and the existing instructions for both remaining rows.
-Use the same table for weekly maintenance and the bake-day mother refresh.
+On 2026-09-09, the user requested a shorter mother-refresh section with
+general guidance instead of precise fermentation targets before refrigeration.
+Use: "Let it develop more before refrigerating if you plan to use it again
+sooner." Use the same sentence for weekly maintenance and the bake-day
+mother refresh. Remove the storage table, rise targets, time estimates,
+and peak instructions. Keep the 1:3:3 feed and the reminder to continue
+making the loaf while the mother rests.
+
+This supersedes the earlier 2026-09-09 choice to retain a two-row table
+with "Within a few days" and "A week or longer" after removing the separate
+"Several weeks or longer" option. The user wants succinct guidance based
+on how soon they plan to use the mother again.
 
 The user also requested removal of all explanatory paragraphs below the
 table, including the notes about a falling or sluggish mother starter.
