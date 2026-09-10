@@ -206,6 +206,10 @@ during preheating and baking. Keep the existing parchment sling and lower
 the loaf onto the foil lining. Put the preparation in Step 9 and the
 loading instruction in Step 10.
 
+The user then requested removal of the explicit "Do not grease it" sentence
+from the site. Greasing remains outside the recipe; omit the prohibition
+from the displayed instructions.
+
 The user clarified that their double Dutch oven has a shallow base with
 low sides, and only the bottom of the loaf browns against it. Cover only
 the flat bottom with foil; no foil up the sides is needed for their setup.

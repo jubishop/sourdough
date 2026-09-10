@@ -133,7 +133,7 @@ const steps = [
     title: 'Preheat the Dutch oven and pizza stone',
     body: 'Line the bottom of the Dutch oven with one layer of aluminum foil, then preheat it with the pizza stone at 475°F for at least 60 minutes.',
     details: [
-      'While the Dutch oven is cold, lay one sheet of foil across the bottom and smooth it flat. Do not grease it.',
+      'While the Dutch oven is cold, lay one sheet of foil across the bottom and smooth it flat.',
       'Put the pizza stone on a separate rack directly below the Dutch oven. Leave the foil lining in the pot during the preheat and bake.',
     ],
     cue: 'Keep the loaf refrigerated until your chosen 12–24-hour proof and the preheat are complete.',
