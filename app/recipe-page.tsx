@@ -103,16 +103,16 @@ const steps = [
     title: 'Shape and place in the banneton',
     body: 'Use your cotton banneton without dusting it with flour.',
     video: {
-      url: 'https://www.youtube.com/watch?v=0zCPoagZk4Q',
-      title: 'Watch: shape a round loaf with a bench scraper',
-      caption: 'Alexandra’s Kitchen · 58 seconds · YouTube',
+      url: 'https://www.youtube.com/watch?v=MPdedk9gJLQ&t=118s',
+      title: 'Watch: shape a round loaf with your hands',
+      caption: 'Ken Forkish · Watch 1:58–3:02 · YouTube',
     },
     details: [
-      'Turn the dough onto a clean, dry counter without flour and use a bench scraper to form a gentle round.',
+      'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
       'Rest the round uncovered for 10 minutes so it becomes easier to fold.',
-      'Follow the video for final shaping, then place the loaf in your cotton banneton with the smooth side down and the seam side up.',
+      'Follow 1:58–3:02 of the video for hand shaping. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
     ],
-    cue: 'If dough sticks to your hand or scraper, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
+    cue: 'If dough sticks to your hands, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
   },
   {
     id: 'cold-proof',

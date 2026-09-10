@@ -337,6 +337,23 @@ This supersedes the 2026-09-07 choice to use 10–20 minutes with checks for
 whether the dough is ready sooner or needs more rest. Keep the step's
 timing label and schedule consistent with the fixed 10-minute rest.
 
+Later on 2026-09-09, the user chose to shape with their hands and requested
+a replacement video. This supersedes the bench scraper method and
+Alexandra's Kitchen video above. Use Ken Forkish's
+[Shaping the Loaves, starting at 1:58](https://www.youtube.com/watch?v=MPdedk9gJLQ&t=118s).
+The 1:58–3:02 section shows folding, cupping, pulling, and turning a round
+loaf with both hands. Its close-up views and explanation of hand pressure
+make it a good fit for the requested method. The video, transcript, and
+shaping footage were checked on 2026-09-09.
+
+Keep the gentle hand preshape, uncovered 10-minute rest, and existing
+sticking guidance. Follow only the specified shaping section: the full
+video also divides a two-loaf batch and later puts the dough seam-side down
+in a floured basket. For this recipe, lift the loaf with both hands into
+the user's unfloured cotton banneton, smooth side down and seam side up,
+then follow the existing cold-proof step. Do not adopt the video's basket
+orientation, flour requirement, or proofing schedule.
+
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
 source was checked on 2026-09-05.
