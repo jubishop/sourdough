@@ -216,6 +216,13 @@ and a different bread recipe. The foil pad's thickness matters; one flat
 sheet did not prevent excessive darkening in that test. The lining is a
 chosen adjustment, not a guarantee against scorching in this recipe.
 
+## Scoring length
+
+On 2026-09-10, the user chose to describe the slash length by its distance
+from the loaf's edges so the instruction works with different loaf sizes.
+Start about 1 inch in from one edge and stop about 1 inch before the opposite
+edge. Use one slash across the smooth top, ½ inch deep at a 30–45° angle.
+
 ## Bake phase explanations
 
 On 2026-09-05, the user accepted a short explanation of each baking phase:

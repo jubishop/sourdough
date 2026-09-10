@@ -148,7 +148,7 @@ const steps = [
     details: [
       'Cut a sheet of parchment paper large enough to use as a sling.',
       'Invert the cold loaf from the banneton onto the parchment. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
-      'Score the smooth top—not the seam side—with one decisive ½-inch-deep slash at a 30–45° angle.',
+      'Score the smooth top—not the seam side—with one decisive ½-inch-deep slash at a 30–45° angle. Start about 1 inch in from one edge and stop about 1 inch before the opposite edge.',
       'Remove the hot Dutch oven. Use the parchment as a sling to lower the scored loaf onto the foil lining, then put the lid on.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
