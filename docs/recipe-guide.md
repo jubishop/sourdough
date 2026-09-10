@@ -161,8 +161,12 @@ On 2026-09-08, the user extended the uncovered bake in Step 12 from
 12 to 15 minutes. This replaces the earlier 12-minute setting.
 
 On 2026-09-10, the user lowered the uncovered-bake temperature by 25°F,
-from 425°F to 400°F. This replaces the earlier 425°F setting. The reason
+from 425°F to 400°F. The reason
 was not stated.
+
+Later that day, the user restored the uncovered-bake temperature to 425°F
+because they felt they had changed too many variables at once. This
+supersedes the 400°F setting. Keep the 15-minute uncovered bake time.
 
 On 2026-09-09, the user requested removal of all substeps from the
 uncovered-bake step. The reason was not stated.
@@ -171,7 +175,7 @@ On 2026-09-10, the user chose to remove the loaf from the oven after exactly
 15 minutes uncovered. They want a fixed endpoint. This supersedes the earlier
 visual baking endpoint and instructions to add time based on crust color.
 
-Bake for 30 minutes covered at 450°F, then 15 minutes uncovered at 400°F.
+Bake for 30 minutes covered at 450°F, then 15 minutes uncovered at 425°F.
 Then remove the loaf from the oven. Keep the existing minimum three-hour
 cooling period. Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
