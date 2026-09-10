@@ -122,16 +122,20 @@ const steps = [
     icon: Snowflake,
     title: 'Cold-proof overnight',
     body: 'Keep the bag sealed and refrigerate immediately for 12–24 hours. Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Bake directly from the refrigerator.',
-    cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 45 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
+    cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
     phase: 'Day 2',
-    time: 'At least 45 min',
+    time: 'At least 60 min',
     overlap: 'Overlaps Step 8',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'At least 45 minutes before your planned bake time, put the pizza stone on the rack directly below the Dutch oven. Preheat the oven, Dutch oven, and pizza stone to 475°F. You can begin earlier.',
+    body: 'Line the bottom of the Dutch oven with one layer of aluminum foil, then preheat it with the pizza stone at 475°F for at least 60 minutes.',
+    details: [
+      'While the Dutch oven is cold, lay one sheet of foil across the bottom and smooth it flat. Do not grease it.',
+      'Put the pizza stone on a separate rack directly below the Dutch oven. Leave the foil lining in the pot during the preheat and bake.',
+    ],
     cue: 'Keep the loaf refrigerated until your chosen 12–24-hour proof and the preheat are complete.',
   },
   {
@@ -145,7 +149,7 @@ const steps = [
       'Cut a sheet of parchment paper large enough to use as a sling.',
       'Invert the cold loaf from the banneton onto the parchment. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
       'Score the smooth top—not the seam side—with one decisive ½-inch-deep slash at a 30–45° angle.',
-      'Remove the hot Dutch oven. Use the parchment as a sling to lower the scored loaf into it, then put the lid on.',
+      'Remove the hot Dutch oven. Use the parchment as a sling to lower the scored loaf onto the foil lining, then put the lid on.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },
@@ -156,15 +160,14 @@ const steps = [
     icon: CookingPot,
     title: 'Bake covered at 450°F',
     body: 'Lower the oven to 450°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
-    cue: 'Skip added ice and water. The loaf supplies its own steam.',
   },
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: 'Check after 15 min',
+    time: '15 min uncovered',
     icon: Flame,
-    title: 'Finish uncovered at 425°F',
-    body: 'Remove the lid, lower the oven to 425°F, and bake for 15 minutes. The uncovered bake lets the crust dry and brown. Then check the crust.',
+    title: 'Finish uncovered at 400°F',
+    body: 'Remove the lid, lower the oven to 400°F, and bake for 15 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
   },
   {
     id: 'cool',
@@ -181,7 +184,7 @@ const diagnoses = [
   ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, let bulk go a little longer next bake. Small holes alone are normal in whole-wheat bread.'],
   ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, shape a little earlier next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
   ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
-  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake. Still follow the visual crust check in Step 12.'],
+  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake.'],
   ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too dark', 'If the finished crust is too dark for your taste, try lowering the uncovered temperature by 25°F next bake. Keep the bake time as your first trial.'],
@@ -243,12 +246,12 @@ export function RecipePage() {
             <li>
               <h3>Cold proof</h3>
               <strong>12–24 hr at ~38°F</strong>
-              <p>Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Preheat the oven, Dutch oven, and pizza stone to 475°F for at least the final 45 minutes.</p>
+              <p>Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Line the bottom of the Dutch oven with one layer of foil, then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>
-              <strong>30 min covered + 15 min to first crust check</strong>
-              <p>Bake at 450°F covered, then 425°F uncovered. If the crust is still pale, continue in 5-minute increments.</p>
+              <strong>30 min covered + 15 min uncovered</strong>
+              <p>Bake at 450°F covered, then 400°F uncovered. Then remove the loaf from the oven.</p>
             </li>
             <li>
               <h3>Cool</h3>
@@ -301,10 +304,10 @@ export function RecipePage() {
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
                     <div className="parallel-prep" aria-label="Steps 8 and 9 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 9 at least 45 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 10.</span></div>
+                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 9 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 10.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
                         <div className="timeline-row"><b>8 · Cold proof</b><i /><span>12–24 hr</span></div>
-                        <div className="timeline-row overlap-line"><b>9 · Preheat</b><i /><span>45+ min</span></div>
+                        <div className="timeline-row overlap-line"><b>9 · Preheat</b><i /><span>60+ min</span></div>
                         <div className="timeline-merge"><ChevronRight /> Step 10 · Score and load</div>
                       </div>
                     </div>

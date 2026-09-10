@@ -15,9 +15,8 @@ current best judgment of exactly what to do. State the selected quantities,
 temperatures, and durations directly. Avoid optional alternatives or loose
 "baseline" wording when a fixed instruction is practical.
 
-Retain condition-based decisions where needed, such as starter readiness,
-dough strength, bulk fermentation, and the accepted visual
-baking endpoint. Give a specific cue and action for each exception.
+Retain condition-based decisions where needed, such as starter readiness
+and bulk fermentation. Give a specific cue and action for each exception.
 
 The starter-build amount is also intentionally flexible so the user can
 adjust its readiness to their schedule. See [Starter build timing](#starter-build-timing).
@@ -84,8 +83,9 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 This supersedes the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, preheat overlap, and flavor troubleshooting together.
-Preheat the oven and Dutch oven to 475°F for at least 45 minutes before the
-chosen bake time. Keep the loaf refrigerated until ready to score and load.
+Line the bottom of the Dutch oven with one layer of foil, then preheat it
+with the pizza stone at 475°F for at least 60 minutes before the chosen bake
+time. Keep the loaf refrigerated until ready to score and load.
 
 On 2026-09-09, the user requested removal of the cold-proof step's sole
 substep about fermentation, acidity, and flavor. Keep the main instruction
@@ -141,47 +141,40 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 a 10-minute bench rest, a 12–24-hour cold proof, 30 minutes
-covered followed by 15 minutes to the first uncovered crust check, and at
+covered followed by 15 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
-10-minute bench rest, and visual baking endpoint clear.
+10-minute bench rest, and fixed bake time clear.
 
 Show the overlaps: start the 60-minute autolyse when the starter looks about
 an hour from ready; folds and their rests count within bulk; preheat the
-oven, Dutch oven, and pizza stone for at least the final 45 minutes of the cold proof.
+oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold proof.
 The starter and bulk estimates assume the user's 70°F pantry. Do not turn
 them into guaranteed clock times or promise a fixed total duration.
 
-## Visual baking endpoint
+## Fixed bake time
 
-On 2026-09-05, the user chose visual guidance for checking the baked loaf.
-They do not have or want to use a probe to measure its center temperature.
+On 2026-09-05, the user said they do not have or want to use a probe to
+measure the loaf's center temperature.
 Do not require an internal-temperature reading in the baking instructions.
 
-On 2026-09-08, the user extended the initial uncovered bake in Step 12 from
+On 2026-09-08, the user extended the uncovered bake in Step 12 from
 12 to 15 minutes. This replaces the earlier 12-minute setting.
 
-Keep 30 minutes covered at 450°F and an initial 15 minutes uncovered at 425°F.
-After the initial 15 minutes uncovered, inspect the exposed crust for a deep
-golden-brown color. Distinguish flour dusting from pale crust. If the crust
-is still pale, continue uncovered in five-minute increments and check again.
-
-Color cannot confirm the condition of the center. Keep the existing minimum
-three-hour cooling period, then use the cooled crumb to refine future bake
-timing. This method avoids a probe but depends more on experience with the
-oven and results from previous loaves.
+On 2026-09-10, the user lowered the uncovered-bake temperature by 25°F,
+from 425°F to 400°F. This replaces the earlier 425°F setting. The reason
+was not stated.
 
 On 2026-09-09, the user requested removal of all substeps from the
-uncovered-bake step. This supersedes the choice to include the detailed
-crust-color, extra-baking-time, and cooled-crumb instructions there. Keep
-the main 15-minute baking instruction and its closing crust check. The
-reason was not stated.
+uncovered-bake step. The reason was not stated.
 
-References checked on 2026-09-05:
+On 2026-09-10, the user chose to remove the loaf from the oven after exactly
+15 minutes uncovered. They want a fixed endpoint. This supersedes the earlier
+visual baking endpoint and instructions to add time based on crust color.
 
-- [The Perfect Loaf: whole-wheat sourdough](https://www.theperfectloaf.com/100-whole-wheat-sourdough/)
-  uses crust color as a baking cue and recommends cooling before slicing.
-- [King Arthur: using a thermometer with yeast bread](https://www.kingarthurbaking.com/blog/2017/04/07/using-a-thermometer-with-yeast-bread)
-  explains why baking endpoints depend on the bread and desired texture.
+Bake for 30 minutes covered at 450°F, then 15 minutes uncovered at 400°F.
+Then remove the loaf from the oven. Keep the existing minimum three-hour
+cooling period. Keep the schedule, step label, and instructions consistent
+with this fixed bake time.
 
 ## Preheat the pizza stone with the Dutch oven
 
@@ -191,11 +184,46 @@ the stone in place for the bake.
 Remove the conditional note about adding a sheet pan if the bottom scorches.
 The stone is now part of the normal bake instructions.
 
+On 2026-09-10, the user initially lowered the preheat temperature from 475°F to
+450°F to reduce bottom scorching and match the covered-bake temperature.
+The foil-lining decision below supersedes this temperature change.
+
+Later on 2026-09-10, the user increased the preheat to a full 60 minutes
+for the Dutch oven and pizza stone. This replaces the earlier 45-minute
+minimum. The reason was not stated. Update the cold-proof reminder,
+preheat step, schedule, and overlap timeline together.
+
+Later that day, the user chose King Arthur's aluminum-foil lining method
+to reduce bottom scorching and restored the preheat to 475°F. Keep the
+60-minute minimum and the pizza stone on a separate rack directly below
+the Dutch oven. Lower the oven to 450°F for the 30-minute covered bake.
+
+The user then simplified the lining to one layer of foil with no greasing
+because greasing was too much work. This supersedes the thick foil pad,
+second sheet up the sides, and oiling instructions. Lay one sheet flat
+across the bottom of the cold pot before preheating. Leave it in place
+during preheating and baking. Keep the existing parchment sling and lower
+the loaf onto the foil lining. Put the preparation in Step 9 and the
+loading instruction in Step 10.
+
+The user clarified that their double Dutch oven has a shallow base with
+low sides, and only the bottom of the loaf browns against it. Cover only
+the flat bottom with foil; no foil up the sides is needed for their setup.
+
+[King Arthur's foil-lining method](https://www.kingarthurbaking.com/blog/2025/07/30/the-bottom-of-my-bread-gets-too-dark)
+was checked on 2026-09-10. Its test used a black-enameled Staub Dutch oven
+and a different bread recipe. The foil pad's thickness matters; one flat
+sheet did not prevent excessive darkening in that test. The lining is a
+chosen adjustment, not a guarantee against scorching in this recipe.
+
 ## Bake phase explanations
 
 On 2026-09-05, the user accepted a short explanation of each baking phase:
 the covered bake traps steam so the loaf can expand; the uncovered bake
 lets the crust dry and brown. Keep the selected times and temperatures.
+
+On 2026-09-10, the user removed the covered-bake note about added ice,
+water, and the loaf's own steam. The reason was not stated.
 
 Remove the claim that more covered time favors a thinner,
 softer crust and the explanation that assigns crumb moisture, crust
@@ -222,9 +250,9 @@ in the current bake.
 
 Put process troubleshooting at the relevant step. For example, a slow
 starter build belongs with Step 1; weak dough during
-folding belongs with the fold step; stalled bulk belongs with Step 6;
-and a pale crust during baking belongs with Step 12. This keeps help where
-the baker needs it and reserves the final table for reviewing the result.
+folding belongs with the fold step; stalled bulk belongs with Step 6.
+This keeps help where the baker needs it and reserves the final table for
+reviewing the result.
 
 Compare the fully cooled crumb with observations from mixing, bulk, and
 shaping. In particular:
@@ -236,10 +264,9 @@ shaping. In particular:
   it late in bulk. Dough that was loose throughout calls for checking water,
   dough strength, and shaping first.
 - For gummy crumb, check cooling and fermentation cues before suggesting
-  more bake time. Keep the visual baking endpoint; do not add a probe check.
+  more bake time on the next loaf. Do not add a probe check.
 - Separate freshly baked dry crumb from bread that has dried during storage.
 - Base next-bake crust adjustments on the cooled crumb and crust together.
-  Keep the current-bake visual checks in Step 12.
 
 Keep numerical adjustments as small trials, changing one variable per bake.
 The table offers hypotheses to test, not guaranteed diagnoses. This adds
