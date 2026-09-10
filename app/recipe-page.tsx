@@ -52,7 +52,7 @@ const steps = [
     phase: 'Day 1',
     time: 'Until uniform',
     icon: Scale,
-    title: 'Add starter, salt, and take a sample',
+    title: 'Add starter and salt',
     body: 'Add 100 g active starter and 11 g salt. Squeeze and fold until reasonably uniform. No kneading.',
     video: {
       url: 'https://www.youtube.com/watch?v=YOt3IJFhFCw',
@@ -61,7 +61,6 @@ const steps = [
     },
     details: [
       'The dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
-      'Take the sample immediately after the starter and salt are fully mixed in.',
     ],
   },
   {
@@ -92,12 +91,9 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Aim for a 40–50% rise',
-    body: 'Aim for 40–50% rise on the tube’s printed scale. Check the main dough too: it should look inflated and rounded, with bubbles at the edges and a gentle jiggle.',
-    details: [
-      'Ready feels airy and softly bouncy, with enough elasticity to hold together. Airiness is a good sign; dough becoming progressively weaker, tearing easily, or collapsing is a reason to shape sooner. Stickiness alone does not mean it has gone too far.',
-      'If it is still tight and poorly aerated at the target, give it more time and recheck.',
-    ],
+    title: 'Watch for puffy, rounded dough',
+    body: 'The main dough is ready when it looks puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the bowl. Then shape and place it in the banneton.',
+    cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
   },
   {
     id: 'shape',
@@ -181,8 +177,8 @@ const steps = [
 ];
 
 const diagnoses = [
-  ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, try 5–10 percentage points more rise next bake. Small holes alone are normal in whole-wheat bread.'],
-  ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, try 5–10 percentage points less rise next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
+  ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, let bulk go a little longer next bake. Small holes alone are normal in whole-wheat bread.'],
+  ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, shape a little earlier next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
   ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
   ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake. Still follow the visual crust check in Step 12.'],
   ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
@@ -251,7 +247,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>This includes the folds and rests. Aim for 40–50% rise and use the dough cues to decide when to shape.</p>
+              <p>This includes the folds and rests. Use the main dough’s visual cues in Step 6 to decide when to shape.</p>
             </li>
             <li>
               <h3>Shape</h3>

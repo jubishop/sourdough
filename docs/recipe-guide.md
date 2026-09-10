@@ -37,8 +37,7 @@ On 2026-09-09, the user chose 420 g of dough water because 400 g was still
 difficult to mix into all the whole-wheat flour, and the dough felt too tight
 during folding. The 20 g increase is a cautious first adjustment. Mix all
 420 g water with the 500 g whole-wheat flour and rest for 60 minutes. Add
-only the 100 g active starter and 11 g salt in Step 3, then take the sample
-once they are fully mixed in.
+only the 100 g active starter and 11 g salt in Step 3 and mix until uniform.
 
 The autolyse is at 84% hydration. With a 100%-hydration starter contributing
 50 g each of flour and water, the final dough has 470 g water and 550 g flour:
@@ -65,14 +64,14 @@ The video and its public availability were checked on 2026-09-07.
 The clip demonstrates the movement, not the full mixing duration or the
 addition of every ingredient. Keep the instruction to mix 100 g starter
 and 11 g salt into the rested dough until reasonably uniform, with no
-kneading. Keep lightly wet hands, no added flour, and taking the tube sample
-only after both ingredients are fully mixed in. Step 2 remains a written
-instruction to mix flour and water and rest for the autolyse.
+kneading. Keep lightly wet hands and no added flour. Step 2 remains a
+written instruction to mix flour and water and rest for the autolyse.
 
 On 2026-09-09, the user requested removal of Step 3 substeps 3 and 4,
 which described filling and placing the sample tube, and the closing note
-about millimeter conversion. Keep the first two substeps. The reason was
-not stated.
+about millimeter conversion. Later that day, the user removed the remaining
+sample instruction under [Visual bulk readiness](#visual-bulk-readiness).
+Keep the hydration and lightly wet hands guidance.
 
 ## Cold-proof timing and flavor
 
@@ -353,24 +352,24 @@ existing mother-starter storage guidance is a separate topic and remains.
 On 2026-09-05, the user chose to skip adding a crumb reference photo.
 Leave the guide without one for now.
 
-## Aliquot rise target
+## Visual bulk readiness
 
-On 2026-09-09, the user requested that the bulk-fermentation step keep
-only its first two substeps. Retain the airy, softly bouncy dough check
-and the instruction to wait and recheck if the dough is still tight at
-the target. Remove the later timing, diagnosis, temperature, and next-loaf
-adjustment substeps. The reason was not stated.
+On 2026-09-09, the user requested removal of aliquot instructions and asked
+for succinct visual guidance on when the main dough is ready to shape and
+place in the banneton. This supersedes the 2026-09-05 decision to use a
+40–50% sample-rise target and the earlier 2026-09-09 decision to retain
+two bulk-check substeps.
 
-On 2026-09-05, the user chose to keep the existing tube guidance in Step 6:
-use a 40–50% sample rise as the current target, alongside the existing
-dough cues. The sample stays beside the main dough in the approximately
-70°F pantry. The user wants a useful, repeatable measurement and declined
-an additional temperature warning in the recipe.
+Use puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
+the bowl moves as the readiness cues. Wait and recheck if the dough still
+looks dense and tight; shape now if it starts to sink or collapse.
+Remove sample collection from Step 3 and numerical rise targets from the
+bulk step and schedule. Describe next-bake fermentation adjustments as
+waiting a little longer or shaping a little earlier. Keep the page
+description consistent with this visual approach.
 
-Keep the current instructions. Do not add a separate temperature check for
-the tube. This decision does not establish that sample and dough temperatures
-are always identical; the accepted approach uses the consistent setup and
-finished-loaf results to refine the target.
+The user wants a shorter guide based on the main dough. This removes the
+separate measurement and relies on observing the dough itself.
 
 ## Flour specification
 
