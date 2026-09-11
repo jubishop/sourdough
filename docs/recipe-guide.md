@@ -46,8 +46,8 @@ selected on 2026-09-07, and the earlier 375 g autolyse plus 25 g reserved-water
 split. All dough water goes into the autolyse; no water is reserved for Step 3.
 The user also asked whether more water could produce an airier crumb.
 That outcome is not yet established for this recipe; the wetter dough may be
-harder to fold and shape. Keep the other recipe quantities and steps unchanged
-so the next bake can assess the water increase.
+harder to fold and shape. See [Fixed bake time](#fixed-bake-time) for the
+subsequent adjustment to the uncovered bake.
 
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the 60-minute rest, and the starter-overlap cue.
@@ -171,7 +171,7 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 a 10-minute bench rest, a 12–24-hour cold proof, 30 minutes
-covered followed by 15 minutes uncovered, and at
+covered followed by 20 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
@@ -196,7 +196,7 @@ was not stated.
 
 Later that day, the user restored the uncovered-bake temperature to 425°F
 because they felt they had changed too many variables at once. This
-supersedes the 400°F setting. Keep the 15-minute uncovered bake time.
+supersedes the 400°F setting. The uncovered bake remained at 15 minutes then.
 
 On 2026-09-09, the user requested removal of all substeps from the
 uncovered-bake step. The reason was not stated.
@@ -205,7 +205,15 @@ On 2026-09-10, the user chose to remove the loaf from the oven after exactly
 15 minutes uncovered. They want a fixed endpoint. This supersedes the earlier
 visual baking endpoint and instructions to add time based on crust color.
 
-Bake for 30 minutes covered at 450°F, then 15 minutes uncovered at 425°F.
+On 2026-09-11, the user extended the uncovered bake to 20 minutes at 425°F
+after increasing the autolyse water to 450 g. The extra five minutes are an
+initial adjustment to let more moisture escape from the wetter loaf; this
+duration has not yet been assessed in a bake. A darker, firmer crust is the
+tradeoff. This supersedes the 15-minute uncovered setting while retaining
+the fixed endpoint and the 30-minute covered bake at 450°F.
+
+Bake for 30 minutes covered at 450°F, then 20 minutes uncovered at 425°F,
+for 50 minutes total.
 Then remove the loaf from the oven. Keep the existing minimum three-hour
 cooling period. Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
