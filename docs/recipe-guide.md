@@ -72,6 +72,25 @@ about millimeter conversion. Later that day, the user removed the remaining
 sample instruction under [Visual bulk readiness](#visual-bulk-readiness).
 Keep the hydration and lightly wet hands guidance.
 
+## Proofing container and mixing bowl
+
+On 2026-09-10, the user changed the container sequence. Do the autolyse in
+their 2-quart proofing container. Add the starter and salt in that same
+container, mix until uniform, and mark the dough's starting height on the
+side. Then transfer the dough to a mixing bowl and cover it.
+
+Do both fold sets in the mixing bowl: the first after the existing
+30-minute rest, and the second 30 minutes later. After the second set,
+gently return the dough to the same proofing container and cover it.
+Watch the dough through the sides for 60% growth from the starting level
+marked after mixing. Keep that original mark when the dough returns;
+the transfers and folds do not reset the rise reference or bulk time.
+
+The user wants to track the main dough's growth in the proofing container.
+This supersedes leaving the dough in the mixing bowl for the rest of bulk.
+Keep the existing quantities, rest times, two fold sets, and visual readiness
+cues. Do not restore sample-tube instructions.
+
 ## Cold-proof timing and flavor
 
 On 2026-09-06, the user requested a range instead of a fixed 12-hour cold
@@ -302,8 +321,10 @@ fixed count instead of these extra judgments.
 Rest the covered dough for 30 minutes after adding the starter, then do
 the first set. Cover and rest for another 30 minutes, then do the second
 set. Each set consists of four gentle folds with lightly wet hands.
-After the second set, cover and leave the dough undisturbed for the rest
-of bulk. Both sets and rests count toward total bulk time.
+After the second set, return the dough to the proofing container, cover it,
+and leave it undisturbed for the rest of bulk, as specified in
+[Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
+Both sets and rests count toward total bulk time.
 
 Later on 2026-09-09, the user requested one checklist step per fold so
 they can track how many sets they have done. Step 4 is "First fold" and
@@ -430,9 +451,11 @@ earlier 40–50% target and the later decision to omit a numerical target.
 The reason for the increase was not stated. Apply the 60% rise to the main
 dough's volume after mixing, and show it in the bulk step and schedule.
 Keep the guide based on the main dough without restoring sample collection.
+Use the original starting mark and container sequence in
+[Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
 
 Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
-the bowl moves as the readiness cues. Wait and recheck if the dough still
+the proofing container moves as the readiness cues. Wait and recheck if the dough still
 looks dense and tight; shape now if it starts to sink or collapse.
 Describe next-bake fermentation adjustments as
 waiting a little longer or shaping a little earlier. Keep the page

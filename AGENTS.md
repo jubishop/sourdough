@@ -27,6 +27,18 @@ Read the relevant memory or docs index for its format and maintenance rules.
 Keep accepted decisions separate from proposals. Preserve unrelated changes.
 Keep secrets and generated caches out of Git.
 
+## Complete every change
+
+After any changes in this repository, run the required checks, commit and
+push the changes to GitHub, and deploy the site to Vercel production.
+This applies to code, recipe text, documentation, and `AGENTS.md` changes.
+Do not wait for a separate push or deployment request unless the user
+explicitly asks you to stop before those steps. Follow the
+[site and hosting guide](docs/site-and-hosting.md), confirm the deployment
+reaches `READY`, and verify the live production site before reporting
+completion. Preserve unrelated work and include only the authorized changes
+in the commit.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

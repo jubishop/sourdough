@@ -44,7 +44,7 @@ const steps = [
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'Mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for 60 minutes.',
+    body: 'In your 2-quart proofing container, mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for 60 minutes.',
     cue: 'Start this when Step 1 looks about 60 minutes from ready.',
   },
   {
@@ -53,7 +53,7 @@ const steps = [
     time: 'Until uniform',
     icon: Scale,
     title: 'Add starter and salt',
-    body: 'Add 100 g active starter and 11 g salt. Squeeze and fold until reasonably uniform. No kneading.',
+    body: 'In the same proofing container, add 100 g active starter and 11 g salt. Squeeze and fold until reasonably uniform. No kneading.',
     video: {
       url: 'https://www.youtube.com/watch?v=YOt3IJFhFCw',
       title: 'Watch: pinch and fold to mix the dough',
@@ -62,6 +62,7 @@ const steps = [
     details: [
       'The dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
+    cue: 'Mark the mixed dough’s starting height on the side of the proofing container. Then move the dough into a mixing bowl and cover it.',
   },
   {
     id: 'fold-one',
@@ -69,7 +70,7 @@ const steps = [
     time: '30 min after mixing',
     icon: RotateCcw,
     title: 'First fold',
-    body: 'Rest the covered dough for 30 minutes after adding the starter, then do one set of four gentle folds with lightly wet hands.',
+    body: 'Rest the dough in the covered mixing bowl for 30 minutes after adding the starter, then do one set of four gentle folds with lightly wet hands.',
     video: {
       url: 'https://www.youtube.com/watch?v=mwtTZK7_t08',
       title: 'Watch: stretch and fold sourdough',
@@ -83,8 +84,8 @@ const steps = [
     time: '30 min after the first fold',
     icon: RotateCcw,
     title: 'Second fold',
-    body: 'Cover and rest for 30 minutes after the first fold, then do another set of four gentle folds with lightly wet hands.',
-    cue: 'After the second set, cover and leave undisturbed for the rest of bulk. Both sets and rests count toward total bulk time.',
+    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another set of four gentle folds with lightly wet hands.',
+    cue: 'After the second set, gently move the dough back into the same proofing container. Cover and leave undisturbed for the rest of bulk. Keep the original starting mark. Both sets and rests count toward total bulk time.',
   },
   {
     id: 'bulk',
@@ -92,7 +93,7 @@ const steps = [
     time: '~6–10 hr total',
     icon: FlaskConical,
     title: 'Aim for a 60% rise',
-    body: 'Let the main dough rise by 60% from its volume after mixing. It should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the bowl. Then shape and place it in the banneton.',
+    body: 'Watch the dough through the sides of the proofing container. Aim for 60% growth from the starting level marked in Step 3. It should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
     cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
   },
   {
@@ -236,7 +237,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>This includes the folds and rests. Aim for a 60% rise in the main dough and use the visual cues in Step 6 to decide when to shape.</p>
+              <p>This includes both folds and rests in the mixing bowl. Return the dough to the proofing container and aim for 60% growth from the starting mark in Step 3. Use the visual cues in Step 6 to decide when to shape.</p>
             </li>
             <li>
               <h3>Shape</h3>
