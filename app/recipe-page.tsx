@@ -85,15 +85,15 @@ const steps = [
     icon: RotateCcw,
     title: 'Second fold',
     body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another set of four gentle folds with lightly wet hands.',
-    cue: 'After the second set, gently transfer the dough to your 2-quart proofing container. Use the volume scale to note its starting volume, mark the level, and cover it. Both sets and rests count toward total bulk time.',
+    cue: 'After the second set, gently transfer the dough to your 2-quart proofing container and cover it. Both sets and rests count toward total bulk time.',
   },
   {
     id: 'bulk',
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Aim for a 50% rise',
-    body: 'Leave the dough covered and undisturbed in the proofing container. Watch the sides for a 50% increase in volume from the level marked after the second fold in Step 5. For example, 1 litre of dough should reach 1.5 litres. It should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
+    title: 'Aim for 1.3–1.4 quarts',
+    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.3–1.4 quarts on its volume scale. This is an estimated target for this recipe. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
     cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
   },
   {
@@ -237,7 +237,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix and do both folds in the mixing bowl. After the second fold, transfer to the proofing container and mark the starting volume. Aim for 50% growth from that point, using the visual cues in Step 6. Both folds and rests count toward total bulk time.</p>
+              <p>Mix and do both folds in the mixing bowl. After the second fold, transfer to the proofing container and cover it. Aim for an estimated 1.3–1.4 quarts, using the visual cues in Step 6. Both folds and rests count toward total bulk time.</p>
             </li>
             <li>
               <h3>Shape</h3>

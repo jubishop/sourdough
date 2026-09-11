@@ -88,19 +88,33 @@ salt there, mix until uniform, and cover the bowl. Do both fold sets in
 that same bowl: the first after the existing 30-minute rest, and the second
 30 minutes later.
 
-After the second fold, gently transfer the dough once to the 2-quart
-proofing container. Read its starting volume from the container's volume
-scale, mark the level, and cover it. Aim for a 50% increase in volume from
-this point; for example, 1 litre should grow to 1.5 litres. Use volume
-measurements so tapered sides do not distort the rise calculation.
+The 2026-09-10 sequence used a 50% increase from the volume marked after
+the second fold and transfer. It superseded the earlier starting mark after
+mixing and 60% target; growth during the bowl stage was not measured.
 
-This supersedes the earlier container sequence, starting mark after mixing,
-and 60% target. The new percentage starts after the second fold and transfer.
+On 2026-09-11, the user chose a direct volume target so they do not need to
+note or mark the starting level. After the second fold, gently transfer the
+dough once to the 2-quart proofing container and cover it. In Step 6 and the
+schedule, aim for 1.3–1.4 US quarts on the container's volume scale. Describe
+this as an estimated target for this recipe, and keep the existing visual
+readiness cues. This supersedes the starting-level and percentage-rise
+instructions in Steps 5 and 6 and the schedule.
+
+The user initially proposed 1.7 quarts, then approved the update after the
+ingredient-based estimate suggested 1.3–1.4 quarts instead. The current
+500 g flour, 450 g water, 100 g starter, and 11 g salt make 1,061 g of dough.
+The working estimate is 0.8–0.9 litres before substantial rise, which gives
+roughly 1.3–1.4 US quarts after a 50% increase. It is adapted from
+[The Sourdough Journey's starting-volume rule of thumb](https://thesourdoughjourney.com/faq-bulk-fermentation-timing/),
+checked on 2026-09-11, with allowance for this recipe's extra water. This
+estimate has not been calibrated against this dough after the second fold;
+mixing and early fermentation affect its volume. Do not describe the fixed
+target as a measured 50% rise or an exact conversion from dough weight.
+
 Total bulk time still starts when the starter is added, so both folds and
-rests count within the existing planning estimate. Do not describe the new
-target as equivalent to the old one; growth during the bowl stage is not
-measured. Keep the existing quantities, rest times, two fold sets, and visual
-readiness cues. Do not restore sample-tube instructions.
+rests count within the existing planning estimate. Keep the existing
+quantities, rest times, two fold sets, and visual readiness cues. Do not
+restore sample-tube instructions.
 
 ## Cold-proof timing and flavor
 
@@ -340,9 +354,8 @@ fixed count instead of these extra judgments.
 Rest the covered dough for 30 minutes after adding the starter, then do
 the first set. Cover and rest for another 30 minutes, then do the second
 set. Each set consists of four gentle folds with lightly wet hands.
-After the second set, transfer the dough to the proofing container, mark
-its starting volume, cover it, and leave it undisturbed for the rest of
-bulk, as specified in
+After the second set, transfer the dough to the proofing container, cover
+it, and leave it undisturbed for the rest of bulk, as specified in
 [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
 Both sets and rests count toward total bulk time.
 
@@ -469,10 +482,11 @@ two bulk-check substeps.
 On 2026-09-10, the user initially set the bulk-rise goal to 60% from the
 main dough's volume after mixing. This replaced the earlier 40–50% target
 and the later decision to omit a numerical target. Later that day, the user
-replaced it with 50% growth measured after the second fold and transfer,
-as recorded in
+replaced it with 50% growth measured after the second fold and transfer.
+On 2026-09-11, the user replaced that measurement with an estimated direct
+volume target, as recorded in
 [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
-Show the current target and its starting point in the bulk step and schedule.
+Show the current volume target in the bulk step and schedule.
 Keep the guide based on the main dough without restoring sample collection.
 
 Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
