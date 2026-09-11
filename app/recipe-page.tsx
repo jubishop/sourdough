@@ -91,8 +91,8 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Watch for puffy, rounded dough',
-    body: 'The main dough is ready when it looks puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the bowl. Then shape and place it in the banneton.',
+    title: 'Aim for a 60% rise',
+    body: 'Let the main dough rise by 60% from its volume after mixing. It should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the bowl. Then shape and place it in the banneton.',
     cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
   },
   {
@@ -236,7 +236,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>This includes the folds and rests. Use the main dough’s visual cues in Step 6 to decide when to shape.</p>
+              <p>This includes the folds and rests. Aim for a 60% rise in the main dough and use the visual cues in Step 6 to decide when to shape.</p>
             </li>
             <li>
               <h3>Shape</h3>

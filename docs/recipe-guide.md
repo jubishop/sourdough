@@ -425,11 +425,16 @@ place in the banneton. This supersedes the 2026-09-05 decision to use a
 40–50% sample-rise target and the earlier 2026-09-09 decision to retain
 two bulk-check substeps.
 
-Use puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
+On 2026-09-10, the user set the bulk-rise goal to 60%. This supersedes the
+earlier 40–50% target and the later decision to omit a numerical target.
+The reason for the increase was not stated. Apply the 60% rise to the main
+dough's volume after mixing, and show it in the bulk step and schedule.
+Keep the guide based on the main dough without restoring sample collection.
+
+Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
 the bowl moves as the readiness cues. Wait and recheck if the dough still
 looks dense and tight; shape now if it starts to sink or collapse.
-Remove sample collection from Step 3 and numerical rise targets from the
-bulk step and schedule. Describe next-bake fermentation adjustments as
+Describe next-bake fermentation adjustments as
 waiting a little longer or shaping a little earlier. Keep the page
 description consistent with this visual approach.
 
