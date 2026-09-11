@@ -92,24 +92,23 @@ The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
 mixing and 60% target; growth during the bowl stage was not measured.
 
-On 2026-09-11, the user chose a direct volume target so they do not need to
-note or mark the starting level. After the second fold, gently transfer the
-dough once to the 2-quart proofing container and cover it. In Step 6 and the
-schedule, aim for 1.3–1.4 US quarts on the container's volume scale. Describe
-this as an estimated target for this recipe, and keep the existing visual
-readiness cues. This supersedes the starting-level and percentage-rise
-instructions in Steps 5 and 6 and the schedule.
-
-The user initially proposed 1.7 quarts, then approved the update after the
-ingredient-based estimate suggested 1.3–1.4 quarts instead. The current
-500 g flour, 450 g water, 100 g starter, and 11 g salt make 1,061 g of dough.
-The working estimate is 0.8–0.9 litres before substantial rise, which gives
-roughly 1.3–1.4 US quarts after a 50% increase. It is adapted from
+On 2026-09-11, the user briefly chose a direct volume target to avoid noting
+or marking the starting level. They initially proposed 1.7 quarts, then
+approved an estimated 1.3–1.4-quart target. That estimate was adapted from
 [The Sourdough Journey's starting-volume rule of thumb](https://thesourdoughjourney.com/faq-bulk-fermentation-timing/),
-checked on 2026-09-11, with allowance for this recipe's extra water. This
-estimate has not been calibrated against this dough after the second fold;
-mixing and early fermentation affect its volume. Do not describe the fixed
-target as a measured 50% rise or an exact conversion from dough weight.
+checked on 2026-09-11, with allowance for this recipe's extra water. It was
+not calibrated against this dough after the second fold.
+
+Later that day, the user chose a single target of 1.4 quarts because they
+want a precise number. This supersedes the 1.3–1.4-quart range and their
+interim request to return to 50% rise. Use the exact Step 6 title
+"Aim for 1.4 quarts" and the same target in its body and the schedule.
+This is a chosen target pending actual measurements, not a verified
+equivalent of 50% rise. Keep the visual readiness cues.
+
+The user explicitly kept Step 5 unchanged: gently transfer the dough once
+to the 2-quart proofing container and cover it. Do not restore starting-volume
+or marking instructions in Step 5 or the schedule.
 
 Total bulk time still starts when the starter is added, so both folds and
 rests count within the existing planning estimate. Keep the existing
@@ -488,10 +487,10 @@ On 2026-09-10, the user initially set the bulk-rise goal to 60% from the
 main dough's volume after mixing. This replaced the earlier 40–50% target
 and the later decision to omit a numerical target. Later that day, the user
 replaced it with 50% growth measured after the second fold and transfer.
-On 2026-09-11, the user replaced that measurement with an estimated direct
-volume target, as recorded in
+On 2026-09-11, the user replaced that measurement with an estimated
+direct volume target, then settled on a single 1.4-quart target, as recorded in
 [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
-Show the current volume target in the bulk step and schedule.
+Show the 1.4-quart target in the bulk step and schedule.
 Keep the guide based on the main dough without restoring sample collection.
 
 Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when

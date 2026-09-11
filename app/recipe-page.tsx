@@ -92,8 +92,8 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Aim for 1.3–1.4 quarts',
-    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.3–1.4 quarts on its volume scale. This is an estimated target for this recipe. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
+    title: 'Aim for 1.4 quarts',
+    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.4 quarts on its volume scale. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
     cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
   },
   {
@@ -237,7 +237,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix and do both folds in the mixing bowl. After the second fold, transfer to the proofing container and cover it. Aim for an estimated 1.3–1.4 quarts, using the visual cues in Step 6. Both folds and rests count toward total bulk time.</p>
+              <p>Mix and do both folds in the mixing bowl. After the second fold, transfer to the proofing container and cover it. Aim for 1.4 quarts, using the visual cues in Step 6. Both folds and rests count toward total bulk time.</p>
             </li>
             <li>
               <h3>Shape</h3>
