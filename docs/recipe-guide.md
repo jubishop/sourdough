@@ -448,6 +448,11 @@ loaf with both hands. Its close-up views and explanation of hand pressure
 make it a good fit for the requested method. The video, transcript, and
 shaping footage were checked on 2026-09-09.
 
+On 2026-09-11, the user shortened the final shaping instruction to
+"Shape the dough." This replaces the sentence directing them to follow
+1:58–3:02 of the video. Keep the video link and the following instructions
+for lifting and placing the loaf in the banneton.
+
 Keep the gentle hand preshape, uncovered 10-minute rest, and existing
 sticking guidance. Follow only the specified shaping section: the full
 video also divides a two-loaf batch and later puts the dough seam-side down

@@ -111,7 +111,7 @@ const steps = [
     details: [
       'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
       'Rest the round uncovered for 10 minutes so it becomes easier to fold.',
-      'Follow 1:58–3:02 of the video for hand shaping. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
+      'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
       'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',
     ],
     cue: 'If dough sticks to your hands, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
