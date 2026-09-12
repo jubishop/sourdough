@@ -57,7 +57,21 @@ const steps = [
     details: [
       'The dough is at about 90.9% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
-    cue: 'After mixing, gently transfer the dough to your 2-quart proofing container and cover it.',
+    cue: 'If you skip the optional folds, gently transfer the dough to your 2-quart proofing container and cover it. Otherwise, keep it in the mixing bowl for Step 4.',
+  },
+  {
+    id: 'optional-folds',
+    optional: true,
+    phase: 'Early bulk fermentation',
+    time: 'Every 30 min · up to 4 sets',
+    icon: RotateCcw,
+    title: 'Optional: stretch and fold',
+    body: 'After mixing, rest the dough for 30 minutes. Then do one set of stretches and folds every 30 minutes, up to 4 sets. Keep the dough in the mixing bowl for these sets.',
+    details: [
+      'With lightly wet hands, lift one side of the dough and fold it over the middle. Turn the bowl and repeat around all four sides. This is one set.',
+      'Cover the bowl between sets. You can stop after any set or skip this step entirely.',
+    ],
+    cue: 'After your last set, gently transfer the dough to your 2-quart proofing container and cover it. This time is part of bulk fermentation.',
   },
   {
     id: 'bulk',
@@ -96,13 +110,13 @@ const steps = [
     icon: Snowflake,
     title: 'Cold-proof overnight',
     body: 'Keep the bag sealed and refrigerate immediately for 12–16 hours. Bake directly from the refrigerator.',
-    cue: 'Start Step 7 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
+    cue: 'Start Step 8 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
     phase: 'Day 2',
     time: 'At least 60 min',
-    overlap: 'Overlaps Step 6',
+    overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
     body: 'Line the bottom of the Dutch oven with one layer of aluminum foil, then preheat it with the pizza stone at 475°F for at least 60 minutes.',
@@ -156,8 +170,9 @@ const steps = [
 
 export function RecipePage() {
   const [completed, setCompleted] = useChecklist();
-  const completedSteps = steps.filter((step) => completed.includes(step.id)).length;
-  const progress = Math.round((completedSteps / steps.length) * 100);
+  const requiredSteps = steps.filter((step) => !step.optional);
+  const completedSteps = requiredSteps.filter((step) => completed.includes(step.id)).length;
+  const progress = Math.round((completedSteps / requiredSteps.length) * 100);
   const motherRefrigerated = completed.includes('mother-refrigerated');
   function toggleStep(id: string, checked: boolean) {
     setCompleted((current) =>
@@ -195,7 +210,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix in the mixing bowl, then transfer to the proofing container and cover it. Leave the dough undisturbed. Aim for 1.4 quarts, using the visual cues in Step 4.</p>
+              <p>Mix in the mixing bowl. Optional: stretch and fold every 30 minutes, up to 4 sets. Then transfer to the proofing container, cover, and leave undisturbed. Aim for 1.4 quarts, using the visual cues in Step 5. Folding time is included in bulk.</p>
             </li>
             <li>
               <h3>Shape</h3>
@@ -246,7 +261,7 @@ export function RecipePage() {
         <div className="shell">
           <h2 className="sr-only">Bake checklist</h2>
           <div className="workflow-toolbar">
-            <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
+            <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {requiredSteps.length}</strong><span>required steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
           </div>
           <div className="parallel-prep" aria-label="Steps 1 and 2 can overlap">
             <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 1–2 hours from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
@@ -262,12 +277,12 @@ export function RecipePage() {
               return (
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
-                    <div className="parallel-prep" aria-label="Steps 6 and 7 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 7 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 8.</span></div>
+                    <div className="parallel-prep" aria-label="Steps 7 and 8 can overlap">
+                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 8 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 9.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>6 · Cold proof</b><i /><span>12–16 hr</span></div>
-                        <div className="timeline-row overlap-line"><b>7 · Preheat</b><i /><span>60+ min</span></div>
-                        <div className="timeline-merge"><ChevronRight /> Step 8 · Score and load</div>
+                        <div className="timeline-row"><b>7 · Cold proof</b><i /><span>12–16 hr</span></div>
+                        <div className="timeline-row overlap-line"><b>8 · Preheat</b><i /><span>60+ min</span></div>
+                        <div className="timeline-merge"><ChevronRight /> Step 9 · Score and load</div>
                       </div>
                     </div>
                   )}
