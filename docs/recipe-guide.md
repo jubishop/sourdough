@@ -308,12 +308,22 @@ and a different bread recipe. The foil pad's thickness matters; one flat
 sheet did not prevent excessive darkening in that test. The lining is a
 chosen adjustment, not a guarantee against scorching in this recipe.
 
-## Scoring length
+## Scoring pattern and length
 
 On 2026-09-10, the user chose to describe the slash length by its distance
 from the loaf's edges so the instruction works with different loaf sizes.
 Start about 1 inch in from one edge and stop about 1 inch before the opposite
-edge. Use one slash across the smooth top, ½ inch deep at a 30–45° angle.
+edge.
+
+On 2026-09-11, the user chose to try a cross instead of a single cut, based
+on what they have watched. Score a cross (+) in the smooth top with two cuts
+that meet in the center. Hold the blade straight down and cut ½ inch deep.
+Start and end each cut about 1 inch from the loaf's edge. This supersedes
+the single slash at a 30–45° angle while keeping the depth and edge spacing.
+
+[King Arthur's scoring guide](https://www.kingarthurbaking.com/blog/2017/10/20/bread-scoring-techniques),
+checked on 2026-09-11, recommends holding the blade at 90° to the dough
+surface for a cross. The recipe expresses this as holding it straight down.
 
 ## Bake phase explanations
 
