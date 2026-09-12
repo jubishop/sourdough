@@ -153,10 +153,10 @@ const steps = [
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '20 min uncovered',
+    time: '25 min uncovered',
     icon: Flame,
     title: 'Finish uncovered at 425°F',
-    body: 'Remove the lid, lower the oven to 425°F, and bake for 20 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
+    body: 'Remove the lid, lower the oven to 425°F, and bake for 25 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
   },
   {
     id: 'cool',
@@ -225,7 +225,7 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Bake</h3>
-              <strong>30 min covered + 20 min uncovered</strong>
+              <strong>30 min covered + 25 min uncovered</strong>
               <p>Bake at 450°F covered, then 425°F uncovered. Then remove the loaf from the oven.</p>
             </li>
             <li>
