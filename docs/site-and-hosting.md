@@ -54,6 +54,27 @@ Recipe text began with the imported source. The port did not independently
 reassess the baking advice. Subsequent accepted changes are recorded in
 [recipe guide decisions](recipe-guide.md).
 
+## Flexible sizing
+
+On 2026-09-11, the user requested relative sizing throughout the site so
+text and layout can adapt to their browser preferences. Use `rem` for
+fonts, spacing, icons, borders, and size limits; use `em` for responsive
+breakpoints. Keep the root font size at `100%` so it follows the browser
+setting. Avoid pixel lengths in page and checkbox styles.
+
+Let content wrap and containers grow. Use percentages, flexible grid
+columns, and viewport-relative values where space depends on the screen.
+At narrow widths, give recipe text the full row and put timeline bars
+below their labels. Let the header and starter-care headings wrap into rows.
+At the narrowest text-relative widths, let the header scroll with the page
+and stack the maintenance control below its title. Preserve the recipe and
+saved checklist behavior.
+
+The approach follows [MDN's font-sizing guidance](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-size)
+and [relative media-query guidance](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media),
+checked on 2026-09-11. Check both normal and enlarged browser text settings
+on desktop and mobile before publishing layout changes.
+
 ## Local development
 
 Install Node.js 24 and pnpm 11.25.0, then run:
