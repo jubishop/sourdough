@@ -192,7 +192,7 @@ Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 a 10-minute bench rest, a 12–24-hour cold proof, 30 minutes
 covered followed by 20 minutes uncovered, and at
-least three hours of cooling. Keep the near-peak starter cues, dough cues,
+least four hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
 Show the overlaps: start the 1–2-hour autolyse when the starter looks about
@@ -237,9 +237,16 @@ the fixed endpoint and the 30-minute covered bake at 450°F.
 
 Bake for 30 minutes covered at 450°F, then 20 minutes uncovered at 425°F,
 for 50 minutes total.
-Then remove the loaf from the oven. Keep the existing minimum three-hour
-cooling period. Keep the schedule, step label, and instructions consistent
+Then remove the loaf from the oven. Follow the minimum four-hour
+[cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
+
+## Cooling rest
+
+On 2026-09-11, the user increased the cooling rest to at least 4 hours
+before slicing. This supersedes the three-hour minimum. The reason was
+not stated. Keep the cooling step, schedule, and troubleshooting guidance
+consistent with this minimum. Continue cooling uncovered on a wire rack.
 
 ## Preheat the pizza stone with the Dutch oven
 

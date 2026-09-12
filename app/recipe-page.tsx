@@ -174,10 +174,10 @@ const steps = [
   {
     id: 'cool',
     phase: 'Finish',
-    time: 'At least 3 hr',
+    time: 'At least 4 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Cool the loaf for at least 3 hours before slicing. Whole-wheat bread needs this time to finish setting inside.',
+    body: 'Cool the loaf for at least 4 hours before slicing. Whole-wheat bread needs this time to finish setting inside.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];
@@ -185,7 +185,7 @@ const steps = [
 const diagnoses = [
   ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, let bulk go a little longer next bake. Small holes alone are normal in whole-wheat bread.'],
   ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, shape a little earlier next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
-  ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
+  ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 4 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
   ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake.'],
   ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
@@ -257,7 +257,7 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Cool</h3>
-              <strong>At least 3 hr</strong>
+              <strong>At least 4 hr</strong>
               <p>Cool uncovered on a wire rack before slicing.</p>
             </li>
           </ol>
@@ -351,7 +351,7 @@ export function RecipePage() {
             <span className="expandable-summary-title"><span className="eyebrow"><span /> After the bake</span><span className="expandable-summary-heading font-display">Troubleshooting</span></span>
             <span className="expandable-summary-action">Adjust next loaf</span>
           </summary>
-          <div className="diagnosis-card"><p className="panel-note">Judge the finished loaf after at least 3 hours of cooling. Earlier dough observations can help identify the cause. Once you choose an adjustment, update the recipe for the next bake. Change one thing at a time and compare the result.</p><div className="diagnosis-list">{diagnoses.map(([signal, adjustment]) => <div key={signal}><strong>{signal}</strong><span><ChevronRight />{adjustment}</span></div>)}</div></div>
+          <div className="diagnosis-card"><p className="panel-note">Judge the finished loaf after at least 4 hours of cooling. Earlier dough observations can help identify the cause. Once you choose an adjustment, update the recipe for the next bake. Change one thing at a time and compare the result.</p><div className="diagnosis-list">{diagnoses.map(([signal, adjustment]) => <div key={signal}><strong>{signal}</strong><span><ChevronRight />{adjustment}</span></div>)}</div></div>
         </details>
       </section>
     </main>
