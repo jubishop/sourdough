@@ -154,21 +154,6 @@ const steps = [
   },
 ];
 
-const diagnoses = [
-  ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, let bulk go a little longer next bake. Small holes alone are normal in whole-wheat bread.'],
-  ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, shape a little earlier next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
-  ['Fully cooled crumb is wet or gummy', 'If the loaf cooled fully for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
-  ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake.'],
-  ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
-  ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
-  ['Crust too dark', 'If the finished crust is too dark for your taste, try lowering the uncovered temperature by 25°F next bake. Keep the bake time as your first trial.'],
-  ['Crust too pale', 'If the finished crust is pale and the cooled crumb is moist and well baked, try 5 more minutes uncovered next bake. If the crumb is already too dry, try raising the uncovered temperature by 25°F instead.'],
-  ['Good structure, want more tang', 'Try a cold proof closer to 24 hours. A longer proof can develop more acidity; compare the flavor next bake.'],
-  ['Good structure, want less tang', 'Try a cold proof closer to 12 hours, at the shorter end of the range.'],
-  ['Good structure, flavor tastes flat', 'Use 1 g more salt next time.'],
-  ['Good structure, tastes too salty', 'Use 1 g less salt next time.'],
-];
-
 export function RecipePage() {
   const [completed, setCompleted] = useChecklist();
   const completedSteps = steps.filter((step) => completed.includes(step.id)).length;
@@ -188,7 +173,7 @@ export function RecipePage() {
           <span>Sourdough</span>
         </a>
         <nav aria-label="Main navigation">
-          <a href="#starter">Starter</a><a href="#workflow">Workflow</a><a href="#troubleshooting">Troubleshooting</a>
+          <a href="#starter">Starter</a><a href="#workflow">Workflow</a>
         </nav>
         <a className="header-action" href="#workflow">Start baking <ChevronRight aria-hidden="true" /></a>
       </header>
@@ -317,15 +302,6 @@ export function RecipePage() {
         </div>
       </section>
 
-      <section id="troubleshooting" className="section shell troubleshooting-section">
-        <details className="expandable-section troubleshooting-details">
-          <summary className="expandable-summary">
-            <span className="expandable-summary-title"><span className="eyebrow"><span /> After the bake</span><span className="expandable-summary-heading font-display">Troubleshooting</span></span>
-            <span className="expandable-summary-action">Adjust next loaf</span>
-          </summary>
-          <div className="diagnosis-card"><p className="panel-note">Judge the finished loaf once it has cooled fully, after at least 3 hours. Earlier dough observations can help identify the cause. Once you choose an adjustment, update the recipe for the next bake. Change one thing at a time and compare the result.</p><div className="diagnosis-list">{diagnoses.map(([signal, adjustment]) => <div key={signal}><strong>{signal}</strong><span><ChevronRight />{adjustment}</span></div>)}</div></div>
-        </details>
-      </section>
     </main>
   );
 }

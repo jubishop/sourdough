@@ -21,8 +21,7 @@ and bulk fermentation. Give a specific cue and action for each exception.
 The starter-build amount is also intentionally flexible so the user can
 adjust its readiness to their schedule. See [Starter build timing](#starter-build-timing).
 
-Troubleshooting can identify a possible improvement. Once the user chooses
-a change, update the recipe itself, including affected steps, quantities,
+Once the user chooses an adjustment, update the recipe itself, including affected steps, quantities,
 and schedule text. Until then, the recipe's current settings remain
 the instructions to follow.
 
@@ -140,7 +139,7 @@ acidity, but the flavor change depends on the starter, dough, and refrigerator
 temperature. Do not promise that more time always makes a loaf more sour.
 
 This supersedes the 2026-09-05 decision to keep a fixed 12-hour proof. Update
-the schedule, checklist, preheat overlap, and flavor troubleshooting together.
+the schedule, checklist, and preheat overlap together.
 Line the bottom of the Dutch oven with one layer of foil, then preheat it
 with the pizza stone at 475°F for at least 60 minutes before the chosen bake
 time. Keep the loaf refrigerated until ready to score and load.
@@ -255,8 +254,7 @@ On 2026-09-11, the user returned the cooling minimum to at least 3 hours
 to simplify the recipe. This supersedes the earlier same-day increase to
 four hours. Remove the loaf from the Dutch oven and cool uncovered on a
 wire rack for at least 3 hours before slicing. Let it cool longer if it is
-still warm. Keep the cooling step, schedule, and troubleshooting guidance
-consistent with this minimum.
+still warm. Keep the cooling step and schedule consistent with this minimum.
 
 [The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
 checked on 2026-09-11, recommends at least two hours, preferably three.
@@ -336,53 +334,24 @@ water, and the loaf's own steam. The reason was not stated.
 
 Remove the claim that more covered time favors a thinner,
 softer crust and the explanation that assigns crumb moisture, crust
-texture, and browning to separate controls. Their effects interact. Keep
-finished-loaf adjustment suggestions in the final troubleshooting section.
+texture, and browning to separate controls. Their effects interact.
 
 [King Arthur's baking guidance](https://www.kingarthurbaking.com/blog/2015/10/15/artisan-sourdough-bread-tips-part-3)
 supports the distinction between early steam and later drying. The source
 was checked on 2026-09-05.
 
-## Conditional troubleshooting
+## Troubleshooting section removed
 
-On 2026-09-05, the user accepted a troubleshooting table that connects each
-adjustment to supporting observations. A single loaf symptom can have
-several causes, so avoid diagnosing fermentation from crumb or loaf shape
-alone.
+On 2026-09-11, the user removed the troubleshooting section entirely
+because they prefer to discuss troubleshooting with the assistant.
+Remove the finished-loaf adjustment table, its heading and explanatory
+text, and the navigation link. The recipe page ends after the bake
+checklist and its saved-progress/reset controls.
 
-The user clarified on 2026-09-05 that the final troubleshooting section is
-strictly for problems with the finished loaf: crumb, crust, loaf shape,
-and flavor. Its adjustments apply to the next bake. Earlier observations
-may help explain a finished-loaf problem, but this section must not contain
-standalone problems with the ongoing process or instructions to intervene
-in the current bake.
-
-Put process troubleshooting at the relevant step. For example, a slow
-starter build belongs with Step 1; stalled bulk belongs with Step 4.
-This keeps help where the baker needs it and reserves the final table for
-reviewing the result.
-
-Compare the fully cooled crumb with observations from mixing, bulk, and
-shaping. In particular:
-
-- Suggest a later bulk endpoint when dense crumb agrees with dough that was
-  tight and poorly aerated at shaping. Small holes alone are normal for
-  whole-wheat bread.
-- Suggest an earlier endpoint when dough developed strength and then lost
-  it late in bulk. Dough that was loose throughout calls for checking water,
-  dough strength, and shaping first.
-- For gummy crumb, check cooling and fermentation cues before suggesting
-  more bake time on the next loaf. Do not add a probe check.
-- Separate freshly baked dry crumb from bread that has dried during storage.
-- Base next-bake crust adjustments on the cooled crumb and crust together.
-
-Keep numerical adjustments as small trials, changing one variable per bake.
-The table offers hypotheses to test, not guaranteed diagnoses. This adds
-some reading but helps avoid making an unrelated adjustment that worsens
-the next loaf. Existing flavor-preference rows remain in place.
-
-The [whole-wheat recipe and troubleshooting reference](https://www.theperfectloaf.com/100-whole-wheat-sourdough/)
-was checked on 2026-09-05 and identifies multiple causes of gummy crumb.
+This supersedes the earlier decisions to include conditional
+finished-loaf troubleshooting and flavor-adjustment rows. Keep the
+existing readiness and handling cues within the recipe steps, plus
+starter maintenance.
 
 ## Folding
 
@@ -596,9 +565,8 @@ liquid from both locations. The reason was not stated. Keep the discard
 instruction.
 
 Place this check before the feeding instructions so a contaminated culture
-is not treated as a merely sluggish starter. Keep it out of the final
-finished-loaf troubleshooting section. The two locations share the same
-wording.
+is not treated as a merely sluggish starter. The two locations share the
+same wording.
 
 [King Arthur's starter troubleshooting guidance](https://www.kingarthurbaking.com/blog/2018/03/09/sourdough-starter-troubleshooting-2)
 supports the contamination check. The source was checked on 2026-09-05.

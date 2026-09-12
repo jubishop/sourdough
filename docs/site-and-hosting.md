@@ -41,7 +41,7 @@ transfer is implemented.
 ## Edit the recipe
 
 - [Recipe page](../app/recipe-page.tsx): recipe steps, starter care,
-  troubleshooting and page markup.
+  and page markup.
 - [Styles](../app/globals.css): layout, colors, and responsive behavior.
 - [Layout](../app/layout.tsx): fonts, title, description, and sharing metadata.
 - [Checklist hook](../hooks/use-checklist.ts): device-local progress. It reads
