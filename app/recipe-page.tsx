@@ -44,7 +44,7 @@ const steps = [
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 1–2 hours. Longer is better; aim for 2 hours.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 1–2 hours. Aim for 2 hours.',
     cue: 'Start this when Step 1 looks about 1–2 hours from ready.',
   },
   {
@@ -79,7 +79,7 @@ const steps = [
     time: '30 min between sets',
     icon: RotateCcw,
     title: 'Finish folding: 2–4 sets total',
-    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another stretch and fold. Do 2–4 sets total, with 30-minute covered rests between sets. More sets are better; aim for 4.',
+    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another stretch and fold. Do 2–4 sets total, with 30-minute covered rests between sets. Aim for 4 sets.',
     cue: 'After the final set, gently transfer the dough to your 2-quart proofing container and cover it. All sets and rests count toward total bulk time.',
   },
   {
@@ -99,9 +99,9 @@ const steps = [
     title: 'Shape and place in the banneton',
     body: 'Use your cotton banneton without dusting it with flour.',
     video: {
-      url: 'https://www.youtube.com/watch?v=MPdedk9gJLQ&t=118s',
-      title: 'Watch: shape a round loaf with your hands',
-      caption: 'Ken Forkish · Watch 1:58–3:02 · YouTube',
+      url: 'https://www.youtube.com/watch?v=oCM3wHFk2SE&t=20s',
+      title: 'Watch: shape a round loaf without added flour',
+      caption: 'Elly’s Everyday · Watch 0:20–0:44 · YouTube',
     },
     details: [
       'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
@@ -172,7 +172,7 @@ const steps = [
     time: 'At least 4 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Cool the loaf for at least 4 hours before slicing. Whole-wheat bread needs this time to finish setting inside.',
+    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 4 hours before slicing. Whole-wheat bread needs this time to finish setting inside.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];
@@ -228,12 +228,12 @@ export function RecipePage() {
             <li>
               <h3>Starter build</h3>
               <strong>~6–12 hr to double with 20 g starter</strong>
-              <p>Wait for near-peak readiness. Start the 1–2-hour autolyse when the build looks about 1–2 hours from ready. Longer is better; aim for 2 hours.</p>
+              <p>Wait for near-peak readiness. Start the 1–2-hour autolyse when the build looks about 1–2 hours from ready. Aim for 2 hours.</p>
             </li>
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix and do 2–4 fold sets in the mixing bowl, with 30-minute rests between sets. More sets are better; aim for 4. After the final set, transfer to the proofing container and cover it. Aim for 1.4 quarts, using the visual cues in Step 6. All sets and rests count toward total bulk time.</p>
+              <p>Mix and do 2–4 fold sets in the mixing bowl, with 30-minute rests between sets. Aim for 4 sets. After the final set, transfer to the proofing container and cover it. Aim for 1.4 quarts, using the visual cues in Step 6. All sets and rests count toward total bulk time.</p>
             </li>
             <li>
               <h3>Shape</h3>

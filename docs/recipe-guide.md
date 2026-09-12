@@ -59,6 +59,11 @@ wording that favors more time. State that longer is better and aim for
 looks about 1–2 hours from ready, and update the schedule and overlap
 diagram to match. The user did not state a reason for the longer range.
 
+Later on 2026-09-11, the user accepted removing "Longer is better" after
+reviewing the recipe. Keep the 1–2-hour range and "Aim for 2 hours" in the
+autolyse step and schedule. This supersedes the earlier wording that
+generally favors more time; the two-hour target remains unchanged.
+
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
@@ -252,6 +257,11 @@ before slicing. This supersedes the three-hour minimum. The reason was
 not stated. Keep the cooling step, schedule, and troubleshooting guidance
 consistent with this minimum. Continue cooling uncovered on a wire rack.
 
+Later on 2026-09-11, the user accepted making the wire rack explicit in the
+cooling step. Instruct the baker to remove the loaf from the Dutch oven and
+cool it uncovered on a wire rack for at least four hours before slicing.
+This makes the checklist consistent with the existing schedule guidance.
+
 ## Preheat the pizza stone with the Dutch oven
 
 On 2026-09-08, the user chose to place a pizza stone on the rack directly
@@ -414,6 +424,12 @@ Keep the stretch-and-fold video. The user also shortened the corresponding
 wording in Step 5 to "then do another stretch and fold." Keep the 2–4-set
 range, preference for 4 sets, and 30-minute covered rests.
 
+Later on 2026-09-11, the user accepted changing the fold-count wording after
+reviewing the recipe. Replace "More sets are better; aim for 4" with
+"Aim for 4 sets" in the folding step and schedule. Keep the 2–4-set range
+and 30-minute covered rests. This supersedes the blanket claim that more
+sets are better without changing the selected target or folding method.
+
 ## Shaping instructions
 
 On 2026-09-05, the user accepted concrete hand movements for final shaping
@@ -488,13 +504,25 @@ On 2026-09-11, the user shortened the final shaping instruction to
 1:58–3:02 of the video. Keep the video link and the following instructions
 for lifting and placing the loaf in the banneton.
 
-Keep the gentle hand preshape, uncovered 10-minute rest, and existing
-sticking guidance. Follow only the specified shaping section: the full
+The Ken Forkish selection was limited to that shaping section: the full
 video also divides a two-loaf batch and later puts the dough seam-side down
-in a floured basket. For this recipe, lift the loaf with both hands into
-the user's unfloured cotton banneton, smooth side down and seam side up,
-then do stitch shaping and follow the existing cold-proof step. Do not adopt the video's basket
-orientation, flour requirement, or proofing schedule.
+in a floured basket. Those basket and proofing instructions were not adopted.
+
+Later on 2026-09-11, the user requested a replacement because Ken Forkish
+uses flour. Damp or dry hands are both acceptable. Use Elly's Everyday's
+[Final shaping of a boule](https://www.youtube.com/watch?v=oCM3wHFk2SE&t=20s),
+with the caption "Watch 0:20–0:44." This section shows both hands cupping,
+pulling, and turning a round loaf on a dry, unfloured table. The baker uses
+water on her hands, with no added flour or scraper during shaping. The
+footage and publisher's description were checked on 2026-09-11. This
+supersedes the Ken Forkish video.
+
+Keep the gentle hand preshape, uncovered 10-minute rest, and existing
+sticking guidance. The new video demonstrates the final hand movements;
+its later transfer into a lined pot does not replace the user's banneton.
+For this recipe, lift the loaf with both hands into the unfloured cotton
+banneton, smooth side down and seam side up, then do stitch shaping and
+follow the existing cold-proof step.
 
 On 2026-09-11, the user added "stitch shaping" after placing the shaped
 loaf in the banneton and before sealing it in the Ziploc bag. Gently pull
