@@ -40,12 +40,12 @@ const steps = [
   {
     id: 'autolyse',
     phase: 'Day 1',
-    time: '60 min',
+    time: '1–2 hr',
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 60 minutes.',
-    cue: 'Start this when Step 1 looks about 60 minutes from ready.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 1–2 hours. Longer is better; aim for 2 hours.',
+    cue: 'Start this when Step 1 looks about 1–2 hours from ready.',
   },
   {
     id: 'mix',
@@ -62,7 +62,7 @@ const steps = [
     details: [
       'The dough is at about 90.9% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
-    cue: 'Cover the mixing bowl after mixing. Keep the dough in this bowl for both fold sets.',
+    cue: 'Cover the mixing bowl after mixing. Keep the dough in this bowl for all 2–4 fold sets.',
   },
   {
     id: 'fold-one',
@@ -78,14 +78,14 @@ const steps = [
     },
   },
   {
-    // Keep the folding-complete key for the second set.
+    // Keep the existing key for completing the remaining fold sets.
     id: 'fold-two',
     phase: 'Early bulk',
-    time: '30 min after the first fold',
+    time: '30 min between sets',
     icon: RotateCcw,
-    title: 'Second fold',
-    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another set of four gentle folds with lightly wet hands.',
-    cue: 'After the second set, gently transfer the dough to your 2-quart proofing container and cover it. Both sets and rests count toward total bulk time.',
+    title: 'Finish folding: 2–4 sets total',
+    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another set of four gentle folds with lightly wet hands. Do 2–4 sets total, with 30-minute covered rests between sets. More sets are better; aim for 4.',
+    cue: 'After the final set, gently transfer the dough to your 2-quart proofing container and cover it. All sets and rests count toward total bulk time.',
   },
   {
     id: 'bulk',
@@ -112,6 +112,7 @@ const steps = [
       'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
       'Rest the round uncovered for 10 minutes so it becomes easier to fold.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
+      'Do stitch shaping in the banneton: gently pull small flaps from opposite sides over the middle, alternating sides like lacing a corset, to create extra surface tension.',
       'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',
     ],
     cue: 'If dough sticks to your hands, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
@@ -232,17 +233,17 @@ export function RecipePage() {
             <li>
               <h3>Starter build</h3>
               <strong>~6–12 hr to double with 20 g starter</strong>
-              <p>Wait for near-peak readiness. Start the 60-minute autolyse when the build looks about an hour from ready.</p>
+              <p>Wait for near-peak readiness. Start the 1–2-hour autolyse when the build looks about 1–2 hours from ready. Longer is better; aim for 2 hours.</p>
             </li>
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix and do both folds in the mixing bowl. After the second fold, transfer to the proofing container and cover it. Aim for 1.4 quarts, using the visual cues in Step 6. Both folds and rests count toward total bulk time.</p>
+              <p>Mix and do 2–4 fold sets in the mixing bowl, with 30-minute rests between sets. More sets are better; aim for 4. After the final set, transfer to the proofing container and cover it. Aim for 1.4 quarts, using the visual cues in Step 6. All sets and rests count toward total bulk time.</p>
             </li>
             <li>
               <h3>Shape</h3>
               <strong>Bench rest: 10 min</strong>
-              <p>Form a gentle round. Rest uncovered for 10 minutes, then do the final shape and refrigerate.</p>
+              <p>Form a gentle round. Rest uncovered for 10 minutes, then do the final shape. Place it in the banneton, do stitch shaping, seal the bag, and refrigerate.</p>
             </li>
             <li>
               <h3>Cold proof</h3>
@@ -291,10 +292,10 @@ export function RecipePage() {
             <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
           </div>
           <div className="parallel-prep" aria-label="Steps 1 and 2 can overlap">
-            <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 60 minutes from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
+            <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 1–2 hours from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
             <div className="parallel-timeline" aria-hidden="true">
               <div className="timeline-row starter-line"><b>1 · Starter build</b><i /><span>Ready</span></div>
-              <div className="timeline-row overlap-line"><b>2 · Autolyse</b><i /><span>60 min</span></div>
+              <div className="timeline-row overlap-line"><b>2 · Autolyse</b><i /><span>1–2 hr</span></div>
               <div className="timeline-merge"><ChevronRight /> Step 3 · Mix</div>
             </div>
           </div>

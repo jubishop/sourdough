@@ -34,7 +34,7 @@ decision that supersedes the earlier fixed 12-hour instruction.
 
 On 2026-09-11, the user chose 450 g of dough water because the flour was
 still difficult to hydrate at 420 g, with a dry, flaky, crumbly texture.
-Mix all 450 g water with the 500 g whole-wheat flour and rest for 60 minutes. Add
+Mix all 450 g water with the 500 g whole-wheat flour and rest for 1–2 hours. Add
 only the 100 g active starter and 11 g salt in Step 3 and mix until uniform.
 
 The autolyse is at 90% hydration. With a 100%-hydration starter contributing
@@ -50,8 +50,14 @@ harder to fold and shape. See [Fixed bake time](#fixed-bake-time) for the
 subsequent adjustment to the uncovered bake.
 
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
-main mixing instruction, the 60-minute rest, and the starter-overlap cue.
+main mixing instruction, the rest, and the starter-overlap cue.
 The reason was not stated.
+
+On 2026-09-11, the user extended the autolyse to 1–2 hours and requested
+wording that favors more time. State that longer is better and aim for
+2 hours. This supersedes the fixed 60-minute rest. Start when the starter
+looks about 1–2 hours from ready, and update the schedule and overlap
+diagram to match. The user did not state a reason for the longer range.
 
 ## Mixing starter and salt
 
@@ -84,9 +90,9 @@ to the container for a 60% rise measured from mixing.
 Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. Do the
 autolyse in the mixing bowl. Add the 100 g active starter (levain) and 11 g
-salt there, mix until uniform, and cover the bowl. Do both fold sets in
-that same bowl: the first after the existing 30-minute rest, and the second
-30 minutes later.
+salt there, mix until uniform, and cover the bowl. Do all fold sets in
+that same bowl, with the first after a 30-minute rest and 30-minute rests
+between sets. The current 2–4-set range is recorded under [Folding](#folding).
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
@@ -106,13 +112,14 @@ interim request to return to 50% rise. Use the exact Step 6 title
 This is a chosen target pending actual measurements, not a verified
 equivalent of 50% rise. Keep the visual readiness cues.
 
-The user explicitly kept Step 5 unchanged: gently transfer the dough once
-to the 2-quart proofing container and cover it. Do not restore starting-volume
-or marking instructions in Step 5 or the schedule.
+The user kept a single gentle transfer to the 2-quart proofing container,
+then covering it. With the later 2–4-set decision under [Folding](#folding),
+transfer after the final set. Do not restore starting-volume or marking
+instructions in Step 5 or the schedule.
 
-Total bulk time still starts when the starter is added, so both folds and
+Total bulk time still starts when the starter is added, so all fold sets and
 rests count within the existing planning estimate. Keep the existing
-quantities, rest times, two fold sets, and visual readiness cues. Do not
+quantities, 30-minute rests, and visual readiness cues. Do not
 restore sample-tube instructions.
 
 ## Cold-proof timing and flavor
@@ -188,8 +195,11 @@ covered followed by 20 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
-Show the overlaps: start the 60-minute autolyse when the starter looks about
-an hour from ready; folds and their rests count within bulk; preheat the
+Show the overlaps: start the 1–2-hour autolyse when the starter looks about
+1–2 hours from ready, with 2 hours preferred. Do 2–4 fold sets, with 4
+preferred; all sets and their rests count within bulk. After shaping and
+placing the loaf in the banneton, do stitch shaping before sealing the bag
+and refrigerating. Preheat the
 oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold proof.
 The starter and bulk estimates assume the user's 70°F pantry. Do not turn
 them into guaranteed clock times or promise a fixed total duration.
@@ -344,7 +354,7 @@ was checked on 2026-09-05 and identifies multiple causes of gummy crumb.
 
 ## Folding
 
-On 2026-09-09, the user chose exactly two fold sets for Step 4 and asked
+On 2026-09-09, the user initially chose exactly two fold sets for Step 4 and asked
 to remove the instructions for judging how many sets to perform. This
 supersedes the 2026-09-07 choice to check dough strength every 30 minutes
 and stop after one set or add further sets as needed. The user wants a
@@ -353,10 +363,10 @@ fixed count instead of these extra judgments.
 Rest the covered dough for 30 minutes after adding the starter, then do
 the first set. Cover and rest for another 30 minutes, then do the second
 set. Each set consists of four gentle folds with lightly wet hands.
-After the second set, transfer the dough to the proofing container, cover
+After the final set, transfer the dough to the proofing container, cover
 it, and leave it undisturbed for the rest of bulk, as specified in
 [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
-Both sets and rests count toward total bulk time.
+All sets and rests count toward total bulk time.
 
 Later on 2026-09-09, the user requested one checklist step per fold so
 they can track how many sets they have done. Step 4 is "First fold" and
@@ -365,9 +375,16 @@ Step 5 is "Second fold", each with an independent saved checkbox. Use
 supersedes the combined folding item while keeping exactly two sets and
 the 30-minute rest between them.
 
-The checklist now has 13 steps. Update all later step numbers and their
-cross-references, including cold proof, preheat, loading, and troubleshooting.
-Keep the old strength checks, optional additional sets, early-stop
+On 2026-09-11, the user changed the range to 2–4 fold sets and requested
+wording that favors more sets. State that more sets are better and aim for
+4. This supersedes the fixed two-set limit and the instruction to exclude
+extra sets. Keep four gentle folds per set, lightly wet hands, and the
+30-minute covered rests. The reason for the new range was not stated.
+
+Keep Step 4 as the first set and use Step 5 for the remaining sets, with
+the title "Finish folding: 2–4 sets total". Retain the saved `fold-one` and
+`fold-two` keys and the 13-step checklist. Transfer to the proofing container
+only after the final set. Keep the old strength checks, early-stop
 instructions, and later-loaf water advice out of the folding steps.
 
 On 2026-09-07, the user requested a YouTube demonstration in place of the
@@ -375,8 +392,8 @@ written stretch-and-fold movements in Step 4. Keep The Perfect Loaf's
 [29-second stretch-and-fold video](https://www.youtube.com/watch?v=mwtTZK7_t08).
 Its overhead view shows wet hands and the four-sided bowl fold. The video
 and its public availability were checked on 2026-09-07. Keep this recipe's
-gentle handling. The video teaches the movement; the recipe specifies two
-sets.
+gentle handling. The video teaches the movement; the recipe specifies
+2–4 sets, with 4 preferred.
 
 ## Shaping instructions
 
@@ -457,8 +474,14 @@ sticking guidance. Follow only the specified shaping section: the full
 video also divides a two-loaf batch and later puts the dough seam-side down
 in a floured basket. For this recipe, lift the loaf with both hands into
 the user's unfloured cotton banneton, smooth side down and seam side up,
-then follow the existing cold-proof step. Do not adopt the video's basket
+then do stitch shaping and follow the existing cold-proof step. Do not adopt the video's basket
 orientation, flour requirement, or proofing schedule.
+
+On 2026-09-11, the user added "stitch shaping" after placing the shaped
+loaf in the banneton and before sealing it in the Ziploc bag. Gently pull
+small flaps from opposite sides over the middle, alternating sides like
+lacing a corset, to create extra surface tension. Keep the seam facing up
+and the existing instruction to stop tightening if the outer skin tears.
 
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
