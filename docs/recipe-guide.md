@@ -146,8 +146,8 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
-Line the bottom of the Dutch oven with one layer of foil and wrap parchment
-paper over the bottom lip. Then preheat it with the pizza stone at 475°F for
+Place a foil pad about ¼ inch thick in the bottom of the Dutch oven and wrap
+parchment paper over the bottom lip. Then preheat it with the pizza stone at 475°F for
 at least 60 minutes before the chosen bake
 time. Keep the loaf refrigerated until ready to score and load.
 
@@ -293,13 +293,10 @@ to reduce bottom scorching and restored the preheat to 475°F. Keep the
 60-minute minimum and the pizza stone on a separate rack directly below
 the Dutch oven. Lower the oven to 450°F for the 30-minute covered bake.
 
-The user then simplified the lining to one layer of foil with no greasing
-because greasing was too much work. This supersedes the thick foil pad,
-second sheet up the sides, and oiling instructions. Lay one sheet flat
-across the bottom of the cold pot before preheating. Leave it in place
-during preheating and baking. Keep the existing parchment sling and lower
-the loaf onto the foil lining. Put the preparation in Step 9 and the
-loading instruction in Step 10.
+The user then simplified the lining to one flat layer of foil with no greasing
+because greasing was too much work. At that time, this replaced the thick foil
+pad, second sheet up the sides, and oiling instructions. The 2026-09-12 pad
+decision below supersedes the single flat layer.
 
 The user then requested removal of the explicit "Do not grease it" sentence
 from the site. Greasing remains outside the recipe; omit the prohibition
@@ -314,8 +311,20 @@ bottom half before putting the top on for preheating. The purpose is to keep
 the two halves from fusing together during the preheat. Include this with the
 foil preparation in Step 8 and the schedule reminder.
 
+Later on 2026-09-12, the user approved clearer instructions for a thick foil
+pad to follow King Arthur's method more closely and reduce bottom darkening.
+While the Dutch oven is cold, loosely crumple a long sheet of aluminum foil,
+then shape and flatten it into a pad that fits the bottom. Keep the pad about
+¼ inch thick and its top level. Leave it in place during preheating and baking.
+The starting sheet is larger than the pot's bottom; the finished pad fits the
+bottom. Flattening makes the top level while retaining the pad's thickness.
+This replaces the instruction to lay one sheet flat. Keep the existing
+parchment sling and lower the loaf onto the foil pad. Keep the pad preparation
+in Step 8, the loading instruction in Step 9, and the schedule reminder in sync.
+The bottom-only coverage and omission of greasing remain in effect.
+
 [King Arthur's foil-lining method](https://www.kingarthurbaking.com/blog/2025/07/30/the-bottom-of-my-bread-gets-too-dark)
-was checked on 2026-09-10. Its test used a black-enameled Staub Dutch oven
+was checked again on 2026-09-12. Its test used a black-enameled Staub Dutch oven
 and a different bread recipe. The foil pad's thickness matters; one flat
 sheet did not prevent excessive darkening in that test. The lining is a
 chosen adjustment, not a guarantee against scorching in this recipe.
