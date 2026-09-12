@@ -119,9 +119,10 @@ const steps = [
     overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Line the bottom of the Dutch oven with one layer of aluminum foil, then preheat it with the pizza stone at 475°F for at least 60 minutes.',
+    body: 'Line the bottom of the Dutch oven with one layer of aluminum foil and wrap parchment paper over the bottom lip. Then preheat it with the pizza stone at 475°F for at least 60 minutes.',
     details: [
       'While the Dutch oven is cold, lay one sheet of foil across the bottom and smooth it flat.',
+      'Wrap a piece of parchment paper over the lip of the bottom half before putting the top on, to keep the two halves from fusing together during the preheat.',
       'Put the pizza stone on a separate rack directly below the Dutch oven. Leave the foil lining in the pot during the preheat and bake.',
     ],
     cue: 'Keep the loaf refrigerated until your chosen 12–16-hour proof and the preheat are complete.',
@@ -220,7 +221,7 @@ export function RecipePage() {
             <li>
               <h3>Cold proof</h3>
               <strong>12–16 hr at ~38°F</strong>
-              <p>Line the bottom of the Dutch oven with one layer of foil, then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
+              <p>Line the bottom of the Dutch oven with one layer of foil and wrap parchment paper over the bottom lip. Then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>

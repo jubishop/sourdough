@@ -146,8 +146,9 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
-Line the bottom of the Dutch oven with one layer of foil, then preheat it
-with the pizza stone at 475°F for at least 60 minutes before the chosen bake
+Line the bottom of the Dutch oven with one layer of foil and wrap parchment
+paper over the bottom lip. Then preheat it with the pizza stone at 475°F for
+at least 60 minutes before the chosen bake
 time. Keep the loaf refrigerated until ready to score and load.
 
 On 2026-09-09, the user requested removal of the cold-proof step's sole
@@ -307,6 +308,11 @@ from the displayed instructions.
 The user clarified that their double Dutch oven has a shallow base with
 low sides, and only the bottom of the loaf browns against it. Cover only
 the flat bottom with foil; no foil up the sides is needed for their setup.
+
+On 2026-09-12, the user added a piece of parchment paper over the lip of the
+bottom half before putting the top on for preheating. The purpose is to keep
+the two halves from fusing together during the preheat. Include this with the
+foil preparation in Step 8 and the schedule reminder.
 
 [King Arthur's foil-lining method](https://www.kingarthurbaking.com/blog/2025/07/30/the-bottom-of-my-bread-gets-too-dark)
 was checked on 2026-09-10. Its test used a black-enameled Staub Dutch oven
