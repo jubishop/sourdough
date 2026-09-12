@@ -54,11 +54,6 @@ const steps = [
     icon: Scale,
     title: 'Add starter and salt',
     body: 'In the same mixing bowl, add 100 g active starter (levain) and 11 g salt. Squeeze and fold until reasonably uniform. No kneading.',
-    video: {
-      url: 'https://www.youtube.com/watch?v=YOt3IJFhFCw',
-      title: 'Watch: pinch and fold to mix the dough',
-      caption: 'Sunrise Flour Mill · 20 seconds · YouTube',
-    },
     details: [
       'The dough is at about 90.9% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
@@ -70,7 +65,7 @@ const steps = [
     time: '30 min after mixing',
     icon: RotateCcw,
     title: 'First fold',
-    body: 'Rest the dough in the covered mixing bowl for 30 minutes after adding the starter, then do one set of four gentle folds with lightly wet hands.',
+    body: 'Rest the dough in the covered mixing bowl for 30 minutes after adding the starter, then stretch and fold.',
     video: {
       url: 'https://www.youtube.com/watch?v=mwtTZK7_t08',
       title: 'Watch: stretch and fold sourdough',
@@ -84,7 +79,7 @@ const steps = [
     time: '30 min between sets',
     icon: RotateCcw,
     title: 'Finish folding: 2–4 sets total',
-    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another set of four gentle folds with lightly wet hands. Do 2–4 sets total, with 30-minute covered rests between sets. More sets are better; aim for 4.',
+    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another stretch and fold. Do 2–4 sets total, with 30-minute covered rests between sets. More sets are better; aim for 4.',
     cue: 'After the final set, gently transfer the dough to your 2-quart proofing container and cover it. All sets and rests count toward total bulk time.',
   },
   {

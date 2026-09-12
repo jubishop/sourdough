@@ -81,6 +81,10 @@ about millimeter conversion. Later that day, the user removed the remaining
 sample instruction under [Visual bulk readiness](#visual-bulk-readiness).
 Keep the hydration and lightly wet hands guidance.
 
+On 2026-09-11, the user requested removal of the pinch-and-fold video
+from Step 3. This supersedes the earlier video choice. Keep the written
+starter-and-salt mixing instruction. The reason was not stated.
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
@@ -401,6 +405,14 @@ Its overhead view shows wet hands and the four-sided bowl fold. The video
 and its public availability were checked on 2026-09-07. Keep this recipe's
 gentle handling. The video teaches the movement; the recipe specifies
 2–4 sets, with 4 preferred.
+
+On 2026-09-11, the user shortened the first fold instruction to
+"Rest the dough in the covered mixing bowl for 30 minutes after adding
+the starter, then stretch and fold." This replaces the longer wording
+about one set of four gentle folds with lightly wet hands in Step 4.
+Keep the stretch-and-fold video. The user also shortened the corresponding
+wording in Step 5 to "then do another stretch and fold." Keep the 2–4-set
+range, preference for 4 sets, and 30-minute covered rests.
 
 ## Shaping instructions
 
