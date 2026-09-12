@@ -46,7 +46,7 @@ selected on 2026-09-07, and the earlier 375 g autolyse plus 25 g reserved-water
 split. All dough water goes into the autolyse; no water is reserved for Step 3.
 The user also asked whether more water could produce an airier crumb.
 That outcome is not yet established for this recipe; the wetter dough may be
-harder to fold and shape. See [Fixed bake time](#fixed-bake-time) for the
+harder to handle and shape. See [Fixed bake time](#fixed-bake-time) for the
 subsequent adjustment to the uncovered bake.
 
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
@@ -97,11 +97,10 @@ mark the starting level, move the dough to a bowl for folds, and return it
 to the container for a 60% rise measured from mixing.
 
 Later that day, the user replaced this sequence because they do not want
-to move the dough in and out of the proofing container repeatedly. Do the
-autolyse in the mixing bowl. Add the 100 g active starter (levain) and 11 g
-salt there, mix until uniform, and cover the bowl. Do all fold sets in
-that same bowl, with the first after a 30-minute rest and 30-minute rests
-between sets. The current 2–4-set range is recorded under [Folding](#folding).
+to move the dough in and out of the proofing container repeatedly. That
+sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
+the mixing bowl before a single transfer. The later decision under
+[Folding](#folding) removes the fold sets entirely.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
@@ -116,20 +115,20 @@ not calibrated against this dough after the second fold.
 
 Later that day, the user chose a single target of 1.4 quarts because they
 want a precise number. This supersedes the 1.3–1.4-quart range and their
-interim request to return to 50% rise. Use the exact Step 6 title
+interim request to return to 50% rise. Use the exact bulk-step title
 "Aim for 1.4 quarts" and the same target in its body and the schedule.
 This is a chosen target pending actual measurements, not a verified
 equivalent of 50% rise. Keep the visual readiness cues.
 
-The user kept a single gentle transfer to the 2-quart proofing container,
-then covering it. With the later 2–4-set decision under [Folding](#folding),
-transfer after the final set. Do not restore starting-volume or marking
-instructions in Step 5 or the schedule.
+Keep a single gentle transfer to the 2-quart proofing container, then
+cover it. With the decision under [Folding](#folding), transfer immediately
+after mixing the starter and salt in the mixing bowl. Leave the dough
+undisturbed for bulk fermentation. Do not restore starting-volume or
+marking instructions in the checklist or schedule.
 
-Total bulk time still starts when the starter is added, so all fold sets and
-rests count within the existing planning estimate. Keep the existing
-quantities, 30-minute rests, and visual readiness cues. Do not
-restore sample-tube instructions.
+Total bulk time still starts when the starter is added. Keep the existing
+quantities, planning estimate, and visual readiness cues. Do not restore
+sample-tube instructions.
 
 ## Cold-proof timing and flavor
 
@@ -201,12 +200,12 @@ Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 a 10-minute bench rest, a 12–24-hour cold proof, 30 minutes
 covered followed by 20 minutes uncovered, and at
-least four hours of cooling. Keep the near-peak starter cues, dough cues,
+least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
 Show the overlaps: start the 1–2-hour autolyse when the starter looks about
-1–2 hours from ready, with 2 hours preferred. Do 2–4 fold sets, with 4
-preferred; all sets and their rests count within bulk. After shaping and
+1–2 hours from ready, with 2 hours preferred. After mixing, transfer to the
+proofing container, cover, and leave undisturbed. After shaping and
 placing the loaf in the banneton, do stitch shaping before sealing the bag
 and refrigerating. Preheat the
 oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold proof.
@@ -246,21 +245,24 @@ the fixed endpoint and the 30-minute covered bake at 450°F.
 
 Bake for 30 minutes covered at 450°F, then 20 minutes uncovered at 425°F,
 for 50 minutes total.
-Then remove the loaf from the oven. Follow the minimum four-hour
+Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
 
 ## Cooling rest
 
-On 2026-09-11, the user increased the cooling rest to at least 4 hours
-before slicing. This supersedes the three-hour minimum. The reason was
-not stated. Keep the cooling step, schedule, and troubleshooting guidance
-consistent with this minimum. Continue cooling uncovered on a wire rack.
+On 2026-09-11, the user returned the cooling minimum to at least 3 hours
+to simplify the recipe. This supersedes the earlier same-day increase to
+four hours. Remove the loaf from the Dutch oven and cool uncovered on a
+wire rack for at least 3 hours before slicing. Let it cool longer if it is
+still warm. Keep the cooling step, schedule, and troubleshooting guidance
+consistent with this minimum.
 
-Later on 2026-09-11, the user accepted making the wire rack explicit in the
-cooling step. Instruct the baker to remove the loaf from the Dutch oven and
-cool it uncovered on a wire rack for at least four hours before slicing.
-This makes the checklist consistent with the existing schedule guidance.
+[The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
+checked on 2026-09-11, recommends at least two hours, preferably three.
+This supports the chosen minimum; it does not establish the exact cooling
+time for this loaf in every room. Judge gummy crumb only after the loaf
+has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
 
@@ -346,8 +348,7 @@ standalone problems with the ongoing process or instructions to intervene
 in the current bake.
 
 Put process troubleshooting at the relevant step. For example, a slow
-starter build belongs with Step 1; weak dough during
-folding belongs with the fold step; stalled bulk belongs with Step 6.
+starter build belongs with Step 1; stalled bulk belongs with Step 4.
 This keeps help where the baker needs it and reserves the final table for
 reviewing the result.
 
@@ -375,60 +376,27 @@ was checked on 2026-09-05 and identifies multiple causes of gummy crumb.
 
 ## Folding
 
-On 2026-09-09, the user initially chose exactly two fold sets for Step 4 and asked
-to remove the instructions for judging how many sets to perform. This
-supersedes the 2026-09-07 choice to check dough strength every 30 minutes
-and stop after one set or add further sets as needed. The user wants a
-fixed count instead of these extra judgments.
+On 2026-09-11, the user removed stretch-and-fold sets entirely to make the
+recipe easier. They report that their dough already holds its shape,
+feels firm and elastic, and stretches without tearing. This is the user's
+selected process for their flour and dough; the finished-loaf result has
+not yet been established.
 
-Rest the covered dough for 30 minutes after adding the starter, then do
-the first set. Cover and rest for another 30 minutes, then do the second
-set. Each set consists of four gentle folds with lightly wet hands.
-After the final set, transfer the dough to the proofing container, cover
-it, and leave it undisturbed for the rest of bulk, as specified in
-[Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
-All sets and rests count toward total bulk time.
+Remove both folding checklist steps, their video, the 30-minute folding
+rests, and all fold-count instructions from the schedule. This supersedes
+the earlier two-set requirement, the later 2–4-set range with four preferred,
+and the strength-check alternatives. Keep the autolyse and starter-and-salt
+mixing, then follow [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl)
+for the single transfer and undisturbed rise. Final shaping and stitch
+shaping remain part of the recipe.
 
-Later on 2026-09-09, the user requested one checklist step per fold so
-they can track how many sets they have done. Step 4 is "First fold" and
-Step 5 is "Second fold", each with an independent saved checkbox. Use
-`fold-one` for the first set and keep `fold-two` for the second. This
-supersedes the combined folding item while keeping exactly two sets and
-the 30-minute rest between them.
-
-On 2026-09-11, the user changed the range to 2–4 fold sets and requested
-wording that favors more sets. State that more sets are better and aim for
-4. This supersedes the fixed two-set limit and the instruction to exclude
-extra sets. Keep four gentle folds per set, lightly wet hands, and the
-30-minute covered rests. The reason for the new range was not stated.
-
-Keep Step 4 as the first set and use Step 5 for the remaining sets, with
-the title "Finish folding: 2–4 sets total". Retain the saved `fold-one` and
-`fold-two` keys and the 13-step checklist. Transfer to the proofing container
-only after the final set. Keep the old strength checks, early-stop
-instructions, and later-loaf water advice out of the folding steps.
-
-On 2026-09-07, the user requested a YouTube demonstration in place of the
-written stretch-and-fold movements in Step 4. Keep The Perfect Loaf's
-[29-second stretch-and-fold video](https://www.youtube.com/watch?v=mwtTZK7_t08).
-Its overhead view shows wet hands and the four-sided bowl fold. The video
-and its public availability were checked on 2026-09-07. Keep this recipe's
-gentle handling. The video teaches the movement; the recipe specifies
-2–4 sets, with 4 preferred.
-
-On 2026-09-11, the user shortened the first fold instruction to
-"Rest the dough in the covered mixing bowl for 30 minutes after adding
-the starter, then stretch and fold." This replaces the longer wording
-about one set of four gentle folds with lightly wet hands in Step 4.
-Keep the stretch-and-fold video. The user also shortened the corresponding
-wording in Step 5 to "then do another stretch and fold." Keep the 2–4-set
-range, preference for 4 sets, and 30-minute covered rests.
-
-Later on 2026-09-11, the user accepted changing the fold-count wording after
-reviewing the recipe. Replace "More sets are better; aim for 4" with
-"Aim for 4 sets" in the folding step and schedule. Keep the 2–4-set range
-and 30-minute covered rests. This supersedes the blanket claim that more
-sets are better without changing the selected target or folding method.
+The checklist now has 11 steps. Bulk is Step 4, shaping is Step 5, cold
+proof is Step 6, preheat is Step 7, and scoring/loading is Step 8. Covered
+bake, uncovered bake, and cooling are Steps 9, 10, and 11. Update the
+schedule and preheat-overlap references accordingly. Older numbered
+references in this decision history describe the previous checklist.
+Retain the remaining saved checklist IDs; obsolete `fold-one` and
+`fold-two` entries must not count toward progress.
 
 ## Shaping instructions
 

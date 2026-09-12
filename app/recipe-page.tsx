@@ -53,34 +53,11 @@ const steps = [
     time: 'Until uniform',
     icon: Scale,
     title: 'Add starter and salt',
-    body: 'In the same mixing bowl, add 100 g active starter (levain) and 11 g salt. Squeeze and fold until reasonably uniform. No kneading.',
+    body: 'In the same mixing bowl, add 100 g active starter (levain) and 11 g salt. Squeeze and mix until reasonably uniform. No kneading.',
     details: [
       'The dough is at about 90.9% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
-    cue: 'Cover the mixing bowl after mixing. Keep the dough in this bowl for all 2–4 fold sets.',
-  },
-  {
-    id: 'fold-one',
-    phase: 'Early bulk',
-    time: '30 min after mixing',
-    icon: RotateCcw,
-    title: 'First fold',
-    body: 'Rest the dough in the covered mixing bowl for 30 minutes after adding the starter, then stretch and fold.',
-    video: {
-      url: 'https://www.youtube.com/watch?v=mwtTZK7_t08',
-      title: 'Watch: stretch and fold sourdough',
-      caption: 'The Perfect Loaf · 29 seconds · YouTube',
-    },
-  },
-  {
-    // Keep the existing key for completing the remaining fold sets.
-    id: 'fold-two',
-    phase: 'Early bulk',
-    time: '30 min between sets',
-    icon: RotateCcw,
-    title: 'Finish folding: 2–4 sets total',
-    body: 'Cover the mixing bowl and rest for 30 minutes after the first fold, then do another stretch and fold. Do 2–4 sets total, with 30-minute covered rests between sets. Aim for 4 sets.',
-    cue: 'After the final set, gently transfer the dough to your 2-quart proofing container and cover it. All sets and rests count toward total bulk time.',
+    cue: 'After mixing, gently transfer the dough to your 2-quart proofing container and cover it.',
   },
   {
     id: 'bulk',
@@ -105,7 +82,7 @@ const steps = [
     },
     details: [
       'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
-      'Rest the round uncovered for 10 minutes so it becomes easier to fold.',
+      'Rest the round uncovered for 10 minutes so it becomes easier to shape.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
       'Do stitch shaping in the banneton: gently pull small flaps from opposite sides over the middle, alternating sides like lacing a corset, to create extra surface tension.',
       'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',
@@ -119,13 +96,13 @@ const steps = [
     icon: Snowflake,
     title: 'Cold-proof overnight',
     body: 'Keep the bag sealed and refrigerate immediately for 12–24 hours. Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Bake directly from the refrigerator.',
-    cue: 'Choose your bake time within the 12–24-hour range. Start Step 9 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
+    cue: 'Choose your bake time within the 12–24-hour range. Start Step 7 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
     phase: 'Day 2',
     time: 'At least 60 min',
-    overlap: 'Overlaps Step 8',
+    overlap: 'Overlaps Step 6',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
     body: 'Line the bottom of the Dutch oven with one layer of aluminum foil, then preheat it with the pizza stone at 475°F for at least 60 minutes.',
@@ -169,10 +146,10 @@ const steps = [
   {
     id: 'cool',
     phase: 'Finish',
-    time: 'At least 4 hr',
+    time: 'At least 3 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 4 hours before slicing. Whole-wheat bread needs this time to finish setting inside.',
+    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 3 hours before slicing. Let it cool longer if it is still warm.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];
@@ -180,7 +157,7 @@ const steps = [
 const diagnoses = [
   ['Dense, tight crumb + little oven rise', 'If the dough was also tight and poorly aerated at shaping, let bulk go a little longer next bake. Small holes alone are normal in whole-wheat bread.'],
   ['Loose, flat loaf + little oven rise', 'If the dough developed strength but then became progressively weaker or collapsed late in bulk, shape a little earlier next bake. If it was loose from the start, check dough strength, water amount, and shaping first.'],
-  ['Fully cooled crumb is wet or gummy', 'If the loaf cooled for at least 4 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
+  ['Fully cooled crumb is wet or gummy', 'If the loaf cooled fully for at least 3 hours and the dough was airy and held together at shaping, try 5 more minutes covered next bake. If the dough was tight or collapsing at shaping, review fermentation first.'],
   ['Fully cooled crumb is dry', 'If the crumb is dry throughout when freshly baked and fully cooled, try 5 fewer minutes covered next bake.'],
   ['Crust too thick or hard', 'If the cooled crumb is well baked and moist, try shifting 5 minutes from uncovered to covered next bake. Keep total bake time the same and compare the result.'],
   ['Crust too soft or not crisp enough', 'If the crust is still too soft after cooling uncovered, try shifting 5 minutes from covered to uncovered next bake. Keep total bake time the same and compare the result.'],
@@ -233,7 +210,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix and do 2–4 fold sets in the mixing bowl, with 30-minute rests between sets. Aim for 4 sets. After the final set, transfer to the proofing container and cover it. Aim for 1.4 quarts, using the visual cues in Step 6. All sets and rests count toward total bulk time.</p>
+              <p>Mix in the mixing bowl, then transfer to the proofing container and cover it. Leave the dough undisturbed. Aim for 1.4 quarts, using the visual cues in Step 4.</p>
             </li>
             <li>
               <h3>Shape</h3>
@@ -252,7 +229,7 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Cool</h3>
-              <strong>At least 4 hr</strong>
+              <strong>At least 3 hr</strong>
               <p>Cool uncovered on a wire rack before slicing.</p>
             </li>
           </ol>
@@ -300,12 +277,12 @@ export function RecipePage() {
               return (
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
-                    <div className="parallel-prep" aria-label="Steps 8 and 9 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 9 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 10.</span></div>
+                    <div className="parallel-prep" aria-label="Steps 6 and 7 can overlap">
+                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 7 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 8.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>8 · Cold proof</b><i /><span>12–24 hr</span></div>
-                        <div className="timeline-row overlap-line"><b>9 · Preheat</b><i /><span>60+ min</span></div>
-                        <div className="timeline-merge"><ChevronRight /> Step 10 · Score and load</div>
+                        <div className="timeline-row"><b>6 · Cold proof</b><i /><span>12–24 hr</span></div>
+                        <div className="timeline-row overlap-line"><b>7 · Preheat</b><i /><span>60+ min</span></div>
+                        <div className="timeline-merge"><ChevronRight /> Step 8 · Score and load</div>
                       </div>
                     </div>
                   )}
@@ -346,7 +323,7 @@ export function RecipePage() {
             <span className="expandable-summary-title"><span className="eyebrow"><span /> After the bake</span><span className="expandable-summary-heading font-display">Troubleshooting</span></span>
             <span className="expandable-summary-action">Adjust next loaf</span>
           </summary>
-          <div className="diagnosis-card"><p className="panel-note">Judge the finished loaf after at least 4 hours of cooling. Earlier dough observations can help identify the cause. Once you choose an adjustment, update the recipe for the next bake. Change one thing at a time and compare the result.</p><div className="diagnosis-list">{diagnoses.map(([signal, adjustment]) => <div key={signal}><strong>{signal}</strong><span><ChevronRight />{adjustment}</span></div>)}</div></div>
+          <div className="diagnosis-card"><p className="panel-note">Judge the finished loaf once it has cooled fully, after at least 3 hours. Earlier dough observations can help identify the cause. Once you choose an adjustment, update the recipe for the next bake. Change one thing at a time and compare the result.</p><div className="diagnosis-list">{diagnoses.map(([signal, adjustment]) => <div key={signal}><strong>{signal}</strong><span><ChevronRight />{adjustment}</span></div>)}</div></div>
         </details>
       </section>
     </main>
