@@ -25,9 +25,9 @@ Once the user chooses an adjustment, update the recipe itself, including affecte
 and schedule text. Until then, the recipe's current settings remain
 the instructions to follow.
 
-Cold-proof timing is also flexible within 12–24 hours at approximately 38°F.
+Cold-proof timing is also flexible within 12–16 hours at approximately 38°F.
 See [Cold-proof timing and flavor](#cold-proof-timing-and-flavor) for the
-decision that supersedes the earlier fixed 12-hour instruction.
+decision that supersedes the earlier 12–24-hour range.
 
 ## Autolyse water
 
@@ -131,14 +131,19 @@ sample-tube instructions.
 
 ## Cold-proof timing and flavor
 
+On 2026-09-11, the user chose 12–16 hours at approximately 38°F, superseding
+the 12–24-hour range below. The reason for the narrower range was not stated.
+Use the new range in the cold-proof step, summary, timeline, and baking
+reminders. Remove the instruction to choose a proof near 24 hours for more tang.
+
 On 2026-09-06, the user requested a range instead of a fixed 12-hour cold
 proof, with an accurate explanation of how a longer proof affects sourness.
-Use 12–24 hours at approximately 38°F: aim near 12 hours for a milder loaf,
-or closer to 24 hours for more tang. Longer fermentation can build more
+The earlier instruction used 12–24 hours at approximately 38°F: near 12 hours
+for a milder loaf, or closer to 24 hours for more tang. Longer fermentation can build more
 acidity, but the flavor change depends on the starter, dough, and refrigerator
 temperature. Do not promise that more time always makes a loaf more sour.
 
-This supersedes the 2026-09-05 decision to keep a fixed 12-hour proof. Update
+That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
 Line the bottom of the Dutch oven with one layer of foil, then preheat it
 with the pizza stone at 475°F for at least 60 minutes before the chosen bake
@@ -197,7 +202,7 @@ shaping, cold proofing, baking, and cooling.
 
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
-a 10-minute bench rest, a 12–24-hour cold proof, 30 minutes
+a 10-minute bench rest, a 12–16-hour cold proof, 30 minutes
 covered followed by 20 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.

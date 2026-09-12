@@ -92,11 +92,11 @@ const steps = [
   {
     id: 'cold-proof',
     phase: 'Overnight',
-    time: '12–24 hr at ~38°F',
+    time: '12–16 hr at ~38°F',
     icon: Snowflake,
     title: 'Cold-proof overnight',
-    body: 'Keep the bag sealed and refrigerate immediately for 12–24 hours. Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Bake directly from the refrigerator.',
-    cue: 'Choose your bake time within the 12–24-hour range. Start Step 7 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
+    body: 'Keep the bag sealed and refrigerate immediately for 12–16 hours. Bake directly from the refrigerator.',
+    cue: 'Start Step 7 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
@@ -110,15 +110,15 @@ const steps = [
       'While the Dutch oven is cold, lay one sheet of foil across the bottom and smooth it flat.',
       'Put the pizza stone on a separate rack directly below the Dutch oven. Leave the foil lining in the pot during the preheat and bake.',
     ],
-    cue: 'Keep the loaf refrigerated until your chosen 12–24-hour proof and the preheat are complete.',
+    cue: 'Keep the loaf refrigerated until your chosen 12–16-hour proof and the preheat are complete.',
   },
   {
     id: 'load',
     phase: 'Day 2',
-    time: 'After 12–24 hr',
+    time: 'After 12–16 hr',
     icon: CookingPot,
     title: 'Score and load the loaf',
-    body: 'When your chosen 12–24-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
+    body: 'When your chosen 12–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
       'Cut a sheet of parchment paper large enough to use as a sling.',
       'Invert the cold loaf from the banneton onto the parchment. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
@@ -204,8 +204,8 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Cold proof</h3>
-              <strong>12–24 hr at ~38°F</strong>
-              <p>Aim near 12 hours for a milder loaf, or closer to 24 hours for more tang. Line the bottom of the Dutch oven with one layer of foil, then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
+              <strong>12–16 hr at ~38°F</strong>
+              <p>Line the bottom of the Dutch oven with one layer of foil, then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>
@@ -265,7 +265,7 @@ export function RecipePage() {
                     <div className="parallel-prep" aria-label="Steps 6 and 7 can overlap">
                       <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 7 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 8.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>6 · Cold proof</b><i /><span>12–24 hr</span></div>
+                        <div className="timeline-row"><b>6 · Cold proof</b><i /><span>12–16 hr</span></div>
                         <div className="timeline-row overlap-line"><b>7 · Preheat</b><i /><span>60+ min</span></div>
                         <div className="timeline-merge"><ChevronRight /> Step 8 · Score and load</div>
                       </div>
