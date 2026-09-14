@@ -99,7 +99,7 @@ Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest decision under
-[Folding](#folding) makes the fold sets optional.
+[Folding](#folding) removes the fold sets.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
@@ -120,9 +120,8 @@ This is a chosen target pending actual measurements, not a verified
 equivalent of 50% rise. Keep the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
-cover it. With the decision under [Folding](#folding), transfer after the
-last optional fold set, or immediately after mixing the starter and salt
-if skipping the folds. Leave the dough undisturbed for the rest of bulk
+cover it. With the decision under [Folding](#folding), transfer immediately
+after mixing the starter and salt. Leave the dough undisturbed for bulk
 fermentation. Do not restore starting-volume or
 marking instructions in the checklist or schedule.
 
@@ -210,10 +209,8 @@ least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
 Show the overlaps: start the 1–2-hour autolyse when the starter looks about
-1–2 hours from ready, with 2 hours preferred. After mixing, optionally
-stretch and fold every 30 minutes, up to 4 sets. Transfer to the proofing
-container after the last set, or immediately if skipping folds. Cover and
-leave undisturbed. Folding time is included in bulk. After shaping and
+1–2 hours from ready, with 2 hours preferred. After mixing, transfer to the
+proofing container, cover, and leave undisturbed. After shaping and
 placing the loaf in the banneton, do stitch shaping before sealing the bag
 and refrigerating. Preheat the
 oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold proof.
@@ -317,7 +314,7 @@ the flat bottom with foil; no foil up the sides is needed for their setup.
 On 2026-09-12, the user added a piece of parchment paper over the lip of the
 bottom half before putting the top on for preheating. The purpose is to keep
 the two halves from fusing together during the preheat. Include this with the
-foil preparation in Step 8 and the schedule reminder.
+foil preparation in Step 7 and the schedule reminder.
 
 Later on 2026-09-12, the user approved clearer instructions for a thick foil
 pad to follow King Arthur's method more closely and reduce bottom darkening.
@@ -328,7 +325,7 @@ The starting sheet is larger than the pot's bottom; the finished pad fits the
 bottom. Flattening makes the top level while retaining the pad's thickness.
 This replaces the instruction to lay one sheet flat. Keep the existing
 parchment sling and lower the loaf onto the foil pad. Keep the pad preparation
-in Step 8, the loading instruction in Step 9, and the schedule reminder in sync.
+in Step 7, the loading instruction in Step 8, and the schedule reminder in sync.
 The bottom-only coverage and omission of greasing remain in effect.
 
 [King Arthur's foil-lining method](https://www.kingarthurbaking.com/blog/2025/07/30/the-bottom-of-my-bread-gets-too-dark)
@@ -394,27 +391,25 @@ not yet been established.
 
 Later on 2026-09-11, the user added back one explicitly optional step:
 stretch and fold every 30 minutes, up to 4 sets. The reason for restoring
-the option was not stated. This supersedes the complete removal above;
+the option was not stated. This superseded the complete removal above;
 the earlier required counts and preference for four sets remain superseded.
 
-Rest for 30 minutes after mixing, then perform the first optional set.
-Keep all sets in the mixing bowl. Lift and fold each of the four sides over
-the middle for one set, and cover between sets. Stop after any set, or skip
-the step entirely. Follow [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl)
-for the single transfer. Folding time is included in total bulk time from
-starter addition. Keep final shaping and stitch shaping.
+On 2026-09-14, the user removed the optional stretch-and-fold step because
+they are not doing any stretch and folds. This supersedes the optional-step
+decision. Transfer to the proofing container immediately after mixing,
+then leave the dough covered and undisturbed during bulk fermentation.
+Keep final shaping and stitch shaping.
 
-The checklist has 12 numbered steps, including optional folding at Step 4.
-Bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
-and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
-are Steps 10, 11, and 12. Update the schedule and preheat-overlap references
+The checklist has 11 numbered steps. Bulk is Step 4, shaping is Step 5,
+cold proof is Step 6, preheat is Step 7, and scoring/loading is Step 8.
+Covered bake, uncovered bake, and cooling are Steps 9, 10, and 11.
+Update the schedule and preheat-overlap references
 accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
-Count only the 11 required steps toward progress, so skipping the optional
-step still permits 100% completion. Save its checkbox under the new
-`optional-folds` ID. Retain the other current IDs; obsolete `fold-one` and
-`fold-two` entries must not count toward progress or precheck the new step.
+Count all 11 current steps toward progress. Retain their current IDs so
+saved progress remains valid. Obsolete `optional-folds`, `fold-one`, and
+`fold-two` entries must not count toward progress or precheck another step.
 
 ## Shaping instructions
 
