@@ -205,7 +205,7 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 a 10-minute bench rest, a 12–16-hour cold proof, 30 minutes
-covered followed by 25 minutes uncovered, and at
+covered followed by 20 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
@@ -252,13 +252,17 @@ On 2026-09-12, the user extended the uncovered bake to 25 minutes at 425°F
 after reporting that the latest loaf was still very gummy after four hours
 of cooling. The user also suspected underfermentation and will work on that
 separately; the cause of the gummy crumb is not established. The extra five
-minutes are a trial to allow more baking and moisture loss, with a darker,
-firmer crust as the tradeoff. This supersedes the 20-minute uncovered setting.
-Keep the 30-minute covered bake at 450°F and the existing fermentation and
-cooling instructions.
+minutes were a trial to allow more baking and moisture loss, with a darker,
+firmer crust as the tradeoff. This superseded the earlier 20-minute uncovered
+setting while retaining the 30-minute covered bake at 450°F and the existing
+fermentation and cooling instructions.
 
-Bake for 30 minutes covered at 450°F, then 25 minutes uncovered at 425°F,
-for 55 minutes total.
+On 2026-09-14, the user returned the uncovered bake to 20 minutes at 425°F.
+The reason was not stated. This supersedes the 25-minute setting from
+2026-09-12 and retains the fixed endpoint.
+
+Bake for 30 minutes covered at 450°F, then 20 minutes uncovered at 425°F,
+for 50 minutes total.
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
