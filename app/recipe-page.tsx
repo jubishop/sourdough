@@ -63,8 +63,8 @@ const steps = [
     phase: 'Day 1',
     time: 'First immediately · then every 30 min',
     icon: RotateCcw,
-    title: 'Slap and fold up to 4 times',
-    body: 'Do the first slap and fold immediately after mixing in the salt and levain. Then repeat every 30 minutes up to 3 more times, for 4 total. You can stop after the first or any later repeat.',
+    title: 'Slap and fold up to 5 times',
+    body: 'Do the first slap and fold immediately after mixing in the salt and levain. Then repeat every 30 minutes up to 4 more times, for 5 total. You can stop after the first or any later repeat.',
     cue: 'Keep the dough covered in the mixing bowl between repeats. After your last slap and fold, gently transfer the dough to your 2-quart proofing container and cover it.',
   },
   {
@@ -196,7 +196,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix the salt and levain, then do the first slap and fold immediately. Repeat every 30 minutes up to 3 more times in Step 4, covering the mixing bowl between repeats. After the last one, transfer to the proofing container, cover, and leave undisturbed. Aim for 1.2 quarts, using the visual cues in Step 5.</p>
+              <p>Mix the salt and levain, then do the first slap and fold immediately. Repeat every 30 minutes up to 4 more times in Step 4, covering the mixing bowl between repeats. After the last one, transfer to the proofing container, cover, and leave undisturbed. Aim for 1.2 quarts, using the visual cues in Step 5.</p>
             </li>
             <li>
               <h3>Shape</h3>
