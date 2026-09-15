@@ -162,8 +162,8 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
-Place a foil pad about ¼ inch thick in the bottom of the Dutch oven and wrap
-parchment paper over the bottom lip. Then preheat it with the pizza stone at 475°F for
+Place a foil pad about ¼ inch thick in the bottom of the Dutch oven.
+Then preheat it with the pizza stone at 475°F for
 at least 60 minutes before the chosen bake
 time. Keep the loaf refrigerated until ready to score and load.
 
@@ -338,8 +338,12 @@ the flat bottom with foil; no foil up the sides is needed for their setup.
 
 On 2026-09-12, the user added a piece of parchment paper over the lip of the
 bottom half before putting the top on for preheating. The purpose is to keep
-the two halves from fusing together during the preheat. Include this with the
-foil preparation in Step 8 and the schedule reminder.
+the two halves from fusing together during the preheat. The 2026-09-15 removal
+below supersedes this instruction.
+
+On 2026-09-15, the user requested removal of the parchment-paper instruction
+from Step 8.2. Remove it from the preheat details, summary, and schedule reminder.
+The reason was not stated.
 
 Later on 2026-09-12, the user approved clearer instructions for a thick foil
 pad to follow King Arthur's method more closely and reduce bottom darkening.
