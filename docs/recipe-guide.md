@@ -106,8 +106,10 @@ Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
-[Folding](#folding) adds a required slap-and-fold session on the counter
-before the transfer to the proofing container.
+[Folding](#folding) starts with one required slap and fold immediately after
+mixing in salt and levain, followed by up to three more at 30-minute intervals.
+Return the dough to the covered mixing bowl between repeats, then transfer
+once to the proofing container after the last slap and fold.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
@@ -217,9 +219,11 @@ least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
 Show the overlaps: start the 1-hour autolyse when the starter looks about
-1 hour from ready. After mixing, do the required
-slap-and-fold session, then transfer to the proofing container, cover, and
-leave undisturbed. Count this handling time within bulk from starter addition.
+1 hour from ready. Immediately after mixing in salt and levain, do the first
+slap and fold. Repeat every 30 minutes up to three more times, covering the
+mixing bowl between repeats. After the last one, transfer to the proofing
+container, cover, and leave undisturbed. Count the repeats and rests within
+bulk from starter addition; do not restart the bulk clock at the transfer.
 After shaping and
 placing the loaf in the banneton, do stitch shaping before sealing the bag
 and refrigerating. Preheat the
@@ -414,18 +418,21 @@ decision and moved the transfer to immediately after mixing.
 
 Later on 2026-09-14, the user requested reinserting Step 4 with slap and
 folds and confirmed it must be required. The reason was not stated. This
-supersedes the removal and the interim optional choice. Use one short
-session on the counter after mixing in starter and salt, before transferring
-once to the proofing container. Keep final shaping and stitch shaping, and
-leave the dough covered and undisturbed after the transfer.
+supersedes the removal and the interim optional choice. The user then
+specified the first slap and fold immediately after mixing in salt and
+levain, followed by up to three more at 30-minute intervals: at most four
+total. The first is required; any later repeat can be skipped. If all four
+are done, they occur immediately, then about 30, 60, and 90 minutes later.
+Return the dough to the mixing bowl and cover it between repeats. Transfer
+once to the proofing container after the last slap and fold, then leave it
+covered and undisturbed. Keep final shaping and stitch shaping.
 
 Use a clean, unfloured counter and lightly wet hands. Lift, gently slap,
-stretch, fold, and turn the dough until it is smoother, more elastic, and
-holds together better. The 3–6-minute estimate follows
+stretch, and fold. This replaces the initial 3–6-minute session based on
 [The Perfect Loaf's slap-and-fold guide](https://www.theperfectloaf.com/guides/slap-and-fold/),
-checked on 2026-09-14. It is a handling estimate, not a tested endpoint for
-this flour. The source often follows with bulk folds; this recipe retains
-the user's choice to omit those. Judge the new process with the next loaf.
+checked on 2026-09-14. The guide describes repeated kneading; it does not
+establish this recipe's interval schedule. The schedule is the user's
+chosen process, to assess with the next loaf.
 
 The checklist has 12 numbered steps. Slap and folds is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
@@ -435,7 +442,9 @@ Update the schedule and preheat-overlap references
 accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
-Count all 12 required steps toward progress. Use the new ID `slap-and-fold`
+Count all 12 required steps toward progress. Step 4 can be marked complete
+after the first slap and fold if the remaining repeats are skipped, or after
+the last repeat performed. Use the new ID `slap-and-fold`
 and retain the other steps' IDs so saved progress remains valid. Obsolete
 `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
 progress or precheck another step.

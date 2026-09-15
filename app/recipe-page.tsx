@@ -61,16 +61,17 @@ const steps = [
   {
     id: 'slap-and-fold',
     phase: 'Day 1',
-    time: '~3–6 min',
+    time: 'First immediately · then every 30 min',
     icon: RotateCcw,
-    title: 'Slap and fold',
-    body: 'Turn the dough onto a clean, unfloured counter. Lightly wet your hands. Do one short session until the dough feels smoother and more elastic and holds together better.',
+    title: 'Slap and fold up to 4 times',
+    body: 'Do the first slap and fold immediately after mixing in the salt and levain. Then repeat every 30 minutes up to 3 more times, for 4 total. You can stop after the first or any later repeat.',
     details: [
+      'Turn the dough onto a clean, unfloured counter. Lightly wet your hands.',
       'Lift the dough from one side with both hands. Let the hanging end touch down with a gentle slap.',
       'Draw the part in your hands toward you to stretch it, then fold it over the part on the counter.',
-      'Pick it up from the side, turn it a quarter turn, and repeat. If it starts tearing, pause and let it relax.',
+      'If doing another repeat, return the dough to the mixing bowl, cover it, and rest for 30 minutes.',
     ],
-    cue: 'Gently transfer the dough to your 2-quart proofing container and cover it.',
+    cue: 'After your last slap and fold, gently transfer the dough to your 2-quart proofing container and cover it.',
   },
   {
     id: 'bulk',
@@ -204,7 +205,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix in the mixing bowl, then do slap and folds in Step 4. Transfer to the proofing container, cover, and leave undisturbed. Aim for 1.4 quarts, using the visual cues in Step 5.</p>
+              <p>Mix the salt and levain, then do the first slap and fold immediately. Repeat every 30 minutes up to 3 more times in Step 4, covering the mixing bowl between repeats. After the last one, transfer to the proofing container, cover, and leave undisturbed. Aim for 1.4 quarts, using the visual cues in Step 5.</p>
             </li>
             <li>
               <h3>Shape</h3>
