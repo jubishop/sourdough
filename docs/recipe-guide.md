@@ -25,7 +25,7 @@ Once the user chooses an adjustment, update the recipe itself, including affecte
 and schedule text. Until then, the recipe's current settings remain
 the instructions to follow.
 
-Cold-proof timing is also flexible within 12–16 hours at approximately 38°F.
+Cold-proof timing is also flexible within 8–16 hours at approximately 38°F.
 See [Cold-proof timing and flavor](#cold-proof-timing-and-flavor) for the
 decision that supersedes the earlier 12–24-hour range.
 
@@ -123,15 +123,18 @@ checked on 2026-09-11, with allowance for this recipe's extra water. It was
 not calibrated against this dough after the second fold.
 
 Later that day, the user chose a single target of 1.4 quarts because they
-want a precise number. This supersedes the 1.3–1.4-quart range and their
-interim request to return to 50% rise. Use the exact bulk-step title
-"Aim for 1.4 quarts" and the same target in its body and the schedule.
-This is a chosen target pending actual measurements, not a verified
-equivalent of 50% rise. Keep the visual readiness cues.
+want a precise number. This superseded the 1.3–1.4-quart range and their
+interim request to return to 50% rise. It was a chosen target pending actual
+measurements, not a verified equivalent of 50% rise.
+
+On 2026-09-14, the user lowered the target to 1.2 quarts. The reason was
+not stated. This supersedes the 1.4-quart target. Use the exact bulk-step
+title "Aim for 1.2 quarts" and the same target in its body and the schedule.
+Keep the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
-cover it. With the decision under [Folding](#folding), transfer immediately
-after mixing the starter and salt. Leave the dough undisturbed for bulk
+cover it. With the decision under [Folding](#folding), transfer after the
+last slap and fold. Leave the dough undisturbed for the rest of bulk
 fermentation. Do not restore starting-volume or
 marking instructions in the checklist or schedule.
 
@@ -141,10 +144,14 @@ sample-tube instructions.
 
 ## Cold-proof timing and flavor
 
-On 2026-09-11, the user chose 12–16 hours at approximately 38°F, superseding
-the 12–24-hour range below. The reason for the narrower range was not stated.
-Use the new range in the cold-proof step, summary, timeline, and baking
-reminders. Remove the instruction to choose a proof near 24 hours for more tang.
+On 2026-09-14, the user changed the cold-proof range to 8–16 hours at
+approximately 38°F. The reason was not stated. This supersedes the
+12–16-hour range selected on 2026-09-11. Use 8–16 hours in the cold-proof
+step, summary, timeline, and baking reminders.
+
+The 2026-09-11 choice superseded the 12–24-hour range below. The reason for
+that narrower range was not stated. It also removed the instruction to
+choose a proof near 24 hours for more tang.
 
 On 2026-09-06, the user requested a range instead of a fixed 12-hour cold
 proof, with an accurate explanation of how a longer proof affects sourness.
@@ -213,10 +220,10 @@ shaping, cold proofing, baking, and cooling.
 
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
-a 10-minute bench rest, a 12–16-hour cold proof, 30 minutes
+an 8–16-hour cold proof, 30 minutes
 covered followed by 25 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
-10-minute bench rest, and fixed bake time clear.
+and fixed bake time clear.
 
 Show the overlaps: start the 1-hour autolyse when the starter looks about
 1 hour from ready. Immediately after mixing in salt and levain, do the first
@@ -342,7 +349,7 @@ then shape and flatten it into a pad that fits the bottom. Keep the pad about
 The starting sheet is larger than the pot's bottom; the finished pad fits the
 bottom. Flattening makes the top level while retaining the pad's thickness.
 This replaces the instruction to lay one sheet flat. Keep the existing
-parchment sling and lower the loaf onto the foil pad. Keep the pad preparation
+silicone sling and lower the loaf onto the foil pad. Keep the pad preparation
 in Step 8, the loading instruction in Step 9, and the schedule reminder in sync.
 The bottom-only coverage and omission of greasing remain in effect.
 
@@ -351,6 +358,11 @@ was checked again on 2026-09-12. Its test used a black-enameled Staub Dutch oven
 and a different bread recipe. The foil pad's thickness matters; one flat
 sheet did not prevent excessive darkening in that test. The lining is a
 chosen adjustment, not a guarantee against scorching in this recipe.
+
+On 2026-09-14, the user said they have a silicone bread sling and requested
+using it to load the loaf. This supersedes cutting a parchment sling. Set
+out the silicone sling, invert the cold loaf onto it, and use it to lower
+the scored loaf onto the foil pad.
 
 ## Scoring pattern and length
 
@@ -427,8 +439,11 @@ Return the dough to the mixing bowl and cover it between repeats. Transfer
 once to the proofing container after the last slap and fold, then leave it
 covered and undisturbed. Keep final shaping and stitch shaping.
 
-Use a clean, unfloured counter and lightly wet hands. Lift, gently slap,
-stretch, and fold. This replaces the initial 3–6-minute session based on
+The user then requested removal of the slap-and-fold technique instructions
+because they already know the method. Keep the timing, optional repeats,
+covered rests, and final transfer; omit counter setup and hand movements.
+
+This schedule replaces the initial 3–6-minute session based on
 [The Perfect Loaf's slap-and-fold guide](https://www.theperfectloaf.com/guides/slap-and-fold/),
 checked on 2026-09-14. The guide describes repeated kneading; it does not
 establish this recipe's interval schedule. The schedule is the user's
@@ -540,8 +555,11 @@ On 2026-09-14, the user requested removal of the shaping video. The reason
 was not stated. This supersedes the Elly's Everyday video selection. Remove
 the video link and caption; keep the written shaping instructions.
 
-Keep the gentle hand preshape, uncovered 10-minute rest, and existing
-sticking guidance.
+Later on 2026-09-14, the user removed the 10-minute uncovered rest and the
+shaping cue about damp hands, a dry counter, adding flour at sticking spots,
+and stopping when the skin tears. The reason was not stated. Remove the
+rest from the step, timing label, and schedule. This supersedes the earlier
+rest and sticking guidance. Keep the gentle hand preshape and final shaping.
 For this recipe, lift the loaf with both hands into the unfloured cotton
 banneton, smooth side down and seam side up, then do stitch shaping and
 follow the existing cold-proof step.
@@ -549,8 +567,7 @@ follow the existing cold-proof step.
 On 2026-09-11, the user added "stitch shaping" after placing the shaped
 loaf in the banneton and before sealing it in the Ziploc bag. Gently pull
 small flaps from opposite sides over the middle, alternating sides like
-lacing a corset, to create extra surface tension. Keep the seam facing up
-and the existing instruction to stop tightening if the outer skin tears.
+lacing a corset, to create extra surface tension. Keep the seam facing up.
 
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
@@ -582,7 +599,8 @@ replaced it with 50% growth measured after the second fold and transfer.
 On 2026-09-11, the user replaced that measurement with an estimated
 direct volume target, then settled on a single 1.4-quart target, as recorded in
 [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
-Show the 1.4-quart target in the bulk step and schedule.
+The 2026-09-14 choice in that section supersedes it. Show the current
+1.2-quart target in the bulk step and schedule.
 Keep the guide based on the main dough without restoring sample collection.
 
 Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when

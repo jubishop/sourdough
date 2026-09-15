@@ -65,46 +65,38 @@ const steps = [
     icon: RotateCcw,
     title: 'Slap and fold up to 4 times',
     body: 'Do the first slap and fold immediately after mixing in the salt and levain. Then repeat every 30 minutes up to 3 more times, for 4 total. You can stop after the first or any later repeat.',
-    details: [
-      'Turn the dough onto a clean, unfloured counter. Lightly wet your hands.',
-      'Lift the dough from one side with both hands. Let the hanging end touch down with a gentle slap.',
-      'Draw the part in your hands toward you to stretch it, then fold it over the part on the counter.',
-      'If doing another repeat, return the dough to the mixing bowl, cover it, and rest for 30 minutes.',
-    ],
-    cue: 'After your last slap and fold, gently transfer the dough to your 2-quart proofing container and cover it.',
+    cue: 'Keep the dough covered in the mixing bowl between repeats. After your last slap and fold, gently transfer the dough to your 2-quart proofing container and cover it.',
   },
   {
     id: 'bulk',
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Aim for 1.4 quarts',
-    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.4 quarts on its volume scale. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
+    title: 'Aim for 1.2 quarts',
+    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.2 quarts on its volume scale. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
     cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
   },
   {
     id: 'shape',
     phase: 'Day 1',
-    time: '10 min rest',
+    time: 'After bulk',
     icon: Circle,
     title: 'Shape and place in the banneton',
     body: 'Use your cotton banneton without dusting it with flour.',
     details: [
       'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
-      'Rest the round uncovered for 10 minutes so it becomes easier to shape.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
       'Do stitch shaping in the banneton: gently pull small flaps from opposite sides over the middle, alternating sides like lacing a corset, to create extra surface tension.',
       'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',
     ],
-    cue: 'If dough sticks to your hands, dampen them lightly. Keep the counter dry. Use a tiny dusting of flour at a sticking spot only if the dough sticks enough to tear. Stop tightening if the outer skin starts to tear.',
   },
   {
     id: 'cold-proof',
     phase: 'Overnight',
-    time: '12–16 hr at ~38°F',
+    time: '8–16 hr at ~38°F',
     icon: Snowflake,
     title: 'Cold-proof overnight',
-    body: 'Keep the bag sealed and refrigerate immediately for 12–16 hours. Bake directly from the refrigerator.',
+    body: 'Keep the bag sealed and refrigerate immediately for 8–16 hours. Bake directly from the refrigerator.',
     cue: 'Start Step 8 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
@@ -120,20 +112,20 @@ const steps = [
       'Wrap a piece of parchment paper over the lip of the bottom half before putting the top on, to keep the two halves from fusing together during the preheat.',
       'Put the pizza stone on a separate rack directly below the Dutch oven. Leave the foil pad in place during preheating and baking.',
     ],
-    cue: 'Keep the loaf refrigerated until your chosen 12–16-hour proof and the preheat are complete.',
+    cue: 'Keep the loaf refrigerated until your chosen 8–16-hour proof and the preheat are complete.',
   },
   {
     id: 'load',
     phase: 'Day 2',
-    time: 'After 12–16 hr',
+    time: 'After 8–16 hr',
     icon: CookingPot,
     title: 'Score and load the loaf',
-    body: 'When your chosen 12–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
+    body: 'When your chosen 8–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
-      'Cut a sheet of parchment paper large enough to use as a sling.',
-      'Invert the cold loaf from the banneton onto the parchment. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
+      'Set out your silicone bread sling.',
+      'Invert the cold loaf from the banneton onto the silicone sling. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
       'Score a cross (+) in the smooth top with two cuts that meet in the center. Hold the blade straight down and cut ½ inch deep. Start and end each cut about 1 inch from the loaf’s edge.',
-      'Remove the hot Dutch oven. Use the parchment as a sling to lower the scored loaf onto the foil pad, then put the lid on.',
+      'Remove the hot Dutch oven. Use the silicone sling to lower the scored loaf onto the foil pad, then put the lid on.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },
@@ -205,16 +197,16 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix the salt and levain, then do the first slap and fold immediately. Repeat every 30 minutes up to 3 more times in Step 4, covering the mixing bowl between repeats. After the last one, transfer to the proofing container, cover, and leave undisturbed. Aim for 1.4 quarts, using the visual cues in Step 5.</p>
+              <p>Mix the salt and levain, then do the first slap and fold immediately. Repeat every 30 minutes up to 3 more times in Step 4, covering the mixing bowl between repeats. After the last one, transfer to the proofing container, cover, and leave undisturbed. Aim for 1.2 quarts, using the visual cues in Step 5.</p>
             </li>
             <li>
               <h3>Shape</h3>
-              <strong>Bench rest: 10 min</strong>
-              <p>Form a gentle round. Rest uncovered for 10 minutes, then do the final shape. Place it in the banneton, do stitch shaping, seal the bag, and refrigerate.</p>
+              <strong>After bulk</strong>
+              <p>Form a gentle round, then do the final shape. Place it in the banneton, do stitch shaping, seal the bag, and refrigerate.</p>
             </li>
             <li>
               <h3>Cold proof</h3>
-              <strong>12–16 hr at ~38°F</strong>
+              <strong>8–16 hr at ~38°F</strong>
               <p>Place a foil pad about ¼ inch thick in the bottom of the Dutch oven and wrap parchment paper over the bottom lip. Then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
             </li>
             <li>
@@ -275,7 +267,7 @@ export function RecipePage() {
                     <div className="parallel-prep" aria-label="Steps 7 and 8 can overlap">
                       <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 8 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 9.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>7 · Cold proof</b><i /><span>12–16 hr</span></div>
+                        <div className="timeline-row"><b>7 · Cold proof</b><i /><span>8–16 hr</span></div>
                         <div className="timeline-row overlap-line"><b>8 · Preheat</b><i /><span>60+ min</span></div>
                         <div className="timeline-merge"><ChevronRight /> Step 9 · Score and load</div>
                       </div>
