@@ -44,7 +44,7 @@ const steps = [
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for 1–2 hours. Aim for 2 hours.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 425 g water until no dry pockets remain. Cover and rest for 1–2 hours. Aim for 2 hours.',
     cue: 'Start this when Step 1 looks about 1–2 hours from ready.',
   },
   {
@@ -55,7 +55,7 @@ const steps = [
     title: 'Add starter and salt',
     body: 'In the same mixing bowl, add 100 g active starter (levain) and 11 g salt. Squeeze and mix until reasonably uniform. No kneading.',
     details: [
-      'The dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+      'The dough is at about 86.4% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
     cue: 'Gently transfer the dough to your 2-quart proofing container and cover it.',
   },
