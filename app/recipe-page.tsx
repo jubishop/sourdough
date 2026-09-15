@@ -105,10 +105,9 @@ const steps = [
     overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Place a foil pad about ¼ inch thick in the bottom of the Dutch oven. Then preheat it with the pizza stone at 475°F for at least 60 minutes.',
+    body: 'Preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
     details: [
-      'While the Dutch oven is cold, loosely crumple a long sheet of aluminum foil, then shape and flatten it into a pad that fits the bottom. Keep the pad about ¼ inch thick and its top level.',
-      'Put the pizza stone on a separate rack directly below the Dutch oven. Leave the foil pad in place during preheating and baking.',
+      'Put the pizza stone on a separate rack directly below the Dutch oven.',
     ],
     cue: 'Keep the loaf refrigerated until your chosen 8–16-hour proof and the preheat are complete.',
   },
@@ -123,7 +122,7 @@ const steps = [
       'Set out your silicone bread sling.',
       'Invert the cold loaf from the banneton onto the silicone sling. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
       'Score a cross (+) in the smooth top with two cuts that meet in the center. Hold the blade straight down and cut ½ inch deep. Start and end each cut about 1 inch from the loaf’s edge.',
-      'Remove the hot Dutch oven. Use the silicone sling to lower the scored loaf onto the foil pad, then put the lid on.',
+      'Remove the hot Dutch oven. Use the silicone sling to lower the scored loaf into the Dutch oven, then put the lid on.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },
@@ -205,7 +204,7 @@ export function RecipePage() {
             <li>
               <h3>Cold proof</h3>
               <strong>8–16 hr at ~38°F</strong>
-              <p>Place a foil pad about ¼ inch thick in the bottom of the Dutch oven. Then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
+              <p>Preheat the Dutch oven with the pizza stone at 475°F for at least the final 60 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>
