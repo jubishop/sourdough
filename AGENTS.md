@@ -31,6 +31,11 @@ Read the relevant memory or docs index for its format and maintenance rules.
 Keep accepted decisions separate from proposals. Preserve unrelated changes.
 Keep secrets and generated caches out of Git.
 
+Keep memory, docs, and other Markdown pages focused on one topic or reader
+task. When extending a long page, review its scope and split independent
+topics into linked pages when that improves reading and maintenance. Use
+the [Markdown guidance](docs/development-workflow.md#markdown-pages), without numeric size thresholds.
+
 ## Complete every change
 
 After any changes in this repository, run the required checks, commit and
