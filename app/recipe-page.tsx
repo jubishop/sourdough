@@ -84,9 +84,8 @@ const steps = [
     title: 'Shape and place in the banneton',
     body: 'Use your cotton banneton without dusting it with flour.',
     details: [
-      'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
+      'Gently tilt the proofing container and let gravity ease the dough onto a clean, dry counter. Use a bench scraper to release any sticking dough, disturbing it as little as possible.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
-      'Do stitch shaping in the banneton: gently pull small flaps from opposite sides over the middle, alternating sides like lacing a corset, to create extra surface tension.',
       'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',
     ],
   },
@@ -202,7 +201,7 @@ export function RecipePage() {
             <li>
               <h3>Shape</h3>
               <strong>After bulk</strong>
-              <p>Form a gentle round, then do the final shape. Place it in the banneton, do stitch shaping, seal the bag, and refrigerate.</p>
+              <p>Gently release the dough from the proofing container with a bench scraper and gravity. Shape it, place it in the banneton, seal the bag, and refrigerate.</p>
             </li>
             <li>
               <h3>Cold proof</h3>

@@ -231,8 +231,8 @@ slap and fold. Repeat every 30 minutes up to three more times, covering the
 mixing bowl between repeats. After the last one, transfer to the proofing
 container, cover, and leave undisturbed. Count the repeats and rests within
 bulk from starter addition; do not restart the bulk clock at the transfer.
-After shaping and
-placing the loaf in the banneton, do stitch shaping before sealing the bag
+Gently release the dough from the proofing container with a bench scraper
+and gravity. Shape it and place it in the banneton before sealing the bag
 and refrigerating. Preheat the
 oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold proof.
 The starter and bulk estimates assume the user's 70°F pantry. Do not turn
@@ -437,7 +437,7 @@ total. The first is required; any later repeat can be skipped. If all four
 are done, they occur immediately, then about 30, 60, and 90 minutes later.
 Return the dough to the mixing bowl and cover it between repeats. Transfer
 once to the proofing container after the last slap and fold, then leave it
-covered and undisturbed. Keep final shaping and stitch shaping.
+covered and undisturbed. Follow the current shaping instructions below.
 
 The user then requested removal of the slap-and-fold technique instructions
 because they already know the method. Keep the timing, optional repeats,
@@ -568,6 +568,17 @@ On 2026-09-11, the user added "stitch shaping" after placing the shaped
 loaf in the banneton and before sealing it in the Ziploc bag. Gently pull
 small flaps from opposite sides over the middle, alternating sides like
 lacing a corset, to create extra surface tension. Keep the seam facing up.
+
+Later on 2026-09-14, the user clarified the transfer from the proofing
+container: gently tilt it and let gravity ease the dough onto a clean, dry
+counter. Use a bench scraper to release any sticking dough. The reason is
+to minimize disturbance to the dough. The user also removed the gentle
+hand preshape to go straight to shaping in the next substep, and removed
+stitch shaping; the reason for removing stitch shaping was not stated.
+This supersedes the earlier preshape and stitch-shaping instructions.
+After the gentle transfer, shape the dough, lift it with both hands into
+the unfloured cotton banneton, smooth side down and seam side up, and seal
+the entire banneton in the Ziploc bag. Keep the schedule consistent.
 
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
