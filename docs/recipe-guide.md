@@ -31,22 +31,23 @@ decision that supersedes the earlier 12–24-hour range.
 
 ## Autolyse water
 
-On 2026-09-11, the user chose 450 g of dough water because the flour was
-still difficult to hydrate at 420 g, with a dry, flaky, crumbly texture.
-Mix all 450 g water with the 500 g whole-wheat flour and rest for 1–2 hours. Add
+On 2026-09-14, the user chose to reduce the dough water from 450 g back to
+420 g. The reason was not stated.
+Mix all 420 g water with the 500 g whole-wheat flour and rest for 1–2 hours. Add
 only the 100 g active starter and 11 g salt in Step 3 and mix until uniform.
 
-The autolyse is at 90% hydration. With a 100%-hydration starter contributing
-50 g each of flour and water, the final dough has 500 g water and 550 g flour:
-about 90.9% total hydration, up from about 85.5%.
+The autolyse is at 84% hydration. With a 100%-hydration starter contributing
+50 g each of flour and water, the final dough has 470 g water and 550 g flour:
+about 85.5% total hydration, down from about 90.9%.
 
-This supersedes the 420 g quantity selected on 2026-09-09, the 400 g quantity
-selected on 2026-09-07, and the earlier 375 g autolyse plus 25 g reserved-water
-split. All dough water goes into the autolyse; no water is reserved for Step 3.
-The user also asked whether more water could produce an airier crumb.
-That outcome is not yet established for this recipe; the wetter dough may be
-harder to handle and shape. See [Fixed bake time](#fixed-bake-time) for the
-subsequent adjustment to the uncovered bake.
+This supersedes the 450 g quantity selected on 2026-09-11, when the flour
+was difficult to hydrate at 420 g, with a dry, flaky, crumbly texture. The user
+also asked then whether more water could produce an airier crumb; that outcome
+was not established for this recipe. The 420 g quantity restores the choice
+from 2026-09-09 and supersedes the 400 g quantity selected on 2026-09-07 and
+the earlier 375 g autolyse plus 25 g reserved-water split. All dough water goes
+into the autolyse; no water is reserved for Step 3.
+See [Fixed bake time](#fixed-bake-time) for the existing uncovered-bake timing.
 
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the rest, and the starter-overlap cue.
