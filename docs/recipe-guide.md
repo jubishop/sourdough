@@ -82,7 +82,7 @@ The video and its public availability were checked on 2026-09-07.
 The clip demonstrates the movement, not the full mixing duration or the
 addition of every ingredient. Keep the instruction to mix 100 g starter
 and 11 g salt into the rested dough until reasonably uniform. The required
-slap-and-fold step now follows this mixing step; see [Folding](#folding).
+bench stretch and fold step now follows this mixing step; see [Folding](#folding).
 Keep lightly wet hands and no added flour. Step 2 remains a
 written instruction to mix flour and water and rest for the autolyse.
 
@@ -106,10 +106,10 @@ Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
-[Folding](#folding) starts with one required slap and fold immediately after
+[Folding](#folding) starts with one required bench stretch and fold immediately after
 mixing in salt and levain, followed by up to four more at 30-minute intervals.
 Return the dough to the covered mixing bowl between repeats, then transfer
-once to the proofing container after the last slap and fold.
+once to the proofing container after the last bench stretch and fold.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
@@ -134,7 +134,7 @@ Keep the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
-last slap and fold. Leave the dough undisturbed for the rest of bulk
+last bench stretch and fold. Leave the dough undisturbed for the rest of bulk
 fermentation. Do not restore starting-volume or
 marking instructions in the checklist or schedule.
 
@@ -227,7 +227,7 @@ and fixed bake time clear.
 
 Show the overlaps: start the 1-hour autolyse when the starter looks about
 1 hour from ready. Immediately after mixing in salt and levain, do the first
-slap and fold. Repeat every 30 minutes up to four more times, covering the
+bench stretch and fold. Repeat every 30 minutes up to four more times, covering the
 mixing bowl between repeats. After the last one, transfer to the proofing
 container, cover, and leave undisturbed. Count the repeats and rests within
 bulk from starter addition; do not restart the bulk clock at the transfer.
@@ -438,7 +438,7 @@ not stated. The current maximum is one immediately plus up to four more.
 The first is required; any later repeat can be skipped. If all five are
 done, they occur immediately, then about 30, 60, 90, and 120 minutes later.
 Return the dough to the mixing bowl and cover it between repeats. Transfer
-once to the proofing container after the last slap and fold, then leave it
+once to the proofing container after the last bench stretch and fold, then leave it
 covered and undisturbed. Follow the current shaping instructions below.
 
 The user then requested removal of the slap-and-fold technique instructions
@@ -451,7 +451,13 @@ checked on 2026-09-14. The guide describes repeated kneading; it does not
 establish this recipe's interval schedule. The schedule is the user's
 chosen process, to assess with the next loaf.
 
-The checklist has 12 numbered steps. Slap and folds is Step 4, bulk is
+Later on 2026-09-14, the user renamed the Step 4 technique to "bench stretch
+and fold." The reason was not stated. This supersedes the slap-and-fold
+name in the recipe, schedule, and sharing description. Keep the first fold
+immediately after mixing, up to four more at 30-minute intervals, and the
+existing covered rests and final transfer. Do not add technique instructions.
+
+The checklist has 12 numbered steps. Bench stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
 scoring/loading is Step 9. Covered bake, uncovered bake, and cooling are
 Steps 10, 11, and 12.
@@ -460,8 +466,8 @@ accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
 Count all 12 required steps toward progress. Step 4 can be marked complete
-after the first slap and fold if the remaining repeats are skipped, or after
-the last repeat performed. Use the new ID `slap-and-fold`
+after the first bench stretch and fold if the remaining repeats are skipped, or after
+the last repeat performed. Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
 `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
 progress or precheck another step.

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   title: "Justin's Whole-Wheat Sourdough",
   icons: { icon: '/favicon.svg' },
   description:
-    'A 100% whole-wheat sourdough guide with starter maintenance, slap and folds, visual dough-readiness cues, and a practical bake checklist.',
+    'A 100% whole-wheat sourdough guide with starter maintenance, bench stretch and fold steps, visual dough-readiness cues, and a practical bake checklist.',
   openGraph: {
     title: "Justin's Whole-Wheat Sourdough",
     description: 'A practical recipe that gets better from loaf to loaf.',
