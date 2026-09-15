@@ -31,16 +31,16 @@ decision that supersedes the earlier 12–24-hour range.
 
 ## Autolyse water
 
-On 2026-09-14, the user chose 425 g of dough water, revising the 420 g
-quantity selected earlier that day. The reason was not stated.
-Mix all 425 g water with the 500 g whole-wheat flour and rest for 1–2 hours. Add
+On 2026-09-14, the user restored 450 g of dough water, superseding the
+420 g and 425 g quantities selected earlier that day. The reason was not stated.
+Mix all 450 g water with the 500 g whole-wheat flour and rest for 1 hour. Add
 only the 100 g active starter and 11 g salt in Step 3 and mix until uniform.
 
-The autolyse is at 85% hydration. With a 100%-hydration starter contributing
-50 g each of flour and water, the final dough has 475 g water and 550 g flour:
-about 86.4% total hydration.
+The autolyse is at 90% hydration. With a 100%-hydration starter contributing
+50 g each of flour and water, the final dough has 500 g water and 550 g flour:
+about 90.9% total hydration.
 
-This supersedes the 450 g quantity selected on 2026-09-11, when the flour
+This restores the 450 g quantity selected on 2026-09-11, when the flour
 was difficult to hydrate at 420 g, with a dry, flaky, crumbly texture. The user
 also asked then whether more water could produce an airier crumb; that outcome
 was not established for this recipe. This also supersedes the 420 g choice
@@ -62,7 +62,12 @@ diagram to match. The user did not state a reason for the longer range.
 Later on 2026-09-11, the user accepted removing "Longer is better" after
 reviewing the recipe. Keep the 1–2-hour range and "Aim for 2 hours" in the
 autolyse step and schedule. This supersedes the earlier wording that
-generally favors more time; the two-hour target remains unchanged.
+generally favors more time; the two-hour target remained unchanged then.
+
+On 2026-09-14, the user shortened the autolyse to 1 hour. The reason was
+not stated. This supersedes the 1–2-hour range and two-hour target. Start
+when the starter looks about 1 hour from ready. Keep the step, schedule,
+and overlap diagram consistent with this timing.
 
 ## Mixing starter and salt
 
@@ -76,8 +81,9 @@ The video and its public availability were checked on 2026-09-07.
 
 The clip demonstrates the movement, not the full mixing duration or the
 addition of every ingredient. Keep the instruction to mix 100 g starter
-and 11 g salt into the rested dough until reasonably uniform, with no
-kneading. Keep lightly wet hands and no added flour. Step 2 remains a
+and 11 g salt into the rested dough until reasonably uniform. The required
+slap-and-fold step now follows this mixing step; see [Folding](#folding).
+Keep lightly wet hands and no added flour. Step 2 remains a
 written instruction to mix flour and water and rest for the autolyse.
 
 On 2026-09-09, the user requested removal of Step 3 substeps 3 and 4,
@@ -99,8 +105,9 @@ to the container for a 60% rise measured from mixing.
 Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
-the mixing bowl before a single transfer. The latest decision under
-[Folding](#folding) removes the fold sets.
+the mixing bowl before a single transfer. The latest process under
+[Folding](#folding) adds a required slap-and-fold session on the counter
+before the transfer to the proofing container.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
@@ -205,13 +212,15 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 a 10-minute bench rest, a 12–16-hour cold proof, 30 minutes
-covered followed by 20 minutes uncovered, and at
+covered followed by 25 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 10-minute bench rest, and fixed bake time clear.
 
-Show the overlaps: start the 1–2-hour autolyse when the starter looks about
-1–2 hours from ready, with 2 hours preferred. After mixing, transfer to the
-proofing container, cover, and leave undisturbed. After shaping and
+Show the overlaps: start the 1-hour autolyse when the starter looks about
+1 hour from ready. After mixing, do the required
+slap-and-fold session, then transfer to the proofing container, cover, and
+leave undisturbed. Count this handling time within bulk from starter addition.
+After shaping and
 placing the loaf in the banneton, do stitch shaping before sealing the bag
 and refrigerating. Preheat the
 oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold proof.
@@ -257,12 +266,12 @@ firmer crust as the tradeoff. This superseded the earlier 20-minute uncovered
 setting while retaining the 30-minute covered bake at 450°F and the existing
 fermentation and cooling instructions.
 
-On 2026-09-14, the user returned the uncovered bake to 20 minutes at 425°F.
-The reason was not stated. This supersedes the 25-minute setting from
-2026-09-12 and retains the fixed endpoint.
+On 2026-09-14, the user briefly returned the uncovered bake to 20 minutes,
+then restored 25 minutes at 425°F. The reason was not stated. The latest
+choice supersedes the 20-minute setting and retains the fixed endpoint.
 
-Bake for 30 minutes covered at 450°F, then 20 minutes uncovered at 425°F,
-for 50 minutes total.
+Bake for 30 minutes covered at 450°F, then 25 minutes uncovered at 425°F,
+for 55 minutes total.
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
@@ -319,7 +328,7 @@ the flat bottom with foil; no foil up the sides is needed for their setup.
 On 2026-09-12, the user added a piece of parchment paper over the lip of the
 bottom half before putting the top on for preheating. The purpose is to keep
 the two halves from fusing together during the preheat. Include this with the
-foil preparation in Step 7 and the schedule reminder.
+foil preparation in Step 8 and the schedule reminder.
 
 Later on 2026-09-12, the user approved clearer instructions for a thick foil
 pad to follow King Arthur's method more closely and reduce bottom darkening.
@@ -330,7 +339,7 @@ The starting sheet is larger than the pot's bottom; the finished pad fits the
 bottom. Flattening makes the top level while retaining the pad's thickness.
 This replaces the instruction to lay one sheet flat. Keep the existing
 parchment sling and lower the loaf onto the foil pad. Keep the pad preparation
-in Step 7, the loading instruction in Step 8, and the schedule reminder in sync.
+in Step 8, the loading instruction in Step 9, and the schedule reminder in sync.
 The bottom-only coverage and omission of greasing remain in effect.
 
 [King Arthur's foil-lining method](https://www.kingarthurbaking.com/blog/2025/07/30/the-bottom-of-my-bread-gets-too-dark)
@@ -400,21 +409,36 @@ the option was not stated. This superseded the complete removal above;
 the earlier required counts and preference for four sets remain superseded.
 
 On 2026-09-14, the user removed the optional stretch-and-fold step because
-they are not doing any stretch and folds. This supersedes the optional-step
-decision. Transfer to the proofing container immediately after mixing,
-then leave the dough covered and undisturbed during bulk fermentation.
-Keep final shaping and stitch shaping.
+they are not doing any stretch and folds. This superseded the optional-step
+decision and moved the transfer to immediately after mixing.
 
-The checklist has 11 numbered steps. Bulk is Step 4, shaping is Step 5,
-cold proof is Step 6, preheat is Step 7, and scoring/loading is Step 8.
-Covered bake, uncovered bake, and cooling are Steps 9, 10, and 11.
+Later on 2026-09-14, the user requested reinserting Step 4 with slap and
+folds and confirmed it must be required. The reason was not stated. This
+supersedes the removal and the interim optional choice. Use one short
+session on the counter after mixing in starter and salt, before transferring
+once to the proofing container. Keep final shaping and stitch shaping, and
+leave the dough covered and undisturbed after the transfer.
+
+Use a clean, unfloured counter and lightly wet hands. Lift, gently slap,
+stretch, fold, and turn the dough until it is smoother, more elastic, and
+holds together better. The 3–6-minute estimate follows
+[The Perfect Loaf's slap-and-fold guide](https://www.theperfectloaf.com/guides/slap-and-fold/),
+checked on 2026-09-14. It is a handling estimate, not a tested endpoint for
+this flour. The source often follows with bulk folds; this recipe retains
+the user's choice to omit those. Judge the new process with the next loaf.
+
+The checklist has 12 numbered steps. Slap and folds is Step 4, bulk is
+Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
+scoring/loading is Step 9. Covered bake, uncovered bake, and cooling are
+Steps 10, 11, and 12.
 Update the schedule and preheat-overlap references
 accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
-Count all 11 current steps toward progress. Retain their current IDs so
-saved progress remains valid. Obsolete `optional-folds`, `fold-one`, and
-`fold-two` entries must not count toward progress or precheck another step.
+Count all 12 required steps toward progress. Use the new ID `slap-and-fold`
+and retain the other steps' IDs so saved progress remains valid. Obsolete
+`optional-folds`, `fold-one`, and `fold-two` entries must not count toward
+progress or precheck another step.
 
 ## Shaping instructions
 
@@ -501,11 +525,14 @@ with the caption "Watch 0:20–0:44." This section shows both hands cupping,
 pulling, and turning a round loaf on a dry, unfloured table. The baker uses
 water on her hands, with no added flour or scraper during shaping. The
 footage and publisher's description were checked on 2026-09-11. This
-supersedes the Ken Forkish video.
+superseded the Ken Forkish video.
+
+On 2026-09-14, the user requested removal of the shaping video. The reason
+was not stated. This supersedes the Elly's Everyday video selection. Remove
+the video link and caption; keep the written shaping instructions.
 
 Keep the gentle hand preshape, uncovered 10-minute rest, and existing
-sticking guidance. The new video demonstrates the final hand movements;
-its later transfer into a lined pot does not replace the user's banneton.
+sticking guidance.
 For this recipe, lift the loaf with both hands into the unfloured cotton
 banneton, smooth side down and seam side up, then do stitch shaping and
 follow the existing cold-proof step.

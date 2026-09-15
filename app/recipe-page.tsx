@@ -40,12 +40,12 @@ const steps = [
   {
     id: 'autolyse',
     phase: 'Day 1',
-    time: '1–2 hr',
+    time: '1 hr',
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 425 g water until no dry pockets remain. Cover and rest for 1–2 hours. Aim for 2 hours.',
-    cue: 'Start this when Step 1 looks about 1–2 hours from ready.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 1 hour.',
+    cue: 'Start this when Step 1 looks about 1 hour from ready.',
   },
   {
     id: 'mix',
@@ -53,9 +53,22 @@ const steps = [
     time: 'Until uniform',
     icon: Scale,
     title: 'Add starter and salt',
-    body: 'In the same mixing bowl, add 100 g active starter (levain) and 11 g salt. Squeeze and mix until reasonably uniform. No kneading.',
+    body: 'In the same mixing bowl, add 100 g active starter (levain) and 11 g salt. Squeeze and mix until reasonably uniform.',
     details: [
-      'The dough is at about 86.4% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+      'The dough is at about 90.9% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+    ],
+  },
+  {
+    id: 'slap-and-fold',
+    phase: 'Day 1',
+    time: '~3–6 min',
+    icon: RotateCcw,
+    title: 'Slap and fold',
+    body: 'Turn the dough onto a clean, unfloured counter. Lightly wet your hands. Do one short session until the dough feels smoother and more elastic and holds together better.',
+    details: [
+      'Lift the dough from one side with both hands. Let the hanging end touch down with a gentle slap.',
+      'Draw the part in your hands toward you to stretch it, then fold it over the part on the counter.',
+      'Pick it up from the side, turn it a quarter turn, and repeat. If it starts tearing, pause and let it relax.',
     ],
     cue: 'Gently transfer the dough to your 2-quart proofing container and cover it.',
   },
@@ -75,11 +88,6 @@ const steps = [
     icon: Circle,
     title: 'Shape and place in the banneton',
     body: 'Use your cotton banneton without dusting it with flour.',
-    video: {
-      url: 'https://www.youtube.com/watch?v=oCM3wHFk2SE&t=20s',
-      title: 'Watch: shape a round loaf without added flour',
-      caption: 'Elly’s Everyday · Watch 0:20–0:44 · YouTube',
-    },
     details: [
       'Turn the dough onto a clean, dry counter and use your hands to form a gentle round.',
       'Rest the round uncovered for 10 minutes so it becomes easier to shape.',
@@ -96,13 +104,13 @@ const steps = [
     icon: Snowflake,
     title: 'Cold-proof overnight',
     body: 'Keep the bag sealed and refrigerate immediately for 12–16 hours. Bake directly from the refrigerator.',
-    cue: 'Start Step 7 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
+    cue: 'Start Step 8 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
     phase: 'Day 2',
     time: 'At least 60 min',
-    overlap: 'Overlaps Step 6',
+    overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
     body: 'Place a foil pad about ¼ inch thick in the bottom of the Dutch oven and wrap parchment paper over the bottom lip. Then preheat it with the pizza stone at 475°F for at least 60 minutes.',
@@ -139,10 +147,10 @@ const steps = [
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '20 min uncovered',
+    time: '25 min uncovered',
     icon: Flame,
     title: 'Finish uncovered at 425°F',
-    body: 'Remove the lid, lower the oven to 425°F, and bake for 20 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
+    body: 'Remove the lid, lower the oven to 425°F, and bake for 25 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
   },
   {
     id: 'cool',
@@ -191,12 +199,12 @@ export function RecipePage() {
             <li>
               <h3>Starter build</h3>
               <strong>~6–12 hr to double with 20 g starter</strong>
-              <p>Wait for near-peak readiness. Start the 1–2-hour autolyse when the build looks about 1–2 hours from ready. Aim for 2 hours.</p>
+              <p>Wait for near-peak readiness. Start the 1-hour autolyse when the build looks about 1 hour from ready.</p>
             </li>
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix in the mixing bowl. Then transfer to the proofing container, cover, and leave undisturbed. Aim for 1.4 quarts, using the visual cues in Step 4.</p>
+              <p>Mix in the mixing bowl, then do slap and folds in Step 4. Transfer to the proofing container, cover, and leave undisturbed. Aim for 1.4 quarts, using the visual cues in Step 5.</p>
             </li>
             <li>
               <h3>Shape</h3>
@@ -210,7 +218,7 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Bake</h3>
-              <strong>30 min covered + 20 min uncovered</strong>
+              <strong>30 min covered + 25 min uncovered</strong>
               <p>Bake at 450°F covered, then 425°F uncovered. Then remove the loaf from the oven.</p>
             </li>
             <li>
@@ -250,10 +258,10 @@ export function RecipePage() {
             <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
           </div>
           <div className="parallel-prep" aria-label="Steps 1 and 2 can overlap">
-            <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 1–2 hours from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
+            <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 1 hour from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
             <div className="parallel-timeline" aria-hidden="true">
               <div className="timeline-row starter-line"><b>1 · Starter build</b><i /><span>Ready</span></div>
-              <div className="timeline-row overlap-line"><b>2 · Autolyse</b><i /><span>1–2 hr</span></div>
+              <div className="timeline-row overlap-line"><b>2 · Autolyse</b><i /><span>1 hr</span></div>
               <div className="timeline-merge"><ChevronRight /> Step 3 · Mix</div>
             </div>
           </div>
@@ -263,19 +271,18 @@ export function RecipePage() {
               return (
                 <Fragment key={step.id}>
                   {step.id === 'cold-proof' && (
-                    <div className="parallel-prep" aria-label="Steps 6 and 7 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 7 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 8.</span></div>
+                    <div className="parallel-prep" aria-label="Steps 7 and 8 can overlap">
+                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 8 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 9.</span></div>
                       <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>6 · Cold proof</b><i /><span>12–16 hr</span></div>
-                        <div className="timeline-row overlap-line"><b>7 · Preheat</b><i /><span>60+ min</span></div>
-                        <div className="timeline-merge"><ChevronRight /> Step 8 · Score and load</div>
+                        <div className="timeline-row"><b>7 · Cold proof</b><i /><span>12–16 hr</span></div>
+                        <div className="timeline-row overlap-line"><b>8 · Preheat</b><i /><span>60+ min</span></div>
+                        <div className="timeline-merge"><ChevronRight /> Step 9 · Score and load</div>
                       </div>
                     </div>
                   )}
                   <article className={`step-card ${checked ? 'complete' : ''}`}>
                     <div className="step-number">{String(index + 1).padStart(2, '0')}</div><div className="step-icon"><Icon aria-hidden="true" /></div>
                   <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{step.body}</p>
-                    {step.video && <a className="step-video" href={step.video.url} target="_blank" rel="noopener noreferrer"><span><strong>{step.video.title}</strong><span>{step.video.caption}</span></span><ChevronRight aria-hidden="true" /></a>}
                     {step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}{step.cue && <p className="step-cue">{step.cue}</p>}</div>
                     <label className="step-check" htmlFor={`step-${step.id}`}><Checkbox id={`step-${step.id}`} checked={checked} onCheckedChange={(value) => toggleStep(step.id, value)} aria-label={`Mark ${step.title} complete`} /><span>{checked ? 'Done' : 'Mark done'}</span></label>
                   </article>
