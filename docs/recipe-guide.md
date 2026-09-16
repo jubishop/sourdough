@@ -107,7 +107,7 @@ to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
 [Folding](#folding) starts with one required stretch and fold immediately after
-mixing in salt and levain, followed by up to four more at 30-minute intervals.
+mixing in salt and levain, followed by repeats as needed at 30-minute intervals.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -226,7 +226,7 @@ and fixed bake time clear.
 
 Show the overlaps: start the 1-hour autolyse when the starter looks about
 1 hour from ready. Immediately after mixing in salt and levain, do the first
-stretch and fold. Repeat every 30 minutes up to four more times, covering the
+stretch and fold. Repeat every 30 minutes as needed, covering the
 mixing bowl between repeats. After the last one, transfer to the proofing
 container, cover, and leave undisturbed. Count the repeats and rests within
 bulk from starter addition; do not restart the bulk clock at the transfer.
@@ -438,9 +438,9 @@ supersedes the removal and the interim optional choice. The user then
 specified the first slap and fold immediately after mixing in salt and
 levain, followed by repeats at 30-minute intervals. Later that day, the user
 increased the maximum from four to five total slap and folds; the reason was
-not stated. The current maximum is one immediately plus up to four more.
-The first is required; any later repeat can be skipped. If all five are
-done, they occur immediately, then about 30, 60, 90, and 120 minutes later.
+not stated. That maximum was one immediately plus up to four more;
+the 2026-09-16 decision below removes it. The first is required;
+any later repeat can be skipped.
 Return the dough to the mixing bowl and cover it between repeats. Transfer
 once to the proofing container after the last stretch and fold, then leave it
 covered and undisturbed. Follow the current shaping instructions below.
@@ -458,12 +458,18 @@ chosen process, to assess with the next loaf.
 Later on 2026-09-14, the user renamed the Step 4 technique to "bench stretch
 and fold." The reason was not stated. This supersedes the slap-and-fold
 name in the recipe, schedule, and sharing description. Keep the first fold
-immediately after mixing, up to four more at 30-minute intervals, and the
+immediately after mixing, repeats at 30-minute intervals, and the
 existing covered rests and final transfer. Do not add technique instructions.
 
 On 2026-09-15, the user simplified the name to "stretch and fold" because
 "bench" is unnecessary. This supersedes the previous name in the recipe,
 schedule, and sharing description. Keep the timing and handling instructions.
+
+On 2026-09-16, the user changed Step 4 to "Stretch and fold as needed"
+and removed any maximum number of repeats. This supersedes the five-total
+limit above. Keep the first fold immediately after mixing, the 30-minute
+spacing for repeats, covered rests, and final transfer. Use the same
+uncapped wording in the schedule. The reason was not stated.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
