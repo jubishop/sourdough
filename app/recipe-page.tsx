@@ -105,7 +105,7 @@ const steps = [
     overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Prepare the foil base, then preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
+    body: 'Prepare the foil base, then preheat the Dutch oven with the pizza stone at 475°F (500°F) for at least 60 minutes.',
     details: [
       'While the Dutch oven is cold, loosely crumple a long sheet of aluminum foil, then shape and flatten it into a level pad about ¼ inch thick. Fit it over only the flat bottom and leave it in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',
@@ -132,16 +132,16 @@ const steps = [
     phase: 'Bake',
     time: '30 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 450°F',
-    body: 'Lower the oven to 450°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
+    title: 'Bake covered at 450°F (475°F)',
+    body: 'Lower the oven to 450°F (475°F) and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
   },
   {
     id: 'uncovered-bake',
     phase: 'Bake',
     time: '21 min uncovered',
     icon: Flame,
-    title: 'Finish uncovered at 425°F',
-    body: 'Remove the lid, lower the oven to 425°F, and bake for 21 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
+    title: 'Finish uncovered at 425°F (450°F)',
+    body: 'Remove the lid, lower the oven to 425°F (450°F), and bake for 21 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
   },
   {
     id: 'cool',
@@ -186,6 +186,7 @@ export function RecipePage() {
         <section className="schedule-overview" aria-labelledby="schedule-title">
           <h2 id="schedule-title" className="font-display">Plan your bake</h2>
           <p className="schedule-intro">Starter and bulk times are planning estimates for your 70°F pantry. Use the readiness cues in the checklist.</p>
+          <p className="schedule-intro"><strong>Oven adjustment:</strong> My oven runs 25°F cool. The setting for my oven is shown in parentheses next to each recipe oven temperature.</p>
           <ol className="schedule-list">
             <li>
               <h3>Starter build</h3>
@@ -205,12 +206,12 @@ export function RecipePage() {
             <li>
               <h3>Cold proof</h3>
               <strong>8–16 hr at ~38°F</strong>
-              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
+              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 475°F (500°F) for at least the final 60 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>
               <strong>30 min covered + 21 min uncovered</strong>
-              <p>Bake at 450°F covered, then 425°F uncovered. Then remove the loaf from the oven.</p>
+              <p>Bake at 450°F (475°F) covered, then 425°F (450°F) uncovered. Then remove the loaf from the oven.</p>
             </li>
             <li>
               <h3>Cool</h3>

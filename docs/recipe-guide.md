@@ -241,6 +241,16 @@ oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold 
 The starter and bulk estimates assume the user's 70°F pantry. Do not turn
 them into guaranteed clock times or promise a fixed total duration.
 
+## Oven temperature adjustment
+
+On 2026-09-17, the user requested a setting 25°F higher in parentheses
+beside every oven temperature because their oven runs 25°F cool. Show
+475°F (500°F) for preheating, 450°F (475°F) for the covered bake, and
+425°F (450°F) for the uncovered bake in the schedule and checklist,
+including step titles. Add a note near the schedule explaining that the
+parenthetical values are the settings for this oven. Pantry and refrigerator
+temperatures do not use this oven adjustment.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
