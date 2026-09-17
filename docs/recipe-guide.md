@@ -128,9 +128,13 @@ interim request to return to 50% rise. It was a chosen target pending actual
 measurements, not a verified equivalent of 50% rise.
 
 On 2026-09-14, the user lowered the target to 1.2 quarts. The reason was
-not stated. This supersedes the 1.4-quart target. Use the exact bulk-step
-title "Aim for 1.2 quarts" and the same target in its body and the schedule.
-Keep the visual readiness cues.
+not stated. This superseded the 1.4-quart target.
+
+On 2026-09-16, the user changed the target to 1 liter to use the container's
+L mark. Measure where the dough meets the glass. The center will be noticeably
+higher from fermentation, so read the level at the glass edge. This supersedes
+the 1.2-quart target. Use the bulk-step title "Aim for 1 liter at the glass edge"
+and the same target in its body and the schedule. Keep the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
