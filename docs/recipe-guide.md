@@ -224,7 +224,7 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 an 8–16-hour cold proof, 30 minutes
-covered followed by 21 minutes uncovered, and at
+covered followed by 22 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 and fixed bake time clear.
 
@@ -246,7 +246,7 @@ them into guaranteed clock times or promise a fixed total duration.
 On 2026-09-17, the user requested a setting 25°F higher in parentheses
 beside every oven temperature because their oven runs 25°F cool. Show
 475°F (500°F) for preheating, 450°F (475°F) for the covered bake, and
-425°F (450°F) for the uncovered bake in the schedule and checklist,
+420°F (445°F) for the uncovered bake in the schedule and checklist,
 including step titles. Add a note near the schedule explaining that the
 parenthetical values are the settings for this oven. Pantry and refrigerator
 temperatures do not use this oven adjustment.
@@ -299,8 +299,15 @@ then restored 21 minutes at 425°F. The reason was not stated. The restored
 21-minute setting supersedes the same-day 20-minute setting and retains the
 fixed endpoint.
 
-Bake for 30 minutes covered at 450°F, then 21 minutes uncovered at 425°F,
-for 51 minutes total.
+Later on 2026-09-17, the user lowered the uncovered temperature by 5°F to
+420°F and extended the time to 22 minutes because the center was still
+gummy while the crust was already as crisp and dark as they wanted. This
+supersedes 21 minutes at 425°F. The adjusted setting for their oven is
+445°F. This is a small bake trial, not a confirmed fix for the gummy crumb;
+the added time may still darken the crust. Judge the result after full cooling.
+
+Bake for 30 minutes covered at 450°F, then 22 minutes uncovered at 420°F,
+for 52 minutes total.
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
