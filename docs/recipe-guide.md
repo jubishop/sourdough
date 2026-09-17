@@ -170,7 +170,7 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
-Preheat the Dutch oven with the pizza stone at 475°F for
+Preheat the Dutch oven with the pizza stone at a 500°F oven setting for
 at least 60 minutes before the chosen bake
 time. Keep the loaf refrigerated until ready to score and load.
 
@@ -247,12 +247,16 @@ them into guaranteed clock times or promise a fixed total duration.
 
 ## Oven temperature adjustment
 
-On 2026-09-17, the user requested a setting 25°F higher in parentheses
-beside every oven temperature because their oven runs 25°F cool. Show
-475°F (500°F) for preheating, 450°F (475°F) for the covered bake, and
-420°F (445°F) for the uncovered bake in the schedule and checklist,
-including step titles. Add a note near the schedule explaining that the
-parenthetical values are the settings for this oven. Pantry and refrigerator
+On 2026-09-17, the user requested that the recipe show only the temperatures
+they set on their oven, so the instructions are easy to read. Use 500°F for
+preheating, 475°F for the covered bake, and 445°F for the uncovered bake in
+the schedule and checklist, including step titles. This supersedes the
+earlier same-day choice to put the adjusted settings in parentheses beside
+the target temperatures.
+
+Keep a note at the top for other readers: the user's oven runs 25°F cool,
+all recipe oven temperatures are the settings used to compensate, and an
+oven that heats accurately should be set 25°F lower. Pantry and refrigerator
 temperatures do not use this oven adjustment.
 
 ## Fixed bake time
@@ -310,8 +314,9 @@ supersedes 21 minutes at 425°F. The adjusted setting for their oven is
 445°F. This is a small bake trial, not a confirmed fix for the gummy crumb;
 the added time may still darken the crust. Judge the result after full cooling.
 
-Bake for 30 minutes covered at 450°F, then 22 minutes uncovered at 420°F,
-for 52 minutes total.
+Bake for 30 minutes covered at a 475°F oven setting, then 22 minutes
+uncovered at a 445°F oven setting, for 52 minutes total. These settings
+include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
