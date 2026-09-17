@@ -224,7 +224,7 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 6–12 hours to first doubling for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 an 8–16-hour cold proof, 30 minutes
-covered followed by 20 minutes uncovered, and at
+covered followed by 21 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 and fixed bake time clear.
 
@@ -284,12 +284,13 @@ On 2026-09-14, the user chose to try 21 minutes uncovered at 425°F because
 they felt the increase to 25 minutes was too much. This supersedes the
 25-minute setting and retains the fixed endpoint.
 
-On 2026-09-17, the user reduced the uncovered bake to 20 minutes at 425°F.
-The reason was not stated. This supersedes the 21-minute setting and retains
-the fixed endpoint.
+On 2026-09-17, the user briefly reduced the uncovered bake to 20 minutes,
+then restored 21 minutes at 425°F. The reason was not stated. The restored
+21-minute setting supersedes the same-day 20-minute setting and retains the
+fixed endpoint.
 
-Bake for 30 minutes covered at 450°F, then 20 minutes uncovered at 425°F,
-for 50 minutes total.
+Bake for 30 minutes covered at 450°F, then 21 minutes uncovered at 425°F,
+for 51 minutes total.
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
 with this fixed bake time.
