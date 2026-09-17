@@ -132,9 +132,13 @@ not stated. This superseded the 1.4-quart target.
 
 On 2026-09-16, the user changed the target to 1 liter to use the container's
 L mark. Measure where the dough meets the glass. The center will be noticeably
-higher from fermentation, so read the level at the glass edge. This supersedes
-the 1.2-quart target. Use the bulk-step title "Aim for 1 liter at the glass edge"
-and the same target in its body and the schedule. Keep the visual readiness cues.
+higher from fermentation, so read the level at the glass edge. This superseded
+the 1.2-quart target.
+
+On 2026-09-17, the user raised the target to 1.1 L, superseding the 1 L target.
+The reason was not stated. Use the bulk-step title "Aim for 1.1 L at the glass edge"
+and the same target in its body and the schedule. Keep measuring where the dough
+meets the glass and keep the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
@@ -680,8 +684,8 @@ replaced it with 50% growth measured after the second fold and transfer.
 On 2026-09-11, the user replaced that measurement with an estimated
 direct volume target, then settled on a single 1.4-quart target, as recorded in
 [Proofing container and mixing bowl](#proofing-container-and-mixing-bowl).
-The 2026-09-14 choice in that section supersedes it. Show the current
-1.2-quart target in the bulk step and schedule.
+Later choices in that section supersede it. Show the current target from that
+section in the bulk step and schedule.
 Keep the guide based on the main dough without restoring sample collection.
 
 Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
