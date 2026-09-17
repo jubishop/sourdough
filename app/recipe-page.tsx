@@ -119,8 +119,8 @@ const steps = [
     title: 'Score and load the loaf',
     body: 'When your chosen 8–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
-      'Set out your silicone bread sling.',
-      'Invert the cold loaf from the banneton onto the silicone sling. The seam that faced up in the banneton is now underneath; the smooth side faces up.',
+      'Center the silicone sling over the open banneton. Hold the sling in place and invert both together.',
+      'Set the sling on your work surface, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
       'Score a cross (+) in the smooth top with two cuts that meet in the center. Hold the blade straight down and cut ½ inch deep. Start and end each cut about 1 inch from the loaf’s edge.',
       'Remove the hot Dutch oven. Use the silicone sling to lower the scored loaf into the Dutch oven, then put the lid on.',
     ],

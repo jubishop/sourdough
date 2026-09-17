@@ -368,9 +368,14 @@ sheet did not prevent excessive darkening in that test. The lining was a
 chosen adjustment, not a guarantee against scorching in this recipe.
 
 On 2026-09-14, the user said they have a silicone bread sling and requested
-using it to load the loaf. This supersedes cutting a parchment sling. Set
-out the silicone sling, invert the cold loaf onto it, and use it to lower
-the scored loaf into the Dutch oven.
+using it to load the loaf. This supersedes cutting a parchment sling. Use
+the silicone sling to lower the scored loaf into the Dutch oven.
+
+On 2026-09-16, the user clarified the transfer in Step 9. Center the silicone
+sling over the open banneton, hold it in place, and invert both together.
+This keeps the sling aligned beneath the dough as it releases. Set the sling
+on the work surface, then gently lift off the banneton. The seam is now
+underneath, and the smooth side faces up.
 
 ## Scoring pattern and length
 
