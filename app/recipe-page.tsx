@@ -105,8 +105,9 @@ const steps = [
     overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
+    body: 'Prepare the foil base, then preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
     details: [
+      'While the Dutch oven is cold, loosely crumple a long sheet of aluminum foil, then shape and flatten it into a level pad about ¼ inch thick. Fit it over only the flat bottom and leave it in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',
     ],
     cue: 'Keep the loaf refrigerated until your chosen 8–16-hour proof and the preheat are complete.',
@@ -119,10 +120,10 @@ const steps = [
     title: 'Score and load the loaf',
     body: 'When your chosen 8–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
-      'Center the silicone sling over the open banneton. Hold the sling in place and invert both together.',
-      'Set the sling on your work surface, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
+      'Cut a piece of parchment paper large enough to hold the loaf, with two long ends to use as handles. Center it over the open banneton, hold it in place, and invert both together.',
+      'Set the loaf on your work surface with the parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
       'Score a cross (+) in the smooth top with two cuts that meet in the center. Hold the blade straight down and cut ½ inch deep. Start and end each cut about 1 inch from the loaf’s edge.',
-      'Remove the hot Dutch oven. Use the silicone sling to lower the scored loaf into the Dutch oven, then put the lid on.',
+      'Remove the hot Dutch oven. Use the parchment handles to lower the scored loaf onto the foil pad, then put the lid on. Leave the parchment under the loaf during baking.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },
@@ -204,7 +205,7 @@ export function RecipePage() {
             <li>
               <h3>Cold proof</h3>
               <strong>8–16 hr at ~38°F</strong>
-              <p>Preheat the Dutch oven with the pizza stone at 475°F for at least the final 60 minutes.</p>
+              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 475°F for at least the final 60 minutes.</p>
             </li>
             <li>
               <h3>Bake</h3>

@@ -306,12 +306,20 @@ has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
 
+On 2026-09-17, the user restored aluminum foil in the Dutch oven base and
+parchment paper beneath the bread instead of the silicone sling. The reason
+was not stated. This supersedes the foil removal and silicone-sling choices
+below. While the Dutch oven is cold, loosely crumple a long sheet of foil,
+then shape and flatten it into a level pad about ¼ inch thick that covers
+only the flat bottom. Leave it in place during preheating and baking.
+Keep the preheat step, schedule reminder, and loading instruction aligned.
+The pizza stone, temperatures, and bake times remain unchanged.
+
 On 2026-09-15, the user removed the aluminum foil base from the recipe.
-They think the silicone bread sling may provide enough protection for the
-bottom of the loaf. This supersedes the foil instructions below. Remove foil
-from the preheat step, schedule reminder, and loading instruction. Keep the
-silicone sling, pizza stone, and existing temperatures and bake times.
-The previous method and the reason to reconsider it are saved in
+They thought the silicone bread sling might provide enough protection for
+the bottom of the loaf. This temporarily superseded the foil instructions
+below until the 2026-09-17 restoration. The removal rationale and the saved
+method are recorded in the historical
 [bottom crust protection memory](../memory/bottom-crust-protection.md).
 
 On 2026-09-08, the user chose to place a pizza stone on the rack directly
@@ -368,14 +376,23 @@ sheet did not prevent excessive darkening in that test. The lining was a
 chosen adjustment, not a guarantee against scorching in this recipe.
 
 On 2026-09-14, the user said they have a silicone bread sling and requested
-using it to load the loaf. This supersedes cutting a parchment sling. Use
-the silicone sling to lower the scored loaf into the Dutch oven.
+using it to load the loaf. This temporarily replaced cutting a parchment
+sling until the 2026-09-17 return to parchment.
 
 On 2026-09-16, the user clarified the transfer in Step 9. Center the silicone
 sling over the open banneton, hold it in place, and invert both together.
 This keeps the sling aligned beneath the dough as it releases. Set the sling
 on the work surface, then gently lift off the banneton. The seam is now
 underneath, and the smooth side faces up.
+
+The 2026-09-17 parchment choice retains that transfer sequence. Cut a piece
+large enough to hold the loaf, with two long ends as handles. Center it over
+the open banneton, hold it in place, and invert both together. Set the loaf
+down with the parchment underneath, then gently lift off the banneton.
+Score the loaf and use the parchment handles to lower it onto the foil pad.
+Leave the parchment beneath the loaf during baking. This restores parchment
+for the bread; the separate parchment-over-lip preheat instruction remains
+removed.
 
 ## Scoring pattern and length
 
