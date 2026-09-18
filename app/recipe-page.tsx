@@ -261,12 +261,12 @@ export function RecipePage() {
                       <div className="mother-task-copy">
                         <div className="mother-task-heading">
                           <Snowflake aria-hidden="true" />
-                          <div><p className="mother-task-label">Alongside Steps 4–6</p><h3 id="mother-refresh-title">Refresh the mother starter</h3></div>
+                          <div><p className="mother-task-label">Alongside the bulk</p><h3 id="mother-refresh-title">Refresh the mother starter</h3></div>
                         </div>
                         <p className="mother-task-flow"><strong>Keep making the loaf while this jar rests.</strong></p>
                         <ol className="mother-task-instructions">
                           <li><strong>Feed at 1:3:3.</strong> Put around 20 g of ripe build into the clean mother jar. Add three times its actual weight in water and in fresh flour.</li>
-                          <li><strong>Rest, then refrigerate.</strong> Mix and cover. Let it rest in your 70°F pantry. {motherStorageGuidance}</li>
+                          <li><strong>Refrigerate during Step 4 or 5.</strong> Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. {motherStorageGuidance}</li>
                         </ol>
                       </div>
                       <label className="step-check mother-task-check" htmlFor="mother-refrigerated"><Checkbox id="mother-refrigerated" checked={motherRefrigerated} onCheckedChange={(value) => toggleStep('mother-refrigerated', value)} aria-label="Mark mother starter back in the fridge" /><span>Back in the fridge</span></label>

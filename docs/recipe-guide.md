@@ -794,11 +794,14 @@ and keep the separate baking-build range and readiness checks.
 
 ## Mother storage guide
 
-On 2026-09-18, the user clarified that the mother-starter refresh happens
-alongside Steps 4–6: folding, bulk fermentation, and shaping. Place the
-refresh card immediately before Step 4 and label it "Alongside Steps 4–6".
-This replaces its placement after Step 1 and the inaccurate "Alongside the
-bake" label.
+On 2026-09-18, the user clarified that the mother goes back in the fridge
+during Step 4 or 5, while folding or bulk fermentation is underway. The user
+chose the label "Alongside the bulk" and requested only one box. Keep that
+box immediately after Step 3, with feeding and refrigeration instructions
+together. Explicitly say to refrigerate during Step 4 or 5 after the pantry
+rest. This supersedes the earlier "Alongside Steps 4–6" label. Do not restore
+its original placement after Step 1 or the inaccurate "Alongside the bake"
+label.
 
 On 2026-09-09, the user requested a shorter mother-refresh section with
 general guidance instead of precise fermentation targets before refrigeration.
