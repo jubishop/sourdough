@@ -455,6 +455,12 @@ the single slash at a 30–45° angle while keeping the depth and edge spacing.
 checked on 2026-09-11, recommends holding the blade at 90° to the dough
 surface for a cross. The recipe expresses this as holding it straight down.
 
+On 2026-09-18, the user chose a box instead of a cross, with each corner
+about 1 inch in from the edge of the dough. Use four straight cuts that
+join at the corners. Keep the blade straight down and the depth at ½ inch.
+This supersedes the cross pattern and its cut-end spacing; the 1-inch
+spacing now applies to each corner of the box. The reason was not stated.
+
 ## Bake phase explanations
 
 On 2026-09-05, the user accepted a short explanation of each baking phase:
