@@ -65,9 +65,14 @@ autolyse step and schedule. This supersedes the earlier wording that
 generally favors more time; the two-hour target remained unchanged then.
 
 On 2026-09-14, the user shortened the autolyse to 1 hour. The reason was
-not stated. This supersedes the 1–2-hour range and two-hour target. Start
-when the starter looks about 1 hour from ready. Keep the step, schedule,
-and overlap diagram consistent with this timing.
+not stated. This replaced the earlier 1–2-hour range and two-hour target
+until the 2026-09-18 change below.
+
+On 2026-09-18, the user changed the autolyse to 1–2 hours. The reason was
+not stated. This supersedes the fixed one-hour rest without restoring the
+earlier two-hour target. Start when the starter looks about 1–2 hours from
+ready. Keep the step, schedule, and overlap diagram consistent with this
+range.
 
 ## Mixing starter and salt
 
@@ -232,8 +237,8 @@ covered followed by 22 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 and fixed bake time clear.
 
-Show the overlaps: start the 1-hour autolyse when the starter looks about
-1 hour from ready. Immediately after mixing in salt and levain, do the first
+Show the overlaps: start the 1–2-hour autolyse when the starter looks about
+1–2 hours from ready. Immediately after mixing in salt and levain, do the first
 stretch and fold. Repeat as needed at least 15 minutes apart, covering the
 mixing bowl between repeats. After the last one, transfer to the proofing
 container, cover, and leave undisturbed. Count the repeats and rests within
