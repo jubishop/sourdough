@@ -231,15 +231,14 @@ to make it easier to plan when the loaf will be ready to eat. Place it near
 the top of the page and include starter preparation, mixing and bulk,
 shaping, cold proofing, baking, and cooling.
 
-Use the current recipe settings: roughly 6–12 hours to first doubling for
+Use the current recipe settings: roughly 10–14 hours to at least double for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 an 8–16-hour cold proof, 30 minutes
 covered followed by 22 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 and fixed bake time clear.
 
-Show the overlaps: start the autolyse when the starter looks about 30 minutes
-to 2 hours from ready. Immediately after mixing in salt and levain, do the first
+Immediately after mixing in salt and levain, do the first
 stretch and fold. Repeat as needed at least 15 minutes apart, covering the
 mixing bowl between repeats. After the last one, transfer to the proofing
 container, cover, and leave undisturbed. Count the repeats and rests within
@@ -247,9 +246,17 @@ bulk from starter addition; do not restart the bulk clock at the transfer.
 Gently release the dough from the proofing container with a bench scraper
 and gravity. Shape it and place it in the banneton before sealing the bag
 and refrigerating. Preheat the
-oven, Dutch oven, and pizza stone for at least the final 60 minutes of the cold proof.
+oven, Dutch oven, and pizza stone for at least 60 minutes before baking.
+Keep the loaf refrigerated until the Dutch oven is ready.
 The starter and bulk estimates assume the user's 70°F pantry. Do not turn
 them into guaranteed clock times or promise a fixed total duration.
+
+On 2026-09-18, the user removed the two step-overlap concepts because they
+add unnecessary complexity. Remove the "Prep in parallel" and "Preheat in
+parallel" callouts, timeline diagrams, overlap badges, and instructions to
+start one recipe step before the previous step finishes. This supersedes
+the earlier autolyse and preheat overlap guidance. Present the steps in
+order and keep the loaf refrigerated until the Dutch oven is ready.
 
 ## Oven temperature adjustment
 
@@ -735,6 +742,11 @@ The user accepted clarifying the step's timing label to
 planning estimate describes. Keep the existing near-peak readiness cues;
 choosing the amount helps manage timing but does not guarantee an exact
 readiness time.
+
+On 2026-09-18, the user clarified that the starter should at least double
+and takes closer to 10–14 hours. Use "~10–14 hr to at least double with
+20 g starter" in Step 1 and the schedule. This supersedes the earlier
+6–12-hour estimate and makes doubling a minimum.
 
 On 2026-09-07, the user chose to begin Step 1 the night before mixing so
 the starter develops overnight. Label its phase "Evening before day 1".

@@ -26,7 +26,7 @@ const steps = [
   {
     id: 'starter',
     phase: 'Evening before day 1',
-    time: '~6–12 hr to double with 20 g starter',
+    time: '~10–14 hr to at least double with 20 g starter',
     icon: Sprout,
     title: 'Wake up the starter',
     body: 'Make the baking build in a separate temporary container so you can clean the mother jar while it ripens.',
@@ -41,11 +41,9 @@ const steps = [
     id: 'autolyse',
     phase: 'Day 1',
     time: '30 min–2 hr',
-    overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
     body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 30 minutes to 2 hours.',
-    cue: 'Start this when Step 1 looks about 30 minutes to 2 hours from ready.',
   },
   {
     id: 'mix',
@@ -96,13 +94,11 @@ const steps = [
     icon: Snowflake,
     title: 'Cold-proof overnight',
     body: 'Keep the bag sealed and refrigerate immediately for 8–16 hours. Bake directly from the refrigerator.',
-    cue: 'Start Step 8 at least 60 minutes before you plan to bake, and keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'preheat',
     phase: 'Day 2',
     time: 'At least 60 min',
-    overlap: 'Overlaps Step 7',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
     body: 'Prepare the foil base, then preheat the Dutch oven with the pizza stone at 500°F for at least 60 minutes.',
@@ -110,7 +106,7 @@ const steps = [
       'While the Dutch oven is cold, loosely crumple a long sheet of aluminum foil, then shape and flatten it into a level pad about ¼ inch thick. Fit it over only the flat bottom and leave it in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',
     ],
-    cue: 'Keep the loaf refrigerated until your chosen 8–16-hour proof and the preheat are complete.',
+    cue: 'Keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
     id: 'load',
@@ -190,8 +186,8 @@ export function RecipePage() {
           <ol className="schedule-list">
             <li>
               <h3>Starter build</h3>
-              <strong>~6–12 hr to double with 20 g starter</strong>
-              <p>Wait for near-peak readiness. Start the autolyse when the build looks about 30 minutes to 2 hours from ready.</p>
+              <strong>~10–14 hr to at least double with 20 g starter</strong>
+              <p>Wait for near-peak readiness.</p>
             </li>
             <li>
               <h3>Mix and bulk</h3>
@@ -206,12 +202,12 @@ export function RecipePage() {
             <li>
               <h3>Cold proof</h3>
               <strong>8–16 hr at ~38°F</strong>
-              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 500°F for at least the final 60 minutes.</p>
+              <p>Keep the bag sealed and refrigerate.</p>
             </li>
             <li>
               <h3>Bake</h3>
               <strong>30 min covered + 22 min uncovered</strong>
-              <p>Bake at 475°F covered, then 445°F uncovered. Then remove the loaf from the oven.</p>
+              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 500°F for at least 60 minutes. Keep the loaf refrigerated until the Dutch oven is ready. Bake at 475°F covered, then 445°F uncovered. Then remove the loaf from the oven.</p>
             </li>
             <li>
               <h3>Cool</h3>
@@ -249,32 +245,14 @@ export function RecipePage() {
           <div className="workflow-toolbar">
             <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
           </div>
-          <div className="parallel-prep" aria-label="Steps 1 and 2 can overlap">
-            <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 30 minutes to 2 hours from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
-            <div className="parallel-timeline" aria-hidden="true">
-              <div className="timeline-row starter-line"><b>1 · Starter build</b><i /><span>Ready</span></div>
-              <div className="timeline-row overlap-line"><b>2 · Autolyse</b><i /><span>30 min–2 hr</span></div>
-              <div className="timeline-merge"><ChevronRight /> Step 3 · Mix</div>
-            </div>
-          </div>
           <div className="steps-list">
             {steps.map((step, index) => {
               const Icon = step.icon; const checked = completed.includes(step.id);
               return (
                 <Fragment key={step.id}>
-                  {step.id === 'cold-proof' && (
-                    <div className="parallel-prep" aria-label="Steps 7 and 8 can overlap">
-                      <div className="parallel-copy"><p className="kicker">Preheat in parallel</p><strong>Start Step 8 at least 60 minutes before your planned bake time.</strong><span>Keep the loaf cold. Both steps finish before Step 9.</span></div>
-                      <div className="parallel-timeline" aria-hidden="true">
-                        <div className="timeline-row"><b>7 · Cold proof</b><i /><span>8–16 hr</span></div>
-                        <div className="timeline-row overlap-line"><b>8 · Preheat</b><i /><span>60+ min</span></div>
-                        <div className="timeline-merge"><ChevronRight /> Step 9 · Score and load</div>
-                      </div>
-                    </div>
-                  )}
                   <article className={`step-card ${checked ? 'complete' : ''}`}>
                     <div className="step-number">{String(index + 1).padStart(2, '0')}</div><div className="step-icon"><Icon aria-hidden="true" /></div>
-                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}{step.overlap && <b className="overlap-badge">{step.overlap}</b>}</p><h3>{step.title}</h3><p>{step.body}</p>
+                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}</p><h3>{step.title}</h3><p>{step.body}</p>
                     {step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}{step.cue && <p className="step-cue">{step.cue}</p>}</div>
                     <label className="step-check" htmlFor={`step-${step.id}`}><Checkbox id={`step-${step.id}`} checked={checked} onCheckedChange={(value) => toggleStep(step.id, value)} aria-label={`Mark ${step.title} complete`} /><span>{checked ? 'Done' : 'Mark done'}</span></label>
                   </article>

@@ -64,8 +64,8 @@ setting. Avoid pixel lengths in page and checkbox styles.
 
 Let content wrap and containers grow. Use percentages, flexible grid
 columns, and viewport-relative values where space depends on the screen.
-At narrow widths, give recipe text the full row and put timeline bars
-below their labels. Let the header and starter-care headings wrap into rows.
+At narrow widths, give recipe text the full row.
+Let the header and starter-care headings wrap into rows.
 At the narrowest text-relative widths, let the header scroll with the page
 and stack the maintenance control below its title. Preserve the recipe and
 saved checklist behavior.
