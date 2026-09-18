@@ -61,10 +61,10 @@ const steps = [
   {
     id: 'slap-and-fold',
     phase: 'Day 1',
-    time: 'First immediately · then every 30 min',
+    time: 'First immediately · then at least 15 min apart',
     icon: RotateCcw,
     title: 'Stretch and fold as needed',
-    body: 'Do the first stretch and fold immediately after mixing in the salt and levain. Then repeat every 30 minutes as needed.',
+    body: 'Do the first stretch and fold immediately after mixing in the salt and levain. Then repeat as needed, waiting at least 15 minutes between sets.',
     cue: 'Keep the dough covered in the mixing bowl between repeats. After your last stretch and fold, gently transfer the dough to your 2-quart proofing container and cover it.',
   },
   {
@@ -196,7 +196,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix the salt and levain, then do the first stretch and fold immediately. Repeat every 30 minutes as needed in Step 4, covering the mixing bowl between repeats. After the last one, transfer to the proofing container, cover, and leave undisturbed. Aim for 1.1 L at the glass edge, using the visual cues in Step 5.</p>
+              <p>Mix the salt and levain, then do the first stretch and fold immediately. Repeat as needed in Step 4, waiting at least 15 minutes between sets and covering the mixing bowl between repeats. After the last one, transfer to the proofing container, cover, and leave undisturbed. Aim for 1.1 L at the glass edge, using the visual cues in Step 5.</p>
             </li>
             <li>
               <h3>Shape</h3>

@@ -107,7 +107,7 @@ to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
 [Folding](#folding) starts with one required stretch and fold immediately after
-mixing in salt and levain, followed by repeats as needed at 30-minute intervals.
+mixing in salt and levain, followed by repeats as needed at least 15 minutes apart.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -234,7 +234,7 @@ and fixed bake time clear.
 
 Show the overlaps: start the 1-hour autolyse when the starter looks about
 1 hour from ready. Immediately after mixing in salt and levain, do the first
-stretch and fold. Repeat every 30 minutes as needed, covering the
+stretch and fold. Repeat as needed at least 15 minutes apart, covering the
 mixing bowl between repeats. After the last one, transfer to the proofing
 container, cover, and leave undisturbed. Count the repeats and rests within
 bulk from starter addition; do not restart the bulk clock at the transfer.
@@ -527,6 +527,13 @@ and removed any maximum number of repeats. This supersedes the five-total
 limit above. Keep the first fold immediately after mixing, the 30-minute
 spacing for repeats, covered rests, and final transfer. Use the same
 uncapped wording in the schedule. The reason was not stated.
+
+On 2026-09-17, the user reduced the minimum rest between stretch-and-fold
+sets to 15 minutes. This supersedes the 30-minute interval above. Keep the
+first set immediately after mixing, then repeat as needed with at least
+15 minutes between sets. Longer rests are allowed. Keep the covered rests
+and final transfer, and use the same minimum in the step timing and schedule.
+The reason was not stated.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
