@@ -40,12 +40,12 @@ const steps = [
   {
     id: 'autolyse',
     phase: 'Day 1',
-    time: '1–2 hr',
+    time: '30 min–2 hr',
     overlap: 'Overlaps Step 1',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 1–2 hours.',
-    cue: 'Start this when Step 1 looks about 1–2 hours from ready.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 450 g water until no dry pockets remain. Cover and rest for 30 minutes to 2 hours.',
+    cue: 'Start this when Step 1 looks about 30 minutes to 2 hours from ready.',
   },
   {
     id: 'mix',
@@ -191,7 +191,7 @@ export function RecipePage() {
             <li>
               <h3>Starter build</h3>
               <strong>~6–12 hr to double with 20 g starter</strong>
-              <p>Wait for near-peak readiness. Start the 1–2-hour autolyse when the build looks about 1–2 hours from ready.</p>
+              <p>Wait for near-peak readiness. Start the autolyse when the build looks about 30 minutes to 2 hours from ready.</p>
             </li>
             <li>
               <h3>Mix and bulk</h3>
@@ -250,10 +250,10 @@ export function RecipePage() {
             <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
           </div>
           <div className="parallel-prep" aria-label="Steps 1 and 2 can overlap">
-            <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 1–2 hours from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
+            <div className="parallel-copy"><p className="kicker">Prep in parallel</p><strong>Start Step 2 when the starter looks about 30 minutes to 2 hours from ready.</strong><span>The ripe baking build and autolyse must both be ready for Step 3.</span><a className="parallel-side-link" href="#mother-refresh">Mother-starter care has its own timeline <ChevronRight aria-hidden="true" /></a></div>
             <div className="parallel-timeline" aria-hidden="true">
               <div className="timeline-row starter-line"><b>1 · Starter build</b><i /><span>Ready</span></div>
-              <div className="timeline-row overlap-line"><b>2 · Autolyse</b><i /><span>1–2 hr</span></div>
+              <div className="timeline-row overlap-line"><b>2 · Autolyse</b><i /><span>30 min–2 hr</span></div>
               <div className="timeline-merge"><ChevronRight /> Step 3 · Mix</div>
             </div>
           </div>
