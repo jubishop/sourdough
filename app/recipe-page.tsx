@@ -256,12 +256,12 @@ export function RecipePage() {
                     {step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}{step.cue && <p className="step-cue">{step.cue}</p>}</div>
                     <label className="step-check" htmlFor={`step-${step.id}`}><Checkbox id={`step-${step.id}`} checked={checked} onCheckedChange={(value) => toggleStep(step.id, value)} aria-label={`Mark ${step.title} complete`} /><span>{checked ? 'Done' : 'Mark done'}</span></label>
                   </article>
-                  {step.id === 'starter' && (
+                  {step.id === 'mix' && (
                     <aside id="mother-refresh" className={`mother-task ${motherRefrigerated ? 'is-complete' : ''}`} aria-labelledby="mother-refresh-title">
                       <div className="mother-task-copy">
                         <div className="mother-task-heading">
                           <Snowflake aria-hidden="true" />
-                          <div><p className="mother-task-label">Alongside the bake</p><h3 id="mother-refresh-title">Refresh the mother starter</h3></div>
+                          <div><p className="mother-task-label">Alongside Steps 4–6</p><h3 id="mother-refresh-title">Refresh the mother starter</h3></div>
                         </div>
                         <p className="mother-task-flow"><strong>Keep making the loaf while this jar rests.</strong></p>
                         <ol className="mother-task-instructions">
