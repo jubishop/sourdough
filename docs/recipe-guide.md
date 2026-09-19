@@ -142,7 +142,11 @@ higher from fermentation, so read the level at the glass edge. This superseded
 the 1.2-quart target.
 
 On 2026-09-17, the user raised the target to 1.1 L, superseding the 1 L target.
-The reason was not stated. Use the bulk-step title "Aim for 1.1 L at the glass edge"
+The reason was not stated.
+
+On 2026-09-18, the user raised the target to 1.2 L in the proofing container,
+superseding the 1.1 L target. The reason was not stated.
+Use the bulk-step title "Aim for 1.2 L at the glass edge"
 and the same target in its body and the schedule. Keep measuring where the dough
 meets the glass and keep the visual readiness cues.
 
