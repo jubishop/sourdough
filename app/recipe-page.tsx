@@ -70,8 +70,8 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Aim for 1.2 L at the glass edge',
-    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.2 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
+    title: 'Aim for 1.3 L at the glass edge',
+    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.3 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
     cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
   },
   {
@@ -192,7 +192,7 @@ export function RecipePage() {
             <li>
               <h3>Mix and bulk</h3>
               <strong>~6–10 hr from starter addition</strong>
-              <p>Mix the salt and levain, then do the first stretch and fold immediately. Repeat as needed in Step 4, waiting at least 15 minutes between sets and covering the mixing bowl between repeats. Rub a very light film of oil over the inside of the proofing container to help the dough release easily later. After the last fold, transfer the dough to the container, cover, and leave undisturbed. Aim for 1.2 L at the glass edge, using the visual cues in Step 5.</p>
+              <p>Mix the salt and levain, then do the first stretch and fold immediately. Repeat as needed in Step 4, waiting at least 15 minutes between sets and covering the mixing bowl between repeats. Rub a very light film of oil over the inside of the proofing container to help the dough release easily later. After the last fold, transfer the dough to the container, cover, and leave undisturbed. Aim for 1.3 L at the glass edge, using the visual cues in Step 5.</p>
             </li>
             <li>
               <h3>Shape</h3>
