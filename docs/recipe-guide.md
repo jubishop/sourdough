@@ -117,6 +117,11 @@ mixing in salt and levain, followed by repeats as needed at least 15 minutes apa
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
+On 2026-09-18, the user requested rubbing a very light film of oil over
+the inside of the proofing container before transferring the dough. The
+purpose is to help the dough release easily later. Include this preparation
+in the final-fold step and the schedule summary.
+
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
 mixing and 60% target; growth during the bowl stage was not measured.
