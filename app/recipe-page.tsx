@@ -134,10 +134,10 @@ const steps = [
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '22 min uncovered',
+    time: '23 min uncovered',
     icon: Flame,
-    title: 'Finish uncovered at 445°F',
-    body: 'Remove the lid, lower the oven to 445°F, and bake for 22 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
+    title: 'Finish uncovered at 440°F',
+    body: 'Remove the lid, lower the oven to 440°F, and bake for 23 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
   },
   {
     id: 'cool',
@@ -206,8 +206,8 @@ export function RecipePage() {
             </li>
             <li>
               <h3>Bake</h3>
-              <strong>30 min covered + 22 min uncovered</strong>
-              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 500°F for at least 60 minutes. Keep the loaf refrigerated until the Dutch oven is ready. Bake at 475°F covered, then 445°F uncovered. Then remove the loaf from the oven.</p>
+              <strong>30 min covered + 23 min uncovered</strong>
+              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 500°F for at least 60 minutes. Keep the loaf refrigerated until the Dutch oven is ready. Bake at 475°F covered, then 440°F uncovered. Then remove the loaf from the oven.</p>
             </li>
             <li>
               <h3>Cool</h3>

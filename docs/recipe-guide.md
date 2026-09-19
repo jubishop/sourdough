@@ -243,7 +243,7 @@ shaping, cold proofing, baking, and cooling.
 Use the current recipe settings: roughly 10–14 hours to at least double for
 the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
 an 8–16-hour cold proof, 30 minutes
-covered followed by 22 minutes uncovered, and at
+covered followed by 23 minutes uncovered, and at
 least three hours of cooling. Keep the near-peak starter cues, dough cues,
 and fixed bake time clear.
 
@@ -271,7 +271,7 @@ order and keep the loaf refrigerated until the Dutch oven is ready.
 
 On 2026-09-17, the user requested that the recipe show only the temperatures
 they set on their oven, so the instructions are easy to read. Use 500°F for
-preheating, 475°F for the covered bake, and 445°F for the uncovered bake in
+preheating, 475°F for the covered bake, and 440°F for the uncovered bake in
 the schedule and checklist, including step titles. This supersedes the
 earlier same-day choice to put the adjusted settings in parentheses beside
 the target temperatures.
@@ -336,8 +336,12 @@ supersedes 21 minutes at 425°F. The adjusted setting for their oven is
 445°F. This is a small bake trial, not a confirmed fix for the gummy crumb;
 the added time may still darken the crust. Judge the result after full cooling.
 
-Bake for 30 minutes covered at a 475°F oven setting, then 22 minutes
-uncovered at a 445°F oven setting, for 52 minutes total. These settings
+On 2026-09-19, the user lowered the uncovered oven setting to 440°F and
+extended the time to 23 minutes. This supersedes 22 minutes at a 445°F oven
+setting and retains the fixed endpoint. The reason was not stated.
+
+Bake for 30 minutes covered at a 475°F oven setting, then 23 minutes
+uncovered at a 440°F oven setting, for 53 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the schedule, step label, and instructions consistent
