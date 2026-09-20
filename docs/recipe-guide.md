@@ -154,7 +154,10 @@ superseding the 1.1 L target. The reason was not stated.
 
 On 2026-09-19, the user raised the target to 1.3 L in the proofing container,
 superseding the 1.2 L target. The reason was not stated.
-Use the bulk-step title "Aim for 1.3 L at the glass edge"
+
+Later that day, the user raised the target to 1.35 L at the glass line,
+superseding the 1.3 L target. The reason was not stated.
+Use the bulk-step title "Aim for 1.35 L at the glass edge"
 and the same target in its body and the schedule. Keep measuring where the dough
 meets the glass and keep the visual readiness cues.
 
