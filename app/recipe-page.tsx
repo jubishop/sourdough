@@ -71,8 +71,8 @@ const steps = [
     time: '~6–10 hr total',
     icon: FlaskConical,
     title: 'Aim for 1.35 quarts at the glass edge',
-    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.35 quarts where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container. Then shape and place it in the banneton.',
-    cue: 'If it still looks dense and tight, give it more time and recheck. If it starts to sink or collapse, shape now.',
+    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.35 quarts where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    cue: 'If it starts to sink or collapse, shape now.',
   },
   {
     id: 'shape',

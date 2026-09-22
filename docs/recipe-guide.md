@@ -730,11 +730,17 @@ section in the bulk step and schedule.
 Keep the guide based on the main dough without restoring sample collection.
 
 Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
-the proofing container moves as the readiness cues. Wait and recheck if
-the dough still looks dense and tight; shape now if it starts to sink or collapse.
+the proofing container moves as the readiness cues. Shape now if it starts
+to sink or collapse.
 Describe next-bake fermentation adjustments as
 waiting a little longer or shaping a little earlier. Keep the page
 description consistent with this visual approach.
+
+On 2026-09-22, the user removed "Then shape and place it in the banneton."
+and "If it still looks dense and tight, give it more time and recheck."
+from Step 5. The reason was not stated. This supersedes the earlier
+wait-and-recheck cue. Keep the sinking-or-collapse cue and Step 6 shaping
+instructions.
 
 The user wants a shorter guide based on the main dough. This removes the
 separate measurement and relies on observing the dough itself.
