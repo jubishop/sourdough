@@ -157,7 +157,10 @@ superseding the 1.2 L target. The reason was not stated.
 
 Later that day, the user raised the target to 1.35 L at the glass line,
 superseding the 1.3 L target. The reason was not stated.
-Use the bulk-step title "Aim for 1.35 L at the glass edge"
+
+On 2026-09-21, the user changed the target to 1.35 quarts at the glass edge
+and requested quarts instead of liters. This supersedes the 1.35 L target.
+Use the bulk-step title "Aim for 1.35 quarts at the glass edge"
 and the same target in its body and the schedule. Keep measuring where the dough
 meets the glass and keep the visual readiness cues.
 
