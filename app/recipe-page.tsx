@@ -179,43 +179,6 @@ export function RecipePage() {
           <h1 className="font-display">Whole-wheat sourdough</h1>
           <a className="primary-link" href="#workflow">Open checklist <ChevronRight /></a>
         </div>
-        <section className="schedule-overview" aria-labelledby="schedule-title">
-          <h2 id="schedule-title" className="font-display">Plan your bake</h2>
-          <p className="schedule-intro">Starter and bulk times are planning estimates for your 70°F pantry. Use the readiness cues in the checklist.</p>
-          <p className="schedule-intro"><strong>Oven adjustment:</strong> My oven runs 25°F cool. All oven temperatures below are the settings I use to compensate. For an oven that heats accurately, set it 25°F lower.</p>
-          <ol className="schedule-list">
-            <li>
-              <h3>Starter build</h3>
-              <strong>~10–14 hr to at least double with 20 g starter</strong>
-              <p>Wait for near-peak readiness.</p>
-            </li>
-            <li>
-              <h3>Mix and bulk</h3>
-              <strong>~6–10 hr from starter addition</strong>
-              <p>Mix the salt and levain, then do the first stretch and fold immediately. Repeat as needed in Step 4, waiting at least 15 minutes between sets and covering the mixing bowl between repeats. Rub a very light film of oil over the inside of the proofing container to help the dough release easily later. After the last fold, transfer the dough to the container, cover, and leave undisturbed. Aim for 1.35 quarts at the glass edge, using the visual cues in Step 5.</p>
-            </li>
-            <li>
-              <h3>Shape</h3>
-              <strong>After bulk</strong>
-              <p>Gently release the dough from the proofing container with a bench scraper and gravity. Shape it, place it in the banneton, seal the bag, and refrigerate.</p>
-            </li>
-            <li>
-              <h3>Cold proof</h3>
-              <strong>8–16 hr at ~38°F</strong>
-              <p>Keep the bag sealed and refrigerate.</p>
-            </li>
-            <li>
-              <h3>Bake</h3>
-              <strong>30 min covered + 23 min uncovered</strong>
-              <p>Prepare the foil pad in the cold Dutch oven, then preheat it with the pizza stone at 500°F for at least 60 minutes. Keep the loaf refrigerated until the Dutch oven is ready. Bake at 475°F covered, then 440°F uncovered. Then remove the loaf from the oven.</p>
-            </li>
-            <li>
-              <h3>Cool</h3>
-              <strong>At least 3 hr</strong>
-              <p>Cool uncovered on a wire rack before slicing.</p>
-            </li>
-          </ol>
-        </section>
       </section>
 
       <section id="starter" className="section shell starter-section">

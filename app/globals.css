@@ -77,15 +77,6 @@ svg { height: auto; flex-shrink: 0; }
 .primary-link svg { width: 1rem; }
 .recipe-intro { padding-block: 3.625rem 2.875rem; }.recipe-intro-main { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.875rem; }
 .recipe-intro h1 { min-width: 0; max-width: 100%; margin: 0; font-size: clamp(3rem, 6.5vw, 4.875rem); line-height: .95; }
-.schedule-overview { margin-top: 2rem; padding-top: 1.5rem; border-top: 0.0625rem solid var(--border); }
-.schedule-overview h2 { margin: 0; font-size: 2rem; }
-.schedule-intro { margin: 0.5rem 0 1.375rem; color: #655d54; font-size: 0.875rem; line-height: 1.5; }
-.schedule-list { margin: 0; padding-left: 1.5rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem 2.5rem; }
-.schedule-list li { padding-left: 0.25rem; }
-.schedule-list li::marker { color: var(--rust); font-family: var(--font-geist-mono); font-size: 0.8125rem; }
-.schedule-list h3 { margin: 0 0 0.375rem; font-size: 1rem; }
-.schedule-list strong { display: block; color: var(--rust); font-size: 0.8125rem; line-height: 1.5; }
-.schedule-list p { margin: 0.375rem 0 0; color: #655d54; font-size: 0.8125rem; line-height: 1.5; }
 .kicker { margin: 0 0 0.5rem; color: #8d8276; font-size: 0.6875rem; font-weight: 760; text-transform: uppercase; letter-spacing: .13em; }
 .section { padding-block: 6.25rem; }
 .starter-section { padding-block: 1.5rem 1.25rem; }
@@ -126,7 +117,6 @@ svg { height: auto; flex-shrink: 0; }
 
 
 @media (max-width: 56.25em) {
-  .schedule-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .site-header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; padding-block: .5rem; }.site-header nav { display: none; }
   .starter-grid { grid-template-columns: 1fr; }.starter-card + .starter-card { border-left: 0; border-top: 0.0625rem solid var(--border); }
   .step-card { grid-template-columns: 2.5rem 3.4375rem minmax(0, 1fr); gap: 1.25rem; }.step-icon { width: 3rem; height: 3rem; }.step-check { grid-column: 3; justify-content: flex-start; }
@@ -134,7 +124,6 @@ svg { height: auto; flex-shrink: 0; }
 }
 
 @media (max-width: 37.5em) {
-  .schedule-list { grid-template-columns: 1fr; gap: 1.25rem; }
   .shell { width: min(100% - 1.75rem, 73.75rem); }.site-header { min-height: 4rem; padding-inline: 0.875rem; }.header-action { padding: 0.625rem 0; font-size: 0.625rem; }.brand { font-size: 0.875rem; }.brand-mark { width: 1.875rem; height: 1.875rem; }
   .recipe-intro { padding-block: 2.375rem 1.75rem; }.recipe-intro-main { align-items: flex-start; flex-direction: column; gap: 1.5rem; }.recipe-intro h1 { font-size: clamp(2.75rem, 13vw, 3.625rem); }.recipe-intro .primary-link { width: 100%; justify-content: center; }
   .section { padding-block: 4.25rem; }.starter-section { padding-block: 1.125rem 0.875rem; }.expandable-summary { min-height: 5.125rem; gap: 0.9375rem; }.expandable-summary-action { font-size: 0; }.expandable-summary-action::after { font-size: 1.25rem; }

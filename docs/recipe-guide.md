@@ -22,7 +22,7 @@ The starter-build amount is also intentionally flexible so the user can
 adjust its readiness to their schedule. See [Starter build timing](#starter-build-timing).
 
 Once the user chooses an adjustment, update the recipe itself, including affected steps, quantities,
-and schedule text. Until then, the recipe's current settings remain
+and related text. Until then, the recipe's current settings remain
 the instructions to follow.
 
 Cold-proof timing is also flexible within 8–16 hours at approximately 38°F.
@@ -235,7 +235,7 @@ The separate gear list is removed as described above.
 On 2026-09-05, the user chose to remove all website timers because they
 will not use them. Remove the kitchen timer panel, presets, per-step timer
 buttons, countdown state, and related styles. Keep the written recipe
-durations and schedule overview.
+durations. The schedule overview was later removed; see [Schedule overview](#schedule-overview).
 
 Retain the step checkmarks, mother-starter checkmark, progress display,
 reset control, and saved checklist progress. The user considers these
@@ -244,30 +244,11 @@ feature is removed.
 
 ## Schedule overview
 
-On 2026-09-05, the user accepted a short overview of the full bake sequence
-to make it easier to plan when the loaf will be ready to eat. Place it near
-the top of the page and include starter preparation, mixing and bulk,
-shaping, cold proofing, baking, and cooling.
-
-Use the current recipe settings: roughly 10–14 hours to at least double for
-the 20 g starter build, roughly 6–10 hours of bulk from starter addition,
-an 8–16-hour cold proof, 30 minutes
-covered followed by 23 minutes uncovered, and at
-least three hours of cooling. Keep the near-peak starter cues, dough cues,
-and fixed bake time clear.
-
-Immediately after mixing in salt and levain, do the first
-stretch and fold. Repeat as needed at least 15 minutes apart, covering the
-mixing bowl between repeats. After the last one, transfer to the proofing
-container, cover, and leave undisturbed. Count the repeats and rests within
-bulk from starter addition; do not restart the bulk clock at the transfer.
-Gently release the dough from the proofing container with a bench scraper
-and gravity. Shape it and place it in the banneton before sealing the bag
-and refrigerating. Preheat the
-oven, Dutch oven, and pizza stone for at least 60 minutes before baking.
-Keep the loaf refrigerated until the Dutch oven is ready.
-The starter and bulk estimates assume the user's 70°F pantry. Do not turn
-them into guaranteed clock times or promise a fixed total duration.
+On 2026-09-22, the user removed the entire "Plan your bake" section because
+it repeats the instructions in the checklist below. This supersedes the
+2026-09-05 choice to show the full bake sequence near the top for planning.
+Keep the recipe timings and instructions in the checklist. Earlier references
+in this decision history to updating the schedule no longer apply.
 
 On 2026-09-18, the user removed the two step-overlap concepts because they
 add unnecessary complexity. Remove the "Prep in parallel" and "Preheat in
@@ -285,10 +266,12 @@ the schedule and checklist, including step titles. This supersedes the
 earlier same-day choice to put the adjusted settings in parentheses beside
 the target temperatures.
 
-Keep a note at the top for other readers: the user's oven runs 25°F cool,
-all recipe oven temperatures are the settings used to compensate, and an
-oven that heats accurately should be set 25°F lower. Pantry and refrigerator
-temperatures do not use this oven adjustment.
+The same decision added a note at the top for other readers: the user's oven
+runs 25°F cool, all recipe oven temperatures are the settings used to
+compensate, and an oven that heats accurately should be set 25°F lower.
+Pantry and refrigerator temperatures do not use this oven adjustment.
+On 2026-09-22, removing the entire "Plan your bake" section also removed
+this note. The oven settings in the checklist remain unchanged.
 
 ## Fixed bake time
 
