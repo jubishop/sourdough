@@ -80,7 +80,6 @@ const steps = [
     time: 'After bulk',
     icon: Circle,
     title: 'Shape and place in the banneton',
-    body: 'Use your cotton banneton without dusting it with flour.',
     details: [
       'Gently tilt the proofing container and let gravity ease the dough onto a clean, dry counter. Use a bench scraper to release any sticking dough, disturbing it as little as possible.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
@@ -215,7 +214,7 @@ export function RecipePage() {
                 <Fragment key={step.id}>
                   <article className={`step-card ${checked ? 'complete' : ''}`}>
                     <div className="step-number">{String(index + 1).padStart(2, '0')}</div><div className="step-icon"><Icon aria-hidden="true" /></div>
-                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}</p><h3>{step.title}</h3><p>{step.body}</p>
+                  <div className="step-copy"><p className="step-meta"><span>{step.phase}</span>{step.time}</p><h3>{step.title}</h3>{step.body && <p>{step.body}</p>}
                     {step.details && <ol className="step-substeps">{step.details.map((detail) => <li key={detail}>{detail}</li>)}</ol>}{step.cue && <p className="step-cue">{step.cue}</p>}</div>
                     <label className="step-check" htmlFor={`step-${step.id}`}><Checkbox id={`step-${step.id}`} checked={checked} onCheckedChange={(value) => toggleStep(step.id, value)} aria-label={`Mark ${step.title} complete`} /><span>{checked ? 'Done' : 'Mark done'}</span></label>
                   </article>

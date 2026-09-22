@@ -608,6 +608,11 @@ banneton without flour dusting. This supersedes the earlier instruction to
 dust the banneton generously with rice flour. This choice is based on the
 user's basket and observed results.
 
+On 2026-09-22, the user removed "Use your cotton banneton without dusting
+it with flour." from Step 6 because the sentence is unnecessary. Start
+the step with its existing shaping substeps. This removes the explicit
+reminder without adding flour-dusting instructions.
+
 On 2026-09-10, the user requested placing the entire banneton inside a
 large Ziploc bag after adding the shaped loaf. Seal the bag to keep the
 moisture in, then keep it sealed during the refrigerated cold proof.
