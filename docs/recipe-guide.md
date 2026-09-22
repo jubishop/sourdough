@@ -112,7 +112,7 @@ Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
-[Folding](#folding) starts with one required stretch and fold immediately after
+[Folding](#folding) starts with one required stretch and fold 15 minutes after
 mixing in salt and levain, followed by repeats as needed at least 15 minutes apart.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
@@ -558,6 +558,11 @@ first set immediately after mixing, then repeat as needed with at least
 15 minutes between sets. Longer rests are allowed. Keep the covered rests
 and final transfer, and use the same minimum in the step timing and schedule.
 The reason was not stated.
+
+On 2026-09-22, the user corrected the first stretch and fold to 15 minutes
+after mixing in salt and levain. This supersedes the immediate first set
+above. Use the same delay in the step instruction and timing label. Keep
+later repeats at least 15 minutes apart. The reason was not stated.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
