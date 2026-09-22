@@ -803,6 +803,10 @@ actual portion: 20 g takes 60 g each water and flour; 22 g takes 66 g each.
 Keep the storage-rest guidance based on when the mother will next be used,
 and keep the separate baking-build range and readiness checks.
 
+On 2026-09-22, the user removed the extra multiplication instruction and
+the 20 g + 60 g + 60 g example from weekly mother maintenance. The reason
+was not stated. Keep the 1:3:3 ratio and its definition in parts.
+
 ## Mother storage guide
 
 On 2026-09-18, the user clarified that the mother goes back in the fridge
