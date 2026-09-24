@@ -63,7 +63,7 @@ const steps = [
     icon: RotateCcw,
     title: 'Stretch and fold as needed',
     body: 'Do the first stretch and fold 15 minutes after mixing in the salt and levain. Then repeat as needed, waiting at least 15 minutes between sets.',
-    cue: 'Keep the dough covered in the mixing bowl between repeats. After your last stretch and fold, gently transfer the dough to your 2-quart proofing container and cover it.',
+    cue: 'Keep the dough covered in the mixing bowl between repeats. Before transferring the dough, rub a very thin layer of softened butter over the bottom and sides of your 2-quart proofing container. After your last stretch and fold, gently transfer the dough to the buttered container and cover it.',
   },
   {
     id: 'bulk',
@@ -72,16 +72,15 @@ const steps = [
     icon: FlaskConical,
     title: 'Aim for 1.35 quarts at the glass edge',
     body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.35 quarts where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
-    cue: 'If it starts to sink or collapse, skip the chill and shape now.',
+    cue: 'If it starts to sink or collapse, shape now.',
   },
   {
     id: 'shape',
     phase: 'Day 1',
-    time: '30 min chill · then shape',
+    time: 'After bulk',
     icon: Circle,
-    title: 'Chill, shape, and place in the banneton',
+    title: 'Shape and place in the banneton',
     details: [
-      'After bulk, refrigerate the entire covered proofing container for 30 minutes. This cools the dough slightly and may help it release more easily.',
       'Gently tilt the proofing container and let gravity ease the dough onto a clean, dry counter. Use a bench scraper to release any sticking dough, disturbing it as little as possible.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
       'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',

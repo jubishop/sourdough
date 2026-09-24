@@ -117,15 +117,19 @@ mixing in salt and levain, followed by repeats as needed at least 15 minutes apa
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
-On 2026-09-22, the user replaced the earlier container-preparation instruction
-with a 30-minute refrigerator rest after bulk fermentation. Keep the dough
-in its covered proofing container and refrigerate the entire container before
-turning the dough onto the counter to shape. The purpose is to cool it slightly
-and try to improve release; easier release has not yet been verified with this
-dough and container. Put the rest first in the shaping step and show its duration
-in that step's timing label. If the dough starts to sink or collapse, skip the
-chill and shape immediately. Shape while cool, then follow the existing banneton
-placement and overnight cold proof.
+On 2026-09-23, the user reported that the 30-minute refrigerator rest did
+not improve dough release and that the dough also stuck during the earlier
+olive-oil trial. They chose to restore greasing the proofing container, using
+butter this time. Before the single transfer after the last stretch and fold,
+rub a very thin layer of softened butter over the bottom and sides of the
+2-quart proofing container.
+
+This supersedes the 2026-09-22 chilling trial and the 2026-09-18 oil choice.
+Remove the refrigerator rest before shaping and its timing label. Shape after
+bulk; if the dough starts to sink or collapse, shape immediately. Keep the
+existing banneton placement and overnight cold proof. Butter is the selected
+release method, but improved release has not yet been verified with this dough
+and container.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
