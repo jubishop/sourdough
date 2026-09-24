@@ -271,7 +271,7 @@ order and keep the loaf refrigerated until the Dutch oven is ready.
 
 On 2026-09-17, the user requested that the recipe show only the temperatures
 they set on their oven, so the instructions are easy to read. Use 500°F for
-preheating, 475°F for the covered bake, and 430°F for the uncovered bake in
+preheating, 475°F for the covered bake, and 435°F for the uncovered bake in
 the schedule and checklist, including step titles. This supersedes the
 earlier same-day choice to put the adjusted settings in parentheses beside
 the target temperatures.
@@ -355,8 +355,12 @@ Later on 2026-09-24, the user lowered the uncovered oven setting by another
 supersedes 25 minutes at a 435°F oven setting and retains the fixed
 endpoint. The reason was not stated.
 
+Later that day, the user restored the uncovered oven setting to 435°F.
+This supersedes the 430°F setting and keeps the 26-minute bake and fixed
+endpoint. The reason was not stated.
+
 Bake for 30 minutes covered at a 475°F oven setting, then 26 minutes
-uncovered at a 430°F oven setting, for 56 minutes total. These settings
+uncovered at a 435°F oven setting, for 56 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
