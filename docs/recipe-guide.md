@@ -484,6 +484,12 @@ join at the corners. Keep the blade straight down and the depth at ½ inch.
 This supersedes the cross pattern and its cut-end spacing; the 1-inch
 spacing now applies to each corner of the box. The reason was not stated.
 
+On 2026-09-24, the user chose an X instead of a box. Use two diagonal cuts
+that cross in the center of the smooth top. Start and end each cut about
+1 inch from the edge of the dough. Keep the blade straight down and the
+depth at ½ inch. This supersedes the box pattern and restores the cut-end
+spacing. The reason was not stated.
+
 ## Bake phase explanations
 
 On 2026-09-05, the user accepted a short explanation of each baking phase:

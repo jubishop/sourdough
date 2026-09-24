@@ -117,7 +117,7 @@ const steps = [
     details: [
       'Cut a piece of parchment paper large enough to hold the loaf, with two long ends to use as handles. Center it over the open banneton, hold it in place, and invert both together.',
       'Set the loaf on your work surface with the parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
-      'Score a box in the smooth top with four straight cuts that join at the corners. Keep each corner about 1 inch in from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
+      'Score an X in the smooth top with two diagonal cuts that cross in the center. Start and end each cut about 1 inch from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
       'Remove the hot Dutch oven. Use the parchment handles to lower the scored loaf onto the foil pad, then put the lid on. Leave the parchment under the loaf during baking.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
