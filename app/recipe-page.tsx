@@ -63,7 +63,7 @@ const steps = [
     icon: RotateCcw,
     title: 'Stretch and fold as needed',
     body: 'Do the first stretch and fold 15 minutes after mixing in the salt and levain. Then repeat as needed, waiting at least 15 minutes between sets.',
-    cue: 'Keep the dough covered in the mixing bowl between repeats. Before transferring the dough, rub a very thin layer of softened butter over the bottom and sides of your 2-quart proofing container. After your last stretch and fold, gently transfer the dough to the buttered container and cover it.',
+    cue: 'Keep the dough covered in the mixing bowl between repeats. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last stretch and fold, gently transfer the dough to the oiled container and cover it.',
   },
   {
     id: 'bulk',

@@ -118,18 +118,19 @@ Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
 On 2026-09-23, the user reported that the 30-minute refrigerator rest did
-not improve dough release and that the dough also stuck during the earlier
-olive-oil trial. They chose to restore greasing the proofing container, using
-butter this time. Before the single transfer after the last stretch and fold,
-rub a very thin layer of softened butter over the bottom and sides of the
-2-quart proofing container.
+not improve dough release. The dough also stuck during the earlier olive-oil
+trial, but the user clarified that they had not applied the oil well. After
+briefly choosing butter, they decided to retry olive oil with better coverage.
+Before the single transfer after the last stretch and fold, spread a thin,
+even film of olive oil over the entire bottom and sides of the 2-quart proofing
+container. Leave no bare spots or pools of oil.
 
-This supersedes the 2026-09-22 chilling trial and the 2026-09-18 oil choice.
-Remove the refrigerator rest before shaping and its timing label. Shape after
-bulk; if the dough starts to sink or collapse, shape immediately. Keep the
-existing banneton placement and overnight cold proof. Butter is the selected
-release method, but improved release has not yet been verified with this dough
-and container.
+This supersedes the 2026-09-22 chilling trial and the brief choice to try
+butter on 2026-09-23. Remove the refrigerator rest before shaping and its
+timing label. Shape after bulk; if the dough starts to sink or collapse,
+shape immediately. Keep the existing banneton placement and overnight cold
+proof. Improved release with complete oil coverage has not yet been verified
+with this dough and container.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
