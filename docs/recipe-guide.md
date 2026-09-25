@@ -34,10 +34,10 @@ decision that supersedes the earlier 12–24-hour range.
 On 2026-09-14, the user restored 450 g of dough water, superseding the
 420 g and 425 g quantities selected earlier that day. The reason was not stated.
 Mix all 450 g water with the 500 g whole-wheat flour and rest for 1 hour. Add
-only the 100 g active starter and salt in Step 3 and mix until uniform.
-See [Mixing starter and salt](#mixing-starter-and-salt) for the current salt amount.
+only active starter and salt in Step 3 and mix until uniform.
+See [Mixing starter and salt](#mixing-starter-and-salt) for the current amounts.
 
-The autolyse is at 90% hydration. With a 100%-hydration starter contributing
+The autolyse is at 90% hydration. With 100 g of 100%-hydration starter contributing
 50 g each of flour and water, the final dough has 500 g water and 550 g flour:
 about 90.9% total hydration.
 
@@ -87,7 +87,7 @@ also identifies this method as a way to incorporate sourdough starter.
 The video and its public availability were checked on 2026-09-07.
 
 The clip demonstrates the movement, not the full mixing duration or the
-addition of every ingredient. Keep the instruction to mix 100 g starter
+addition of every ingredient. Keep the instruction to mix at least 100 g starter
 and 11–12 g salt into the rested dough until reasonably uniform. The required
 stretch and fold step now follows this mixing step; see [Folding](#folding).
 Keep lightly wet hands and no added flour. Step 2 remains a
@@ -105,6 +105,11 @@ starter-and-salt mixing instruction. The reason was not stated.
 
 On 2026-09-25, the user changed the salt amount to 11–12 g. This supersedes
 the fixed 11 g amount. The reason was not stated.
+
+On 2026-09-25, the user changed the active starter (levain) amount to at
+least 100 g. This supersedes the fixed 100 g dough portion. The reason was
+not stated. The 90.9% total hydration figure applies when using 100 g of
+100%-hydration levain.
 
 ## Proofing container and mixing bowl
 
@@ -801,8 +806,9 @@ do not infer it from this decision.
 
 On 2026-09-05, the user clarified that the 20–60 g mother-starter range is
 intentional: use less when there is more time and more to ripen the build
-sooner. Keep the added water and flour at 60 g each, and keep the dough's
-ripe-starter amount at 100 g. Do not replace the range with a fixed 20 g.
+sooner. Keep the added water and flour at 60 g each. Do not replace the
+range with a fixed 20 g. The fixed 100 g dough portion selected then is
+superseded by [Mixing starter and salt](#mixing-starter-and-salt).
 
 The user accepted clarifying the step's timing label to
 "~6–12 hr to double with 20 g starter." This identifies which build the
