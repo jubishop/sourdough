@@ -123,7 +123,7 @@ sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
 [Folding](#folding) starts with one required stretch and fold 15 minutes after
 mixing in salt and levain, followed by repeats at least 25 minutes apart,
-for 4–6 rounds total unless the stretch-mark stopping cue is met.
+for 4–6 rounds total, using the stretch-mark stopping cue.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -622,9 +622,9 @@ This supersedes the earlier spacing and repeat limits. Keep the first round
 and the final transfer after the last round.
 
 Later on 2026-09-25, the user added a stopping cue: stop folding when even
-the first fold in a session shows stretch marks. This permits stopping
-before four rounds. The reason was not stated. Keep the 4–6-round range
-and timing, with this exception, then make the final transfer as usual.
+the first fold in a session shows stretch marks. They clarified that the
+instruction should say "Stop", not "Stop early". The reason was not stated.
+Keep the 4–6-round range and timing, then make the final transfer as usual.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
@@ -635,7 +635,7 @@ accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
 Count all 12 required steps toward progress. Step 4 can be marked complete
-after the last of the 4–6 rounds, or earlier when the stopping cue is met.
+after the last round, using the round range and stopping cue above.
 Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
 `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
