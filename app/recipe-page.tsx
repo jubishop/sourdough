@@ -59,10 +59,10 @@ const steps = [
   {
     id: 'slap-and-fold',
     phase: 'Day 1',
-    time: 'First 15 min after mixing · then at least 15 min apart',
+    time: 'First 15 min after mixing · then at least 20 min apart',
     icon: RotateCcw,
     title: 'Stretch and fold as needed',
-    body: 'Do the first stretch and fold 15 minutes after mixing in the salt and levain. Then repeat as needed, waiting at least 15 minutes between sets.',
+    body: 'Do the first stretch and fold 15 minutes after mixing in the salt and levain. Then repeat as needed, waiting at least 20 minutes between rounds. Do no more than five rounds total.',
     cue: 'Keep the dough covered in the mixing bowl between repeats. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last stretch and fold, gently transfer the dough to the oiled container and cover it.',
   },
   {
