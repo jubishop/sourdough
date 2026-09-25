@@ -34,7 +34,8 @@ decision that supersedes the earlier 12–24-hour range.
 On 2026-09-14, the user restored 450 g of dough water, superseding the
 420 g and 425 g quantities selected earlier that day. The reason was not stated.
 Mix all 450 g water with the 500 g whole-wheat flour and rest for 1 hour. Add
-only the 100 g active starter and 11 g salt in Step 3 and mix until uniform.
+only the 100 g active starter and salt in Step 3 and mix until uniform.
+See [Mixing starter and salt](#mixing-starter-and-salt) for the current salt amount.
 
 The autolyse is at 90% hydration. With a 100%-hydration starter contributing
 50 g each of flour and water, the final dough has 500 g water and 550 g flour:
@@ -87,7 +88,7 @@ The video and its public availability were checked on 2026-09-07.
 
 The clip demonstrates the movement, not the full mixing duration or the
 addition of every ingredient. Keep the instruction to mix 100 g starter
-and 11 g salt into the rested dough until reasonably uniform. The required
+and 11–12 g salt into the rested dough until reasonably uniform. The required
 stretch and fold step now follows this mixing step; see [Folding](#folding).
 Keep lightly wet hands and no added flour. Step 2 remains a
 written instruction to mix flour and water and rest for the autolyse.
@@ -101,6 +102,9 @@ Keep the hydration and lightly wet hands guidance.
 On 2026-09-11, the user requested removal of the pinch-and-fold video
 from Step 3. This supersedes the earlier video choice. Keep the written
 starter-and-salt mixing instruction. The reason was not stated.
+
+On 2026-09-25, the user changed the salt amount to 11–12 g. This supersedes
+the fixed 11 g amount. The reason was not stated.
 
 ## Proofing container and mixing bowl
 
