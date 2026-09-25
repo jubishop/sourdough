@@ -122,8 +122,8 @@ to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
 [Folding](#folding) starts with one required stretch and fold 15 minutes after
-mixing in salt and levain, followed by repeats as needed at least 25 minutes apart,
-up to six rounds total.
+mixing in salt and levain, followed by repeats at least 25 minutes apart,
+for 4–6 rounds total.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -615,11 +615,11 @@ On 2026-09-25, the user initially increased the minimum rest between
 stretch-and-fold rounds to 20 minutes and restored a maximum of five rounds
 total. Later that day, they revised this to at least 25 minutes between
 rounds and a maximum of six rounds total, replacing an interim four-round
-limit. The reason was not stated.
+limit. They then changed the instruction to 4–6 rounds total, replacing
+the optional repeats with a minimum of four rounds. The reason was not stated.
 This supersedes the earlier spacing and repeat limits. Keep the first round
 15 minutes after mixing in salt and levain, covered rests between rounds,
-and the final transfer after the last round. The first round is required;
-up to five later rounds are optional.
+and the final transfer after the last round.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
@@ -630,8 +630,7 @@ accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
 Count all 12 required steps toward progress. Step 4 can be marked complete
-after the first stretch and fold if the remaining repeats are skipped, or after
-the last repeat performed. Retain the ID `slap-and-fold` after the rename
+after the last of the 4–6 rounds. Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
 `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
 progress or precheck another step.
