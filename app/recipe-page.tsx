@@ -62,7 +62,7 @@ const steps = [
     time: 'First 15 min after mixing · then at least 25 min apart',
     icon: RotateCcw,
     title: 'Stretch and fold',
-    body: 'Do 4–6 rounds of stretch and fold. Start the first round 15 minutes after mixing in the salt and levain. Wait at least 25 minutes between rounds.',
+    body: 'Do 4–6 rounds of stretch and fold. Start the first round 15 minutes after mixing in the salt and levain. Wait at least 25 minutes between rounds. Stop early if even the first fold in a session shows stretch marks.',
     cue: 'Keep the dough covered in the mixing bowl between repeats. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last stretch and fold, gently transfer the dough to the oiled container and cover it.',
   },
   {
