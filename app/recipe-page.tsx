@@ -70,8 +70,8 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Aim for 1.35 quarts at the glass edge',
-    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.35 quarts where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    title: 'Aim for 1.35 L at the glass edge',
+    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.35 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
     cue: 'If it starts to sink or collapse, shape now.',
   },
   {
