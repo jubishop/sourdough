@@ -123,8 +123,9 @@ sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
 [Folding](#folding) starts with a session 15 minutes after mixing in salt
 and levain, then adds 5 minutes to each wait, up to 40 minutes before
-session 6. Use no more than six sessions and two stretch-and-folds per
-session, with the stretch-mark stopping cue.
+session 6. Use no more than six sessions, with two stretch-and-folds in
+the first session and one in each later session. Follow the stretch-mark
+stopping cue.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -639,10 +640,12 @@ of 20–45 minutes, then reduced every wait by 5 minutes. Wait 15 minutes
 after mixing in salt and levain before session 1. After each session,
 increase the wait by 5 minutes: 20 minutes before session 2, 25 before
 session 3, 30 before session 4, 35 before session 5, and 40 before session 6.
-Each wait starts after the previous session ends. Do no more than two
-stretch-and-folds per session.
-Stop at any point if the first stretch-and-fold in a session shows any
-stretch marks. The reason was not stated. This supersedes the fixed
+Each wait starts after the previous session ends. The user initially
+allowed up to two stretch-and-folds per session, then specified two in
+the first session and one in each later session. They also simplified
+the stopping cue to "Stop if you see any stretch marks", replacing the
+condition about the first stretch-and-fold in a session.
+The reason was not stated. This supersedes the fixed
 25-minute minimum between rounds and 4–6-round range, and restores the
 15-minute first wait.
 Keep the covered rests and final transfer after the last session.

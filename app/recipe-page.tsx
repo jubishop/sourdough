@@ -62,11 +62,11 @@ const steps = [
     time: '15–40 min waits · up to 6 sessions',
     icon: RotateCcw,
     title: 'Stretch and fold',
-    body: 'Do up to six sessions. Do no more than two stretch-and-folds in each session.',
+    body: 'Do up to six sessions. Do two stretch-and-folds in the first session and one in each later session.',
     details: [
       'Wait 15 minutes after mixing in the salt and levain before session 1.',
       'After each session, add 5 minutes to the previous wait: 20 minutes before session 2, 25 before session 3, 30 before session 4, 35 before session 5, and 40 before session 6.',
-      'Stop at any point if the first stretch-and-fold in a session shows any stretch marks.',
+      'Stop if you see any stretch marks.',
     ],
     cue: 'During every wait, keep the dough covered in the mixing bowl inside a proofing box set to 76°F. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last stretch and fold, gently transfer the dough to the oiled container and cover it.',
   },
