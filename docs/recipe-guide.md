@@ -129,11 +129,14 @@ stopping cue.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
-On 2026-09-25, the user specified a proofing box set to 76°F for all waits
-in Steps 4 and 5. Keep the covered mixing bowl inside the box for the
-first wait and every wait between folding sessions. After the final
-transfer, keep the covered proofing container inside the same box during
-bulk fermentation. The reason was not stated.
+On 2026-09-25, the user initially specified a proofing box set to 76°F for
+all waits in Steps 4 and 5. Later that day, they limited use of the box to
+the proofing container after the last stretch and fold. This supersedes
+the earlier instruction to put the mixing bowl in the box. Keep the dough
+covered in the mixing bowl outside the box during the first wait and
+every wait between folding sessions. After the final fold and transfer,
+place the covered proofing container inside the box set to 76°F for bulk
+fermentation. The reason was not stated.
 
 On 2026-09-23, the user reported that the 30-minute refrigerator rest did
 not improve dough release. The dough also stuck during the earlier olive-oil
