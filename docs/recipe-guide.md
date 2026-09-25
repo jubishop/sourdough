@@ -134,12 +134,13 @@ Before the single transfer after the last stretch and fold, spread a thin,
 even film of olive oil over the entire bottom and sides of the 2-quart proofing
 container. Leave no bare spots or pools of oil.
 
-This supersedes the 2026-09-22 chilling trial and the brief choice to try
-butter on 2026-09-23. Remove the refrigerator rest before shaping and its
-timing label. Shape after bulk; if the dough starts to sink or collapse,
-shape immediately. Keep the existing banneton placement and overnight cold
-proof. Improved release with complete oil coverage has not yet been verified
-with this dough and container.
+This superseded the 2026-09-22 chilling trial and the brief choice to try
+butter on 2026-09-23. The refrigerator rest before shaping and its timing
+label were removed. The 2026-09-25 decision under
+[Shaping instructions](#shaping-instructions) restores a brief refrigerator
+rest. If the dough starts to sink or collapse, shape immediately. Keep the
+existing banneton placement and overnight cold proof. Improved release with
+complete oil coverage has not yet been verified with this dough and container.
 
 The 2026-09-10 sequence used a 50% increase from the volume marked after
 the second fold and transfer. It superseded the earlier starting mark after
@@ -625,6 +626,14 @@ and retain the other steps' IDs so saved progress remains valid. Obsolete
 progress or precheck another step.
 
 ## Shaping instructions
+
+On 2026-09-25, the user added a 15–30-minute refrigerator rest after bulk
+fermentation and before shaping. The reason was not stated. Keep the dough
+in its covered proofing container during this rest, then follow the existing
+shaping and banneton instructions. Include the rest in Step 6 and its timing
+label. This supersedes the 2026-09-23 removal of the rest. Retain the exception
+to shape immediately if the dough starts to sink or collapse; skip the rest
+in that case.
 
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the

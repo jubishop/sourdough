@@ -72,14 +72,15 @@ const steps = [
     icon: FlaskConical,
     title: 'Aim for 1.35 L at the glass edge',
     body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.35 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
-    cue: 'If it starts to sink or collapse, shape now.',
+    cue: 'If it starts to sink or collapse, skip the refrigerator rest and shape now.',
   },
   {
     id: 'shape',
     phase: 'Day 1',
-    time: 'After bulk',
+    time: '15–30 min in the fridge, then shape',
     icon: Circle,
-    title: 'Shape and place in the banneton',
+    title: 'Chill, shape, and place in the banneton',
+    body: 'After bulk fermentation, refrigerate the dough in its covered proofing container for 15–30 minutes before shaping.',
     details: [
       'Gently tilt the proofing container and let gravity ease the dough onto a clean, dry counter. Use a bench scraper to release any sticking dough, disturbing it as little as possible.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
