@@ -68,7 +68,7 @@ const steps = [
       'After each session, add 5 minutes to the previous wait: 20 minutes before session 2, 25 before session 3, 30 before session 4, 35 before session 5, and 40 before session 6.',
       'Stop at any point if the first stretch-and-fold in a session shows any stretch marks.',
     ],
-    cue: 'Keep the dough covered in the mixing bowl between repeats. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last stretch and fold, gently transfer the dough to the oiled container and cover it.',
+    cue: 'During every wait, keep the dough covered in the mixing bowl inside a proofing box set to 76°F. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last stretch and fold, gently transfer the dough to the oiled container and cover it.',
   },
   {
     id: 'bulk',
@@ -76,7 +76,7 @@ const steps = [
     time: '~6–10 hr total',
     icon: FlaskConical,
     title: 'Aim for 1.35 L at the glass edge',
-    body: 'Leave the dough covered and undisturbed in the proofing container. Aim for 1.35 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    body: 'Keep the covered proofing container inside the proofing box set to 76°F. Leave the dough undisturbed. Aim for 1.35 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
     cue: 'If it starts to sink or collapse, skip the refrigerator rest and shape now.',
   },
   {
