@@ -122,8 +122,8 @@ to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
 [Folding](#folding) starts with one required stretch and fold 15 minutes after
-mixing in salt and levain, followed by repeats as needed at least 20 minutes apart,
-up to five rounds total.
+mixing in salt and levain, followed by repeats as needed at least 25 minutes apart,
+up to six rounds total.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -611,12 +611,15 @@ after mixing in salt and levain. This supersedes the immediate first set
 above. Use the same delay in the step instruction and timing label. Keep
 later repeats at least 15 minutes apart. The reason was not stated.
 
-On 2026-09-25, the user increased the minimum rest between stretch-and-fold
-rounds to 20 minutes and restored a maximum of five rounds total. The reason
-was not stated. This supersedes the 15-minute spacing and uncapped repeats
-above. Keep the first round 15 minutes after mixing in salt and levain,
-covered rests between rounds, and the final transfer after the last round.
-The first round is required; up to four later rounds are optional.
+On 2026-09-25, the user initially increased the minimum rest between
+stretch-and-fold rounds to 20 minutes and restored a maximum of five rounds
+total. Later that day, they revised this to at least 25 minutes between
+rounds and a maximum of six rounds total, replacing an interim four-round
+limit. The reason was not stated.
+This supersedes the earlier spacing and repeat limits. Keep the first round
+15 minutes after mixing in salt and levain, covered rests between rounds,
+and the final transfer after the last round. The first round is required;
+up to five later rounds are optional.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
