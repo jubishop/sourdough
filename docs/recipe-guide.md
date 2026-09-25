@@ -121,9 +121,10 @@ Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
 the mixing bowl before a single transfer. The latest process under
-[Folding](#folding) starts with one required stretch and fold 15 minutes after
-mixing in salt and levain, followed by repeats at least 25 minutes apart,
-for 4–6 rounds total, using the stretch-mark stopping cue.
+[Folding](#folding) starts with a session 20 minutes after mixing in salt
+and levain, then adds 5 minutes to each wait, up to 45 minutes before
+session 6. Use no more than six sessions and two stretch-and-folds per
+session, with the stretch-mark stopping cue.
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -626,6 +627,17 @@ the first fold in a session shows stretch marks. They clarified that the
 instruction should say "Stop", not "Stop early". The reason was not stated.
 Keep the 4–6-round range and timing, then make the final transfer as usual.
 
+Later on 2026-09-25, the user replaced the earlier timing and round range
+with up to six sessions. Wait 20 minutes after mixing in salt and levain
+before session 1. After each session, increase the wait by 5 minutes:
+25 minutes before session 2, 30 before session 3, 35 before session 4,
+40 before session 5, and 45 before session 6. Each wait starts after the
+previous session ends. Do no more than two stretch-and-folds per session.
+Stop at any point if the first stretch-and-fold in a session shows any
+stretch marks. The reason was not stated. This supersedes the 15-minute
+first wait, fixed 25-minute minimum between rounds, and 4–6-round range.
+Keep the covered rests and final transfer after the last session.
+
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
 scoring/loading is Step 9. Covered bake, uncovered bake, and cooling are
@@ -635,7 +647,7 @@ accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
 Count all 12 required steps toward progress. Step 4 can be marked complete
-after the last round, using the round range and stopping cue above.
+after the last session, using the session limit and stopping cue above.
 Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
 `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
