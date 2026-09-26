@@ -198,8 +198,8 @@ export function RecipePage() {
               <ol className="starter-steps">
                 <li>Feed the mother starter about once a week. A mother-starter refresh on a bake day counts as that feeding.</li>
                 <li>{starterInspection}</li>
-                <li>Take it from the refrigerator and move around <strong>20 g</strong> into the temporary container. Weigh the amount you actually transfer, discard the rest, and wash and dry the mother jar.</li>
-                <li>Return the reserved starter to the mother jar. Feed at <strong>1:3:3 by weight: 1 part starter, 3 parts water, and 3 parts fresh flour</strong>.</li>
+                <li>Take it from the refrigerator and move around <strong>15 g</strong> into the temporary container. Discard the rest, and wash and dry the mother jar.</li>
+                <li>Return the reserved starter to the mother jar. Add <strong>40 g water and 40 g fresh flour</strong>.</li>
                 <li>Mix and cover. Let it rest in your <strong>70°F pantry</strong>, then refrigerate. {motherStorageGuidance}</li>
               </ol>
             </article>
@@ -233,7 +233,7 @@ export function RecipePage() {
                         </div>
                         <p className="mother-task-flow"><strong>Keep making the loaf while this jar rests.</strong></p>
                         <ol className="mother-task-instructions">
-                          <li><strong>Feed at 1:3:3.</strong> Put around 20 g of ripe build into the clean mother jar. Add three times its actual weight in water and in fresh flour.</li>
+                          <li>Put around <strong>15 g</strong> of ripe build into the clean mother jar. Add <strong>40 g water and 40 g fresh flour</strong>.</li>
                           <li><strong>Refrigerate during Step 4 or 5.</strong> Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. {motherStorageGuidance}</li>
                         </ol>
                       </div>

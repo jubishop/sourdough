@@ -921,6 +921,13 @@ On 2026-09-22, the user removed the extra multiplication instruction and
 the 20 g + 60 g + 60 g example from weekly mother maintenance. The reason
 was not stated. Keep the 1:3:3 ratio and its definition in parts.
 
+On 2026-09-26, the user reduced the retained starter from around 20 g to
+around 15 g in both weekly maintenance and the bake-day mother refresh.
+The user also replaced the 1:3:3 ratio instruction with fixed amounts of
+40 g water and 40 g fresh flour in both sections. The reason was not
+stated. These amounts supersede the retained amount and ratio above.
+Remove the instruction to weigh the actual transfer for a ratio-based feed.
+
 ## Mother storage guide
 
 On 2026-09-18, the user clarified that the mother goes back in the fridge
