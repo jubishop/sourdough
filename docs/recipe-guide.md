@@ -233,7 +233,7 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
-Preheat the Dutch oven with the pizza stone at a 500°F oven setting for
+Preheat the Dutch oven with the pizza stone at a 475°F oven setting for
 at least 60 minutes before the chosen bake
 time. Keep the loaf refrigerated until ready to score and load.
 
@@ -299,9 +299,9 @@ order and keep the loaf refrigerated until the Dutch oven is ready.
 ## Oven temperature adjustment
 
 On 2026-09-17, the user requested that the recipe show only the temperatures
-they set on their oven, so the instructions are easy to read. Use 500°F for
-preheating, 475°F for the covered bake, and 435°F for the uncovered bake in
-the schedule and checklist, including step titles. This supersedes the
+they set on their oven, so the instructions are easy to read. The settings
+were 500°F for preheating, 475°F for the covered bake, and 435°F for the
+uncovered bake in the schedule and checklist, including step titles. This superseded the
 earlier same-day choice to put the adjusted settings in parentheses beside
 the target temperatures.
 
@@ -310,7 +310,13 @@ runs 25°F cool, all recipe oven temperatures are the settings used to
 compensate, and an oven that heats accurately should be set 25°F lower.
 Pantry and refrigerator temperatures do not use this oven adjustment.
 On 2026-09-22, removing the entire "Plan your bake" section also removed
-this note. The oven settings in the checklist remain unchanged.
+this note. The oven settings in the checklist remained unchanged at that time.
+
+On 2026-09-26, the user lowered the Dutch oven preheat setting from 500°F
+to 475°F. The reason was not stated. This supersedes the earlier preheat
+setting. Preheat the Dutch oven and pizza stone for at least 60 minutes,
+then keep the oven at 475°F for the 30-minute covered bake. Keep the
+uncovered bake at 435°F for 26 minutes.
 
 ## Fixed bake time
 

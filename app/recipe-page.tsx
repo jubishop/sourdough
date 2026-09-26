@@ -106,7 +106,7 @@ const steps = [
     time: 'At least 60 min',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Prepare the foil base, then preheat the Dutch oven with the pizza stone at 500°F for at least 60 minutes.',
+    body: 'Prepare the foil base, then preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
     details: [
       'While the Dutch oven is cold, loosely crumple a long sheet of aluminum foil, then shape and flatten it into a level pad about ¼ inch thick. Fit it over only the flat bottom and leave it in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',
@@ -134,7 +134,7 @@ const steps = [
     time: '30 min covered',
     icon: CookingPot,
     title: 'Bake covered at 475°F',
-    body: 'Lower the oven to 475°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
+    body: 'Keep the oven at 475°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
   },
   {
     id: 'uncovered-bake',
