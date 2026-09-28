@@ -94,6 +94,21 @@ production build locally.
 
 ## Vercel deployment
 
+### When deployment is required
+
+After the required checks, commit and push the authorized changes. Deploy
+automatically when the complete delivered change affects recipe content,
+application behavior, appearance, dependencies, or build/runtime configuration.
+Confirm the deployment reaches `READY` and verify the live production site.
+
+Documentation, comments, formatting-only edits, and other functionally
+immaterial changes do not require deployment. The user requested this
+exception on 2026-09-28 to avoid deploying changes that do not affect the site.
+Assess what the changes do, not their file extension, and honor explicit
+instructions to deploy or stop before delivery steps.
+
+### Production project
+
 The production site is [sourdough-eosin.vercel.app](https://sourdough-eosin.vercel.app).
 The Vercel project is `artisanal-software/sourdough`.
 

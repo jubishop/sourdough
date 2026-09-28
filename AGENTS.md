@@ -35,15 +35,13 @@ on one topic or reader task, without numeric size limits.
 
 ## Complete every change
 
-After any changes in this repository, run the required checks, commit and
-push the changes to GitHub, and deploy the site to Vercel production.
-This applies to code, recipe text, documentation, and `AGENTS.md` changes.
-Do not wait for a separate push or deployment request unless the user
-explicitly asks you to stop before those steps. Follow the
-[site and hosting guide](docs/site-and-hosting.md), confirm the deployment
-reaches `READY`, and verify the live production site before reporting
-completion. Preserve unrelated work and include only the authorized changes
-in the commit.
+After changes, run the required checks, commit, and push to GitHub. Deploy
+functionally material changes, including recipe content and UI changes, under
+the [deployment policy](docs/site-and-hosting.md#when-deployment-is-required).
+Documentation, comments, formatting-only edits, and other functionally
+immaterial changes do not require deployment. Honor explicit instructions to
+deploy or stop before delivery steps. Preserve unrelated work and include
+only authorized changes in the commit.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
