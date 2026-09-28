@@ -1,6 +1,5 @@
 # Sourdough instructions
 
-Keep durable guidance and non-derivable context in [memory](memory/README.md).
 Keep designs, decisions, and research in [docs](docs/README.md). Use
 [GitHub Issues](https://github.com/jubishop/sourdough/issues) for work items
 and implementation progress.
@@ -10,7 +9,7 @@ Use `bin/knowledge search "term"` for known terms and
 `bin/knowledge query "question" --no-rerank` for broader questions.
 Read focused results with `bin/knowledge get <path> -l 80`.
 Use direct reads or `rg` for known paths or after a successful lookup with no
-matches. Markdown source files are authoritative. Update existing pages when possible.
+matches. Markdown source files are authoritative.
 If configured QMD fails, report it to the user immediately and attempt repair.
 If repair fails, pause knowledge-dependent work until the user approves a
 fallback; never silently bypass broken QMD with `rg` or direct reads. Follow
@@ -27,14 +26,12 @@ Use `bin/doctor` to inspect local setup and `bin/qmd-index` to refresh search
 after uncommitted knowledge edits when current search results are needed.
 Hooks refresh search after Git events.
 
-Read the relevant memory or docs index for its format and maintenance rules.
+Follow the [memory](memory/README.md) and [docs](docs/README.md) formats.
 Keep accepted decisions separate from proposals. Preserve unrelated changes.
 Keep secrets and generated caches out of Git.
 
-Keep memory, docs, and other Markdown pages focused on one topic or reader
-task. When extending a long page, review its scope and split independent
-topics into linked pages when that improves reading and maintenance. Use
-the [Markdown guidance](docs/development-workflow.md#markdown-pages), without numeric size thresholds.
+Keep [Markdown pages focused](docs/development-workflow.md#markdown-pages)
+on one topic or reader task, without numeric size limits.
 
 ## Complete every change
 
