@@ -2,8 +2,8 @@
 
 Store designs, decisions, research, and reference guides here. Use
 [memory](../memory/README.md) for durable guidance and non-derivable context.
-Use [GitHub Issues](https://github.com/jubishop/sourdough/issues) for
-implementation progress.
+Use [td](task-tracking.md) for local progress and handoffs, and
+[GitHub Issues](https://github.com/jubishop/sourdough/issues) for shared work.
 
 ## Page format
 
@@ -59,6 +59,7 @@ searched. Do not exempt hand-written pages merely to bypass failed checks.
 
 ## Active pages
 
+- [Local task tracking](task-tracking.md): td setup, progress, handoffs, review, and local data.
 - [Development workflow](development-workflow.md): setup, search, hooks,
   worktrees, diagnostics, and recovery.
 - [Site and hosting](site-and-hosting.md): recipe source, public access,
