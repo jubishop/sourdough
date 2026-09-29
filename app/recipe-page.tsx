@@ -140,10 +140,10 @@ const steps = [
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '27 min uncovered',
+    time: '28 min uncovered',
     icon: Flame,
     title: 'Finish uncovered at 435°F',
-    body: 'Remove the lid, lower the oven to 435°F, and bake for 27 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
+    body: 'Remove the lid, lower the oven to 435°F, and bake for 28 minutes. The uncovered bake lets the crust dry and brown. Then remove the loaf from the oven.',
   },
   {
     id: 'cool',
