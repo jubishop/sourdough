@@ -539,6 +539,12 @@ that cross in the center of the smooth top. Start and end each cut about
 depth at ½ inch. This supersedes the box pattern and restores the cut-end
 spacing. The reason was not stated.
 
+On 2026-09-28, the user chose to restore the previous box score instead of
+the X. Use four straight cuts that join at the corners, with each corner
+about 1 inch in from the edge of the dough. Keep the blade straight down
+and the depth at ½ inch. This supersedes the X pattern and restores the
+2026-09-18 box instructions. The reason was not stated.
+
 ## Bake phase explanations
 
 On 2026-09-05, the user accepted a short explanation of each baking phase:
