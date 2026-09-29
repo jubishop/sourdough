@@ -48,13 +48,13 @@ const steps = [
   {
     id: 'mix',
     phase: 'Day 1',
-    time: 'Two 3–5 min rounds · 15 min rest between',
+    time: 'Two rounds · 15 min rest between',
     icon: Scale,
     title: 'Add starter and salt, then Rubaud mix',
     body: 'In the same mixing bowl, add at least 100 g active starter (levain) and 11–12 g salt. Squeeze and mix until reasonably uniform.',
     details: [
-      'Immediately after adding the salt and levain, Rubaud mix for 3–5 minutes.',
-      'Cover and rest in the mixing bowl outside the proofing box for 15 minutes. Then Rubaud mix for another 3–5 minutes.',
+      'Immediately after adding the salt and levain, Rubaud mix.',
+      'Cover and rest in the mixing bowl outside the proofing box for 15 minutes. Then Rubaud mix again.',
       'With 100 g levain, the dough is at about 90.9% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
   },
@@ -64,7 +64,7 @@ const steps = [
     time: '15–30 min waits · up to 4 sessions',
     icon: RotateCcw,
     title: 'Stretch and fold',
-    body: 'Do up to four sessions. Do two stretch-and-folds in the first session and one in each later session.',
+    body: 'Do up to four stretch-and-fold sessions.',
     details: [
       'Wait 15 minutes after the second Rubaud round before session 1.',
       'After each session, add 5 minutes to the previous wait: 20 minutes before session 2, 25 before session 3, and 30 before session 4.',

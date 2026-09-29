@@ -118,6 +118,11 @@ Rest for 15 minutes after the first round ends, then Rubaud mix for another
 box during the rest. The reason was not stated. Stretch-and-fold sessions
 follow both rounds; see [Folding](#folding).
 
+Later on 2026-09-29, the user removed the 3–5-minute duration from both
+Rubaud rounds because the instructions felt too prescriptive. Say to Rubaud
+mix without specifying a duration. Keep both rounds and the 15-minute rest
+between them. This supersedes the duration above.
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
@@ -697,6 +702,11 @@ measured from the end of the second Rubaud round. Wait 20 minutes before
 session 2, 25 before session 3, and 30 before session 4, measured from the
 end of the previous session. Keep the covered rests outside the proofing
 box and the final transfer after the last session.
+
+Later on 2026-09-29, the user removed the number of stretch-and-folds within
+each session because the instructions felt too prescriptive. This supersedes
+two in the first session and one in each later session. Say to stretch and
+fold, keeping the four-session maximum and existing waits.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
