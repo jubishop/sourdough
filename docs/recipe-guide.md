@@ -57,6 +57,13 @@ for Step 3. This gives 85% hydration before adding levain. With 100 g of
 100%-hydration levain, the final dough has 475 g water and 550 g flour:
 about 86.4% total hydration. Keep the current autolyse rest below.
 
+Later on 2026-09-29, the user reduced the initial dough water again, to
+420 g. This supersedes the 425 g quantity above. The reason was not stated.
+Mix all 420 g water with 500 g whole-wheat flour during the autolyse.
+This gives 84% hydration before adding levain. With 100 g of
+100%-hydration levain, the final dough has 470 g water and 550 g flour:
+about 85.5% total hydration. Keep the current autolyse rest below.
+
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the rest, and the starter-overlap cue.
 The reason was not stated.
@@ -340,6 +347,11 @@ then keep the oven at 475°F for the 30-minute covered bake. The uncovered
 bake remained at 435°F for 26 minutes at that time; see [Fixed bake time](#fixed-bake-time)
 for the current duration.
 
+On 2026-09-29, the user lowered the covered-bake setting to 465°F while
+keeping the preheat at 475°F. This supersedes keeping the oven at 475°F
+after loading. Lower the oven to 465°F for the 30-minute covered bake.
+The reason was not stated. Keep the uncovered bake at 435°F for 28 minutes.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
@@ -424,7 +436,7 @@ On 2026-09-29, the user extended the uncovered bake to 28 minutes at the
 435°F oven setting. This supersedes the 27-minute setting and retains the
 fixed endpoint. The reason was not stated.
 
-Bake for 30 minutes covered at a 475°F oven setting, then 28 minutes
+Bake for 30 minutes covered at a 465°F oven setting, then 28 minutes
 uncovered at a 435°F oven setting, for 58 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour

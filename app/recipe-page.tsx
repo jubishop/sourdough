@@ -43,7 +43,7 @@ const steps = [
     time: '30 min–2 hr',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 425 g water until no dry pockets remain. Cover and rest for 30 minutes to 2 hours.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for 30 minutes to 2 hours.',
   },
   {
     id: 'mix',
@@ -55,7 +55,7 @@ const steps = [
     details: [
       'Immediately after adding the salt and levain, Rubaud mix.',
       'Cover and rest in the mixing bowl outside the proofing box for 15 minutes. Then Rubaud mix again.',
-      'With 100 g levain, the dough is at about 86.4% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+      'With 100 g levain, the dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
   },
   {
@@ -134,8 +134,8 @@ const steps = [
     phase: 'Bake',
     time: '30 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 475°F',
-    body: 'Keep the oven at 475°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
+    title: 'Bake covered at 465°F',
+    body: 'Lower the oven to 465°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
   },
   {
     id: 'uncovered-bake',
