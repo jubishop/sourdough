@@ -1,13 +1,15 @@
 ---
 name: bottom-crust-protection
-description: Why the aluminum foil base was removed and how to restore the former method if needed.
+description: Saved foil method and original removal rationale; see the recipe guide for current bottom protection.
 type: reference
 ---
 
 # Bottom crust protection
 
 The aluminum foil base is a saved option if the bottom of the loaf becomes
-too dark. It is no longer part of the active recipe.
+too dark. It is no longer part of the active recipe. Follow the current
+[recipe guide decision](../docs/recipe-guide.md#preheat-the-pizza-stone-with-the-dutch-oven)
+for the trivet method; the foil method below is historical.
 
 ## Reason for removal
 

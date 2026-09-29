@@ -422,6 +422,15 @@ has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
 
+On 2026-09-29, the user replaced the aluminum foil pad with their Dutch
+oven trivet. Put it on the bottom while the Dutch oven is cold, preheat
+with it in place, and lower the scored loaf onto it using the parchment
+handles. Leave the trivet in for both the covered and uncovered bake.
+This matches the user's latest bake. They want to assess the crumb before
+making further changes. Keep the lid-removal step, pizza stone, parchment,
+temperatures, and bake times unchanged.
+This supersedes the foil-pad instructions below; the parchment method remains.
+
 On 2026-09-17, the user restored aluminum foil in the Dutch oven base and
 parchment paper beneath the bread instead of the silicone sling. The reason
 was not stated. This supersedes the foil removal and silicone-sling choices
@@ -505,7 +514,8 @@ The 2026-09-17 parchment choice retains that transfer sequence. Cut a piece
 large enough to hold the loaf, with two long ends as handles. Center it over
 the open banneton, hold it in place, and invert both together. Set the loaf
 down with the parchment underneath, then gently lift off the banneton.
-Score the loaf and use the parchment handles to lower it onto the foil pad.
+Score the loaf and use the parchment handles to lower it onto the trivet,
+which replaced the foil pad on 2026-09-29.
 Leave the parchment beneath the loaf during baking. This restores parchment
 for the bread; the separate parchment-over-lip preheat instruction remains
 removed.
