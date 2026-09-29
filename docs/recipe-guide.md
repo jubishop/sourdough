@@ -37,9 +37,9 @@ Mix all 450 g water with the 500 g whole-wheat flour and rest for 1 hour. Add
 only active starter and salt in Step 3 and mix until uniform.
 See [Mixing starter and salt](#mixing-starter-and-salt) for the current amounts.
 
-The autolyse is at 90% hydration. With 100 g of 100%-hydration starter contributing
-50 g each of flour and water, the final dough has 500 g water and 550 g flour:
-about 90.9% total hydration.
+At that water quantity, the autolyse was at 90% hydration. With 100 g of
+100%-hydration starter contributing 50 g each of flour and water, the final
+dough had 500 g water and 550 g flour: about 90.9% total hydration.
 
 This restores the 450 g quantity selected on 2026-09-11, when the flour
 was difficult to hydrate at 420 g, with a dry, flaky, crumbly texture. The user
@@ -49,6 +49,13 @@ from 2026-09-09, the 400 g quantity selected on 2026-09-07, and
 the earlier 375 g autolyse plus 25 g reserved-water split. All dough water goes
 into the autolyse; no water is reserved for Step 3.
 See [Fixed bake time](#fixed-bake-time) for the existing uncovered-bake timing.
+
+On 2026-09-29, the user reduced the initial dough water to 425 g, superseding
+the 450 g quantity above. The reason was not stated. Mix all 425 g water
+with 500 g whole-wheat flour during the autolyse, with no water reserved
+for Step 3. This gives 85% hydration before adding levain. With 100 g of
+100%-hydration levain, the final dough has 475 g water and 550 g flour:
+about 86.4% total hydration. Keep the current autolyse rest below.
 
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the rest, and the starter-overlap cue.
@@ -108,8 +115,8 @@ the fixed 11 g amount. The reason was not stated.
 
 On 2026-09-25, the user changed the active starter (levain) amount to at
 least 100 g. This supersedes the fixed 100 g dough portion. The reason was
-not stated. The 90.9% total hydration figure applies when using 100 g of
-100%-hydration levain.
+not stated. The total hydration figure assumes 100 g of 100%-hydration
+levain; see [Autolyse water](#autolyse-water) for the current calculation.
 
 On 2026-09-29, the user added two rounds of Rubaud mixing to Step 3.
 Rubaud mix for 3–5 minutes immediately after adding the salt and levain.
