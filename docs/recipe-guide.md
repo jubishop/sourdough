@@ -111,6 +111,13 @@ least 100 g. This supersedes the fixed 100 g dough portion. The reason was
 not stated. The 90.9% total hydration figure applies when using 100 g of
 100%-hydration levain.
 
+On 2026-09-29, the user added two rounds of Rubaud mixing to Step 3.
+Rubaud mix for 3–5 minutes immediately after adding the salt and levain.
+Rest for 15 minutes after the first round ends, then Rubaud mix for another
+3–5 minutes. Keep the dough covered in the mixing bowl outside the proofing
+box during the rest. The reason was not stated. Stretch-and-fold sessions
+follow both rounds; see [Folding](#folding).
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
@@ -120,12 +127,9 @@ to the container for a 60% rise measured from mixing.
 Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
-the mixing bowl before a single transfer. The latest process under
-[Folding](#folding) starts with a session 15 minutes after mixing in salt
-and levain, then adds 5 minutes to each wait, up to 40 minutes before
-session 6. Use no more than six sessions, with two stretch-and-folds in
-the first session and one in each later session. Follow the stretch-mark
-stopping cue.
+the mixing bowl before a single transfer. Follow the current Rubaud rounds
+under [Mixing starter and salt](#mixing-starter-and-salt), then the sessions
+under [Folding](#folding).
 Return the dough to the covered mixing bowl between repeats, then transfer
 once to the proofing container after the last stretch and fold.
 
@@ -684,6 +688,16 @@ The reason was not stated. This supersedes the fixed
 15-minute first wait.
 Keep the covered rests and final transfer after the last session.
 
+On 2026-09-29, the user limited Step 4 to four sessions and removed the
+stretch-marks stopping cue. This supersedes the six-session maximum and
+stopping cue above. Keep two stretch-and-folds in the first session and
+one in each later session. The reason was not stated. With the new Rubaud
+rounds in Step 3, the user confirmed the existing 15-minute rest before session 1,
+measured from the end of the second Rubaud round. Wait 20 minutes before
+session 2, 25 before session 3, and 30 before session 4, measured from the
+end of the previous session. Keep the covered rests outside the proofing
+box and the final transfer after the last session.
+
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
 scoring/loading is Step 9. Covered bake, uncovered bake, and cooling are
@@ -693,7 +707,7 @@ accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
 Count all 12 required steps toward progress. Step 4 can be marked complete
-after the last session, using the session limit and stopping cue above.
+after the last session, using the session limit above.
 Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
 `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
