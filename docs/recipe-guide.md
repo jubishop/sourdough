@@ -315,8 +315,9 @@ this note. The oven settings in the checklist remained unchanged at that time.
 On 2026-09-26, the user lowered the Dutch oven preheat setting from 500°F
 to 475°F. The reason was not stated. This supersedes the earlier preheat
 setting. Preheat the Dutch oven and pizza stone for at least 60 minutes,
-then keep the oven at 475°F for the 30-minute covered bake. Keep the
-uncovered bake at 435°F for 26 minutes.
+then keep the oven at 475°F for the 30-minute covered bake. The uncovered
+bake remained at 435°F for 26 minutes at that time; see [Fixed bake time](#fixed-bake-time)
+for the current duration.
 
 ## Fixed bake time
 
@@ -394,8 +395,12 @@ Later that day, the user restored the uncovered oven setting to 435°F.
 This supersedes the 430°F setting and keeps the 26-minute bake and fixed
 endpoint. The reason was not stated.
 
-Bake for 30 minutes covered at a 475°F oven setting, then 26 minutes
-uncovered at a 435°F oven setting, for 56 minutes total. These settings
+On 2026-09-28, the user extended the uncovered bake by one minute to
+27 minutes at the 435°F oven setting. This supersedes the 26-minute
+setting and retains the fixed endpoint. The reason was not stated.
+
+Bake for 30 minutes covered at a 475°F oven setting, then 27 minutes
+uncovered at a 435°F oven setting, for 57 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
