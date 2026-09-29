@@ -229,6 +229,11 @@ Total bulk time still starts when the starter is added. Keep the existing
 quantities, planning estimate, and visual readiness cues. Do not restore
 sample-tube instructions.
 
+On 2026-09-29, the user corrected Step 5's planning estimate to about
+8–12 hours total, superseding 6–10 hours. The reason was not stated.
+Keep counting from when the starter is added and retain the visual readiness
+cues and volume target.
+
 ## Cold-proof timing and flavor
 
 On 2026-09-14, the user changed the cold-proof range to 8–16 hours at
