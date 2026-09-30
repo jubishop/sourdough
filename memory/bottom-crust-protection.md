@@ -9,7 +9,7 @@ type: reference
 The aluminum foil base is a saved option if the bottom of the loaf becomes
 too dark. It is no longer part of the active recipe. Follow the current
 [recipe guide decision](../docs/recipe-guide.md#preheat-the-pizza-stone-with-the-dutch-oven)
-for the trivet method; the foil method below is historical.
+for the current baking setup; the foil method below is historical.
 
 ## Reason for removal
 

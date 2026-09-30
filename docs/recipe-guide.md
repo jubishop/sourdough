@@ -462,14 +462,14 @@ has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
 
-On 2026-09-29, the user replaced the aluminum foil pad with their Dutch
-oven trivet. Put it on the bottom while the Dutch oven is cold, preheat
-with it in place, and lower the scored loaf onto it using the parchment
-handles. Leave the trivet in for both the covered and uncovered bake.
-This matches the user's latest bake. They want to assess the crumb before
-making further changes. Keep the lid-removal step, pizza stone, parchment,
-temperatures, and bake times unchanged.
-This supersedes the foil-pad instructions below; the parchment method remains.
+On 2026-09-29, the user chose to try baking with parchment paper directly
+on the base of the Dutch oven for the next bake. Preheat the Dutch oven
+with the pizza stone, then use the parchment handles to lower the scored
+loaf into it. Rest the parchment directly on the base and leave it under
+the loaf during both the covered and uncovered bake. This supersedes the
+earlier same-day base setup and the foil-pad instructions below. Keep the
+lid-removal step, pizza stone, temperatures, and bake times unchanged.
+The result of this trial has not yet been assessed.
 
 On 2026-09-17, the user restored aluminum foil in the Dutch oven base and
 parchment paper beneath the bread instead of the silicone sling. The reason
@@ -554,8 +554,8 @@ The 2026-09-17 parchment choice retains that transfer sequence. Cut a piece
 large enough to hold the loaf, with two long ends as handles. Center it over
 the open banneton, hold it in place, and invert both together. Set the loaf
 down with the parchment underneath, then gently lift off the banneton.
-Score the loaf and use the parchment handles to lower it onto the trivet,
-which replaced the foil pad on 2026-09-29.
+Score the loaf and use the parchment handles to lower it into the Dutch
+oven, with the parchment resting directly on the base.
 Leave the parchment beneath the loaf during baking. This restores parchment
 for the bread; the separate parchment-over-lip preheat instruction remains
 removed.
