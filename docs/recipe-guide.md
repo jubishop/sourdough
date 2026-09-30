@@ -150,6 +150,14 @@ folds. They then asked to omit the technique and fold count from the recipe
 because they do not want overly detailed, prescriptive instructions.
 Simply say to knead, keeping the rests and two rounds above.
 
+Later on 2026-09-30, the user made kneading its own numbered checklist step
+after mixing in the starter and salt. Give it the same standalone treatment
+as stretch and folds, with its own completion checkbox. Keep the two rounds,
+rest times, and concise wording above. This supersedes placing kneading
+instructions under the mixing step. Keep the existing step IDs and add
+`knead` for the new step, so saved progress remains valid and kneading can
+be marked complete separately.
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
@@ -760,15 +768,16 @@ the earlier 15-minute first wait. Measure each rest from the end of the
 previous round. Keep the covered rests outside the proofing box and
 transfer after round 3. The reason was not stated.
 
-The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
-Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
-scoring/loading is Step 9. Covered bake, uncovered bake, and cooling are
-Steps 10, 11, and 12.
+The checklist has 13 numbered steps after the 2026-09-30 addition of a
+standalone kneading step. Kneading is Step 4, stretch and fold is Step 5,
+bulk is Step 6, shaping is Step 7, cold proof is Step 8, preheat is Step 9,
+and scoring/loading is Step 10. Covered bake, uncovered bake, and cooling
+are Steps 11, 12, and 13.
 Update the schedule and preheat-overlap references
 accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
-Count all 12 required steps toward progress. Step 4 can be marked complete
+Count all 13 required steps toward progress. Step 5 can be marked complete
 after the last session, using the session limit above.
 Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
@@ -1049,6 +1058,10 @@ together. Explicitly say to refrigerate during Step 4 or 5 after the pantry
 rest. This supersedes the earlier "Alongside Steps 4–6" label. Do not restore
 its original placement after Step 1 or the inaccurate "Alongside the bake"
 label.
+
+After kneading became a separate step on 2026-09-30, update the refrigerator
+reminder to Step 5 or 6 so it still refers to folding or bulk fermentation.
+Keep the mother-refresh box after the mixing step.
 
 On 2026-09-09, the user requested a shorter mother-refresh section with
 general guidance instead of precise fermentation targets before refrigeration.

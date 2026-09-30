@@ -48,14 +48,22 @@ const steps = [
   {
     id: 'mix',
     phase: 'Day 1',
-    time: 'Two kneading rounds · 15 min rest before each',
+    time: 'Mix until uniform',
     icon: Scale,
-    title: 'Add starter and salt, rest, then knead',
+    title: 'Add starter and salt',
     body: 'In the same mixing bowl, add at least 100 g active starter (levain) and 11–12 g salt. Squeeze and mix until reasonably uniform.',
+    cue: 'With 100 g levain, the dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+  },
+  {
+    id: 'knead',
+    phase: 'Day 1',
+    time: '2 rounds · 15 min rest before each',
+    icon: RotateCcw,
+    title: 'Knead',
+    body: 'Do two rounds of kneading.',
     details: [
       'Cover and rest in the mixing bowl outside the proofing box for 15 minutes. Then knead.',
       'Cover and rest in the mixing bowl outside the proofing box for another 15 minutes. Then knead again.',
-      'With 100 g levain, the dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
     ],
   },
   {
@@ -234,7 +242,7 @@ export function RecipePage() {
                         <p className="mother-task-flow"><strong>Keep making the loaf while this jar rests.</strong></p>
                         <ol className="mother-task-instructions">
                           <li>Put around <strong>15 g</strong> of ripe build into the clean mother jar. Add <strong>40 g water and 40 g fresh flour</strong>.</li>
-                          <li><strong>Refrigerate during Step 4 or 5.</strong> Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. {motherStorageGuidance}</li>
+                          <li><strong>Refrigerate during Step 5 or 6.</strong> Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. {motherStorageGuidance}</li>
                         </ol>
                       </div>
                       <label className="step-check mother-task-check" htmlFor="mother-refrigerated"><Checkbox id="mother-refrigerated" checked={motherRefrigerated} onCheckedChange={(value) => toggleStep('mother-refrigerated', value)} aria-label="Mark mother starter back in the fridge" /><span>Back in the fridge</span></label>
