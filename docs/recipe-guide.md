@@ -781,6 +781,13 @@ a round. Keep all rests covered in the mixing bowl outside the proofing box,
 then transfer to the oiled proofing container after round 4. The reason for
 the change was not stated.
 
+Later on 2026-09-30, the user clarified that four squash-and-fold rounds
+is a maximum, not a fixed requirement. Say "up to four rounds." This
+supersedes the exact four-round requirement above. Keep the first rest and
+the existing rest times for any later rounds the baker chooses to do.
+Transfer after the last round, even when fewer than four rounds are done.
+The user did not give another reason for the change.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
@@ -790,7 +797,7 @@ accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
 Count all 12 required steps toward progress. Step 4 can be marked complete
-after round 4.
+after the last round.
 Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
 `knead`, `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
