@@ -137,6 +137,13 @@ Rubaud rounds because the instructions felt too prescriptive. Say to Rubaud
 mix without specifying a duration. Keep both rounds and the 15-minute rest
 between them. This supersedes the duration above.
 
+On 2026-09-30, the user replaced both Rubaud rounds with normal kneading.
+After mixing in the salt and levain, rest for 15 minutes before the first
+kneading round. Rest for another 15 minutes after that round ends, then
+knead again. Keep both rests covered in the mixing bowl outside the proofing
+box, and do not specify a kneading duration. This supersedes the Rubaud
+method and immediate first round above. The reason was not stated.
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
@@ -146,7 +153,7 @@ to the container for a 60% rise measured from mixing.
 Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
-the mixing bowl before a single transfer. Follow the current Rubaud rounds
+the mixing bowl before a single transfer. Follow the current kneading rounds
 under [Mixing starter and salt](#mixing-starter-and-salt), then the sessions
 under [Folding](#folding).
 Return the dough to the covered mixing bowl between repeats, then transfer
@@ -738,6 +745,14 @@ Later on 2026-09-29, the user removed the number of stretch-and-folds within
 each session because the instructions felt too prescriptive. This supersedes
 two in the first session and one in each later session. Say to stretch and
 fold, keeping the four-session maximum and existing waits.
+
+On 2026-09-30, the user changed Step 4 to exactly three rounds of stretch
+and folds, with 30 minutes of rest between rounds. This supersedes the
+four-session maximum and increasing waits above. The user also confirmed a
+30-minute rest after the second kneading round before round 1, replacing
+the earlier 15-minute first wait. Measure each rest from the end of the
+previous round. Keep the covered rests outside the proofing box and
+transfer after round 3. The reason was not stated.
 
 The checklist has 12 numbered steps. Stretch and fold is Step 4, bulk is
 Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8, and
