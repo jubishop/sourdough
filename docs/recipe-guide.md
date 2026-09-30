@@ -220,9 +220,12 @@ On 2026-09-25, the user restored the 1.35 L target, superseding the
 1.35-quart target. The reason was not stated.
 
 On 2026-09-26, the user restored 1.35 qt at the glass edge and requested
-quarts instead of liters. This supersedes the 1.35 L target. The reason
-was not stated. Use the bulk-step title "Aim for 1.35 qt at the glass edge"
-and the same target in its body.
+quarts instead of liters. This superseded the 1.35 L target. The reason
+was not stated.
+
+On 2026-09-29, the user lowered the target to 1.3 qt at the glass edge,
+superseding the 1.35 qt target. The reason was not stated. Use the bulk-step
+title "Aim for 1.3 qt at the glass edge" and the same target in its body.
 Keep measuring where the dough meets the glass and keep the visual
 readiness cues.
 

@@ -76,8 +76,8 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~8–12 hr total',
     icon: FlaskConical,
-    title: 'Aim for 1.35 qt at the glass edge',
-    body: 'Place the covered proofing container inside the proofing box set to 76°F. Leave the dough undisturbed. Aim for 1.35 qt where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    title: 'Aim for 1.3 qt at the glass edge',
+    body: 'Place the covered proofing container inside the proofing box set to 76°F. Leave the dough undisturbed. Aim for 1.3 qt where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
     cue: 'If it starts to sink or collapse, skip the refrigerator rest and shape now.',
   },
   {
