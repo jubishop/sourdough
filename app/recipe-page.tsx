@@ -55,29 +55,17 @@ const steps = [
     cue: 'With 100 g levain, the dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
   },
   {
-    id: 'knead',
-    phase: 'Day 1',
-    time: '2 rounds · 15 min rest before each',
-    icon: RotateCcw,
-    title: 'Knead',
-    body: 'Do two rounds of kneading.',
-    details: [
-      'Cover and rest in the mixing bowl outside the proofing box for 15 minutes. Then knead.',
-      'Cover and rest in the mixing bowl outside the proofing box for another 15 minutes. Then knead again.',
-    ],
-  },
-  {
     id: 'slap-and-fold',
     phase: 'Day 1',
-    time: '3 rounds · 30 min rest before each',
+    time: '4 rounds · 15–30 min rests',
     icon: RotateCcw,
-    title: 'Stretch and fold',
-    body: 'Do three rounds of stretch and folds.',
+    title: 'Squash and fold',
+    body: 'Squash and fold for four rounds.',
     details: [
-      'Wait 30 minutes after the second kneading round before round 1.',
-      'Rest for 30 minutes after round 1, then do round 2. Rest for another 30 minutes, then do round 3.',
+      'Rest for 15 minutes after mixing in the starter and salt, then do round 1.',
+      'Then rest 20 minutes before round 2, 25 minutes before round 3, and 30 minutes before round 4. Each rest starts after the previous round ends.',
     ],
-    cue: 'During every wait, keep the dough covered in the mixing bowl outside the proofing box. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last stretch and fold, gently transfer the dough to the oiled container and cover it.',
+    cue: 'During every wait, keep the dough covered in the mixing bowl outside the proofing box. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After round 4, gently transfer the dough to the oiled container and cover it.',
   },
   {
     id: 'bulk',
@@ -242,7 +230,7 @@ export function RecipePage() {
                         <p className="mother-task-flow"><strong>Keep making the loaf while this jar rests.</strong></p>
                         <ol className="mother-task-instructions">
                           <li>Put around <strong>15 g</strong> of ripe build into the clean mother jar. Add <strong>40 g water and 40 g fresh flour</strong>.</li>
-                          <li><strong>Refrigerate during Step 5 or 6.</strong> Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. {motherStorageGuidance}</li>
+                          <li><strong>Refrigerate during Step 4 or 5.</strong> Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. {motherStorageGuidance}</li>
                         </ol>
                       </div>
                       <label className="step-check mother-task-check" htmlFor="mother-refrigerated"><Checkbox id="mother-refrigerated" checked={motherRefrigerated} onCheckedChange={(value) => toggleStep('mother-refrigerated', value)} aria-label="Mark mother starter back in the fridge" /><span>Back in the fridge</span></label>

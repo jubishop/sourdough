@@ -158,6 +158,9 @@ instructions under the mixing step. Keep the existing step IDs and add
 `knead` for the new step, so saved progress remains valid and kneading can
 be marked complete separately.
 
+The later 2026-09-30 decision under [Folding](#folding) replaces the separate
+kneading and stretch-and-fold steps with one squash-and-fold step.
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
@@ -167,11 +170,10 @@ to the container for a 60% rise measured from mixing.
 Later that day, the user replaced this sequence because they do not want
 to move the dough in and out of the proofing container repeatedly. That
 sequence kept the autolyse, starter-and-salt mixing, and all fold sets in
-the mixing bowl before a single transfer. Follow the current kneading rounds
-under [Mixing starter and salt](#mixing-starter-and-salt), then the sessions
-under [Folding](#folding).
+the mixing bowl before a single transfer. Follow the current squash-and-fold
+rounds under [Folding](#folding).
 Return the dough to the covered mixing bowl between repeats, then transfer
-once to the proofing container after the last stretch and fold.
+once to the proofing container after the last round.
 
 On 2026-09-25, the user initially specified a proofing box set to 76°F for
 all waits in Steps 4 and 5. Later that day, they limited use of the box to
@@ -768,20 +770,30 @@ the earlier 15-minute first wait. Measure each rest from the end of the
 previous round. Keep the covered rests outside the proofing box and
 transfer after round 3. The reason was not stated.
 
-The checklist has 13 numbered steps after the 2026-09-30 addition of a
-standalone kneading step. Kneading is Step 4, stretch and fold is Step 5,
-bulk is Step 6, shaping is Step 7, cold proof is Step 8, preheat is Step 9,
-and scoring/loading is Step 10. Covered bake, uncovered bake, and cooling
-are Steps 11, 12, and 13.
+Later on 2026-09-30, the user combined kneading and stretch and folds into
+one standalone step named "Squash and fold." Do exactly four rounds.
+Rest 15 minutes after mixing in the starter and salt before round 1,
+20 minutes before round 2, 25 minutes before round 3, and 30 minutes before
+round 4. Each rest starts after the previous round ends. This supersedes
+the separate kneading step and both earlier round counts and rest schedules.
+Keep the technique name without detailed hand motions or fold counts within
+a round. Keep all rests covered in the mixing bowl outside the proofing box,
+then transfer to the oiled proofing container after round 4. The reason for
+the change was not stated.
+
+The checklist now has 12 numbered steps. Squash and fold is Step 4,
+bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
+and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
+are Steps 10, 11, and 12.
 Update the schedule and preheat-overlap references
 accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
-Count all 13 required steps toward progress. Step 5 can be marked complete
-after the last session, using the session limit above.
+Count all 12 required steps toward progress. Step 4 can be marked complete
+after round 4.
 Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
-`optional-folds`, `fold-one`, and `fold-two` entries must not count toward
+`knead`, `optional-folds`, `fold-one`, and `fold-two` entries must not count toward
 progress or precheck another step.
 
 ## Shaping instructions
@@ -1062,6 +1074,9 @@ label.
 After kneading became a separate step on 2026-09-30, update the refrigerator
 reminder to Step 5 or 6 so it still refers to folding or bulk fermentation.
 Keep the mother-refresh box after the mixing step.
+
+The later 2026-09-30 combination into one squash-and-fold step restores the
+reminder to Step 4 or 5. These are still folding and bulk fermentation.
 
 On 2026-09-09, the user requested a shorter mother-refresh section with
 general guidance instead of precise fermentation targets before refrigeration.
