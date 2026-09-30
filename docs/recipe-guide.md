@@ -144,6 +144,12 @@ knead again. Keep both rests covered in the mixing bowl outside the proofing
 box, and do not specify a kneading duration. This supersedes the Rubaud
 method and immediate first round above. The reason was not stated.
 
+The user clarified the kneading motion as pressing with the heel of the
+hand, folding the dough back over itself, and rotating it 90° between four
+folds. They then asked to omit the technique and fold count from the recipe
+because they do not want overly detailed, prescriptive instructions.
+Simply say to knead, keeping the rests and two rounds above.
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
