@@ -485,6 +485,14 @@ has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
 
+On 2026-10-01, the user chose two layers of parchment under the bread.
+Cut two sheets large enough to hold the loaf with long ends for handles,
+then stack them before turning the loaf out of the banneton. Hold both
+layers of the handles when lowering the loaf into the Dutch oven. Keep
+both layers under the loaf during the covered and uncovered bake, with
+the bottom sheet directly on the base. This changes the parchment setup
+in the 2026-09-29 trial below. The reason was not stated.
+
 On 2026-09-29, the user chose to try baking with parchment paper directly
 on the base of the Dutch oven for the next bake. Preheat the Dutch oven
 with the pizza stone, then use the parchment handles to lower the scored
