@@ -502,6 +502,12 @@ earlier same-day base setup and the foil-pad instructions below. Keep the
 lid-removal step, pizza stone, temperatures, and bake times unchanged.
 The result of this trial has not yet been assessed.
 
+Earlier on 2026-09-29, the user replaced the foil base with a Dutch oven
+trivet and chose to leave it in for the full bake, matching the latest bake
+while waiting to assess the crumb. The later parchment choice above
+superseded this setup. The supplied record does not give the trivet bake's
+result.
+
 On 2026-09-17, the user restored aluminum foil in the Dutch oven base and
 parchment paper beneath the bread instead of the silicone sling. The reason
 was not stated. This supersedes the foil removal and silicone-sling choices
