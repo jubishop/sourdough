@@ -184,6 +184,10 @@ every wait between folding sessions. After the final fold and transfer,
 place the covered proofing container inside the box set to 76°F for bulk
 fermentation. The reason was not stated.
 
+On 2026-10-01, the user raised the proofing-box temperature to 78°F,
+superseding the 76°F setting. The reason was not stated. Keep using the
+box only after the final fold and transfer to the covered proofing container.
+
 On 2026-09-23, the user reported that the 30-minute refrigerator rest did
 not improve dough release. The dough also stuck during the earlier olive-oil
 trial, but the user clarified that they had not applied the oil well. After
@@ -251,6 +255,11 @@ superseding the 1.35 qt target. The reason was not stated. Use the bulk-step
 title "Aim for 1.3 qt at the glass edge" and the same target in its body.
 Keep measuring where the dough meets the glass and keep the visual
 readiness cues.
+
+On 2026-10-01, the user restored the target to 1.35 qt at the glass edge,
+superseding the 1.3 qt target. The reason was not stated. Use the same
+target in the bulk-step title and body, measured where the dough meets
+the glass, and keep the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
