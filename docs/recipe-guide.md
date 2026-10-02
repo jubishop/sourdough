@@ -816,6 +816,13 @@ the existing rest times for any later rounds the baker chooses to do.
 Transfer after the last round, even when fewer than four rounds are done.
 The user did not give another reason for the change.
 
+On 2026-10-02, the user increased the maximum to six squash-and-fold
+rounds. Keep adding five minutes to each rest: 15 minutes before round 1,
+then 20, 25, 30, 35, and 40 minutes before rounds 2–6. This supersedes the
+four-round maximum above. Keep measuring each later rest from the end of
+the previous round and transfer after the last round, even when fewer than
+six rounds are done. The reason for the higher maximum was not stated.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
