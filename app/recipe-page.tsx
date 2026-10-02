@@ -117,10 +117,10 @@ const steps = [
     title: 'Score and load the loaf',
     body: 'When your chosen 8–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
-      'Cut two sheets of parchment paper, each large enough to hold the loaf with two long ends to use as handles. Stack the sheets, center them over the open banneton, hold them in place, and invert the banneton and parchment together.',
-      'Set the loaf on your work surface with both layers of parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
+      'Cut three sheets of parchment paper, each large enough to hold the loaf with two long ends to use as handles. Stack the sheets, center them over the open banneton, hold them in place, and invert the banneton and parchment together.',
+      'Set the loaf on your work surface with all three layers of parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
       'Score a box in the smooth top with four straight cuts that join at the corners. Keep each corner about 1 inch in from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
-      'Remove the hot Dutch oven. Hold both layers of the parchment handles to lower the scored loaf into the Dutch oven, with the bottom sheet resting directly on its base. Put the lid on. Leave both layers under the loaf during the covered and uncovered bake.',
+      'Remove the hot Dutch oven. Hold all three layers of the parchment handles to lower the scored loaf into the Dutch oven, with the bottom sheet resting directly on its base. Put the lid on. Leave all three layers under the loaf during the covered and uncovered bake.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },

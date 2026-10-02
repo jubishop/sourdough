@@ -499,6 +499,13 @@ has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
 
+On 2026-10-02, the user increased the parchment to three layers. Cut and
+stack three sheets, hold all three layers of the handles when lowering
+the loaf into the Dutch oven, and leave all three layers under the loaf
+during the covered and uncovered bake. Keep the bottom sheet directly
+on the base. This supersedes the two-layer choice below. The reason was
+not stated.
+
 On 2026-10-01, the user chose two layers of parchment under the bread.
 Cut two sheets large enough to hold the loaf with long ends for handles,
 then stack them before turning the loaf out of the banneton. Hold both
