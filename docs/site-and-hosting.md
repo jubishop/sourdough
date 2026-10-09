@@ -81,6 +81,7 @@ Install Node.js 24 and pnpm 11.25.0, then run:
 
 ```sh
 bin/setup
+bin/setup-application
 pnpm dev
 ```
 
@@ -88,7 +89,8 @@ Open the local URL printed by Next.js. No environment values are required.
 Use `bin/check` for foundation checks only, or `bin/check --documents-only`
 for Markdown edits. Run `pnpm typecheck` or `pnpm lint` explicitly when code
 edits need them. Run `bin/check --full` before a code PR or deployment; it adds
-foundation tests, typechecking, lint, and the production build. Reuse a passing
+`bin/check-application`: the Python tests, typechecking, lint, and the
+production build. Reuse a passing
 result until relevant inputs change. Use `pnpm start` to serve the completed
 production build locally.
 

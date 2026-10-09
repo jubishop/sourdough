@@ -14,19 +14,22 @@ Track work in [GitHub Issues](https://github.com/jubishop/sourdough/issues).
 
 ## Development
 
-Use Node.js 24, pnpm 11.25.0, Git, and Python 3.9 or later. Run `bin/setup`
-after cloning to prepare local search and install application dependencies.
+Use Node.js 24, pnpm 11.25.0, Git, and Python 3.9 or later. After cloning,
+run `bin/setup` to prepare local search, then `bin/setup-application` to install
+application dependencies.
 QMD and direnv are optional; setup reports skipped features. Start the site
 with `pnpm dev` and open the local URL printed by Next.js.
 
 Use `bin/check --documents-only` for Markdown edits. `bin/check` runs foundation
 checks only and requires ShellCheck. Run `bin/check --full` after setup or
-foundation changes, and before a code PR or deployment; it adds foundation
-tests, TypeScript checks, application lint, and the production build.
+foundation changes, and before a code PR or deployment; it adds
+`bin/check-application`: the Python tests, TypeScript checks, application lint,
+and the production build.
 Use `pnpm typecheck` or `pnpm lint` explicitly when relevant to code edits.
 Use `bin/doctor` for diagnostics. See the
-[development workflow](docs/development-workflow.md) for search, worktrees,
-hook integration, and recovery.
+[development workflow](docs/development-workflow.md) for project setup, checks,
+and versions, and the [foundation pages](docs/foundation/README.md) for search,
+worktrees, hook integration, and recovery.
 
 ## Knowledge
 
@@ -38,12 +41,13 @@ Ubuntu 24.04, including the application checks and build.
 
 The foundation comes from
 [Project Starter](https://github.com/jubishop/project-starter/blob/main/GUIDE.md).
-The copied revision is recorded in [.project-starter.json](.project-starter.json).
+The installed release and managed-file hashes are recorded in
+[.project-starter.json](.project-starter.json).
 
 ## Local task tracking
 
 Use `td` for local tasks, progress, blockers, and session handoffs. After cloning,
 install td and run `td init` in the primary checkout. Use `td status` or
-`td monitor` to inspect progress. Follow the [task workflow](docs/task-tracking.md)
+`td monitor` to inspect progress. Follow the [task workflow](docs/foundation/task-tracking.md)
 for setup, review, worktrees, and local data. Keep GitHub Issues for shared scope
 and acceptance criteria, linked from related td tasks.

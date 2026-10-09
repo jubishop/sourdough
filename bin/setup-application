@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+"""Install sourdough's locked application dependencies; run after bin/setup."""
+
+from pathlib import Path
+import subprocess
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def main():
+    if not (ROOT / "package.json").exists():
+        return 0
+    try:
+        return subprocess.run(["pnpm", "install", "--frozen-lockfile"], cwd=ROOT).returncode
+    except FileNotFoundError:
+        print("pnpm is required. Install the version in package.json, then rerun bin/setup-application.", file=sys.stderr)
+        return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

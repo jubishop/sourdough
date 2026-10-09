@@ -6,8 +6,8 @@ import hashlib
 import json
 import math
 import os
-import re
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -119,7 +119,6 @@ def environment():
                 XDG_CACHE_HOME=str(ROOT / ".cache"), INDEX_PATH=str(cache() / "index.sqlite"))
 
 
-
 def configuration_matches(rendered):
     path = ROOT / ".config/qmd/index.yml"
     return path.is_file() and path.read_text() == json.dumps(rendered, indent=2, sort_keys=True) + "\n"
@@ -179,7 +178,6 @@ def snapshot(rendered, version):
                 count += 1
         counts[name] = count
     return digest.hexdigest(), counts
-
 
 
 def shared_models(root=ROOT):
@@ -369,6 +367,8 @@ def refresh(force):
         prepare_models(ROOT)
         tool, version = qmd_tool()
         result["qmd_version"] = version
+        # Logs append across runtime upgrades; date each section for later triage.
+        print(stamp() + " Refresh started with " + (version or "no QMD"), flush=True)
         if not tool:
             result.update(status="skipped", exit_code=0, message="QMD absent: local search skipped.")
         else:
@@ -437,7 +437,6 @@ def wait_for(ticket, timeout=None, output=None):
         time.sleep(0.05)
 
 
-
 def current_index(version):
     rendered, warnings = config()
     for warning in warnings:
@@ -448,7 +447,6 @@ def current_index(version):
             (state.get("last_success") or {}).get("fingerprint") == fingerprint and
             (cache() / "index.sqlite").is_file() and
             configuration_matches(rendered) and not worker_active())
-
 
 
 def lookup(args):
@@ -475,7 +473,6 @@ def lookup(args):
         raise RuntimeError("Knowledge changed during lookup; results discarded. Retry after bin/qmd-index completes.")
     sys.stdout.write(result.stdout)
     return 0
-
 
 
 def diagnose():
@@ -532,7 +529,8 @@ def diagnose():
                 report["freshness"] = "stale"
             if report["freshness"] != "current" or state.get("status") == "failed":
                 report["issues"].append("Search needs refresh or recovery. Run bin/qmd-index; inspect .cache/qmd/index.log on failure.")
-            if version and TESTED_QMD not in version:
+            release = re.search(r"\d+\.\d+\.\d+\S*", version or "")
+            if version and (not release or release[0] != TESTED_QMD):
                 report["notices"].append("This QMD version differs from the tested version; run the real-QMD smoke check before relying on compatibility.")
         models = cache() / "models"
         if not models.is_dir():
