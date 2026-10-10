@@ -2,6 +2,7 @@
 """Install sourdough's locked application dependencies; bin/setup runs this after the foundation setup."""
 
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 
@@ -11,10 +12,16 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     if not (ROOT / "package.json").exists():
         return 0
+    # Corepack runs the newest cached pnpm that satisfies devEngines.packageManager, so cache the latest release first.
+    if shutil.which("corepack"):
+        if subprocess.run(["corepack", "install", "--global", "--cache-only", "pnpm@latest"], cwd=ROOT).returncode:
+            print("Could not fetch the latest pnpm through corepack; installing with the pnpm already available.",
+                  file=sys.stderr)
     try:
         return subprocess.run(["pnpm", "install", "--frozen-lockfile"], cwd=ROOT).returncode
     except FileNotFoundError:
-        print("pnpm is required. Install the version in package.json, then rerun bin/setup.", file=sys.stderr)
+        print("pnpm 12 or later is required. Run `corepack enable pnpm` or see https://pnpm.io/installation, "
+              "then rerun bin/setup.", file=sys.stderr)
         return 1
 
 

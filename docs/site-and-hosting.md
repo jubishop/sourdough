@@ -77,7 +77,8 @@ on desktop and mobile before publishing layout changes.
 
 ## Local development
 
-Install the latest Node.js LTS (24 or later) and pnpm 11.25.0, then run:
+Install the latest Node.js LTS (24 or later) and the latest pnpm (12 or
+later), then run:
 
 ```sh
 bin/setup
@@ -85,7 +86,8 @@ pnpm dev
 ```
 
 `bin/setup` also installs the locked application dependencies through
-`bin/setup-application`.
+`bin/setup-application`, which first caches the latest pnpm when Corepack
+provides it.
 
 Open the local URL printed by Next.js. No environment values are required.
 Use `bin/check` for foundation checks only, or `bin/check --documents-only`
@@ -133,6 +135,30 @@ latest release. Vercel added Node.js 24 as an LTS release and applies patch
 releases itself. Production therefore gets the latest LTS, and moves to a
 newer major on the first deployment after Vercel offers it. Check the build
 log's Node version after Vercel adds a major.
+
+### pnpm version
+
+Vercel's [package manager documentation](https://vercel.com/docs/package-managers),
+last updated 2026-08-11, still describes only lockfile-based selection
+(pnpm 9 or 10 for `lockfileVersion: 9.0`) and Corepack. Its open-source build
+code is newer. Since `@vercel/build-utils` 14.9.0 (2026-09-01), a build
+without Corepack reads `devEngines.packageManager` first and puts the newest
+pnpm major from its build image that satisfies the range and the lockfile on
+`PATH`, such as `/pnpm12`. It then uses that major's preinstalled release
+for both `installCommand` and `buildCommand`, and moves to a newer major when
+Vercel adds one. See
+[`run-user-scripts.ts`](https://github.com/vercel/vercel/blob/main/packages/build-utils/src/fs/run-user-scripts.ts)
+and the
+[build-utils changelog](https://github.com/vercel/vercel/blob/main/packages/build-utils/CHANGELOG.md),
+checked on 2026-10-09. The `ENABLE_EXPERIMENTAL_COREPACK` variable has no
+effect here because Vercel uses Corepack only with a `packageManager` field.
+
+The build log should report ``Detected `pnpm-lock.yaml` version 9 generated
+by pnpm@12.x from package.json#devEngines.packageManager``. Vercel adds a
+major only when its image contains that directory, and does not publish the
+image's pnpm releases. Without `/pnpm12`, it falls back to pnpm 10 by project
+creation date, and `engines.pnpm` stops the install with
+`ERR_PNPM_UNSUPPORTED_ENGINE` rather than building with an older pnpm.
 
 ### Publish through the connected Vercel tool
 

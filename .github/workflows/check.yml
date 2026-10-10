@@ -23,7 +23,8 @@ jobs:
       # The Ubuntu runner image includes ShellCheck; avoid unrelated apt repository failures.
       - name: Verify ShellCheck
         run: shellcheck --version
-      - uses: pnpm/action-setup@v4
+      # Without a version input, this installs the newest pnpm allowed by devEngines.packageManager.
+      - uses: pnpm/action-setup@v6
       - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc

@@ -1,4 +1,4 @@
-"""Verify that bin/setup-application installs locked dependencies, with a simulated pnpm."""
+"""Verify that bin/setup-application installs locked dependencies, with simulated pnpm and corepack."""
 
 import json
 import os
@@ -25,15 +25,18 @@ class SetupApplicationTests(unittest.TestCase):
         self.tools = base / "tools"
         self.tools.mkdir()
         (self.tools / "python3").symlink_to(sys.executable)
-        pnpm = self.tools / "pnpm"
-        pnpm.write_text("#!" + sys.executable + "\n"
+        self.tool("pnpm", "PNPM_EXIT")
+        self.env = {key: value for key, value in os.environ.items() if key not in {"PNPM_EXIT", "COREPACK_EXIT"}}
+        self.env.update(PATH=str(self.tools), SETUP_EVENTS=str(self.events), PYTHONDONTWRITEBYTECODE="1")
+
+    def tool(self, name, exit_variable):
+        path = self.tools / name
+        path.write_text("#!" + sys.executable + "\n"
                         "import json, os, sys\n"
                         "with open(os.environ['SETUP_EVENTS'], 'a') as stream:\n"
-                        "    stream.write(json.dumps([os.getcwd(), *sys.argv[1:]]) + '\\n')\n"
-                        "sys.exit(int(os.environ.get('PNPM_EXIT', '0')))\n")
-        pnpm.chmod(0o755)
-        self.env = {key: value for key, value in os.environ.items() if key != "PNPM_EXIT"}
-        self.env.update(PATH=str(self.tools), SETUP_EVENTS=str(self.events), PYTHONDONTWRITEBYTECODE="1")
+                        f"    stream.write(json.dumps([os.getcwd(), {name!r}, *sys.argv[1:]]) + '\\n')\n"
+                        f"sys.exit(int(os.environ.get({exit_variable!r}, '0')))\n")
+        path.chmod(0o755)
 
     def setup_application(self, **extra):
         return subprocess.run([str(self.repo / "bin/setup-application")], cwd=self.repo / "bin",
@@ -45,7 +48,24 @@ class SetupApplicationTests(unittest.TestCase):
     def test_installs_from_the_lockfile_at_the_repository_root(self):
         result = self.setup_application()
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(self.recorded(), [[str(self.repo.resolve()), "install", "--frozen-lockfile"]])
+        self.assertEqual(self.recorded(), [[str(self.repo.resolve()), "pnpm", "install", "--frozen-lockfile"]])
+
+    def test_caches_the_latest_pnpm_through_corepack_before_installing(self):
+        self.tool("corepack", "COREPACK_EXIT")
+        result = self.setup_application()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        root = str(self.repo.resolve())
+        self.assertEqual(self.recorded(), [[root, "corepack", "install", "--global", "--cache-only", "pnpm@latest"],
+                                           [root, "pnpm", "install", "--frozen-lockfile"]])
+
+    def test_corepack_failure_warns_and_installs_with_the_available_pnpm(self):
+        self.tool("corepack", "COREPACK_EXIT")
+        result = self.setup_application(COREPACK_EXIT="3")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Could not fetch the latest pnpm through corepack", result.stderr)
+        self.assertEqual([event[1:] for event in self.recorded()],
+                         [["corepack", "install", "--global", "--cache-only", "pnpm@latest"],
+                          ["pnpm", "install", "--frozen-lockfile"]])
 
     def test_install_failure_propagates(self):
         self.assertEqual(self.setup_application(PNPM_EXIT="5").returncode, 5)
@@ -54,7 +74,7 @@ class SetupApplicationTests(unittest.TestCase):
         (self.tools / "pnpm").unlink()
         result = self.setup_application()
         self.assertEqual(result.returncode, 1)
-        self.assertIn("pnpm is required. Install the version in package.json, then rerun bin/setup.", result.stderr)
+        self.assertIn("pnpm 12 or later is required.", result.stderr)
 
     def test_without_package_json_installs_nothing(self):
         (self.repo / "package.json").unlink()
