@@ -105,6 +105,7 @@ const steps = [
     title: 'Preheat the Dutch oven and pizza stone',
     body: 'Preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
     details: [
+      'Place the metal trivet at the bottom of the Dutch oven, then put the silicone liner on top of the trivet. Leave both in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',
     ],
     cue: 'Keep the loaf refrigerated until the Dutch oven is ready.',
@@ -120,7 +121,7 @@ const steps = [
       'Cut three sheets of parchment paper, each large enough to hold the loaf with two long ends to use as handles. Stack the sheets, center them over the open banneton, hold them in place, and invert the banneton and parchment together.',
       'Set the loaf on your work surface with all three layers of parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
       'Score a box in the smooth top with four straight cuts that join at the corners. Keep each corner about 1 inch in from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
-      'Remove the hot Dutch oven. Hold all three layers of the parchment handles to lower the scored loaf into the Dutch oven, with the bottom sheet resting directly on its base. Put the lid on. Leave all three layers under the loaf during the covered and uncovered bake.',
+      'Remove the hot Dutch oven. Hold all three layers of the parchment handles to lower the scored loaf into the Dutch oven, with the bottom sheet resting on the silicone liner above the metal trivet. Put the lid on. Leave the trivet, silicone liner, and all three layers of parchment under the loaf during the covered and uncovered bake.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },

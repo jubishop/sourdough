@@ -503,6 +503,13 @@ has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
 
+On 2026-10-10, the user chose a metal trivet at the bottom of the Dutch
+oven with the silicone liner on top of the trivet. Leave both in place
+during preheating and baking. When loading, rest the three layers of
+parchment on the silicone liner. This supersedes placing the parchment
+directly on the Dutch oven base. The reason was not stated. Keep the
+pizza stone, temperatures, and bake times unchanged.
+
 On 2026-10-02, the user increased the parchment to three layers. Cut and
 stack three sheets, hold all three layers of the handles when lowering
 the loaf into the Dutch oven, and leave all three layers under the loaf
