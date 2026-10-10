@@ -35,7 +35,7 @@ Project Starter manages this block; add project rules after it.
 Use [GitHub Issues](https://github.com/jubishop/sourdough/issues) for shared
 work and acceptance criteria.
 
-After `bin/setup`, run `bin/setup-application` to install the locked
+`bin/setup` also runs `bin/setup-application`, which installs the locked
 application dependencies. Run `bin/check --full` after setup or foundation
 changes and before a code PR or deployment; it adds `bin/check-application`:
 the Python tests, typechecking, lint, and the production build. See the

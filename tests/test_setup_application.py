@@ -54,8 +54,7 @@ class SetupApplicationTests(unittest.TestCase):
         (self.tools / "pnpm").unlink()
         result = self.setup_application()
         self.assertEqual(result.returncode, 1)
-        self.assertIn("pnpm is required. Install the version in package.json, then rerun bin/setup-application.",
-                      result.stderr)
+        self.assertIn("pnpm is required. Install the version in package.json, then rerun bin/setup.", result.stderr)
 
     def test_without_package_json_installs_nothing(self):
         (self.repo / "package.json").unlink()

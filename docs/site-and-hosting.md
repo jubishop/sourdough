@@ -77,13 +77,15 @@ on desktop and mobile before publishing layout changes.
 
 ## Local development
 
-Install Node.js 24 and pnpm 11.25.0, then run:
+Install the latest Node.js LTS (24 or later) and pnpm 11.25.0, then run:
 
 ```sh
 bin/setup
-bin/setup-application
 pnpm dev
 ```
+
+`bin/setup` also installs the locked application dependencies through
+`bin/setup-application`.
 
 Open the local URL printed by Next.js. No environment values are required.
 Use `bin/check` for foundation checks only, or `bin/check --documents-only`
@@ -118,6 +120,19 @@ The project ID is `prj_kLYoyycFstxYJVjvXD2Y3JpDTLOa`; the team ID is
 `team_G6Ne98tjomMFr4bTlq6RwnOy`. These identifiers were checked through the
 Vercel connection on 2026-09-06. If access to this team is rejected, reconnect
 Vercel with access to `artisanal-software`; do not select a different project.
+
+### Node runtime
+
+Vercel ignores `.nvmrc` and selects Node from `engines.node` in
+`package.json`, which overrides the project's Node.js Version setting.
+According to
+[Vercel's Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions),
+checked on 2026-10-09, the available majors are 24.x (the default), 22.x, and
+20.x, and a lower bound such as `>=24` maps to the newest available major's
+latest release. Vercel added Node.js 24 as an LTS release and applies patch
+releases itself. Production therefore gets the latest LTS, and moves to a
+newer major on the first deployment after Vercel offers it. Check the build
+log's Node version after Vercel adds a major.
 
 ### Publish through the connected Vercel tool
 

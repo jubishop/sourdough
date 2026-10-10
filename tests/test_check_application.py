@@ -73,7 +73,7 @@ class CheckApplicationTests(unittest.TestCase):
         (self.tools / "pnpm").unlink()
         result = self.check()
         self.assertEqual(result.returncode, 1)
-        self.assertIn("pnpm is required. Run bin/setup-application before bin/check.", result.stderr)
+        self.assertIn("pnpm is required. Run bin/setup before bin/check.", result.stderr)
 
     def test_without_package_json_runs_only_python_tests(self):
         (self.repo / "package.json").unlink()

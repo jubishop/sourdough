@@ -14,21 +14,21 @@ local development, and Vercel deployment.
 
 ```sh
 bin/setup
-bin/setup-application
 bin/doctor
 bin/check --full
 ```
 
-Setup needs Git and Python 3.9 or later, and checks also need ShellCheck.
-QMD and direnv are optional; setup reports skipped features. Install td and
-run `td init` as described in [task tracking](foundation/task-tracking.md).
-The project has no `.envrc`; create it only when the project needs environment
-settings, and review it before running `direnv allow`. Search does not need it.
+Setup needs Git, Python 3.9 or later, the latest Node.js LTS, and pnpm;
+checks also need ShellCheck. QMD and direnv are optional; setup reports
+skipped features. Install td and run `td init` as described in
+[task tracking](foundation/task-tracking.md). The project has no `.envrc`;
+create it only when the project needs environment settings, and review it
+before running `direnv allow`. Search does not need it.
 
-`bin/setup-application` installs the application dependencies from the
-lockfile with `pnpm install --frozen-lockfile`, and reports when pnpm is
-missing. Project Starter manages `bin/setup`, so this project-owned script
-holds the install step that `bin/setup` ran before the 2.0 migration.
+After the foundation setup succeeds, `bin/setup` runs the project-owned
+`bin/setup-application`. It installs the application dependencies from the
+lockfile with `pnpm install --frozen-lockfile` and reports when pnpm is
+missing. Run it directly to reinstall only the dependencies.
 
 ## Checks
 
@@ -45,17 +45,19 @@ tools. Run `pnpm typecheck` or `pnpm lint` explicitly when code edits need
 them.
 
 [Repository checks](../.github/workflows/check.yml) run `bin/check --full` for pull
-requests and pushes to `main` on GitHub Actions. The Ubuntu 24.04 runner
+requests and pushes to `main` on GitHub Actions. The latest Ubuntu runner
 includes ShellCheck; the workflow verifies it without refreshing apt package
-repositories. It selects Node from `.nvmrc`, installs pnpm, and installs the
-locked dependencies before the check. The workflow has read-only repository
+repositories. It selects the latest Node.js LTS from `.nvmrc`, installs pnpm,
+and installs the locked dependencies before the check. The workflow has read-only repository
 permissions, and CI does not download search models.
 
 ## Runtime and toolchain versions
 
-The site uses Node.js 24, declared by `.nvmrc` and the `engines` field in
-`package.json`, and pnpm 11.25.0, declared by `packageManager`. CI reads both
-declarations. Application dependencies, including Next.js and TypeScript, are
+The site uses the latest Node.js LTS. `package.json` declares the minimum,
+`"node": ">=24"`, with no upper bound, and `.nvmrc` requests `lts/*` for
+local version managers and CI. Vercel selects Node from `engines`; see
+[Vercel's Node selection](site-and-hosting.md#node-runtime). pnpm 11.25.0 is
+declared by `packageManager`, which CI reads. Application dependencies, including Next.js and TypeScript, are
 pinned in `package.json` and locked in `pnpm-lock.yaml`. Foundation checks
 need only Python 3.9 or later and ShellCheck. These follow the
 [version policy](foundation/engineering-policy.md#runtime-and-toolchain-versions).

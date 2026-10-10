@@ -19,7 +19,7 @@ def main():
             if result:
                 break
     except FileNotFoundError:
-        print("pnpm is required. Run bin/setup-application before bin/check.", file=sys.stderr)
+        print("pnpm is required. Run bin/setup before bin/check.", file=sys.stderr)
         result = 1
     return result
 

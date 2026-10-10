@@ -14,9 +14,9 @@ Track work in [GitHub Issues](https://github.com/jubishop/sourdough/issues).
 
 ## Development
 
-Use Node.js 24, pnpm 11.25.0, Git, and Python 3.9 or later. After cloning,
-run `bin/setup` to prepare local search, then `bin/setup-application` to install
-application dependencies.
+Use the latest Node.js LTS (24 or later), pnpm 11.25.0, Git, and Python 3.9
+or later. After cloning, run `bin/setup`; it prepares local search, then runs
+`bin/setup-application` to install the locked application dependencies.
 QMD and direnv are optional; setup reports skipped features. Start the site
 with `pnpm dev` and open the local URL printed by Next.js.
 
@@ -37,7 +37,8 @@ worktrees, hook integration, and recovery.
 - [Docs](docs/README.md): designs, decisions, research, and reference guides.
 
 GitHub Actions runs `bin/check --full` for pull requests and pushes to `main` on
-Ubuntu 24.04, including the application checks and build.
+the latest Ubuntu runner and Node.js LTS, including the application checks and
+build.
 
 The foundation comes from
 [Project Starter](https://github.com/jubishop/project-starter/blob/main/GUIDE.md).
