@@ -103,7 +103,7 @@ const steps = [
     time: 'At least 60 min',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
+    body: 'Preheat the Dutch oven with the pizza stone at 500°F for at least 60 minutes.',
     details: [
       'Place the metal trivet at the bottom of the Dutch oven, then put the silicone liner on top of the trivet. Leave both in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',
@@ -130,8 +130,8 @@ const steps = [
     phase: 'Bake',
     time: '30 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 465°F',
-    body: 'Lower the oven to 465°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
+    title: 'Bake covered at 475°F',
+    body: 'Lower the oven to 475°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
   },
   {
     id: 'uncovered-bake',
