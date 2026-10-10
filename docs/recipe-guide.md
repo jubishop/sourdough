@@ -863,6 +863,10 @@ On 2026-09-28, the user changed the refrigerator rest to a fixed 30 minutes
 because the dough was still quite warm after 15 minutes. This supersedes
 the 15–30-minute range. Use 30 minutes in Step 6 and its timing label.
 
+On 2026-10-09, the user changed the refrigerator rest to "up to 60 minutes."
+This supersedes the fixed 30-minute rest. Use the new upper limit in Step 6
+and its timing label.
+
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
