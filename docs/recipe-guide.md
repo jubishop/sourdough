@@ -296,9 +296,10 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
-Preheat the Dutch oven with the pizza stone at a 475°F oven setting for
-at least 60 minutes before the chosen bake
-time. Keep the loaf refrigerated until ready to score and load.
+Preheat the Dutch oven with the pizza stone for at least 60 minutes before
+the chosen bake time, at the preheat setting in the
+[oven temperature adjustment](#oven-temperature-adjustment). Keep the loaf
+refrigerated until ready to score and load.
 
 On 2026-09-09, the user requested removal of the cold-proof step's sole
 substep about fermentation, acidity, and flavor. Keep the main instruction
