@@ -376,6 +376,11 @@ Pantry and refrigerator temperatures do not use this oven adjustment.
 On 2026-09-22, removing the entire "Plan your bake" section also removed
 this note. The oven settings in the checklist remained unchanged at that time.
 
+On 2026-10-13, the user said the oven runs 15°F cool: a 415°F dial setting
+gives about 400°F in the oven. This supersedes the 25°F offset above. Recipe
+oven temperatures remain dial settings. See the
+[oven dial offset](../memory/oven-dial-offset.md).
+
 On 2026-09-26, the user lowered the Dutch oven preheat setting from 500°F
 to 475°F. The reason was not stated. This supersedes the earlier preheat
 setting. Preheat the Dutch oven and pizza stone for at least 60 minutes,
