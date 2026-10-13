@@ -103,7 +103,7 @@ const steps = [
     time: 'At least 60 min',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
+    body: 'Preheat the Dutch oven with the pizza stone at 490°F for at least 60 minutes.',
     details: [
       'Place the metal trivet at the bottom of the Dutch oven, then put the silicone liner on top of the trivet. Leave both in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',

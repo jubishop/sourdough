@@ -403,6 +403,11 @@ the oven to 465°F for the 30-minute covered bake. The reason was not
 stated. The uncovered bake remains at 425°F; see
 [Fixed bake time](#fixed-bake-time) for the current duration.
 
+Later on 2026-10-13, the user raised the preheat setting to 490°F. This
+supersedes the same-day 475°F preheat. Preheat for at least 60 minutes,
+then lower the oven to 465°F for the 30-minute covered bake. The reason
+was not stated.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
