@@ -396,6 +396,13 @@ the oven to 475°F for the 30-minute covered bake. The reason was not
 stated. The uncovered bake remained at 425°F for 32 minutes then; see
 [Fixed bake time](#fixed-bake-time) for the current duration.
 
+On 2026-10-13, the user lowered the preheat setting to 475°F and the
+covered-bake setting to 465°F. This supersedes the 500°F preheat and
+475°F covered bake above. Preheat for at least 60 minutes, then lower
+the oven to 465°F for the 30-minute covered bake. The reason was not
+stated. The uncovered bake remains at 425°F; see
+[Fixed bake time](#fixed-bake-time) for the current duration.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
@@ -492,7 +499,7 @@ On 2026-10-10, the user shortened the uncovered bake to 30 minutes at the
 425°F oven setting. This supersedes the 32-minute setting and retains the
 fixed endpoint. The reason was not stated.
 
-Bake for 30 minutes covered at a 475°F oven setting, then 30 minutes
+Bake for 30 minutes covered at a 465°F oven setting, then 30 minutes
 uncovered at a 425°F oven setting, for 60 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
