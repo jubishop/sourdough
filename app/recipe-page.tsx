@@ -128,10 +128,10 @@ const steps = [
   {
     id: 'covered-bake',
     phase: 'Bake',
-    time: '32 min covered',
+    time: '35 min covered',
     icon: CookingPot,
     title: 'Bake covered at 465°F',
-    body: 'Lower the oven to 465°F and bake with the lid on for 32 minutes. The covered bake traps steam so the loaf can expand.',
+    body: 'Lower the oven to 465°F and bake with the lid on for 35 minutes. The covered bake traps steam so the loaf can expand.',
   },
   {
     id: 'uncovered-bake',
