@@ -144,10 +144,10 @@ const steps = [
   {
     id: 'cool',
     phase: 'Finish',
-    time: 'At least 4 hr',
+    time: 'At least 3 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 4 hours before slicing. Let it cool longer if it is still warm.',
+    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 3 hours before slicing. Let it cool longer if it is still warm.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];

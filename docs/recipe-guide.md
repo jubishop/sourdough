@@ -535,7 +535,7 @@ endpoint. The reason was not stated.
 Bake for 35 minutes covered at a 465°F oven setting, then 30 minutes
 uncovered at a 415°F oven setting, for 65 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
-Then remove the loaf from the oven. Follow the minimum four-hour
+Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
 with this fixed bake time.
 
@@ -561,10 +561,15 @@ was not stated. Remove the loaf from the Dutch oven and cool uncovered on a
 wire rack for at least 4 hours before slicing. Let it cool longer if it is
 still warm.
 
+Later on 2026-10-15, the user returned the cooling minimum to at least 3
+hours. This supersedes the 4-hour minimum. The reason was not stated.
+Remove the loaf from the Dutch oven and cool uncovered on a wire rack for
+at least 3 hours before slicing. Let it cool longer if it is still warm.
+
 [The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
 checked on 2026-09-11, recommends at least two hours, preferably three.
-The four-hour minimum exceeds that recommendation. The source does not
-establish the exact cooling time for this loaf in every room. Judge gummy
+This supports the three-hour minimum; it does not establish the exact
+cooling time for this loaf in every room. Judge gummy
 crumb only after the loaf has cooled fully.
 
 ## Preheat the pizza stone with the Dutch oven
