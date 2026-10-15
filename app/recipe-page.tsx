@@ -103,7 +103,7 @@ const steps = [
     time: 'At least 60 min',
     icon: Flame,
     title: 'Preheat the Dutch oven and pizza stone',
-    body: 'Preheat the Dutch oven with the pizza stone at 490°F for at least 60 minutes.',
+    body: 'Preheat the Dutch oven with the pizza stone at 475°F for at least 60 minutes.',
     details: [
       'Place the metal trivet at the bottom of the Dutch oven, then put the silicone liner on top of the trivet. Leave both in place during preheating and baking.',
       'Put the pizza stone on a separate rack directly below the Dutch oven.',
@@ -147,7 +147,7 @@ const steps = [
     time: 'At least 4 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Remove the loaf from the Dutch oven and place it on a wire rack. Loosely drape a kitchen towel over the loaf for the first 30 minutes, then remove the towel and cool uncovered. Cool for at least 4 hours in total before slicing. Let it cool longer if it is still warm.',
+    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 4 hours before slicing. Let it cool longer if it is still warm.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];

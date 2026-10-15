@@ -417,6 +417,11 @@ Later on 2026-10-13, the user extended the covered bake to 32 minutes at
 the 465°F oven setting, then to 35 minutes. The 35-minute covered bake
 supersedes the 30- and 32-minute settings. The reason was not stated.
 
+On 2026-10-15, the user lowered the preheat setting to 475°F. This
+supersedes the 490°F preheat. Preheat for at least 60 minutes, then lower
+the oven to 465°F for the 35-minute covered bake. The reason was not
+stated.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
@@ -549,6 +554,12 @@ was not stated. Remove the loaf from the Dutch oven and place it on a wire
 rack. Loosely drape a kitchen towel over the loaf for the first 30 minutes,
 then remove the towel and cool uncovered. Cool for at least 4 hours in
 total before slicing, and longer if the loaf is still warm.
+
+On 2026-10-15, the user removed the kitchen towel step. This supersedes
+the initial 30-minute towel cover and keeps the 4-hour minimum. The reason
+was not stated. Remove the loaf from the Dutch oven and cool uncovered on a
+wire rack for at least 4 hours before slicing. Let it cool longer if it is
+still warm.
 
 [The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
 checked on 2026-09-11, recommends at least two hours, preferably three.
