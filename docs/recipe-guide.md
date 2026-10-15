@@ -532,8 +532,12 @@ bake to 32 minutes, then to 35 minutes. This supersedes the 425°F
 uncovered setting and the 30-minute covered bake and retains the fixed
 endpoint. The reason was not stated.
 
-Bake for 35 minutes covered at a 465°F oven setting, then 30 minutes
-uncovered at a 415°F oven setting, for 65 minutes total. These settings
+On 2026-10-15, the user shortened the uncovered bake to 25 minutes at the
+415°F oven setting. This supersedes the 30-minute setting and retains the
+fixed endpoint. The reason was not stated.
+
+Bake for 35 minutes covered at a 465°F oven setting, then 25 minutes
+uncovered at a 415°F oven setting, for 60 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
