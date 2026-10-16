@@ -36,8 +36,11 @@ only the dependencies.
 
 ## Checks
 
-Follow the [check schedule](foundation/engineering-policy.md#checks).
-`bin/check-application`, which `bin/check --full` runs after the foundation
+No check is required before pushing or deploying: the owner wants every
+change committed, pushed, and deployed right away (2026-10-15; see
+[`AGENTS.md`](../AGENTS.md#complete-every-change)). This overrides the
+[check schedule](foundation/engineering-policy.md#checks). CI still runs after
+each push. `bin/check-application`, which `bin/check --full` runs after the foundation
 checks, runs the Python tests in `tests/`. When `package.json` exists, it then
 runs `pnpm typecheck`, `pnpm lint`, and `pnpm build`, the Next.js production
 build, which can download the site's Google fonts. It stops at the first
