@@ -22,7 +22,7 @@ Start the site with `pnpm dev` and open the local URL printed by Next.js.
 
 `bin/check --documents-only` checks Markdown, and `bin/check` runs foundation
 checks only and requires ShellCheck. `bin/check --full` adds
-`bin/check-application`: the Python tests, TypeScript checks, application lint,
+`bin/check-application`: TypeScript checks, application lint,
 and the production build. None of them is required: changes are committed,
 pushed, and deployed right away without checks or pull requests (see
 [`AGENTS.md`](AGENTS.md#complete-every-change)).

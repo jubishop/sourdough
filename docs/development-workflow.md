@@ -41,11 +41,10 @@ change committed, pushed, and deployed right away (2026-10-15; see
 [`AGENTS.md`](../AGENTS.md#complete-every-change)). This overrides the
 [check schedule](foundation/engineering-policy.md#checks). CI still runs after
 each push. `bin/check-application`, which `bin/check --full` runs after the foundation
-checks, runs the Python tests in `tests/`. When `package.json` exists, it then
-runs `pnpm typecheck`, `pnpm lint`, and `pnpm build`, the Next.js production
-build, which can download the site's Google fonts. It stops at the first
-failure and returns that command's exit status. `tests/test_check_application.py`
-and `tests/test_setup_application.py` cover both application scripts.
+checks, runs `pnpm typecheck`, `pnpm lint`, and `pnpm build`, the Next.js
+production build, which can download the site's Google fonts. It stops at the
+first failure and returns that command's exit status. The site has no tests;
+the owner removed them on 2026-10-15.
 
 The default and `--documents-only` modes do not start pnpm or application
 tools. Run `pnpm typecheck` or `pnpm lint` explicitly when code edits need

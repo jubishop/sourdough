@@ -9,10 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    result = subprocess.run([sys.executable, "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py", "-v"],
-                            cwd=ROOT).returncode
-    if result or not (ROOT / "package.json").exists():
-        return result
+    if not (ROOT / "package.json").exists():
+        return 0
+    result = 0
     try:
         for command in (["pnpm", "typecheck"], ["pnpm", "lint"], ["pnpm", "build"]):
             result = subprocess.run(command, cwd=ROOT).returncode

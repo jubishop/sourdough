@@ -44,7 +44,7 @@ work and acceptance criteria.
 
 `bin/setup` also runs `bin/setup-application`, which installs the locked
 application dependencies. `bin/check --full` adds `bin/check-application`:
-the Python tests, typechecking, lint, and the production build. No change
+typechecking, lint, and the production build. No change
 needs it before pushing or deploying; see below and the
 [development workflow](docs/development-workflow.md).
 
