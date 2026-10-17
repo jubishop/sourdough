@@ -557,8 +557,12 @@ has then already cooled toward 415°F when the lid comes off, so the
 exposed crust does not scorch. This supersedes lowering the oven when
 removing the lid and keeps both bake times.
 
+On 2026-10-17, the user moved that drop earlier, to 20 minutes before the
+covered bake ends. This supersedes the 10-minute lead and keeps both bake
+times. The reason was not stated.
+
 Bake for 40 minutes covered at a 465°F oven setting, lowering the oven to
-415°F after the first 30 minutes. Then remove the lid and bake 20 minutes
+415°F after the first 20 minutes. Then remove the lid and bake 20 minutes
 uncovered at the 415°F setting, for 60 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour

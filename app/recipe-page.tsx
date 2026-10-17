@@ -132,7 +132,7 @@ const steps = [
     icon: CookingPot,
     title: 'Bake covered at 465°F',
     body: 'Lower the oven to 465°F and bake with the lid on for 40 minutes. The covered bake traps steam so the loaf can expand.',
-    cue: 'After 30 minutes, lower the oven to 415°F and keep the lid on for the last 10 minutes. The oven cools before you uncover the loaf, so the exposed crust does not scorch.',
+    cue: 'After 20 minutes, lower the oven to 415°F and keep the lid on for the last 20 minutes. The oven cools before you uncover the loaf, so the exposed crust does not scorch.',
   },
   {
     id: 'uncovered-bake',
