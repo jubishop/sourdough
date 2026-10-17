@@ -428,6 +428,10 @@ stated.
 
 Later on 2026-10-15, the user extended the covered bake to 40 minutes at
 the 465°F oven setting. This supersedes the 35-minute covered bake. The
+reason was not stated.
+
+On 2026-10-17, the user extended the covered bake to 45 minutes at the
+465°F oven setting. This supersedes the 40-minute covered bake. The
 reason was not stated. See [Fixed bake time](#fixed-bake-time) for the
 current settings.
 
@@ -561,8 +565,14 @@ On 2026-10-17, the user moved that drop earlier, to 20 minutes before the
 covered bake ends. This supersedes the 10-minute lead and keeps both bake
 times. The reason was not stated.
 
-Bake for 40 minutes covered at a 465°F oven setting, lowering the oven to
-415°F after the first 20 minutes. Then remove the lid and bake 20 minutes
+Later on 2026-10-17, the user extended the covered bake to 45 minutes,
+shortened the uncovered bake to 15 minutes, and moved the drop to 415°F to
+15 minutes before the covered bake ends. This supersedes the 40-minute
+covered and 20-minute uncovered settings and the 20-minute lead, and keeps
+the 60-minute total. The reason was not stated.
+
+Bake for 45 minutes covered at a 465°F oven setting, lowering the oven to
+415°F after the first 30 minutes. Then remove the lid and bake 15 minutes
 uncovered at the 415°F setting, for 60 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
