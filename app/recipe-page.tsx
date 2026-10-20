@@ -148,7 +148,7 @@ const steps = [
     time: 'At least 3 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 3 hours before slicing. Let it cool longer if it is still warm.',
+    body: 'Remove the loaf from the Dutch oven and place it on a wire rack. Loosely drape a kitchen towel over the loaf for the first 15 minutes, then remove the towel and cool uncovered. Cool for at least 3 hours in total before slicing. Let it cool longer if it is still warm.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];

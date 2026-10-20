@@ -621,6 +621,14 @@ hours. This supersedes the 4-hour minimum. The reason was not stated.
 Remove the loaf from the Dutch oven and cool uncovered on a wire rack for
 at least 3 hours before slicing. Let it cool longer if it is still warm.
 
+On 2026-10-20, the user added back a loosely draped kitchen towel over the
+loaf, now for the first 15 minutes. This supersedes fully uncovered cooling
+and keeps the 3-hour minimum. The reason was not stated. Remove the loaf
+from the Dutch oven and place it on a wire rack. Loosely drape a kitchen
+towel over the loaf for the first 15 minutes, then remove the towel and cool
+uncovered. Cool for at least 3 hours in total before slicing, and longer if
+the loaf is still warm.
+
 [The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
 checked on 2026-09-11, recommends at least two hours, preferably three.
 This supports the three-hour minimum; it does not establish the exact
