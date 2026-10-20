@@ -265,6 +265,11 @@ On 2026-10-16, the user made 1.35 qt a minimum: aim for at least 1.35 qt at
 the glass edge. The reason was not stated. Use "at least" in both the
 bulk-step title and body.
 
+On 2026-10-20, the user changed the target to about 1.5 qt at the glass
+edge, superseding the 1.35 qt minimum. The reason was not stated. Use
+"about 1.5 qt" in both the bulk-step title and body, measured where the
+dough meets the glass, and keep the visual readiness cues.
+
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
 last stretch and fold. Leave the dough undisturbed for the rest of bulk
