@@ -1008,6 +1008,11 @@ at least 20 minutes. Keep the first rest of at least 15 minutes after mixing
 in the starter and salt. This supersedes the 15-minute minimum between
 rounds above. The reason was not stated.
 
+Later on 2026-10-21, the user specified four squash and folds in each round.
+This supersedes omitting the fold count within a round from the 2026-09-30
+decision above. Keep the technique name without detailed hand motions, up to
+six rounds, and the existing rests. The reason was not stated.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
