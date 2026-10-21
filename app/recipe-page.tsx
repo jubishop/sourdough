@@ -57,14 +57,10 @@ const steps = [
   {
     id: 'slap-and-fold',
     phase: 'Day 1',
-    time: 'Up to 6 rounds · 15–40 min rests',
+    time: 'Up to 6 rounds · at least 15 min apart',
     icon: RotateCcw,
     title: 'Squash and fold',
-    body: 'Squash and fold for up to six rounds.',
-    details: [
-      'Rest for 15 minutes after mixing in the starter and salt, then do round 1.',
-      'If you continue, rest 20 minutes before round 2, 25 minutes before round 3, 30 minutes before round 4, 35 minutes before round 5, and 40 minutes before round 6. Each rest starts after the previous round ends.',
-    ],
+    body: 'Squash and fold for up to six rounds. Rest at least 15 minutes after mixing in the starter and salt, and at least 15 minutes between rounds.',
     cue: 'During every wait, keep the dough covered in the mixing bowl outside the proofing box. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last round, gently transfer the dough to the oiled container and cover it.',
   },
   {

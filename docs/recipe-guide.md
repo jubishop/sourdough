@@ -982,6 +982,13 @@ four-round maximum above. Keep measuring each later rest from the end of
 the previous round and transfer after the last round, even when fewer than
 six rounds are done. The reason for the higher maximum was not stated.
 
+On 2026-10-21, the user replaced the increasing rests with a single minimum
+to simplify the step: do up to six squash-and-fold rounds with at least
+15 minutes between rounds. Keep the first rest of at least 15 minutes after
+mixing in the starter and salt. This supersedes the 15–40-minute ladder
+above. Keep the covered rests in the mixing bowl and the transfer after the
+last round, even when fewer than six rounds are done.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
