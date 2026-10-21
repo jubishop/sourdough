@@ -590,9 +590,13 @@ On 2026-10-21, the user shortened the uncovered bake to 10 minutes at the
 415°F setting. This supersedes the 15-minute uncovered bake and keeps the
 covered bake, so the total is 70 minutes. The reason was not stated.
 
+Later on 2026-10-21, the user shortened the uncovered bake to 5 minutes at
+the 415°F setting. This supersedes the 10-minute uncovered bake and keeps
+the covered bake, so the total is 65 minutes. The reason was not stated.
+
 Bake for 60 minutes covered at a 465°F oven setting, lowering the oven to
-415°F after the first 30 minutes. Then remove the lid and bake 10 minutes
-uncovered at the 415°F setting, for 70 minutes total. These settings
+415°F after the first 30 minutes. Then remove the lid and bake 5 minutes
+uncovered at the 415°F setting, for 65 minutes total. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the loaf from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
