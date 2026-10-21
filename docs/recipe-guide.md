@@ -1003,6 +1003,11 @@ mixing in the starter and salt. This supersedes the 15–40-minute ladder
 above. Keep the covered rests in the mixing bowl and the transfer after the
 last round, even when fewer than six rounds are done.
 
+Later on 2026-10-21, the user lengthened the minimum rest between rounds to
+at least 20 minutes and set the first rest after mixing in the starter and
+salt to 15 minutes. This supersedes both 15-minute minimums above. The
+reason was not stated.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
