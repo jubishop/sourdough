@@ -60,7 +60,7 @@ const steps = [
     time: 'Up to 6 rounds · at least 20 min apart',
     icon: RotateCcw,
     title: 'Squash and fold',
-    body: 'Squash and fold for up to six rounds. Rest 15 minutes after mixing in the starter and salt, then at least 20 minutes between rounds.',
+    body: 'Squash and fold for up to six rounds. Rest at least 15 minutes after mixing in the starter and salt, then at least 20 minutes between rounds.',
     cue: 'During every wait, keep the dough covered in the mixing bowl outside the proofing box. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After your last round, gently transfer the dough to the oiled container and cover it.',
   },
   {
