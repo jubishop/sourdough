@@ -305,8 +305,8 @@ temperature. Do not promise that more time always makes a loaf more sour.
 
 That range superseded the 2026-09-05 decision to keep a fixed 12-hour proof. Update
 the schedule, checklist, and preheat overlap together.
-Preheat the Dutch oven with the pizza stone for at least 60 minutes before
-the chosen bake time, at the preheat setting in the
+Preheat the Dutch oven for at least 60 minutes before the chosen bake
+time, at the preheat setting in the
 [oven temperature adjustment](#oven-temperature-adjustment). Keep the loaf
 refrigerated until ready to score and load.
 
@@ -635,7 +635,14 @@ This supports the three-hour minimum; it does not establish the exact
 cooling time for this loaf in every room. Judge gummy
 crumb only after the loaf has cooled fully.
 
-## Preheat the pizza stone with the Dutch oven
+## Dutch oven base and preheat
+
+On 2026-10-20, the user removed the pizza stone from the recipe. The reason
+was not stated. This supersedes the 2026-09-08 choice below and every later
+instruction to preheat the stone or keep it in place. Preheat only the
+Dutch oven, with the metal trivet and silicone liner inside, at 475°F for
+at least 60 minutes. Keep the trivet, liner, parchment, temperatures, and
+bake times unchanged.
 
 On 2026-10-10, the user chose a metal trivet at the bottom of the Dutch
 oven with the silicone liner on top of the trivet. Leave both in place

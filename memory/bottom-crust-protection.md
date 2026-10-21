@@ -8,7 +8,7 @@ type: reference
 
 The aluminum foil base is a saved option if the bottom of the loaf becomes
 too dark. It is no longer part of the active recipe. Follow the current
-[recipe guide decision](../docs/recipe-guide.md#preheat-the-pizza-stone-with-the-dutch-oven)
+[recipe guide decision](../docs/recipe-guide.md#dutch-oven-base-and-preheat)
 for the current baking setup; the foil method below is historical.
 
 ## Reason for removal
@@ -33,6 +33,6 @@ bake shows excessive bottom darkening.
   sling to lower the scored loaf onto the pad.
 
 If the user chooses to restore it, update the preheat step, schedule
-reminder, and loading instruction together. Keep the separate pizza-stone
-setup and baking settings aligned with the
-[recipe guide](../docs/recipe-guide.md#preheat-the-pizza-stone-with-the-dutch-oven).
+reminder, and loading instruction together. Keep the baking settings
+aligned with the
+[recipe guide](../docs/recipe-guide.md#dutch-oven-base-and-preheat).
