@@ -629,6 +629,12 @@ towel over the loaf for the first 15 minutes, then remove the towel and cool
 uncovered. Cool for at least 3 hours in total before slicing, and longer if
 the loaf is still warm.
 
+On 2026-10-21, the user removed the kitchen towel step again. This
+supersedes the 15-minute towel cover and keeps the 3-hour minimum. The
+reason was not stated. Remove the loaf from the Dutch oven and cool
+uncovered on a wire rack for at least 3 hours before slicing. Let it cool
+longer if it is still warm.
+
 [The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
 checked on 2026-09-11, recommends at least two hours, preferably three.
 This supports the three-hour minimum; it does not establish the exact
@@ -1021,6 +1027,12 @@ the 15–30-minute range. Use 30 minutes in Step 6 and its timing label.
 On 2026-10-09, the user changed the refrigerator rest to "up to 60 minutes."
 This supersedes the fixed 30-minute rest. Use the new upper limit in Step 6
 and its timing label.
+
+On 2026-10-21, the user changed the refrigerator rest to "at least an
+hour." This supersedes the "up to 60 minutes" limit, making one hour the
+minimum instead of the maximum. The reason was not stated. Use the new
+minimum in Step 6 and its timing label, and keep the exception to skip the
+rest if the dough starts to sink or collapse.
 
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the

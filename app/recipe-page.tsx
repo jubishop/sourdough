@@ -75,10 +75,10 @@ const steps = [
   {
     id: 'shape',
     phase: 'Day 1',
-    time: 'Up to 60 min in the fridge, then shape',
+    time: 'At least 1 hr in the fridge, then shape',
     icon: Circle,
     title: 'Chill, shape, and place in the banneton',
-    body: 'After bulk fermentation, refrigerate the dough in its covered proofing container for up to 60 minutes before shaping.',
+    body: 'After bulk fermentation, refrigerate the dough in its covered proofing container for at least an hour before shaping.',
     details: [
       'Gently tilt the proofing container and let gravity ease the dough onto a clean, dry counter. Use a bench scraper to release any sticking dough, disturbing it as little as possible.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
@@ -143,7 +143,7 @@ const steps = [
     time: 'At least 3 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Remove the loaf from the Dutch oven and place it on a wire rack. Loosely drape a kitchen towel over the loaf for the first 15 minutes, then remove the towel and cool uncovered. Cool for at least 3 hours in total before slicing. Let it cool longer if it is still warm.',
+    body: 'Remove the loaf from the Dutch oven and cool uncovered on a wire rack for at least 3 hours before slicing. Let it cool longer if it is still warm.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];
