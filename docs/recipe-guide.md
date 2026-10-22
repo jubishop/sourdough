@@ -612,8 +612,13 @@ Later on 2026-10-22, the user moved that drop earlier, to after the first
 20 minutes. This supersedes the 30-minute split and keeps the 60-minute
 covered bake with no uncovered bake. The reason was not stated.
 
-Bake for 60 minutes covered: 20 minutes at a 465°F oven setting, then
-40 minutes at a 415°F setting, with no uncovered bake. These settings
+Later on 2026-10-22, the user extended the covered bake to 80 minutes and
+kept the drop to 415°F after the first 20 minutes, so the 415°F stretch is
+now 60 minutes. This supersedes the 60-minute covered bake and keeps no
+uncovered bake. The reason was not stated.
+
+Bake for 80 minutes covered: 20 minutes at a 465°F oven setting, then
+60 minutes at a 415°F setting, with no uncovered bake. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
