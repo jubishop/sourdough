@@ -659,6 +659,13 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
+On 2026-10-22, the user reduced the parchment to a single sheet. Cut one
+sheet large enough to hold the loaf with long ends for handles, center it
+over the open banneton, and invert them together. Use its handles to lower
+the loaf into the Dutch oven, rest it on the silicone liner, and leave it
+under the loaf during the bake. This supersedes the three-layer choice
+below. The reason was not stated.
+
 On 2026-10-20, the user removed the pizza stone from the recipe. The reason
 was not stated. This supersedes the 2026-09-08 choice below and every later
 instruction to preheat the stone or keep it in place. Preheat only the
