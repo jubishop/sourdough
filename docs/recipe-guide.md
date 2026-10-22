@@ -843,6 +843,12 @@ about 1 inch in from the edge of the dough. Keep the blade straight down
 and the depth at ½ inch. This supersedes the X pattern and restores the
 2026-09-18 box instructions. The reason was not stated.
 
+On 2026-10-22, the user chose a big X instead of the box. Use two diagonal
+cuts that cross in the center of the smooth top, starting and ending each
+cut about 1 inch from the edge of the dough. Keep the blade straight down
+and the depth at ½ inch. This supersedes the box pattern and restores the
+2026-09-24 X instructions. The reason was not stated.
+
 ## Bake phase explanations
 
 On 2026-09-05, the user accepted a short explanation of each baking phase:
