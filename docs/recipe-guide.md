@@ -48,7 +48,7 @@ was not established for this recipe. This also supersedes the 420 g choice
 from 2026-09-09, the 400 g quantity selected on 2026-09-07, and
 the earlier 375 g autolyse plus 25 g reserved-water split. All dough water goes
 into the autolyse; no water is reserved for Step 3.
-See [Fixed bake time](#fixed-bake-time) for the existing uncovered-bake timing.
+See [Fixed bake time](#fixed-bake-time) for the current bake timing.
 
 On 2026-09-29, the user reduced the initial dough water to 425 g, superseding
 the 450 g quantity above. The reason was not stated. Mix all 425 g water
@@ -597,11 +597,16 @@ Later on 2026-10-21, the user shortened the uncovered bake to 5 minutes at
 the 415°F setting. This supersedes the 10-minute uncovered bake and keeps
 the covered bake, so the total is 65 minutes. The reason was not stated.
 
-Bake for 60 minutes covered at a 465°F oven setting, lowering the oven to
-415°F after the first 30 minutes. Then remove the lid and bake 5 minutes
-uncovered at the 415°F setting, for 65 minutes total. These settings
-include the [oven temperature adjustment](#oven-temperature-adjustment).
-Then remove the loaf from the oven. Follow the minimum three-hour
+On 2026-10-22, the user removed the uncovered bake entirely and kept the
+oven at 465°F for the whole 60-minute covered bake. This supersedes the
+5-minute uncovered bake and the drop to 415°F after the first 30 minutes,
+so the total is 60 minutes. The `uncovered-bake` checklist step is gone. The
+reason was not stated.
+
+Bake for 60 minutes covered at a 465°F oven setting, with no temperature
+change and no uncovered bake. This setting includes the
+[oven temperature adjustment](#oven-temperature-adjustment).
+Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
 with this fixed bake time.
 
