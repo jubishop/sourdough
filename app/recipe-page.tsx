@@ -26,14 +26,14 @@ const steps = [
   {
     id: 'starter',
     phase: 'Evening before day 1',
-    time: '~10–14 hr to at least double with 20 g starter',
+    time: '~10–14 hr to at least double',
     icon: Sprout,
     title: 'Wake up the starter',
     body: 'Make the baking build in a separate temporary container so you can clean the mother jar while it ripens.',
     details: [
       starterInspection,
-      'Take the mother starter from the refrigerator. Move 20–60 g into the temporary container; discard what remains in the mother jar.',
-      'Add 60 g water + 60 g flour. Use less mother starter when you have more time and more when you want the build ready sooner.',
+      'Take the mother starter from the refrigerator. Move 20 g into the temporary container; discard what remains in the mother jar.',
+      'Add 60 g water + 60 g flour.',
       'Wash and dry the empty mother jar while the build ripens at your pantry temperature.',
     ],
   },

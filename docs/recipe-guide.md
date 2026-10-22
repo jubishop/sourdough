@@ -1254,6 +1254,13 @@ do not infer it from this decision.
 
 ## Starter build timing
 
+On 2026-10-22, the user fixed the mother starter for the build at 20 g,
+with 60 g water and 60 g flour. This supersedes the 20–60 g range and the
+choices below to keep it and to adjust the amount for timing. Step 1's
+timing label is now "~10–14 hr to at least double", since the 20 g
+qualifier no longer distinguishes one build from another. The reason was
+not stated.
+
 On 2026-09-05, the user clarified that the 20–60 g mother-starter range is
 intentional: use less when there is more time and more to ripen the build
 sooner. Keep the added water and flour at 60 g each. Do not replace the
