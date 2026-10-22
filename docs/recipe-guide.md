@@ -603,9 +603,14 @@ oven at 465°F for the whole 60-minute covered bake. This supersedes the
 so the total is 60 minutes. The `uncovered-bake` checklist step is gone. The
 reason was not stated.
 
-Bake for 60 minutes covered at a 465°F oven setting, with no temperature
-change and no uncovered bake. This setting includes the
-[oven temperature adjustment](#oven-temperature-adjustment).
+Later on 2026-10-22, the user restored the drop to 415°F after the first
+30 minutes, with the lid still on. This supersedes holding 465°F for the
+whole bake and keeps the 60-minute covered bake with no uncovered bake. The
+reason was not stated.
+
+Bake for 60 minutes covered: 30 minutes at a 465°F oven setting, then
+30 minutes at a 415°F setting, with no uncovered bake. These settings
+include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
 with this fixed bake time.

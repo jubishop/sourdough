@@ -125,9 +125,9 @@ const steps = [
     phase: 'Bake',
     time: '60 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 465°F',
+    title: 'Bake covered at 465°F, then 415°F',
     body: 'Lower the oven to 465°F and bake with the lid on for 60 minutes. The covered bake traps steam so the loaf can expand. Then remove the Dutch oven from the oven.',
-    cue: 'Keep the oven at 465°F and the lid on for the entire 60 minutes.',
+    cue: 'After 30 minutes, lower the oven to 415°F and keep the lid on for the last 30 minutes.',
   },
   {
     id: 'cool',
