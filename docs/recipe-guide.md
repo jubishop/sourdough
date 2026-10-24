@@ -617,8 +617,14 @@ kept the drop to 415°F after the first 20 minutes, so the 415°F stretch is
 now 60 minutes. This supersedes the 60-minute covered bake and keeps no
 uncovered bake. The reason was not stated.
 
-Bake for 80 minutes covered: 20 minutes at a 465°F oven setting, then
-60 minutes at a 415°F setting, with no uncovered bake. These settings
+On 2026-10-24, the user moved the drop earlier, to after the first
+15 minutes, lowered the second stretch to the 390°F setting, and extended
+that stretch to 75 minutes, so the covered bake is now 90 minutes. This
+supersedes the 80-minute covered bake with its 20-minute 465°F and 60-minute
+415°F stretches, and keeps no uncovered bake. The reason was not stated.
+
+Bake for 90 minutes covered: 15 minutes at a 465°F oven setting, then
+75 minutes at a 390°F setting, with no uncovered bake. These settings
 include the [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
