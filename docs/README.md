@@ -1,9 +1,8 @@
 # Documents
 
 Store designs, decisions, research, and reference guides here. Use
-[memory](../memory/README.md) for durable guidance and non-derivable context,
-[td](foundation/task-tracking.md) for local progress and handoffs, and
-[GitHub Issues](https://github.com/jubishop/sourdough/issues) for shared scope
+[memory](../memory/README.md) for durable guidance and non-derivable context
+and [GitHub Issues](https://github.com/jubishop/sourdough/issues) for tracked work
 and acceptance criteria.
 
 ## Page format
@@ -55,8 +54,8 @@ hand-written pages to bypass failed checks.
 
 ## Active pages
 
-- [Project Starter foundation](foundation/README.md): shared engineering,
-  knowledge search, and task tracking policy.
+- [Project Starter foundation](foundation/README.md): shared engineering
+  and knowledge search policy.
 - [Development workflow](development-workflow.md): this project's setup,
   checks, versions, and deployment.
 - [Site and hosting](site-and-hosting.md): recipe source, public access,

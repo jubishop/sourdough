@@ -45,11 +45,3 @@ The foundation comes from
 [Project Starter](https://github.com/jubishop/project-starter/blob/main/GUIDE.md).
 The installed release and managed-file hashes are recorded in
 [.project-starter.json](.project-starter.json).
-
-## Local task tracking
-
-Use `td` for local tasks, progress, blockers, and session handoffs. After cloning,
-install td and run `td init` in the primary checkout. Use `td status` or
-`td monitor` to inspect progress. Follow the [task workflow](docs/foundation/task-tracking.md)
-for setup, review, worktrees, and local data. Keep GitHub Issues for shared scope
-and acceptance criteria, linked from related td tasks.

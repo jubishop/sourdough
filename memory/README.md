@@ -1,9 +1,8 @@
 # Memory
 
 Store durable guidance and non-derivable context here. Use
-[docs](../docs/README.md) for intentional designs and research. Use
-[td](../docs/foundation/task-tracking.md) for local tasks and progress, and
-[GitHub Issues](https://github.com/jubishop/sourdough/issues) for shared work.
+[docs](../docs/README.md) for intentional designs and research, and
+[GitHub Issues](https://github.com/jubishop/sourdough/issues) for tracked work.
 
 Search before writing. Update a related page instead of duplicating it.
 Do not record session logs, recent Git history, or facts the current source

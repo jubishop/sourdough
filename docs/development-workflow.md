@@ -20,8 +20,7 @@ bin/check --full
 
 Setup needs Git, Python 3.9 or later, the latest Node.js LTS, and pnpm 12
 or later; checks also need ShellCheck. QMD and direnv are optional; setup reports
-skipped features. Install td and run `td init` as described in
-[task tracking](foundation/task-tracking.md). The project has no `.envrc`;
+skipped features. The project has no `.envrc`;
 create it only when the project needs environment settings, and review it
 before running `direnv allow`. Search does not need it.
 
