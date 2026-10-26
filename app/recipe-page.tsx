@@ -40,10 +40,10 @@ const steps = [
   {
     id: 'autolyse',
     phase: 'Day 1',
-    time: '30 min–2 hr',
+    time: 'About an hour',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for 30 minutes to 2 hours.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for about an hour.',
   },
   {
     id: 'mix',

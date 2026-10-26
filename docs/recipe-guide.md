@@ -90,6 +90,11 @@ earlier two-hour target. Start when the starter looks about 30 minutes to
 2 hours from ready. Keep the step, schedule, and overlap diagram consistent
 with this range.
 
+On 2026-10-26, the user changed the autolyse rest to "about an hour". The
+reason was not stated. This supersedes the 30-minute to 2-hour range. Use
+"About an hour" for the step's timing label and "rest for about an hour" in
+its instruction.
+
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
