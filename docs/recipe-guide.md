@@ -465,6 +465,12 @@ On 2026-10-20, the user extended the covered bake to 60 minutes at the
 reason was not stated. See [Fixed bake time](#fixed-bake-time) for the
 current settings.
 
+On 2026-10-27, the user lowered the preheat setting to 450°F and the
+first covered-bake setting to 440°F. This supersedes the 475°F preheat and
+465°F covered setting. Preheat for at least 60 minutes, then lower the oven
+to 440°F for the first 15 minutes of the covered bake. The reason was not
+stated. See [Fixed bake time](#fixed-bake-time) for the full bake sequence.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
@@ -641,9 +647,18 @@ that stretch to 75 minutes, so the covered bake is now 90 minutes. This
 supersedes the 80-minute covered bake with its 20-minute 465°F and 60-minute
 415°F stretches, and keeps no uncovered bake. The reason was not stated.
 
-Bake for 90 minutes covered: 15 minutes at a 465°F oven setting, then
-75 minutes at a 390°F setting, with no uncovered bake. These settings
-include the [oven temperature adjustment](#oven-temperature-adjustment).
+On 2026-10-27, the user shortened the covered bake to 45 minutes:
+15 minutes at the 440°F setting, then 30 minutes at the 390°F setting.
+They also restored an uncovered bake of 15 minutes at the 340°F setting,
+so the total is 60 minutes. Remove the lid and lower the oven to 340°F at
+the same time. This supersedes the 90-minute covered bake at 465°F and
+then 390°F, and the choice of no uncovered bake. The `uncovered-bake`
+checklist step returns. The reason was not stated.
+
+Bake for 45 minutes covered: 15 minutes at a 440°F oven setting, then
+30 minutes at a 390°F setting. Then remove the lid and bake uncovered for
+15 minutes at a 340°F setting. These settings include the
+[oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
 with this fixed bake time.

@@ -99,7 +99,7 @@ const steps = [
     time: 'At least 60 min',
     icon: Flame,
     title: 'Preheat the Dutch oven',
-    body: 'Preheat the Dutch oven at 475°F for at least 60 minutes.',
+    body: 'Preheat the Dutch oven at 450°F for at least 60 minutes.',
     details: [
       'Place the metal trivet at the bottom of the Dutch oven, then put the silicone liner on top of the trivet. Leave both in place during preheating and baking.',
     ],
@@ -123,11 +123,19 @@ const steps = [
   {
     id: 'covered-bake',
     phase: 'Bake',
-    time: '90 min covered',
+    time: '45 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 465°F, then 390°F',
-    body: 'Lower the oven to 465°F and bake with the lid on for 90 minutes. The covered bake traps steam so the loaf can expand. Then remove the Dutch oven from the oven.',
-    cue: 'After 15 minutes, lower the oven to 390°F and keep the lid on for the last 75 minutes.',
+    title: 'Bake covered at 440°F, then 390°F',
+    body: 'Lower the oven to 440°F and bake with the lid on for 45 minutes. The covered bake traps steam so the loaf can expand.',
+    cue: 'After 15 minutes, lower the oven to 390°F and keep the lid on for the last 30 minutes.',
+  },
+  {
+    id: 'uncovered-bake',
+    phase: 'Bake',
+    time: '15 min uncovered',
+    icon: Flame,
+    title: 'Finish uncovered at 340°F',
+    body: 'Remove the lid, lower the oven to 340°F, and bake for 15 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
   },
   {
     id: 'cool',
