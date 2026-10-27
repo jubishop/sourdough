@@ -471,6 +471,11 @@ first covered-bake setting to 440°F. This supersedes the 475°F preheat and
 to 440°F for the first 15 minutes of the covered bake. The reason was not
 stated. See [Fixed bake time](#fixed-bake-time) for the full bake sequence.
 
+Later on 2026-10-27, the user restored the 475°F preheat and the 465°F
+setting for the first 15 minutes of the covered bake. This supersedes the
+same-day 450°F preheat and 440°F covered setting and keeps the rest of the
+bake sequence. The reason was not stated.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
@@ -655,7 +660,13 @@ the same time. This supersedes the 90-minute covered bake at 465°F and
 then 390°F, and the choice of no uncovered bake. The `uncovered-bake`
 checklist step returns. The reason was not stated.
 
-Bake for 45 minutes covered: 15 minutes at a 440°F oven setting, then
+Later on 2026-10-27, the user restored the 465°F setting for the first
+15 minutes of the covered bake. This supersedes the same-day 440°F setting
+and keeps the 30 minutes at 390°F and the 15-minute uncovered bake at
+340°F. See [Oven temperature adjustment](#oven-temperature-adjustment) for
+the matching preheat. The reason was not stated.
+
+Bake for 45 minutes covered: 15 minutes at a 465°F oven setting, then
 30 minutes at a 390°F setting. Then remove the lid and bake uncovered for
 15 minutes at a 340°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
