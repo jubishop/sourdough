@@ -64,6 +64,13 @@ This gives 84% hydration before adding levain. With 100 g of
 100%-hydration levain, the final dough has 470 g water and 550 g flour:
 about 85.5% total hydration. Keep the current autolyse rest below.
 
+On 2026-10-27, the user reduced the initial dough water to 400 g. This
+supersedes the 420 g quantity above. The reason was not stated. Mix all
+400 g water with 500 g whole-wheat flour during the autolyse, with no water
+reserved for Step 3. This gives 80% hydration before adding levain. With
+100 g of 100%-hydration levain, the final dough has 450 g water and 550 g
+flour: about 81.8% total hydration. Keep the current autolyse rest below.
+
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the rest, and the starter-overlap cue.
 The reason was not stated.
