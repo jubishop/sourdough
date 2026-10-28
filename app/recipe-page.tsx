@@ -43,7 +43,7 @@ const steps = [
     time: 'About an hour',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 400 g water until no dry pockets remain. Cover and rest for about an hour.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 420 g water until no dry pockets remain. Cover and rest for about an hour.',
   },
   {
     id: 'mix',
@@ -52,7 +52,7 @@ const steps = [
     icon: Scale,
     title: 'Add starter and salt',
     body: 'In the same mixing bowl, add at least 100 g active starter (levain) and 11–12 g salt. Squeeze and mix until reasonably uniform.',
-    cue: 'With 100 g levain, the dough is at about 81.8% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+    cue: 'With 100 g levain, the dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
   },
   {
     id: 'slap-and-fold',
@@ -68,8 +68,8 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~8–12 hr total',
     icon: FlaskConical,
-    title: 'Aim for about 1.35 qt at the glass edge',
-    body: 'Place the covered proofing container inside the proofing box set anywhere from 74°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for about 1.35 qt where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    title: 'Aim for about 1.35 L at the glass edge',
+    body: 'Place the covered proofing container inside the proofing box set anywhere from 74°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for about 1.35 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
     cue: 'If it starts to sink or collapse, skip the refrigerator rest and shape now.',
   },
   {

@@ -71,6 +71,14 @@ reserved for Step 3. This gives 80% hydration before adding levain. With
 100 g of 100%-hydration levain, the final dough has 450 g water and 550 g
 flour: about 81.8% total hydration. Keep the current autolyse rest below.
 
+Later on 2026-10-27, the user restored the initial dough water to 420 g.
+This supersedes the same-day 400 g quantity. The reason was not stated.
+Mix all 420 g water with 500 g whole-wheat flour during the autolyse, with
+no water reserved for Step 3. This gives 84% hydration before adding
+levain. With 100 g of 100%-hydration levain, the final dough has 470 g
+water and 550 g flour: about 85.5% total hydration. Keep the current
+autolyse rest below.
+
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the rest, and the starter-overlap cue.
 The reason was not stated.
@@ -301,6 +309,12 @@ On 2026-10-27, the user restored quarts and changed the target to about
 not stated. Use "about 1.35 qt" in both the bulk-step title and body,
 measured where the dough meets the glass, and keep the visual readiness
 cues.
+
+Later on 2026-10-27, the user restored liters and the target of about
+1.35 L at the glass edge, superseding the same-day 1.35 qt target. The
+reason was not stated. Use "about 1.35 L" in both the bulk-step title and
+body, measured where the dough meets the glass, and keep the visual
+readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
