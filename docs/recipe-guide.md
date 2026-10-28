@@ -1143,6 +1143,11 @@ This supersedes omitting the fold count within a round from the 2026-09-30
 decision above. Keep the technique name without detailed hand motions, up to
 six rounds, and the existing rests. The reason was not stated.
 
+On 2026-10-28, the user lengthened the first rest, after mixing in the
+starter and salt, to at least 20 minutes so every wait before a squash and
+fold is at least 20 minutes. This supersedes the 15-minute first rest above.
+Keep at least 20 minutes between later rounds.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
