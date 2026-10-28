@@ -79,6 +79,16 @@ levain. With 100 g of 100%-hydration levain, the final dough has 470 g
 water and 550 g flour: about 85.5% total hydration. Keep the current
 autolyse rest below.
 
+Later still on 2026-10-27, the user returned the initial dough water to
+400 g, superseding the restored 420 g quantity. This followed an estimate
+that wetting their hands for each handling during mixing, folding, and
+shaping adds roughly 10–25 g of water to the dough. That estimate was not
+measured; weighing the hand-dipping water before and after a bake would
+give an upper bound. Mix all 400 g water with 500 g whole-wheat flour
+during the autolyse: 80% hydration before levain and about 81.8% total
+hydration with 100 g of levain, before any water from wet hands. Keep the
+stated hydration based on the weighed water only.
+
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the rest, and the starter-overlap cue.
 The reason was not stated.
