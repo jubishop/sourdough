@@ -352,6 +352,12 @@ reason was not stated. Use "about 1.35 L" in both the bulk-step title and
 body, measured where the dough meets the glass, and keep the visual
 readiness cues.
 
+Later on 2026-10-29, the user restored quarts and the target of about
+1.35 qt at the glass edge, superseding the same-day 1.35 L target. The
+reason was not stated. Use "about 1.35 qt" in both the bulk-step title and
+body, measured where the dough meets the glass, and keep the visual
+readiness cues.
+
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
 last stretch and fold. Leave the dough undisturbed for the rest of bulk
