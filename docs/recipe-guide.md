@@ -340,6 +340,12 @@ reason was not stated. Use "about 1.35 L" in both the bulk-step title and
 body, measured where the dough meets the glass, and keep the visual
 readiness cues.
 
+On 2026-10-29, the user restored quarts and the target of about 1.35 qt
+at the glass edge, superseding the 1.35 L target. The reason was not
+stated. Use "about 1.35 qt" in both the bulk-step title and body,
+measured where the dough meets the glass, and keep the visual readiness
+cues.
+
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
 last stretch and fold. Leave the dough undisturbed for the rest of bulk
@@ -731,9 +737,14 @@ Later on 2026-10-27, the user raised the uncovered-bake setting to 365°F
 and kept the 30-minute uncovered bake. This supersedes the 340°F setting.
 The reason was not stated.
 
+On 2026-10-29, the user extended the uncovered bake to 40 minutes at the
+365°F setting and kept the 30-minute covered bake, so the total is
+70 minutes. This supersedes the 30-minute uncovered bake. The reason was
+not stated.
+
 Bake for 30 minutes covered: 10 minutes at a 465°F oven setting, then
 20 minutes at a 390°F setting. Then remove the lid and bake uncovered for
-30 minutes at a 365°F setting. These settings include the
+40 minutes at a 365°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent

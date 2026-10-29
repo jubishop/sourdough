@@ -68,8 +68,8 @@ const steps = [
     phase: 'Bulk fermentation',
     time: '~6–10 hr total',
     icon: FlaskConical,
-    title: 'Aim for about 1.35 L at the glass edge',
-    body: 'Place the covered proofing container inside the proofing box set anywhere from 74°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for about 1.35 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    title: 'Aim for about 1.35 qt at the glass edge',
+    body: 'Place the covered proofing container inside the proofing box set anywhere from 74°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for about 1.35 qt where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
     cue: 'If it starts to sink or collapse, skip the refrigerator rest and shape now.',
   },
   {
@@ -132,10 +132,10 @@ const steps = [
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '30 min uncovered',
+    time: '40 min uncovered',
     icon: Flame,
     title: 'Finish uncovered at 365°F',
-    body: 'Remove the lid, lower the oven to 365°F, and bake for 30 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
+    body: 'Remove the lid, lower the oven to 365°F, and bake for 40 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
   },
   {
     id: 'cool',
