@@ -777,6 +777,12 @@ reason was not stated. Remove the loaf from the Dutch oven and cool
 uncovered on a wire rack for at least 3 hours before slicing. Let it cool
 longer if it is still warm.
 
+On 2026-10-28, the user added brushing the loaf with olive oil as soon as
+it comes out of the Dutch oven. The reason was not stated. Remove the loaf
+from the Dutch oven, place it on a wire rack, and immediately brush the
+crust with olive oil. Cool uncovered for at least 3 hours before slicing,
+and longer if the loaf is still warm.
+
 [The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
 checked on 2026-09-11, recommends at least two hours, preferably three.
 This supports the three-hour minimum; it does not establish the exact
