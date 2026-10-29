@@ -352,6 +352,12 @@ On 2026-09-29, the user corrected Step 5's planning estimate to about
 Keep counting from when the starter is added and retain the visual readiness
 cues and volume target.
 
+On 2026-10-28, the user changed Step 5's planning estimate back to about
+6–10 hours total because that is how long bulk fermentation realistically
+takes. This supersedes the 8–12-hour estimate. Use "~6–10 hr total" for the
+step's timing label, keep counting from when the starter is added, and
+retain the visual readiness cues and volume target.
+
 ## Cold-proof timing and flavor
 
 On 2026-09-14, the user changed the cold-proof range to 8–16 hours at
