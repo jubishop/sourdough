@@ -137,7 +137,7 @@ The video and its public availability were checked on 2026-09-07.
 
 The clip demonstrates the movement, not the full mixing duration or the
 addition of every ingredient. Keep the instruction to mix 100 g starter
-and 11–12 g salt into the rested dough until reasonably uniform. The required
+and 12 g salt into the rested dough until reasonably uniform. The required
 stretch and fold step now follows this mixing step; see [Folding](#folding).
 Keep lightly wet hands and no added flour. Step 2 remains a
 written instruction to mix flour and water and rest for the autolyse.
@@ -155,16 +155,19 @@ starter-and-salt mixing instruction. The reason was not stated.
 On 2026-09-25, the user changed the salt amount to 11–12 g. This supersedes
 the fixed 11 g amount. The reason was not stated.
 
+On 2026-10-29, the user changed the salt amount to a fixed 12 g. This
+supersedes the 11–12 g range. The reason was not stated. With 500 g flour
+plus the levain's 50 g, 12 g salt is about 2.2% of total flour.
+
 On 2026-09-25, the user changed the active starter (levain) amount to at
 least 100 g. This supersedes the fixed 100 g dough portion. The reason was
 not stated. The total hydration figure assumes 100 g of 100%-hydration
 levain; see [Autolyse water](#autolyse-water) for the current calculation.
 
 On 2026-10-28, the user changed the starter amount back to a fixed 100 g,
-superseding "at least 100 g". The reason was not stated. With 500 g flour
-plus the levain's 50 g, 11–12 g salt is about 2.0–2.2% of total flour.
-Because the amount is fixed, the hydration cue states 81.8% without the
-"With 100 g levain" qualifier.
+superseding "at least 100 g". The reason was not stated. Because the amount
+is fixed, the hydration cue states 81.8% without the "With 100 g levain"
+qualifier.
 
 On 2026-09-29, the user added two rounds of Rubaud mixing to Step 3.
 Rubaud mix for 3–5 minutes immediately after adding the salt and levain.
