@@ -51,8 +51,8 @@ const steps = [
     time: 'Mix until uniform',
     icon: Scale,
     title: 'Add starter and salt',
-    body: 'In the same mixing bowl, add at least 100 g active starter (levain) and 11–12 g salt. Squeeze and mix until reasonably uniform.',
-    cue: 'With 100 g levain, the dough is at about 81.8% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+    body: 'In the same mixing bowl, add 100 g active starter (levain) and 11–12 g salt. Squeeze and mix until reasonably uniform.',
+    cue: 'The dough is at about 81.8% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
   },
   {
     id: 'slap-and-fold',
