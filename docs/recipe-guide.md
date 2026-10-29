@@ -359,11 +359,12 @@ body, measured where the dough meets the glass, and keep the visual
 readiness cues.
 
 Later on 2026-10-29, the user set the target to the midline between the
-container's 1 L and 1.7 qt marks at the glass edge, superseding the
-same-day 1.35 qt target, because that line works for their container.
-That midline is about 1.38 qt, or 1.3 L. Use "midway between 1 L and
-1.7 qt" in the bulk-step title and "midway between the 1 L and 1.7 qt
-marks" in its body, measured where the dough meets the glass, and keep
+1 L and 1.7 qt marks on their proofing jar, read at the glass edge,
+superseding the same-day 1.35 qt target, because that line works for
+their container. Use "the midline between 1 L and 1.7 qt" in the
+bulk-step title and "the midline between the 1 L and 1.7 qt marks" in its
+body. Do not state a converted volume for the midline; the user reads the
+marks on the jar. Keep measuring where the dough meets the glass and keep
 the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
