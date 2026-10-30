@@ -845,6 +845,12 @@ oven, place it on a wire rack, and loosely drape a kitchen towel over it.
 Cool under the towel for at least 3 hours before slicing, and longer if
 the loaf is still warm.
 
+Later on 2026-10-30, the user removed the kitchen towel step altogether.
+This supersedes the full-rest towel cover and keeps the 3-hour minimum. The
+olive oil brushing stays removed. The reason was not stated. Remove the loaf
+from the Dutch oven and cool uncovered on a wire rack for at least 3 hours
+before slicing. Let it cool longer if it is still warm.
+
 [The Perfect Loaf's 100% whole-wheat recipe](https://www.theperfectloaf.com/100-whole-wheat-sourdough/),
 checked on 2026-09-11, recommends at least two hours, preferably three.
 This supports the three-hour minimum; it does not establish the exact
