@@ -1380,6 +1380,12 @@ Step 6's timing label and "for about 30 minutes before shaping" in its
 instruction, and keep the exception to skip the rest if the dough starts to
 sink or collapse.
 
+Later on 2026-10-31, the user removed the exception to skip the rest and
+shape immediately if the dough starts to sink or collapse, because the
+dough never sinks or collapses. This supersedes every earlier instruction to
+keep that exception. Remove the cue from Step 5 and always take the
+refrigerator rest before shaping.
+
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
@@ -1536,6 +1542,8 @@ Keep the guide based on the main dough without restoring sample collection.
 Keep puffy, rounded dough, bubbles at the edges, and a gentle jiggle when
 the proofing container moves as the readiness cues. Shape now if it starts
 to sink or collapse.
+On 2026-10-31, the user removed that sinking-or-collapse cue, as recorded in
+[Shaping instructions](#shaping-instructions).
 Describe next-bake fermentation adjustments as
 waiting a little longer or shaping a little earlier. Keep the page
 description consistent with this visual approach.
