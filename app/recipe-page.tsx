@@ -113,7 +113,7 @@ const steps = [
       'Cut a sheet of parchment paper large enough to hold the loaf with two long ends to use as handles. Center it over the open banneton, hold it in place, and invert the banneton and parchment together.',
       'Set the loaf on your work surface with the parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
       'Score a big X in the smooth top with two diagonal cuts that cross in the center. Start and end each cut about 1 inch from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
-      'Remove the hot Dutch oven. Hold the parchment handles to lower the scored loaf into the Dutch oven, with the parchment resting directly on the base. Put the lid on. Leave the parchment under the loaf during the bake.',
+      'Remove the hot Dutch oven and lay the silicone liner flat on its base. Right away, hold the parchment handles to lower the scored loaf into the Dutch oven, with the parchment resting on the liner. Put the lid on. Leave the liner and parchment under the loaf during the bake.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },

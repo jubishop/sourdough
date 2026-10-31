@@ -928,6 +928,13 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
+Later on 2026-10-30, the user brought back the silicone liner, but only at
+loading time, so it does not preheat. Preheat the empty Dutch oven. Right
+before loading, lay the liner flat on the hot base, then use the parchment
+handles to lower the loaf onto it, so the liner sits under the parchment.
+Leave both under the loaf during the bake. The trivet stays out. This
+supersedes resting the parchment directly on the base.
+
 On 2026-10-30, the user removed the metal trivet and silicone liner from
 the base of the Dutch oven to try baking without them, because they have
 lowered the oven temperatures. Preheat the empty Dutch oven, then use the
