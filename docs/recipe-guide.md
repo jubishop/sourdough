@@ -928,6 +928,13 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
+On 2026-10-30, the user removed the metal trivet and silicone liner from
+the base of the Dutch oven to try baking without them, because they have
+lowered the oven temperatures. Preheat the empty Dutch oven, then use the
+parchment handles to lower the loaf in so the parchment rests directly on
+the base, and leave it under the loaf during the bake. This supersedes the
+2026-10-10 trivet and liner choice below.
+
 On 2026-10-22, the user reduced the parchment to a single sheet. Cut one
 sheet large enough to hold the loaf with long ends for handles, center it
 over the open banneton, and invert them together. Use its handles to lower
