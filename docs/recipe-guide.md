@@ -1373,6 +1373,13 @@ the one-hour minimum. Use "About 1 hr in the fridge, then shape" for Step 6's
 timing label and "for about an hour before shaping" in its instruction, and
 keep the exception to skip the rest if the dough starts to sink or collapse.
 
+On 2026-10-31, the user changed the refrigerator rest to about 30 minutes
+instead of about an hour. The reason was not stated. This supersedes the
+2026-10-28 one-hour rest. Use "About 30 min in the fridge, then shape" for
+Step 6's timing label and "for about 30 minutes before shaping" in its
+instruction, and keep the exception to skip the rest if the dough starts to
+sink or collapse.
+
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
