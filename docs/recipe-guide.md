@@ -1386,6 +1386,12 @@ dough never sinks or collapses. This supersedes every earlier instruction to
 keep that exception. Remove the cue from Step 5 and always take the
 refrigerator rest before shaping.
 
+Later on 2026-10-31, the user changed the refrigerator rest back to about an
+hour. The reason was not stated. This supersedes the 30-minute rest from
+earlier that day. Use "About 1 hr in the fridge, then shape" for Step 6's
+timing label and "for about an hour before shaping" in its instruction. The
+sinking-or-collapse exception stays removed.
+
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
