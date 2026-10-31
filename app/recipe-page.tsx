@@ -132,10 +132,10 @@ const steps = [
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '35 min uncovered',
+    time: '40 min uncovered',
     icon: Flame,
-    title: 'Finish uncovered at 365°F',
-    body: 'Remove the lid, lower the oven to 365°F, and bake for 35 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
+    title: 'Finish uncovered at 340°F',
+    body: 'Remove the lid, lower the oven to 340°F, and bake for 40 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
   },
   {
     id: 'cool',

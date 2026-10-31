@@ -845,9 +845,14 @@ Later again on 2026-10-30, the user shortened the uncovered bake to
 total is 65 minutes. This supersedes the 40-minute uncovered bake. The
 reason was not stated.
 
+Later again on 2026-10-30, the user extended the uncovered bake to
+40 minutes and lowered its setting to 340°F, and kept the 30-minute covered
+bake, so the total is 70 minutes. This supersedes the 35-minute uncovered
+bake at 365°F. The reason was not stated.
+
 Bake for 30 minutes covered: 10 minutes at a 440°F oven setting, then
 20 minutes at a 390°F setting. Then remove the lid and bake uncovered for
-35 minutes at a 365°F setting. These settings include the
+40 minutes at a 340°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
