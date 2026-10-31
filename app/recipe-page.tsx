@@ -74,10 +74,10 @@ const steps = [
   {
     id: 'shape',
     phase: 'Day 1',
-    time: 'About 1 hr in the fridge, then shape',
+    time: 'About 45 min in the fridge, then shape',
     icon: Circle,
     title: 'Chill, shape, and place in the banneton',
-    body: 'After bulk fermentation, refrigerate the dough in its covered proofing container for about an hour before shaping.',
+    body: 'After bulk fermentation, refrigerate the dough in its covered proofing container for about 45 minutes before shaping.',
     details: [
       'Gently tilt the proofing container and let gravity ease the dough onto a clean, dry counter. Use a bench scraper to release any sticking dough, disturbing it as little as possible.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
