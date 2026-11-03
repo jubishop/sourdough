@@ -98,7 +98,7 @@ const steps = [
     time: 'At least 60 min',
     icon: Flame,
     title: 'Preheat the Dutch oven',
-    body: 'Preheat the Dutch oven at 450°F for at least 60 minutes.',
+    body: 'Preheat the Dutch oven at 475°F for at least 60 minutes.',
     details: [
       'Stack two circular King Arthur silicone liners flat on the bottom of the Dutch oven. Leave both in place during preheating and baking.',
     ],
@@ -124,8 +124,8 @@ const steps = [
     phase: 'Bake',
     time: '30 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 440°F, then 390°F',
-    body: 'Lower the oven to 440°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
+    title: 'Bake covered at 465°F, then 390°F',
+    body: 'Lower the oven to 465°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
     cue: 'After 10 minutes, lower the oven to 390°F and keep the lid on for the last 20 minutes.',
   },
   {
@@ -133,8 +133,8 @@ const steps = [
     phase: 'Bake',
     time: '40 min uncovered',
     icon: Flame,
-    title: 'Finish uncovered at 340°F',
-    body: 'Remove the lid, lower the oven to 340°F, and bake for 40 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
+    title: 'Finish uncovered at 315°F',
+    body: 'Remove the lid, lower the oven to 315°F, and bake for 40 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
   },
   {
     id: 'cool',

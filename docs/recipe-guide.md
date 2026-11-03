@@ -607,6 +607,13 @@ the restored 475°F preheat and 465°F covered setting and keeps the
 to 440°F for the first 10 minutes of the covered bake. The reason was not
 stated. See [Fixed bake time](#fixed-bake-time) for the full bake sequence.
 
+On 2026-11-02, the user raised the preheat setting to 475°F and the setting
+for the first 10 minutes of the covered bake to 465°F, each by 25°F. This
+supersedes the 450°F preheat and 440°F covered setting and keeps the
+20 minutes at 390°F. Preheat for at least 60 minutes, then lower the oven to
+465°F for the first 10 minutes of the covered bake. The reason was not
+stated. See [Fixed bake time](#fixed-bake-time) for the full bake sequence.
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
@@ -850,9 +857,17 @@ Later again on 2026-10-30, the user extended the uncovered bake to
 bake, so the total is 70 minutes. This supersedes the 35-minute uncovered
 bake at 365°F. The reason was not stated.
 
-Bake for 30 minutes covered: 10 minutes at a 440°F oven setting, then
+On 2026-11-02, the user raised the setting for the first 10 minutes of the
+covered bake to 465°F, kept the next 20 minutes at 390°F, and lowered the
+uncovered-bake setting by 25°F to 315°F, keeping its 40 minutes, so the
+total stays 70 minutes. This supersedes the 440°F covered setting and the
+340°F uncovered setting. See
+[Oven temperature adjustment](#oven-temperature-adjustment) for the matching
+475°F preheat. The reason was not stated.
+
+Bake for 30 minutes covered: 10 minutes at a 465°F oven setting, then
 20 minutes at a 390°F setting. Then remove the lid and bake uncovered for
-40 minutes at a 340°F setting. These settings include the
+40 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
