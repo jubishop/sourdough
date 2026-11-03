@@ -179,6 +179,11 @@ Poll the returned deployment ID with `get_deployment` and the same team ID
 until it reaches `READY` or a terminal failure. Check build logs if it fails.
 Then verify the intended content at the production URL above, rather than
 treating an upload, a Git push, or an initializing deployment as publication.
+On 2026-11-03, Vercel's bot protection began answering a `curl` polling loop
+against the production URL with a 403 "Vercel Security Checkpoint" page after
+about 30 requests in five minutes. A browser passed the challenge and showed
+the new content. Verify in a browser, or check once after `READY`, rather than
+polling the production URL with a script.
 This workflow was checked against the
 [Vercel MCP tool reference](https://vercel.com/docs/agent-resources/vercel-mcp/tools)
 on 2026-09-06.
