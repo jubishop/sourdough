@@ -1419,6 +1419,12 @@ earlier that day. Use "About 30 min in the fridge, then shape" for Step 6's
 timing label and "for about 30 minutes before shaping" in its instruction.
 The sinking-or-collapse exception stays removed.
 
+On 2026-11-02, the user changed the refrigerator rest to about 15 minutes.
+The reason was not stated. This supersedes the 30-minute rest from
+2026-10-31. Use "About 15 min in the fridge, then shape" for Step 6's timing
+label and "for about 15 minutes before shaping" in its instruction. The
+sinking-or-collapse exception stays removed.
+
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
