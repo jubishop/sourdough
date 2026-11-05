@@ -1437,6 +1437,13 @@ The reason was not stated. This supersedes the 30-minute rest from
 label and "for about 15 minutes before shaping" in its instruction. The
 sinking-or-collapse exception stays removed.
 
+On 2026-11-04, the user removed the refrigerator rest entirely: shape as soon
+as bulk fermentation is done. The reason was not stated. This supersedes the
+15-minute rest from 2026-11-02 and every earlier refrigerator rest before
+shaping. Use "After bulk" for Step 6's timing label and "Shape and place in
+the banneton" for its title, with no chilling instruction. Keep the step ID
+`shape` so saved progress remains valid.
+
 On 2026-09-05, the user accepted concrete hand movements for final shaping
 in Step 7 because this guidance would help them for now. Replace the
 general instruction to create surface tension with folding the edges into
