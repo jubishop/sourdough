@@ -1565,6 +1565,11 @@ After the gentle transfer, shape the dough, lift it with both hands into
 the unfloured cotton banneton, smooth side down and seam side up, and seal
 the entire banneton in the Ziploc bag. Keep the schedule consistent.
 
+On 2026-11-04, the user added a substep to both the baseline and the
+experiment: after lifting the loaf into the banneton, pinch closed any
+"belly buttons" on the base of the dough, which now faces up. It comes
+before sealing the banneton in the Ziploc bag. The reason was not stated.
+
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
 source was checked on 2026-09-05.
