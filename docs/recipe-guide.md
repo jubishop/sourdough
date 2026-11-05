@@ -950,14 +950,6 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
-On 2026-11-05, the user added a second circular King Arthur silicone liner
-to the stack, in both the baseline and the experiment, for four liners in
-all: two perforated silicone liners on the bottom with two King Arthur
-liners on top. Leave all four in place during preheating and baking, and
-lower the loaf on its parchment onto the top King Arthur liner. The trivet
-stays out. This supersedes the three-liner stack below. The reason was not
-stated.
-
 On 2026-11-03, the user chose three silicone liners stacked on the base of
 the Dutch oven: two perforated silicone liners on the bottom with one
 circular King Arthur silicone liner on top. Leave all three in place during

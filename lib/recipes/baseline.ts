@@ -95,7 +95,7 @@ const steps: RecipeStep[] = [
     title: 'Preheat the Dutch oven',
     body: 'Preheat the Dutch oven at 475°F for at least 60 minutes.',
     details: [
-      'Stack two perforated silicone liners flat on the bottom of the Dutch oven, then lay two circular King Arthur silicone liners flat on top of them. Leave all four in place during preheating and baking.',
+      'Stack two perforated silicone liners flat on the bottom of the Dutch oven, then lay a circular King Arthur silicone liner flat on top of them. Leave all three in place during preheating and baking.',
     ],
     cue: 'Keep the loaf refrigerated until the Dutch oven is ready.',
   },
@@ -110,7 +110,7 @@ const steps: RecipeStep[] = [
       'Cut a sheet of parchment paper large enough to hold the loaf with two long ends to use as handles. Center it over the open banneton, hold it in place, and invert the banneton and parchment together.',
       'Set the loaf on your work surface with the parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
       'Score a big X in the smooth top with two diagonal cuts that cross in the center. Start and end each cut about 1 inch from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
-      'Remove the hot Dutch oven. Hold the parchment handles to lower the scored loaf into the Dutch oven, with the parchment resting on the top King Arthur liner. Put the lid on. Leave the liners and parchment under the loaf during the bake.',
+      'Remove the hot Dutch oven. Hold the parchment handles to lower the scored loaf into the Dutch oven, with the parchment resting on the King Arthur liner on top of the stack. Put the lid on. Leave the liners and parchment under the loaf during the bake.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },
