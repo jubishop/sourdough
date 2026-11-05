@@ -5,8 +5,10 @@ status: current
 # Recipe guide decisions
 
 This document records accepted choices for the baking instructions in the
-[recipe page](../app/recipe-page.tsx). The [site and hosting guide](site-and-hosting.md)
-owns hosting and the fixed one-loaf scope.
+[baseline recipe](../lib/recipes/baseline.ts). Experiment changes are marked
+as such; see [baseline and experiment recipes](recipe-versions.md). The
+[site and hosting guide](site-and-hosting.md) owns hosting and the fixed
+one-loaf scope.
 
 ## Exact current recipe
 

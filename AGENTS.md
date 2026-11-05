@@ -46,6 +46,13 @@ typechecking, lint, and the production build. No change
 needs it before pushing or deploying; see below and the
 [development workflow](docs/development-workflow.md).
 
+## Baseline and experiment recipes
+
+The site has two recipes: the baseline, the owner's tested best, and the
+experiment, what they are trying on the next loaf. If an instruction to change
+the recipe does not say which one, ask before editing. See
+[baseline and experiment recipes](docs/recipe-versions.md).
+
 ## Complete every change
 
 This is a personal recipe site, and the owner wants every change live at

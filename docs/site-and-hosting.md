@@ -40,8 +40,10 @@ transfer is implemented.
 
 ## Edit the recipe
 
-- [Recipe page](../app/recipe-page.tsx): recipe steps, starter care,
-  and page markup.
+- [Baseline and experiment recipes](recipe-versions.md): the two recipe
+  files, how to edit them, and the rule to ask which one a change targets.
+- [Recipe page](../app/recipe-page.tsx): page markup, the recipe switch, and
+  the experiment's highlighted differences.
 - [Styles](../app/globals.css): layout, colors, and responsive behavior.
 - [Layout](../app/layout.tsx): fonts, title, description, and sharing metadata.
 - [Checklist hook](../hooks/use-checklist.ts): device-local progress. It reads

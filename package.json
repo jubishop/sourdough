@@ -18,7 +18,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "lint": "oxlint app lib hooks/use-checklist.ts",
+    "lint": "oxlint app lib hooks/use-checklist.ts hooks/use-recipe-version.ts",
     "format": "oxfmt",
     "check": "bin/check"
   },

@@ -62,3 +62,5 @@ hand-written pages to bypass failed checks.
   local development, and Vercel deployment.
 - [Recipe guide decisions](recipe-guide.md): accepted choices for the baking
   instructions.
+- [Baseline and experiment recipes](recipe-versions.md): the tested recipe,
+  the next-loaf trial, and how to change and promote them.
