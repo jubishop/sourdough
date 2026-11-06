@@ -138,6 +138,11 @@ Later on 2026-11-05, the user changed the autolyse rest in both recipes to
 stated. Use "90 min–2 hr" for the timing label and "rest for 90 minutes to
 2 hours" in the instruction.
 
+Later still on 2026-11-05, the user returned both recipes to the
+"around 90 minutes" rest from 2026-10-28, superseding both same-day
+changes above. The reason was not stated. Use "About 90 min" for the timing
+label and "rest for about 90 minutes" in the instruction.
+
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
