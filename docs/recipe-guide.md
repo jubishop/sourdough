@@ -133,6 +133,11 @@ baseline and the experiment. The reason was not stated. This supersedes
 other steps' "hr" labels, and "rest for 2 hours" in its instruction, with no
 "about" because the user stated a fixed time.
 
+Later on 2026-11-05, the user changed the autolyse rest in both recipes to
+90 minutes to 2 hours, superseding the fixed 2 hours. The reason was not
+stated. Use "90 min–2 hr" for the timing label and "rest for 90 minutes to
+2 hours" in the instruction.
+
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
