@@ -1373,6 +1373,12 @@ starter and salt, to at least 20 minutes so every wait before a squash and
 fold is at least 20 minutes. This supersedes the 15-minute first rest above.
 Keep at least 20 minutes between later rounds.
 
+On 2026-11-06, the user lowered the maximum to four squash-and-fold rounds
+in both the baseline and the experiment, superseding the six-round maximum
+from 2026-10-02. The reason was not stated. Keep four squash and folds in each
+round, the rests of at least 20 minutes, and the transfer after the last
+round, even when fewer than four rounds are done.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
