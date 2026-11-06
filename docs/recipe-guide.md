@@ -127,6 +127,12 @@ The reason was not stated. This supersedes "about an hour". Use "About
 90 min" for the step's timing label, matching the other steps' "min"
 labels, and "rest for about 90 minutes" in its instruction.
 
+On 2026-11-05, the user changed the autolyse rest to 2 hours in both the
+baseline and the experiment. The reason was not stated. This supersedes
+"around 90 minutes". Use "2 hr" for the step's timing label, matching the
+other steps' "hr" labels, and "rest for 2 hours" in its instruction, with no
+"about" because the user stated a fixed time.
+
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
