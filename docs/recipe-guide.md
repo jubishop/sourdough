@@ -1598,6 +1598,11 @@ experiment: after lifting the loaf into the banneton, pinch closed any
 "belly buttons" on the base of the dough, which now faces up. It comes
 before sealing the banneton in the Ziploc bag. The reason was not stated.
 
+On 2026-11-06, the user removed the belly-button substep from both the
+baseline and the experiment. The reason was not stated. This supersedes the
+2026-11-04 addition. After lifting the loaf into the banneton, go straight
+to sealing it in the Ziploc bag.
+
 [The Perfect Loaf's round-loaf shaping guide](https://www.theperfectloaf.com/guides/shaping-a-boule/)
 supports folding and gentle pulling to tighten the outer surface. The
 source was checked on 2026-09-05.

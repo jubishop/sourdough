@@ -75,7 +75,6 @@ const steps: RecipeStep[] = [
     details: [
       'Gently tilt the proofing container and let gravity ease the dough onto a clean, dry counter. Use a bench scraper to release any sticking dough, disturbing it as little as possible.',
       'Shape the dough. Then lift the loaf with both hands into your cotton banneton with the smooth side down and the seam side up.',
-      'Pinch closed any “belly buttons” on the base of the dough, which now faces up in the banneton.',
       'Place the entire banneton inside a large Ziploc bag and seal it closed to keep the moisture in.',
     ],
   },
