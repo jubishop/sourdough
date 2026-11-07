@@ -24,12 +24,6 @@ export type Recipe = {
     flow: string;
     instructions: string[];
   };
-  // Weekly mother-starter care between bakes.
-  maintenance: {
-    kicker: string;
-    title: string;
-    steps: string[];
-  };
 };
 
 export type RecipeVersion = 'baseline' | 'experiment';

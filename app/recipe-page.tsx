@@ -13,12 +13,13 @@ import {
   type ItemStatus,
   type ListEntry,
   type StepView,
-  maintenanceAnchor,
   motherRefreshAnchor,
   stepAnchor,
+  textChunks,
   viewRecipe,
 } from '@/lib/recipes/compare';
 import { experiment } from '@/lib/recipes/experiment';
+import { starterMaintenance } from '@/lib/starter-maintenance';
 import { cn } from '@/lib/utils';
 
 // The baseline shows plainly; the experiment marks every difference from it.
@@ -117,7 +118,6 @@ export function RecipePage() {
   const progress = Math.round((completedSteps / steps.length) * 100);
   const motherRefrigerated = completed.includes('mother-refrigerated');
   const refresh = view.motherRefresh;
-  const care = view.maintenance;
   function toggleStep(id: string, checked: boolean) {
     setCompleted((current) =>
       checked ? [...new Set([...current, id])] : current.filter((item) => item !== id),
@@ -161,21 +161,6 @@ export function RecipePage() {
           </div>
           <a className="primary-link" href="#workflow">Open checklist <ChevronRight /></a>
         </div>
-      </section>
-
-      <section id={maintenanceAnchor} className="section shell starter-section">
-        <details className="expandable-section starter-maintenance">
-          <summary className="expandable-summary">
-            <span className="expandable-summary-title"><span className="eyebrow"><span /> When you are not baking {care.changed && <ChangeTag status="changed" />}</span><span className="expandable-summary-heading font-display">Mother starter maintenance</span></span>
-            <span className="expandable-summary-action">Weekly care</span>
-          </summary>
-          <div className="starter-grid mother-only">
-            <article className="starter-card weekly-card">
-              <div className="starter-card-heading"><Snowflake aria-hidden="true" /><div><p className="kicker"><Rich chunks={care.kicker} /></p><h3><Rich chunks={care.title} /></h3></div></div>
-              <RichList className="starter-steps" entries={care.steps} />
-            </article>
-          </div>
-        </details>
       </section>
 
       <section id="workflow" className="section workflow-section">
@@ -228,6 +213,23 @@ export function RecipePage() {
         </div>
       </section>
 
+      {/* Weekly care stands apart from both recipes, so it never shows comparison marks. */}
+      <section id="starter" className="section shell starter-section">
+        <details className="expandable-section starter-maintenance">
+          <summary className="expandable-summary">
+            <span className="expandable-summary-title"><span className="eyebrow"><span /> When you are not baking</span><span className="expandable-summary-heading font-display">Mother starter maintenance</span></span>
+            <span className="expandable-summary-action">Weekly care</span>
+          </summary>
+          <div className="starter-grid mother-only">
+            <article className="starter-card weekly-card">
+              <div className="starter-card-heading"><Snowflake aria-hidden="true" /><div><p className="kicker">{starterMaintenance.kicker}</p><h3>{starterMaintenance.title}</h3></div></div>
+              <ol className="starter-steps">
+                {starterMaintenance.steps.map((step, index) => <li key={index}><Rich chunks={textChunks(step)} /></li>)}
+              </ol>
+            </article>
+          </div>
+        </details>
+      </section>
     </main>
   );
 }

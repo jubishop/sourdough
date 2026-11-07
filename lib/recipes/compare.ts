@@ -36,18 +36,11 @@ export type RecipeView = {
     flow: Chunk[];
     instructions: ListEntry[];
   };
-  maintenance: {
-    changed: boolean;
-    kicker: Chunk[];
-    title: Chunk[];
-    steps: ListEntry[];
-  };
   changes: Change[];
 };
 
 export const stepAnchor = (id: string) => `step-${id}-card`;
 export const motherRefreshAnchor = 'mother-refresh';
-export const maintenanceAnchor = 'starter';
 
 type Token = TextPart;
 
@@ -297,19 +290,8 @@ export function viewRecipe(recipe: Recipe, comparison: Recipe): RecipeView {
     listChanged(motherRefresh.instructions) ||
     refresh.afterStep !== baseRefresh.afterStep;
 
-  const care = recipe.maintenance;
-  const baseCare = comparison.maintenance;
-  const maintenance = {
-    kicker: diffText(baseCare.kicker, care.kicker),
-    title: diffText(baseCare.title, care.title),
-    steps: diffList(baseCare.steps, care.steps),
-    changed: false,
-  };
-  maintenance.changed = [maintenance.kicker, maintenance.title].some(changed) || listChanged(maintenance.steps);
-
   // List the changes in page order.
   const changes: Change[] = [];
-  if (maintenance.changed) changes.push({ anchor: maintenanceAnchor, label: 'Weekly starter care', status: 'changed' });
   for (const step of steps) {
     if (step.status !== 'same') {
       const label = step.number === undefined ? step.plainTitle : `${String(step.number).padStart(2, '0')} ${step.plainTitle}`;
@@ -320,5 +302,5 @@ export function viewRecipe(recipe: Recipe, comparison: Recipe): RecipeView {
     }
   }
 
-  return { steps, motherRefresh, maintenance, changes };
+  return { steps, motherRefresh, changes };
 }

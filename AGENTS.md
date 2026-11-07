@@ -50,7 +50,8 @@ needs it before pushing or deploying; see below and the
 
 The site has two recipes: the baseline, the owner's tested best, and the
 experiment, what they are trying on the next loaf. If an instruction to change
-the recipe does not say which one, ask before editing. See
+the recipe does not say which one, ask before editing. Weekly mother-starter
+care is separate from both and shared, so it needs no such question. See
 [baseline and experiment recipes](docs/recipe-versions.md).
 
 ## Complete every change

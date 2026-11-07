@@ -42,6 +42,8 @@ transfer is implemented.
 
 - [Baseline and experiment recipes](recipe-versions.md): the two recipe
   files, how to edit them, and the rule to ask which one a change targets.
+- [Starter maintenance](../lib/starter-maintenance.ts): weekly mother-starter
+  care, shared by both recipes.
 - [Recipe page](../app/recipe-page.tsx): page markup, the recipe switch, and
   the experiment's highlighted differences.
 - [Styles](../app/globals.css): layout, colors, and responsive behavior.

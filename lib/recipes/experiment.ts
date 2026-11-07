@@ -155,15 +155,4 @@ export const experiment: Recipe = {
       `**Refrigerate during Step 4 or 5.** Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. ${motherStorageGuidance}`,
     ],
   },
-  maintenance: {
-    kicker: 'Keep it ready',
-    title: 'Feed it weekly',
-    steps: [
-      'Feed the mother starter about once a week. A mother-starter refresh on a bake day counts as that feeding.',
-      starterInspection,
-      'Take it from the refrigerator and move around **15 g** into the temporary container. Discard the rest, and wash and dry the mother jar.',
-      'Return the reserved starter to the mother jar. Add **40 g water and 40 g fresh flour**.',
-      `Mix and cover. Let it rest in your **70°F pantry**, then refrigerate. ${motherStorageGuidance}`,
-    ],
-  },
 };
