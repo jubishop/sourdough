@@ -258,6 +258,12 @@ On 2026-10-27, the user changed the proofing-box setting to a range of
 finish. This supersedes the fixed 76°F setting. State in the bulk step that
 warmer finishes sooner.
 
+On 2026-11-08, the user fixed the proofing-box setting at 74°F for both the
+baseline and the experiment, saying the box should always be at 74°F. This
+supersedes the 74°F to 78°F range and its note that warmer finishes sooner.
+Keep using the box only for bulk fermentation, after the final fold and
+transfer to the covered proofing container. The reason was not stated.
+
 On 2026-09-23, the user reported that the 30-minute refrigerator rest did
 not improve dough release. The dough also stuck during the earlier olive-oil
 trial, but the user clarified that they had not applied the oil well. After
