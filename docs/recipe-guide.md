@@ -447,6 +447,13 @@ takes. This supersedes the 8–12-hour estimate. Use "~6–10 hr total" for the
 step's timing label, keep counting from when the starter is added, and
 retain the visual readiness cues and volume target.
 
+On 2026-11-08, after fixing the proofing box at 74°F, the user changed
+Step 5's planning estimate in both recipes to about 4–8 hours total,
+saying that is more like how long bulk fermentation really takes. This
+supersedes the 6–10-hour estimate. Use "~4–8 hr total" for the step's
+timing label, keep counting from when the starter is added, and retain the
+visual readiness cues and volume target.
+
 ## Cold-proof timing and flavor
 
 On 2026-09-14, the user changed the cold-proof range to 8–16 hours at

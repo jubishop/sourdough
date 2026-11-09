@@ -62,7 +62,7 @@ const steps: RecipeStep[] = [
   {
     id: 'bulk',
     phase: 'Bulk fermentation',
-    time: '~6–10 hr total',
+    time: '~4–8 hr total',
     icon: FlaskConical,
     title: 'Aim for about 1 qt at the glass edge',
     body: 'Place the covered proofing container inside the proofing box set to 74°F. Leave the dough undisturbed. Aim for about 1 qt where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
