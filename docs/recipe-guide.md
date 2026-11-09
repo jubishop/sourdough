@@ -272,6 +272,10 @@ On 2026-11-09, the user lowered the proofing-box setting back to 74°F for
 both recipes, superseding the 76°F setting. The reason was not stated. Keep
 using the box only for bulk fermentation.
 
+Later on 2026-11-09, the user lowered the proofing-box setting to 72°F for
+both recipes as a trial, superseding the 74°F setting. The reason was not
+stated. Keep using the box only for bulk fermentation.
+
 On 2026-09-23, the user reported that the 30-minute refrigerator rest did
 not improve dough release. The dough also stuck during the earlier olive-oil
 trial, but the user clarified that they had not applied the oil well. After
