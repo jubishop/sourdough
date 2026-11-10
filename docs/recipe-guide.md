@@ -1437,6 +1437,15 @@ at least 20 minutes. Keep four squash and folds in each round, the covered
 rests in the mixing bowl outside the proofing box, and the transfer to the
 oiled proofing container after round 2. The reason was not stated.
 
+Later on 2026-11-10, the user raised the count to exactly three
+squash-and-fold rounds in both the baseline and the experiment, with the
+same 30-minute rest before each: 30 minutes after mixing in the starter and
+salt before round 1, then 30 minutes after each round ends before the next.
+This supersedes the two-round count above. Keep four squash and folds in
+each round, the covered rests in the mixing bowl outside the proofing box,
+and the transfer to the oiled proofing container, now after round 3. The
+reason was not stated.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
