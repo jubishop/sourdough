@@ -93,10 +93,7 @@ const steps: RecipeStep[] = [
     time: 'At least 60 min',
     icon: Flame,
     title: 'Preheat the Dutch oven',
-    body: 'Preheat the Dutch oven at 475°F for at least 60 minutes.',
-    details: [
-      'Stack two perforated silicone liners flat on the bottom of the Dutch oven, then lay a circular King Arthur silicone liner flat on top of them. Leave all three in place during preheating and baking.',
-    ],
+    body: 'Preheat the empty Dutch oven at 475°F for at least 60 minutes.',
     cue: 'Keep the loaf refrigerated until the Dutch oven is ready.',
   },
   {
@@ -107,10 +104,10 @@ const steps: RecipeStep[] = [
     title: 'Score and load the loaf',
     body: 'When your chosen 8–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
-      'Cut a sheet of parchment paper large enough to hold the loaf with two long ends to use as handles. Center it over the open banneton, hold it in place, and invert the banneton and parchment together.',
-      'Set the loaf on your work surface with the parchment underneath, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
+      'Lay a sheet of parchment paper on top of the King Arthur round loaf lifter. Center the lifter over the open banneton with the parchment facing the dough, hold it in place, and invert the banneton and lifter together.',
+      'Set the lifter on your work surface with the loaf on the parchment, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
       'Score a big X in the smooth top with two diagonal cuts that cross in the center. Start and end each cut about 1 inch from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
-      'Remove the hot Dutch oven. Hold the parchment handles to lower the scored loaf into the Dutch oven, with the parchment resting on the King Arthur liner on top of the stack. Put the lid on. Leave the liners and parchment under the loaf during the bake.',
+      'Remove the hot Dutch oven. Hold the lifter handles to lower the scored loaf into the empty Dutch oven, with the parchment between the loaf and the lifter. Put the lid on. Leave the lifter and parchment under the loaf during the bake.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },

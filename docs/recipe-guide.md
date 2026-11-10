@@ -1004,6 +1004,17 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
+On 2026-11-10, the user replaced the stacked silicone liners and the
+parchment sling with the King Arthur round loaf lifter and one layer of
+parchment, in both the baseline and the experiment. Nothing preheats in the
+Dutch oven: preheat it empty. At loading, lay the parchment on top of the
+lifter, center the lifter over the open banneton with the parchment facing
+the dough, and invert them together, keeping the 2026-09-16 transfer
+sequence. Score the loaf, then use the lifter handles to lower it into the
+empty Dutch oven, and leave the lifter and parchment under the loaf during
+the bake. The trivet stays out. This supersedes the three-liner stack below
+and the parchment handles. The reason was not stated.
+
 On 2026-11-03, the user chose three silicone liners stacked on the base of
 the Dutch oven: two perforated silicone liners on the bottom with one
 circular King Arthur silicone liner on top. Leave all three in place during
@@ -1417,15 +1428,14 @@ from 2026-10-02. The reason was not stated. Keep four squash and folds in each
 round, the rests of at least 20 minutes, and the transfer after the last
 round, even when fewer than four rounds are done.
 
-On 2026-11-07, the user changed the experiment to exactly two
-squash-and-fold rounds, with a 30-minute rest before each: 30 minutes after
-mixing in the starter and salt before round 1, then 30 minutes after
-round 1 ends before round 2. This experiment change supersedes, for the
-experiment only, the up-to-four-round maximum and the rests of at least
-20 minutes; the baseline keeps them. Keep four squash and folds in each
-round, the covered rests in the mixing bowl outside the proofing box, and
-the transfer to the oiled proofing container after round 2. The reason was
-not stated.
+On 2026-11-07, the user changed to exactly two squash-and-fold rounds,
+with a 30-minute rest before each: 30 minutes after mixing in the starter
+and salt before round 1, then 30 minutes after round 1 ends before round 2.
+It began as an experiment, and the user promoted it to the baseline on
+2026-11-10. This supersedes the up-to-four-round maximum and the rests of
+at least 20 minutes. Keep four squash and folds in each round, the covered
+rests in the mixing bowl outside the proofing box, and the transfer to the
+oiled proofing container after round 2. The reason was not stated.
 
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
