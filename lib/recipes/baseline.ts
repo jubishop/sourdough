@@ -103,8 +103,9 @@ const steps: RecipeStep[] = [
     title: 'Score and load the loaf',
     body: 'When your chosen 8–16-hour cold proof is complete and the Dutch oven is fully preheated, take the loaf from the refrigerator.',
     details: [
-      'Center a sheet of parchment paper over the open banneton, hold it in place, and invert the banneton and parchment together.',
-      'Set the parchment, with the loaf on it, on the King Arthur round loaf lifter on the countertop, then gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
+      'Center a sheet of parchment paper over the open banneton, hold it in place, and invert the banneton and parchment together onto the countertop.',
+      'Gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
+      'Lift the parchment with the loaf on it and set it down centered directly on the King Arthur round loaf lifter.',
       'Score a big X in the smooth top with two diagonal cuts that cross in the center. Start and end each cut about 1 inch from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
       'Remove the hot Dutch oven. Hold the lifter handles to lower the scored loaf into the empty Dutch oven, with the parchment between the loaf and the lifter. Put the lid on. Leave the lifter and parchment under the loaf during the bake.',
     ],

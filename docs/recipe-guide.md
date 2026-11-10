@@ -1006,11 +1006,12 @@ crumb only after the loaf has cooled fully.
 
 Later on 2026-11-10, the user changed the flip in both the baseline and the
 experiment. Center the parchment alone over the open banneton, hold it in
-place, and invert the banneton and parchment together. Set the parchment,
-with the loaf on it, on the lifter on the countertop, then gently lift off
-the banneton. This supersedes laying the parchment on the lifter and
-inverting the lifter with the banneton. Scoring and lowering the loaf with
-the lifter handles are unchanged. The reason was not stated.
+place, and invert the banneton and parchment together onto the countertop.
+Lift off the banneton first. Once the loaf sits on the parchment alone, lift
+the parchment and set it down centered directly on the lifter. This
+supersedes laying the parchment on the lifter and inverting the lifter with
+the banneton. Scoring and lowering the loaf with the lifter handles are
+unchanged. The reason was not stated.
 
 On 2026-11-10, the user replaced the stacked silicone liners and the
 parchment sling with the King Arthur round loaf lifter and one layer of
