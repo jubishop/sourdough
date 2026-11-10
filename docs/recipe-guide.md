@@ -1463,6 +1463,12 @@ oiled proofing container after the last round, even when fewer than four
 rounds are done. This supersedes the exact three-round count and the fixed
 four squash and folds per round. The reason was not stated.
 
+Later still on 2026-11-10, the user set both the baseline and the
+experiment to two to four squash-and-fold rounds, a minimum of two. Each
+round still has up to four squash and folds: as many as can be done before
+the dough becomes excessively tight and stiff. Everything else in the
+previous entry stands. The reason for the two-round minimum was not stated.
+
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
 and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
