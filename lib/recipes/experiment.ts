@@ -149,7 +149,7 @@ export const experiment: Recipe = {
     flow: 'Keep making the loaf while this jar rests.',
     instructions: [
       'Put around **15 g** of ripe build into the clean mother jar. Add **40 g water and 40 g fresh flour**.',
-      `**Refrigerate during Step 4 or 5.** Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. ${motherStorageGuidance}`,
+      `Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. ${motherStorageGuidance}`,
     ],
   },
 };

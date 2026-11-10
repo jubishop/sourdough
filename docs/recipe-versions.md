@@ -52,8 +52,8 @@ Steps are matched by `id`. Keep a step's ID when editing it so the comparison
 shows the edit and saved checklist progress still applies. Give a new step a
 new ID, and delete a step to remove it; the experiment view shows the removed
 baseline step struck through. Step numbers come from each recipe's order.
-Hard-coded step references in text, such as "Step 4 or 5" in the mother
-refresh, need updating by hand when steps move.
+Hard-coded step references in text, such as "Step 4", need updating by hand
+when steps move.
 
 ## How the page behaves
 

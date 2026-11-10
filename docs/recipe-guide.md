@@ -1845,6 +1845,11 @@ Keep the mother-refresh box after the mixing step.
 The later 2026-09-30 combination into one squash-and-fold step restores the
 reminder to Step 4 or 5. These are still folding and bulk fermentation.
 
+On 2026-11-10, the user removed the "Refrigerate during Step 4 or 5."
+reminder from the mother refresh in both recipes. The instruction now starts
+with "Mix and cover." This supersedes the instruction above to name the steps
+explicitly; do not restore the reminder.
+
 On 2026-09-09, the user requested a shorter mother-refresh section with
 general guidance instead of precise fermentation targets before refrigeration.
 Use: "Let it develop more before refrigerating if you plan to use it again
