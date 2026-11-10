@@ -27,7 +27,7 @@ const steps: RecipeStep[] = [
     body: 'Make the baking build in a separate temporary container so you can clean the mother jar while it ripens.',
     details: [
       starterInspection,
-      'Take the mother starter from the refrigerator. Move 20 g into the temporary container; discard what remains in the mother jar.',
+      'Take the mother starter from the refrigerator. Move 10 g into the temporary container; discard what remains in the mother jar.',
       'Add 60 g water + 60 g flour.',
       'Wash and dry the empty mother jar while the build ripens at your pantry temperature.',
     ],

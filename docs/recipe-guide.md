@@ -1706,6 +1706,12 @@ do not infer it from this decision.
 
 ## Starter build timing
 
+On 2026-11-09, the user reduced the mother starter for the build from 20 g
+to 10 g in both the baseline and the experiment. The 60 g water and 60 g
+flour stay unchanged, so the build is now 1:6:6 and holds 130 g. The
+timing label stays "~10–14 hr to at least double". The reason was not
+stated. This supersedes the 20 g amount below.
+
 On 2026-10-22, the user fixed the mother starter for the build at 20 g,
 with 60 g water and 60 g flour. This supersedes the 20–60 g range and the
 choices below to keep it and to adjust the amount for timing. Step 1's
