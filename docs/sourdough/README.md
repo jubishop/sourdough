@@ -6,7 +6,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 
 - [Experiments — unified register](experiments.md): all 13 numbered experiment ideas, six preserved detailed plans, and the scalding proposal. This is the single place to add or update experiment plans.
 - [Goals and historical priorities](goals-and-experiment-priorities.md): goal hierarchy and November 9 ranking. Its old next-bake ordering is superseded by decisions below.
-- [Bake journal](bake-journal.md): the single chronological record, including preserved detailed notes from November 3, 5, and 7.
+- [Dated bake records](bakes/): one Markdown file per dated bake or documented planning/handling event. Full original detailed notes for November 3, 5, and 7 are included in their respective records.
 
 ## Latest working decisions — November 11, 2026
 
@@ -19,9 +19,22 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 ## Documentation rules
 
 - Add or update experiment plans in **experiments.md**, not separate numbered files.
-- Add dated bake observations to **bake-journal.md**, in chronological order; do not create separate daily note files. Link photographs and recipe Git commits when available.
+- Create or update **`bakes/YYYY-MM-DD.md`** for each dated bake. Put the actual recipe parameters, observations, photos, outcome, and follow-up decisions in that single file. A date with only a planning decision or pre-proof observation is explicitly labeled as such; do not invent a completed bake. Link photographs and recipe Git commits when available.
+- **Do not recreate `bake-journal.md` or duplicate detailed bake notes in a running journal.** The dated records are the canonical historical source; use this README only as a navigation and current-status overview.
 - Distinguish **observed results**, **planned changes**, and **hypotheses**. A later dated decision overrides an older plan, but not the historical record of what was actually baked.
 - Prefer one controlled variable per bake; repeat promising results before promoting to Baseline.
+
+## Dated records
+
+- [October 29 — baseline loaf](bakes/2026-10-29.md)
+- [October 31 — shaping and underside seam](bakes/2026-10-31.md)
+- [November 3 — gumminess largely resolved](bakes/2026-11-03.md)
+- [November 5 — successful bottom-crust liners](bakes/2026-11-05.md)
+- [November 6 — pre-proof belly-button observation](bakes/2026-11-06.md)
+- [November 7 — finished crumb and bulk-endpoint decision](bakes/2026-11-07.md)
+- [November 8 — temperature planning decision, not a bake](bakes/2026-11-08.md)
+
+Historical plans in these files may have been superseded. Use the most recent verified bake notes and the working decisions above when planning future tests.
 
 ## Migration status
 
@@ -29,4 +42,4 @@ The documents above were copied from ChatGPT Library and organized in GitHub. So
 
 ## Recovered photo assets (pending binary import)
 
-The Library search recovered original photos for October 31 (crumb, exterior, underside views), November 3 (crumb and two exterior views), November 5 (exterior and crumb), November 6 (pre-proof belly-button image), and November 7 (crumb). A downloadable ZIP was assembled during the migration, but **the binary images have not been committed to GitHub**. When imported, place them under `docs/sourdough/photos/` and link them from the appropriate journal entries. The October 29 photos remain unconfirmed.
+The Library search recovered original photos for October 31 (crumb, exterior, underside views), November 3 (crumb and two exterior views), November 5 (exterior and crumb), November 6 (pre-proof belly-button image), and November 7 (crumb). A downloadable ZIP was assembled during the migration, but **the binary images have not been committed to GitHub**. When imported, place them under `docs/sourdough/photos/` and link them from the appropriate dated records in `bakes/`. The October 29 photos remain unconfirmed.
