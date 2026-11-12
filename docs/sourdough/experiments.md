@@ -10,7 +10,7 @@ status: current
 
 | ID | Experiment | Source status |
 |---|---|---|
-| 1 | Autolyse duration (15 min trial assessed; next 150–180 min vs historical 90) | Summary only; original not recovered |
+| 1 | Autolyse duration (15 min assessed; 0 min next; 150–180 min future) | Summary only; original not recovered |
 | 2 | Bulk endpoint (1 US quart and 1.0 L both extensively tried) | Summary only; original not recovered |
 | 3 | Initial covered bake temperature (hotter start proposed) | Summary only; original not recovered |
 | 4 | Hydration and bassinage | Full original below |
@@ -27,8 +27,8 @@ status: current
 
 ## Brief plans for unrecovered experiment documents
 
-1. **Autolyse:** **15 vs 90 minutes:** The November 12 finished-loaf assessment found **no reduction in rubbery/chewy gumminess** and no noticeable change in feel at shaping with a 15-minute autolyse. A dramatic isolated cavity coincided with a recurring underside shaping “belly button”; the user thought the **outer crumb away from that defect looked fairly good**. Avoid attributing the cavity to autolyse alone. **Next selected trial:** **150–180 minutes** (2.5–3 hours) at room temperature with the same flour and water. Evaluate finished rubbery texture, openness away from shaping faults, dough extensibility/strength, and vertical spring. This is planned, not completed. [November 12 bake assessment and plan](bakes/2026-11-12.md).
-2. **Bulk endpoint:** The user has baked numerous times at both **1 US quart (~946 mL)** and **1.0 L at the glass edge**, and considers 1.0 L slightly preferable. The next 150–180-minute autolyse trial will use **1.0 L**; the user considers the difference small enough to judge the main autolyse effect. A strictly matched autolyse-only comparison would keep the mark unchanged. Future independent endpoint trials remain possible.
+1. **Autolyse:** **15 vs 90 minutes:** The November 12 finished-loaf assessment found **no reduction in rubbery/chewy gumminess** and no noticeable change in feel at shaping with a 15-minute autolyse. A dramatic isolated cavity coincided with a recurring underside shaping “belly button”; the user thought the **outer crumb away from that defect looked fairly good**. Avoid attributing the cavity to autolyse alone. **Next selected trial (revised November 12): ZERO autolyse**, mixing whole-wheat flour, water, levain and salt together from the start with no separate flour/water rest. The main potential benefit is **eliminating a time-consuming step** if finished bread and dough handling remain as good. Evaluate rubbery texture, crumb away from the shaping fault, handling/mixing ease, and spring. The earlier 150–180-minute plan was **superseded before baking**; retain **2.5–3 hours as a possible later test**, not the next trial. [November 12 bake assessment and plan](bakes/2026-11-12.md).
+2. **Bulk endpoint:** The user has baked numerous times at both **1 US quart (~946 mL)** and **1.0 L at the glass edge**, and considers 1.0 L slightly preferable. The next ZERO-autolyse trial will use **1.0 L**; the user considers the difference small enough to judge the main autolyse effect. A strictly matched autolyse-only comparison would keep the mark unchanged. Future independent endpoint trials remain possible.
 3. **Covered bake temperature:** trial a hotter initial covered phase (475–500°F proposed), tracking spring, gumminess and crust color; not a proven amylase fix.
 6. **Folds:** compare two, three and four rounds across separate bakes; record dough tension, crumb, and spring.
 7. **Bulk temperature:** compare warmer/cooler conditions while recording dome and actual endpoint; glass marks may not imply identical fermentation.
