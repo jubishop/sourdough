@@ -154,7 +154,7 @@ export function RecipePage() {
             <p className="version-note">
               {comparing
                 ? experimentChanges
-                  ? `The trial for the next loaf. Its ${plural(experimentChanges)} from the baseline are highlighted.`
+                  ? `The trial for the next loaf, with ${plural(experimentChanges)} from the baseline highlighted.`
                   : 'The trial for the next loaf. It matches the baseline for now.'
                 : 'The tested recipe: the best loaf so far.'}
             </p>
