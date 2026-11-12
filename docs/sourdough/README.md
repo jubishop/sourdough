@@ -8,14 +8,14 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - [Goals and historical priorities](goals-and-experiment-priorities.md): goal hierarchy and November 9 ranking. Its old next-bake ordering is superseded by decisions below.
 - [Dated bake records](bakes/): one Markdown file per dated bake or documented planning/handling event. Full original detailed notes for November 3, 5, and 7 are included in their respective records.
 
-## Latest working decisions — November 12, 2026
+## Latest working decisions — November 12, 2026 (November 13 bake planned)
 
 1. Goal order stays **less rubbery/gummy-feeling crumb**, then **larger and more evenly distributed air pockets**, then **vertical oven spring**. User clarified the unwanted crumb texture is mainly **rubbery and chewy**, not paste-like/sticky.
 2. **15-minute autolyse experiment assessed November 12:** No improvement in gumminess or noticeable shaping-time dough handling compared with the 90-minute experience. A huge localized cavity and the recurring underside belly button were seen, but **crumb near the outer edges away from the shaping defect looked fairly good**. Aggressive shaping is a plausible cause of the localized void, not a proven reason for the general rubbery texture. [Full observation](bakes/2026-11-12.md).
-3. **Next planned bake (revised November 12): 1-hour autolyse**, 30 minutes shorter than the previous **about 90 minutes**; the reason was not stated. It is now the site's Baseline, and the Experiment matches it. Mix flour and water, rest 1 hour, then add levain and salt as usual. This replaces both earlier same-day plans, a 2.5–3-hour autolyse and zero autolyse; neither was baked, and both remain on the future backlog. Maintain **1.0 L at the glass edge** for bulk (user has tried both 1 L and 1 US quart extensively and finds 1 L slightly better), usual ~81.8% hydration, and gentle shaping. **Not yet baked.**
+3. **Next planned bake (November 13, not yet performed):** King Arthur **Golden Wheat hard-white 100% whole wheat** replaces the usual **Bob's Red Mill Organic Stone Ground hard-red whole wheat**, with a **60-minute autolyse**. Keep nominal **81.8% hydration**, **100 g levain**, **12 g salt**, **1.0 L glass-edge bulk target**, three fold rounds and the remaining recipe process unchanged. Both flour and autolyse differ from the previous 15-minute Bob's test, so this is not a one-variable comparison. An overnight King Arthur-fed levain is suggested to minimize Bob's carryover but was not explicitly confirmed. See [November 13 planned trial](bakes/2026-11-13.md). Earlier zero- and 2.5–3-hour autolyse plans were not baked.
 4. Current formula reference: **550 g total whole-wheat flour, 450 g total water, 12 g salt, 100 g 100%-hydration levain** (nominal 81.8% hydration). Lowering hydration made the dough difficult to work, and extended uncovered baking has not fixed the texture. Do not prioritize either.
-5. **72°F** is the recently documented working bulk-temperature setting, but the **actual setting for the next bake has not been reconfirmed**; record what is used. Different-flour, fermentation, scalded-flour and bake-heat experiments remain possible. Excessive amylase is a **hypothesis, not a diagnosis**.
-6. These are research-journal updates only: **do not change the deployed Baseline or Experiment recipe** by inference. At the user's explicit request, both site recipes now use a 1-hour autolyse and otherwise match.
+5. **72°F** is a recently documented bulk-temperature setting, but the **actual setting for November 13 has not been reconfirmed**; record what is used. Golden Wheat's retail falling number has not been established; excessive amylase in Bob's remains an unproven hypothesis. Record actual levain feed flour, as the mother starter still uses Bob's.
+6. These are research-journal updates only: **do not change the deployed Baseline or Experiment recipe** by inference. The site currently has a **1-hour autolyse in both recipes**; the new-flour decision is documented here, not implemented as an app change.
 
 
 ## Documentation rules
@@ -36,7 +36,8 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - [November 6 — pre-proof belly-button observation](bakes/2026-11-06.md)
 - [November 7 — finished crumb and bulk-endpoint decision](bakes/2026-11-07.md)
 - [November 8 — temperature planning decision, not a bake](bakes/2026-11-08.md)
-- [November 12 — 15-minute autolyse outcome and next 1-hour autolyse plan](bakes/2026-11-12.md)
+- [November 12 — 15-minute autolyse outcome and earlier 1-hour plan](bakes/2026-11-12.md)
+- [November 13 — planned King Arthur Golden Wheat trial with 60-minute autolyse](bakes/2026-11-13.md)
 
 Historical plans in these files may have been superseded. Use the most recent verified bake notes and the working decisions above when planning future tests.
 
