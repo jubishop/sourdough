@@ -10,7 +10,7 @@ status: current
 
 | ID | Experiment | Source status |
 |---|---|---|
-| 1 | Autolyse duration (15 min assessed; 60 min next; 0 and 150–180 min future) | Summary only; original not recovered |
+| 1 | Autolyse duration (15 min assessed; 60 min selected with Golden Wheat; 0 and 150–180 min future) | Summary only; original not recovered |
 | 2 | Bulk endpoint (1 US quart and 1.0 L both extensively tried) | Summary only; original not recovered |
 | 3 | Initial covered bake temperature (hotter start proposed) | Summary only; original not recovered |
 | 4 | Hydration and bassinage | Full original below |
@@ -18,7 +18,7 @@ status: current
 | 6 | Folding frequency (two vs four tested; three provisional) | Summary only; original not recovered |
 | 7 | Bulk fermentation temperature (72°F working reference) | Summary only; original not recovered |
 | 8 | Covered bake duration (30 vs 20 minutes) | Summary only; original not recovered |
-| 9 | Flour variety (alternative 100% whole wheat) | Summary only; original not recovered |
+| 9 | Flour variety (King Arthur Golden Wheat hard white selected for November 13) | Summary only; original not recovered |
 | 10 | No deliberate shaping | Full original below |
 | 11 | Alternative shaping techniques | Full original below |
 | 12 | Levain quantity (50, 100, 150 g) | Full original below |
@@ -27,13 +27,13 @@ status: current
 
 ## Brief plans for unrecovered experiment documents
 
-1. **Autolyse:** **15 vs 90 minutes:** The November 12 finished-loaf assessment found **no reduction in rubbery/chewy gumminess** and no noticeable change in feel at shaping with a 15-minute autolyse. A dramatic isolated cavity coincided with a recurring underside shaping “belly button”; the user thought the **outer crumb away from that defect looked fairly good**. Avoid attributing the cavity to autolyse alone. **Next selected trial (revised November 12): 1-hour autolyse**, 30 minutes shorter than the previous about 90 minutes, with levain and salt added afterward as usual; the reason was not stated. The user made it the site's Baseline too, judging the change too small to be an experiment. Evaluate rubbery texture, crumb away from the shaping fault, dough feel, and spring. Two earlier same-day plans, **150–180 minutes** and **zero autolyse** (for its potential time saving), were **superseded before baking**; retain both as possible later tests, not the next trial. [November 12 bake assessment and plan](bakes/2026-11-12.md).
-2. **Bulk endpoint:** The user has baked numerous times at both **1 US quart (~946 mL)** and **1.0 L at the glass edge**, and considers 1.0 L slightly preferable. The next 1-hour autolyse trial will use **1.0 L**; the user considers the difference small enough to judge the main autolyse effect. A strictly matched autolyse-only comparison would keep the mark unchanged. Future independent endpoint trials remain possible.
+1. **Autolyse:** The November 12 assessment found **no improvement** in rubbery/chewy texture or shaping feel using **15 minutes** versus familiar **~90 minutes**; a localized cavity may instead relate to shaping. **Next planned bake uses 60 minutes with King Arthur Golden Wheat**, so a changed result cannot isolate autolyse from flour. The user also adopted 60 minutes in both website recipes prior to this flour decision. Zero and 150–180 minutes were considered but not performed. [November 12 assessment](bakes/2026-11-12.md) · [November 13 new-flour plan](bakes/2026-11-13.md).
+2. **Bulk endpoint:** The user has tried both **1 US quart (~946 mL)** and **1.0 L at the glass edge** extensively, and slightly prefers 1.0 L. Target **1.0 L** for the November 13 Golden Wheat bake and log the actual endpoint and bulk temperature. Future independent endpoint experiments remain possible.
 3. **Covered bake temperature:** trial a hotter initial covered phase (475–500°F proposed), tracking spring, gumminess and crust color; not a proven amylase fix.
 6. **Folds:** compare two, three and four rounds across separate bakes; record dough tension, crumb, and spring.
 7. **Bulk temperature:** compare warmer/cooler conditions while recording dome and actual endpoint; glass marks may not imply identical fermentation.
 8. **Covered bake time:** compare 20 and 30 minutes covered with the rest fixed.
-9. **Flour:** compare whole-wheat flour varieties, noting that protein, bran and enzyme levels all change.
+9. **Flour:** **November 13 selected trial:** replace Bob's Red Mill Organic Stone Ground hard-red 100% whole wheat with **King Arthur Golden Wheat hard-white 100% whole wheat** while preserving **550 g total flour, 450 g total water (81.8%), 100 g 100%-hydration levain, 12 g salt** and familiar process. Also use **60-minute** autolyse instead of the recent **15-minute** test; this is therefore **not** a fully controlled single-variable comparison. A levain fed with Golden Wheat can limit Bob's carryover, but has not been confirmed. Retail falling numbers are not verified. Judge chewiness, crumb openness and vertical spring. [November 13 plan](bakes/2026-11-13.md).
 
 **Hydration constraint (November 12):** User reports that lowering hydration below the familiar ~81.8% makes 100%-whole-wheat dough impractically difficult to work. Do not make lower hydration the next selected experiment without a new decision. Likewise, extending the uncovered bake has repeatedly failed to fix the rubbery mouthfeel.
 
