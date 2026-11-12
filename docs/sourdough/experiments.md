@@ -35,6 +35,8 @@ status: current
 8. **Covered bake time:** compare 20 and 30 minutes covered with the rest fixed.
 9. **Flour:** **November 13 selected trial:** replace Bob's Red Mill Organic Stone Ground hard-red 100% whole wheat with **King Arthur Golden Wheat hard-white 100% whole wheat** while preserving **550 g total flour, 450 g total water (81.8%), 100 g 100%-hydration levain, 12 g salt** and familiar process. Also use **60-minute** autolyse instead of the recent **15-minute** test; this is therefore **not** a fully controlled single-variable comparison. A levain fed with Golden Wheat can limit Bob's carryover, but has not been confirmed. Retail falling numbers are not verified. Judge chewiness, crumb openness and vertical spring. [November 13 plan](bakes/2026-11-13.md).
 
+**Flour correction (November 12):** The user stated that the Baseline's dough flour is Bob's Red Mill Organic Whole Wheat Flour. Preserved plans below that name King Arthur stone-ground whole wheat as the working flour reflect older notes; when any switch happened was not recorded.
+
 **Hydration constraint (November 12):** User reports that lowering hydration below the familiar ~81.8% makes 100%-whole-wheat dough impractically difficult to work. Do not make lower hydration the next selected experiment without a new decision. Likewise, extending the uncovered bake has repeatedly failed to fix the rubbery mouthfeel.
 
 **Unnumbered scald proposal:** Scald 83–110 g of the 550 g total flour with sufficiently hot water, deducted from the fixed total 450 g water. Measure scald temperature. Possible enzyme inactivation competes with increased starch gelatinization and moisture retention. This remains hypothetical.

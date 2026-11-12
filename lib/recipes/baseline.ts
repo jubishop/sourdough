@@ -38,7 +38,7 @@ const steps: RecipeStep[] = [
     time: '1 hr',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 400 g water until no dry pockets remain. Cover and rest for 1 hour.',
+    body: "In your mixing bowl, mix 500 g Bob's Red Mill Organic Whole Wheat Flour and all 400 g water until no dry pockets remain. Cover and rest for 1 hour.",
   },
   {
     id: 'mix',

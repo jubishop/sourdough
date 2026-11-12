@@ -1780,6 +1780,19 @@ dough and starter and asked to skip this topic. Leave the current flour
 specification unchanged. The starter's flour composition remains unspecified;
 do not infer it from this decision.
 
+On 2026-11-12, the user asked to name the dough flour in both recipes,
+superseding the 2026-09-05 decision for the dough flour only. The baseline
+uses [Bob's Red Mill Organic Whole Wheat Flour](https://www.bobsredmill.com/product/organic-whole-wheat-flour), stone-ground from hard red
+wheat. The experiment, the next loaf's one change, uses
+[King Arthur Golden Whole Wheat Flour](https://shop.kingarthurbaking.com/items/golden-wheat-flour), milled from hard
+white spring wheat and formerly sold as King Arthur White Whole Wheat Flour.
+The autolyse step names the flour: "mix 500 g Bob's Red Mill Organic Whole
+Wheat Flour" in the baseline and "mix 500 g King Arthur Golden Whole Wheat
+Flour" in the experiment. The starter build and mother refresh still say
+only "flour"; the starter's flour remains unspecified. The product pages
+were checked on 2026-11-12.
+See the [November 13 planned trial](sourdough/bakes/2026-11-13.md).
+
 ## Starter build timing
 
 On 2026-11-09, the user reduced the mother starter for the build from 20 g
