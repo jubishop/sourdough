@@ -6,8 +6,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 
 - [Experiments — unified register](experiments.md): all 13 numbered experiment ideas, six preserved detailed plans, and the scalding proposal. This is the single place to add or update experiment plans.
 - [Goals and historical priorities](goals-and-experiment-priorities.md): goal hierarchy and November 9 ranking. Its old next-bake ordering is superseded by decisions below.
-- [Running bake journal through November 9](bake-journal-through-nov9.md): chronological observations and dated decisions; historical text retained rather than silently rewritten.
-- [November 7 detailed notes](bake-notes/2026-11-07.md): additional dated observations.
+- [Bake journal](bake-journal.md): the single chronological record, including preserved detailed notes from November 3, 5, and 7.
 
 ## Latest working decisions — November 11, 2026
 
@@ -20,7 +19,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 ## Documentation rules
 
 - Add or update experiment plans in **experiments.md**, not separate numbered files.
-- Add dated bake observations to the journal; link photographs and recipe Git commits when available.
+- Add dated bake observations to **bake-journal.md**, in chronological order; do not create separate daily note files. Link photographs and recipe Git commits when available.
 - Distinguish **observed results**, **planned changes**, and **hypotheses**. A later dated decision overrides an older plan, but not the historical record of what was actually baked.
 - Prefer one controlled variable per bake; repeat promising results before promoting to Baseline.
 
