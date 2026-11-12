@@ -40,6 +40,6 @@ Historical plans in these files may have been superseded. Use the most recent ve
 
 The documents above were copied from ChatGPT Library and organized in GitHub. Some original experiment documents (#1–3 and #6–9), later journal updates, and photos were not accessible during migration. The unified register contains clearly labeled summaries for those experiments, **not invented transcriptions**. Library originals remain intact. No application or recipe code was modified.
 
-## Recovered photo assets (pending binary import)
+## Bake photos
 
-The Library search recovered original photos for October 31 (crumb, exterior, underside views), November 3 (crumb and two exterior views), November 5 (exterior and crumb), November 6 (pre-proof belly-button image), and November 7 (crumb). A downloadable ZIP was assembled during the migration, but **the binary images have not been committed to GitHub**. When imported, place them under `docs/sourdough/photos/` and link them from the appropriate dated records in `bakes/`. The October 29 photos remain unconfirmed.
+The [photo archive](photos/) contains the original JPEGs recovered from ChatGPT Library. The dated records link to the October 31, November 3, November 5, November 6, and November 7 photos. The October 29 photos remain unconfirmed.
