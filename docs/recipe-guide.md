@@ -143,14 +143,12 @@ Later still on 2026-11-05, the user returned both recipes to the
 changes above. The reason was not stated. Use "About 90 min" for the timing
 label and "rest for about 90 minutes" in the instruction.
 
-On 2026-11-12, the user removed the autolyse from the experiment, so the next
-loaf has no autolyse step at all. They want to learn whether skipping it
-saves time without hurting dough handling or crumb. The baseline
-keeps its 90-minute autolyse. The experiment deletes the autolyse step, and
-its mixing step, "Mix the dough", combines 500 g whole-wheat flour, all
-400 g water, 100 g active starter, and 12 g salt at once, mixing until no
-dry pockets remain and the dough is reasonably uniform. The first 30-minute
-squash-and-fold rest starts after this mix. See the
+On 2026-11-12, the user changed the experiment's autolyse rest to 1 hour.
+The reason was not stated. The baseline keeps "around 90 minutes". The
+experiment uses "1 hr" for the timing label and "rest for 1 hour" in the
+instruction, with no "about" because the user stated a fixed time. This
+replaced a same-day experiment that dropped the autolyse entirely, which the
+user undid before baking. See the
 [November 12 bake record](sourdough/bakes/2026-11-12.md).
 
 ## Mixing starter and salt

@@ -12,10 +12,10 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 
 1. Goal order stays **less rubbery/gummy-feeling crumb**, then **larger and more evenly distributed air pockets**, then **vertical oven spring**. User clarified the unwanted crumb texture is mainly **rubbery and chewy**, not paste-like/sticky.
 2. **15-minute autolyse experiment assessed November 12:** No improvement in gumminess or noticeable shaping-time dough handling compared with the 90-minute experience. A huge localized cavity and the recurring underside belly button were seen, but **crumb near the outer edges away from the shaping defect looked fairly good**. Aggressive shaping is a plausible cause of the localized void, not a proven reason for the general rubbery texture. [Full observation](bakes/2026-11-12.md).
-3. **Next planned bake (revised November 12): ZERO autolyse.** Directly combine **500 g whole-wheat flour, 400 g water, 100 g ripe levain, and 12 g salt**, with **no separate flour/water resting step**; normal bulk starts when levain is incorporated. This supersedes the unbaked 2.5–3-hour plan, which remains on the future backlog. Maintain **1.0 L at the glass edge** for bulk (user has tried both 1 L and 1 US quart extensively and finds 1 L slightly better), usual ~81.8% hydration, and gentle shaping. The key question is whether **skipping autolyse saves time without degrading dough handling or crumb quality**. **Not yet baked.**
+3. **Next planned bake (revised November 12): 1-hour autolyse**, 30 minutes shorter than the Baseline's **about 90 minutes**; the reason was not stated. Mix flour and water, rest 1 hour, then add levain and salt as usual. This replaces both earlier same-day plans, a 2.5–3-hour autolyse and zero autolyse; neither was baked, and both remain on the future backlog. Maintain **1.0 L at the glass edge** for bulk (user has tried both 1 L and 1 US quart extensively and finds 1 L slightly better), usual ~81.8% hydration, and gentle shaping. **Not yet baked.**
 4. Current formula reference: **550 g total whole-wheat flour, 450 g total water, 12 g salt, 100 g 100%-hydration levain** (nominal 81.8% hydration). Lowering hydration made the dough difficult to work, and extended uncovered baking has not fixed the texture. Do not prioritize either.
 5. **72°F** is the recently documented working bulk-temperature setting, but the **actual setting for the next bake has not been reconfirmed**; record what is used. Different-flour, fermentation, scalded-flour and bake-heat experiments remain possible. Excessive amylase is a **hypothesis, not a diagnosis**.
-6. These are research-journal updates only: **do not change the deployed Baseline or Experiment recipe** by inference. At the user's explicit request, the site's Experiment recipe now omits the autolyse step for the zero-autolyse bake.
+6. These are research-journal updates only: **do not change the deployed Baseline or Experiment recipe** by inference. At the user's explicit request, the site's Experiment recipe differs from the Baseline only in its 1-hour autolyse.
 
 
 ## Documentation rules
@@ -36,7 +36,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - [November 6 — pre-proof belly-button observation](bakes/2026-11-06.md)
 - [November 7 — finished crumb and bulk-endpoint decision](bakes/2026-11-07.md)
 - [November 8 — temperature planning decision, not a bake](bakes/2026-11-08.md)
-- [November 12 — 15-minute autolyse outcome and next zero-autolyse plan](bakes/2026-11-12.md)
+- [November 12 — 15-minute autolyse outcome and next 1-hour autolyse plan](bakes/2026-11-12.md)
 
 Historical plans in these files may have been superseded. Use the most recent verified bake notes and the working decisions above when planning future tests.
 
