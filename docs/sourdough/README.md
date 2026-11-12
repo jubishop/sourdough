@@ -23,6 +23,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - **Do not recreate `bake-journal.md` or duplicate detailed bake notes in a running journal.** The dated records are the canonical historical source; use this README only as a navigation and current-status overview.
 - Distinguish **observed results**, **planned changes**, and **hypotheses**. A later dated decision overrides an older plan, but not the historical record of what was actually baked.
 - Prefer one controlled variable per bake; repeat promising results before promoting to Baseline.
+- Start every page other than a README with `status: current` frontmatter, as [the page format](../README.md#page-format) describes, and link each new page from this README. `bin/check --documents-only` enforces both, and pushes to `main` fail without them.
 
 ## Dated records
 

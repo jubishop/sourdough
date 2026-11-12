@@ -1,3 +1,7 @@
+---
+status: current
+---
+
 # Experiment register — 100% whole-wheat sourdough
 
 **Single canonical register.** This combines experiment definitions into one place. The six full Library-derived plans are preserved verbatim below. Other experiments are summarized from the historical goals document and bake journal; missing original plans are not represented as recovered. Historical instructions in preserved sections may be superseded by the [current working decisions](README.md).

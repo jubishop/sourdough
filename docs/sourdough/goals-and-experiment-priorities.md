@@ -1,3 +1,7 @@
+---
+status: current
+---
+
 # 100% Whole-Wheat Sourdough — Goals and Experiment Priorities
 
 **First-pass ranking:** November 9, 2026. **Status:** Proposed experimental order; user can reorder at any time. Existing experiment IDs are unchanged. No published recipe or next-bake instruction was changed by creating this plan.

@@ -64,3 +64,5 @@ hand-written pages to bypass failed checks.
   instructions.
 - [Baseline and experiment recipes](recipe-versions.md): the tested recipe,
   the next-loaf trial, and how to change and promote them.
+- [Sourdough research](sourdough/README.md): experiment register, goals,
+  dated bake records, and photos.
