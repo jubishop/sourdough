@@ -28,7 +28,7 @@ const steps: RecipeStep[] = [
     details: [
       starterInspection,
       'Take the mother starter from the refrigerator. Move 10 g into the temporary container; discard what remains in the mother jar.',
-      'Add 60 g water + 60 g flour.',
+      "Add 60 g water + 60 g Bob's Red Mill Organic Whole Wheat Flour.",
       'Wash and dry the empty mother jar while the build ripens at your pantry temperature.',
     ],
   },

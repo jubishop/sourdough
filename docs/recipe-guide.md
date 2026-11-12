@@ -1794,9 +1794,11 @@ in the experiment.
 
 Later on 2026-11-12, the user asked that the experiment's starter build use
 the same flour, to limit Bob's Red Mill carryover from the mother starter:
-"Add 60 g water + 60 g King Arthur Golden Whole Wheat Flour." The baseline's
-starter build, the mother refresh, and weekly care still say only "flour".
-See the [November 13 planned trial](sourdough/bakes/2026-11-13.md).
+"Add 60 g water + 60 g King Arthur Golden Whole Wheat Flour." The user then
+asked that the baseline's starter build name its usual flour too: "Add 60 g
+water + 60 g Bob's Red Mill Organic Whole Wheat Flour." The mother refresh
+and weekly care still say only "flour". See the
+[November 13 planned trial](sourdough/bakes/2026-11-13.md).
 
 ## Starter build timing
 
