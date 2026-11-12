@@ -14,14 +14,16 @@ status: current
 
 When objectives conflict, generally respect the above order, but note any meaningful sacrifice to the lower goals. The user is already close to acceptable gumminess in recent bakes and is seeking incremental gains, not a completely different loaf.
 
-## Current working controls / active bake
+## Current working controls / selected next bake — November 12 update
 
-- Flour: 500 g King Arthur stone-ground whole wheat, plus 50 g flour carried in 100 g of 100%-hydration whole-wheat levain; total 550 g flour.
-- Water: 400 g in autolyse plus 50 g in levain; total 450 g, **81.8% hydration**. Salt: **12 g**. Autolyse: **90 minutes**.
-- **Proofing box: fixed 72°F. Bulk endpoint: 1.0 L measured at the glass edge.** These supersede the previous 76°F / 1 US quart (\~946 mL) setting. User moved the line to 1.0 L because the dough dome is flatter at 72°F. This is a practical current working calibration, **not proof** that both marks correspond to identical fermentation.
-- **In-progress experiment #6:** two fold sessions at T+30 and T+60 minutes after incorporating levain and salt, instead of four sessions roughly 20 minutes apart. Folds occur at kitchen temperature, then dough goes into the 72°F proofing box until the 1.0 L mark. Do not describe the outcome as known until this loaf is assessed. Because temperature and the marked endpoint also changed relative to last bake, treat a striking result as suggestive, not perfectly causal.
-- Maintain the accepted **no pre-shaping chill** and previously successful bottom insulation and bake profile; in particular, **do not extend the uncovered bake to chase gumminess**.
-- The source recipe website may differ; this note records the user's conversational working settings, not verified deployed code.
+- **Primary goals unchanged:** (1) less gummy-feeling crumb, (2) lighter and more evenly aerated crumb, (3) greater vertical oven spring. The user specifies that the objectionable “gummy” sensation is **rubbery/chewy**, not sticky or paste-like; reducing perceived chew is the objective, **not** simply removing oven moisture.
+- **15-minute autolyse result:** No change in rubbery/chewy mouthfeel or dough feel during shaping versus the familiar 90-minute practice. The November 12 crumb had a **large localized void** alongside the recurring underside belly-button, likely related to shaping, **while its outer crumb away from the defect looked fairly good**. This does **not** demonstrate poor structure throughout. [Detailed observation](bakes/2026-11-12.md).
+- **Next selected trial, not yet performed:** **2.5–3-hour autolyse** at room temperature, flour and water only; use **1.0 L at the glass edge** to end bulk rather than the recent **1-US-quart (~946 mL)** stop. The user has tested both volume marks repeatedly, finds **1.0 L slightly preferable**, and expects to recognize the main autolyse difference despite the small ~5.7% endpoint shift. Record that both settings change, but do not exaggerate the confounder. Shape **gently**, without aggressive countertop pulls.
+- **Formula:** 500 g King Arthur stone-ground 100%-whole-wheat flour, 400 g water, 100 g 100%-hydration levain (50 g flour + 50 g water), and 12 g salt = **550 g flour / 450 g water / 81.8% nominal overall hydration**. User finds lower-hydration dough impractically difficult to work. Retain the usual no-pre-shape-chill and successful liner/bake approach unless separately changed.
+- **Proofing temperature:** 72°F was a recent working proof-box setting but **not reconfirmed** for this next bake; log actual temperature. Do not invent a fixed value for the future test.
+- **Remaining ideas:** Other whole-wheat flour, fermentation amount/temperature, scalding 15–20% of flour, hotter initial covered baking, etc. Gumminess did not respond to prior prolonged uncovered baking. Amylase excess remains unproven. No Baseline/Experiment website recipe code has been updated by these notes.
+
+The following **November 9 priority table is historical**, not a directive superseding the selected November 12 experiment. Keep it as the first-pass ranking for context. The [experiment register](experiments.md) and [latest dated record](bakes/2026-11-12.md) contain the updated trial status.
 
 ## Ranked experiments — first pass
 
