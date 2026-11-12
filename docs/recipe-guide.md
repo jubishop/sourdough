@@ -143,13 +143,13 @@ Later still on 2026-11-05, the user returned both recipes to the
 changes above. The reason was not stated. Use "About 90 min" for the timing
 label and "rest for about 90 minutes" in the instruction.
 
-On 2026-11-12, the user changed the experiment's autolyse rest to 1 hour.
-The reason was not stated. The baseline keeps "around 90 minutes". The
-experiment uses "1 hr" for the timing label and "rest for 1 hour" in the
-instruction, with no "about" because the user stated a fixed time. This
-replaced a same-day experiment that dropped the autolyse entirely, which the
-user undid before baking. See the
-[November 12 bake record](sourdough/bakes/2026-11-12.md).
+On 2026-11-12, the user changed the autolyse rest in both the baseline and
+the experiment to 1 hour, superseding "around 90 minutes". It began as an
+experiment the same day, and the user then applied it to the baseline because
+the difference felt too small to count as an experiment. The reason for the
+shorter rest was not stated. Use "1 hr" for the timing label and "rest for
+1 hour" in the instruction, with no "about" because the user stated a fixed
+time. See the [November 12 bake record](sourdough/bakes/2026-11-12.md).
 
 ## Mixing starter and salt
 
