@@ -10,7 +10,6 @@ import {
   Snowflake,
   Sparkles,
   Sprout,
-  Wheat,
 } from 'lucide-react';
 
 import type { Recipe, RecipeStep } from './types';
@@ -34,20 +33,12 @@ const steps: RecipeStep[] = [
     ],
   },
   {
-    id: 'autolyse',
-    phase: 'Day 1',
-    time: 'About 90 min',
-    icon: Wheat,
-    title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 400 g water until no dry pockets remain. Cover and rest for about 90 minutes.',
-  },
-  {
     id: 'mix',
     phase: 'Day 1',
     time: 'Mix until uniform',
     icon: Scale,
-    title: 'Add starter and salt',
-    body: 'In the same mixing bowl, add 100 g active starter (levain) and 12 g salt. Squeeze and mix until reasonably uniform.',
+    title: 'Mix the dough',
+    body: 'In your mixing bowl, combine 500 g whole-wheat flour, all 400 g water, 100 g active starter (levain), and 12 g salt. Squeeze and mix until no dry pockets remain and the dough is reasonably uniform.',
     cue: 'The dough is at about 81.8% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
   },
   {
@@ -56,7 +47,7 @@ const steps: RecipeStep[] = [
     time: '3 rounds · 30 min before each',
     icon: RotateCcw,
     title: 'Squash and fold',
-    body: 'Squash and fold for exactly three rounds. In each round, do up to four squash and folds, as many as you can before the dough becomes excessively tight and stiff. Rest 30 minutes before each round, starting after you mix in the starter and salt.',
+    body: 'Squash and fold for exactly three rounds. In each round, do up to four squash and folds, as many as you can before the dough becomes excessively tight and stiff. Rest 30 minutes before each round, starting after you mix the dough.',
     cue: 'During every wait, keep the dough covered in the mixing bowl outside the proofing box. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After the third round, gently transfer the dough to the oiled container and cover it.',
   },
   {
