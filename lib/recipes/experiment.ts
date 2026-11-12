@@ -36,10 +36,10 @@ const steps: RecipeStep[] = [
   {
     id: 'autolyse',
     phase: 'Day 1',
-    time: '15 min',
+    time: 'About 90 min',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 400 g water until no dry pockets remain. Cover and rest for 15 minutes.',
+    body: 'In your mixing bowl, mix 500 g whole-wheat flour and all 400 g water until no dry pockets remain. Cover and rest for about 90 minutes.',
   },
   {
     id: 'mix',
@@ -64,8 +64,8 @@ const steps: RecipeStep[] = [
     phase: 'Bulk fermentation',
     time: '~4–8 hr total',
     icon: FlaskConical,
-    title: 'Aim for about 1 qt at the glass edge',
-    body: 'Place the covered proofing container inside the proofing box set anywhere from 72°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for about 1 qt where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    title: 'Aim for about 1 L at the glass edge',
+    body: 'Place the covered proofing container inside the proofing box set anywhere from 72°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for about 1 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
   },
   {
     id: 'shape',

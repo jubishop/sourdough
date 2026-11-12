@@ -143,12 +143,6 @@ Later still on 2026-11-05, the user returned both recipes to the
 changes above. The reason was not stated. Use "About 90 min" for the timing
 label and "rest for about 90 minutes" in the instruction.
 
-On 2026-11-10, the user shortened the autolyse rest in the experiment to
-15 minutes. The baseline keeps "around 90 minutes". The reason was not
-stated. Use "15 min" for the experiment's timing label and "rest for 15
-minutes" in its instruction, with no "about" because the user stated a
-fixed time.
-
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
@@ -461,6 +455,12 @@ in both recipes, superseding the 1 L target and switching from liters back
 to quarts. The reason was not stated. Use "about 1 qt" in both the bulk-step
 title and body, measured where the dough meets the glass, and keep the
 visual readiness cues.
+
+On 2026-11-12, the user changed the target back to about 1 L at the glass
+edge in both recipes, superseding the 1 qt target and switching from quarts
+back to liters. The reason was not stated. Use "about 1 L" in both the
+bulk-step title and body, measured where the dough meets the glass, and keep
+the visual readiness cues.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
