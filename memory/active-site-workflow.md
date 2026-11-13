@@ -1,30 +1,35 @@
 ---
 name: active-site-workflow
-description: Use the active GitHub and Vercel project for Justin's sourdough changes, and commit, push, and deploy them immediately without checks or PRs.
+description: "Use the active GitHub and Vercel project for Justin's sourdough changes, and commit, push, and deploy them immediately without checks or PRs."
 type: feedback
 ---
 
 # Use the active Vercel site
 
-On 2026-09-06, Justin explicitly confirmed that the ChatGPT-hosted sourdough
-site is abandoned and asked that the correct workflow be remembered.
+For sourdough-site work, use the active GitHub repository and Vercel project,
+never the abandoned ChatGPT-hosted copy. Commit and push every change on
+`main` immediately, with no local checks or pull requests, and deploy to
+production right away.
 
-For future sourdough-site work, start with
-[jubishop/sourdough](https://github.com/jubishop/sourdough), read its
-`AGENTS.md`, and follow the [site and hosting guide](../docs/site-and-hosting.md).
-That guide owns the production URL, Vercel project, and deployment procedure.
-Do not select an old ChatGPT Sites checkout merely because it is available
-locally, and do not commit, push, or publish changes to that retired copy.
+**Why:** On 2026-09-06, Justin explicitly confirmed that the ChatGPT-hosted
+sourdough site is abandoned and asked that the correct workflow be remembered.
+On 2026-10-15 the owner said this is "just a dumb recipe site" and wants every
+change live at once.
 
-Ground the target before editing. If the Vercel connection returns no teams,
-use the repository's documented team and project to check access. An empty
-team list does not establish that the active site is still on ChatGPT Sites.
-If Vercel rejects the documented team scope, request reconnection with access
-to that team; do not deploy to another site or team as a workaround.
+**How to apply:**
 
-Apply the change to current source and preserve later recipe decisions. On
-2026-10-15 the owner said this is "just a dumb recipe site": commit and push
-every change on `main` immediately, with no local checks or pull requests, and
-deploy to production right away. Follow the hosting guide to deploy; a
-successful Git push alone does not prove that production updated. Report
-success only after verifying the deployment.
+- Start with [jubishop/sourdough](https://github.com/jubishop/sourdough), read
+  its `AGENTS.md`, and follow the
+  [site and hosting guide](../docs/site-and-hosting.md). That guide owns the
+  production URL, Vercel project, and deployment procedure.
+- Do not select an old ChatGPT Sites checkout merely because it is available
+  locally, and do not commit, push, or publish changes to that retired copy.
+- Ground the target before editing. If the Vercel connection returns no teams,
+  use the repository's documented team and project to check access. An empty
+  team list does not establish that the active site is still on ChatGPT Sites.
+  If Vercel rejects the documented team scope, request reconnection with access
+  to that team; do not deploy to another site or team as a workaround.
+- Apply the change to current source and preserve later recipe decisions.
+- Follow the hosting guide to deploy; a successful Git push alone does not
+  prove that production updated. Report success only after verifying the
+  deployment.
