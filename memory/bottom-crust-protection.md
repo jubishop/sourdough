@@ -20,6 +20,11 @@ bring it back. The sling's protection without foil has not yet been
 established for this loaf and equipment. Reconsider the foil if a future
 bake shows excessive bottom darkening.
 
+The recipe guide records what followed: foil was restored on 2026-09-17,
+replaced by a trivet and then parchment on 2026-09-29, and the silicone sling
+itself was replaced on 2026-11-10 by the King Arthur round loaf lifter with
+one layer of parchment. The sling is therefore not the current setup.
+
 ## Former foil method
 
 - While the Dutch oven is cold, loosely crumple a long sheet of aluminum
