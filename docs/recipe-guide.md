@@ -1889,8 +1889,9 @@ Remove the instruction to weigh the actual transfer for a ratio-based feed.
 
 On 2026-11-12, the user reduced the bake-day mother refresh in both the
 baseline and the experiment to around 10 g of ripe build with 30 g water
-and 30 g fresh flour. The reason was not stated. Weekly maintenance keeps
-around 15 g with 40 g water and 40 g fresh flour.
+and 30 g fresh flour. The reason was not stated. Later that day, the user
+applied the same amounts to weekly maintenance: around 10 g of mother
+starter with 30 g water and 30 g fresh flour.
 
 ## Mother storage guide
 

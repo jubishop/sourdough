@@ -10,8 +10,8 @@ export const starterMaintenance = {
   steps: [
     'Feed the mother starter about once a week. A mother-starter refresh on a bake day counts as that feeding.',
     starterInspection,
-    'Take it from the refrigerator and move around **15 g** into the temporary container. Discard the rest, and wash and dry the mother jar.',
-    'Return the reserved starter to the mother jar. Add **40 g water and 40 g fresh flour**.',
+    'Take it from the refrigerator and move around **10 g** into the temporary container. Discard the rest, and wash and dry the mother jar.',
+    'Return the reserved starter to the mother jar. Add **30 g water and 30 g fresh flour**.',
     `Mix and cover. Let it rest in your **70°F pantry**, then refrigerate. ${motherStorageGuidance}`,
   ],
 };
