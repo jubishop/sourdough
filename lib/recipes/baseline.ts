@@ -147,7 +147,7 @@ export const baseline: Recipe = {
     title: 'Refresh the mother starter',
     flow: 'Keep making the loaf while this jar rests.',
     instructions: [
-      'Put around **15 g** of ripe build into the clean mother jar. Add **40 g water and 40 g fresh flour**.',
+      'Put around **10 g** of ripe build into the clean mother jar. Add **30 g water and 30 g fresh flour**.',
       `Mix and cover. Let it rest in your 70°F pantry, then put it back in the fridge. ${motherStorageGuidance}`,
     ],
   },
