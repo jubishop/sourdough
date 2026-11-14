@@ -992,10 +992,11 @@ baseline on 2026-11-14. They supersede the 30-minute covered bake with
 Later on 2026-11-14, the user added 10 minutes at the 390°F setting to the
 end of the experiment's covered bake, so its covered bake is 30 minutes:
 20 minutes at the 465°F setting, then 10 minutes at the 390°F setting. The
-experiment keeps the 50-minute uncovered bake at the 315°F setting, so its
-total is 80 minutes. This is an experiment change; the baseline keeps
-20 minutes covered at 465°F, for 70 minutes total. The reason was not
-stated.
+user then shortened the experiment's uncovered bake to 45 minutes at the
+315°F setting, so its total is 75 minutes, matching the next-bake plan in the
+[November 14 bake record](sourdough/bakes/2026-11-14.md). These are
+experiment changes; the baseline keeps 20 minutes covered at 465°F and
+50 minutes uncovered, for 70 minutes total.
 
 Bake for 20 minutes covered at a 465°F oven setting. Then remove the lid
 and bake uncovered for 50 minutes at a 315°F setting. These settings include the
