@@ -17,7 +17,7 @@ status: current
 | 5 | Cold-proof duration | Full original below |
 | 6 | Folding frequency (two vs four tested; three provisional) | Summary only; original not recovered |
 | 7 | Bulk fermentation temperature (72°F working reference) | Summary only; original not recovered |
-| 8 | Covered bake duration (30 vs 20 minutes) | Summary only; original not recovered |
+| 8 | Covered bake duration (30 vs 20 minutes; steam exposure and gummy-crumb test) | Summary only; original not recovered; proposed protocol below |
 | 9 | Flour variety (King Arthur Golden Wheat hard white selected for November 13) | Summary only; original not recovered |
 | 10 | No deliberate shaping | Full original below |
 | 11 | Alternative shaping techniques | Full original below |
@@ -32,7 +32,13 @@ status: current
 3. **Covered bake temperature:** trial a hotter initial covered phase (475–500°F proposed), tracking spring, gumminess and crust color; not a proven amylase fix.
 6. **Folds:** compare two, three and four rounds across separate bakes; record dough tension, crumb, and spring.
 7. **Bulk temperature:** compare warmer/cooler conditions while recording dome and actual endpoint; glass marks may not imply identical fermentation.
-8. **Covered bake time:** compare 20 and 30 minutes covered with the rest fixed.
+8. **Covered bake duration — steam exposure and crumb texture (future trial, not yet tested):** The user raised the hypothesis on November 13 that **30 minutes covered may keep the loaf too humid for too long**, contributing to the persistent rubbery/chewy/gummy crumb. Test **20 versus 30 minutes covered** to investigate that possibility while also measuring oven spring and crust. Moisture retention is a plausible contributor, **not an established cause**; the interior also depends on starch gelatinization, enzymes, fermentation, and cooling. Prior attempts to bake longer uncovered did not solve the rubbery texture.
+   - **Control — currently published schedule:** 10 minutes covered at **465°F**, 20 minutes covered at **390°F**, then 45 minutes uncovered at **315°F** (75 minutes total).
+   - **Test — earlier lid removal only:** 10 minutes covered at **465°F**, 10 minutes covered at **390°F**, then **remove the lid at minute 20** and bake 10 more minutes **uncovered at 390°F**, followed by the same 45 minutes **uncovered at 315°F** (75 minutes total).
+   - This preserves **total bake duration and the time at each oven setting**, changing only when the lid comes off. That is cleaner for isolating steam exposure than switching to 315°F 10 minutes earlier. The now-uncovered 390°F portion could brown the crust more; monitor for that rather than treating a darker crust as a crumb improvement.
+   - **Keep constant:** flour (preferably settle the new King Arthur Golden Wheat trial first), total flour/water and levain, salt, autolyse, fold schedule, bulk endpoint, shaping, cold-proof duration, Dutch-oven and liner setup, oven preheat and fully cooled slicing time.
+   - **Record:** perceived gumminess/rubberiness/chewiness across the center crumb, tactile dampness versus mere elasticity, crumb openness and lower-crumb compression, vertical spring and spread, score expansion, and crust color/thickness/texture. If practical, measure loaf mass after cooling and use consistent crumb photos. Repeat a promising result before considering a recipe change.
+   - **Status:** Backlog only. This expands existing **#8**, **not** a new numbered experiment, and does **not** alter the current Baseline, Experiment recipe, or next-bake plan.
 9. **Flour:** **November 13 selected trial:** replace Bob's Red Mill Organic Stone Ground hard-red 100% whole wheat with **King Arthur Golden Wheat hard-white 100% whole wheat** while preserving **550 g total flour, 450 g total water (81.8%), 100 g 100%-hydration levain, 12 g salt** and familiar process. Also use **60-minute** autolyse instead of the recent **15-minute** test; this is therefore **not** a fully controlled single-variable comparison. The levain build is fed Golden Wheat (confirmed November 12), limiting Bob's carryover from the mother to about 0.7% of total flour. Retail falling numbers are not verified. Judge chewiness, crumb openness and vertical spring. [November 13 plan](bakes/2026-11-13.md).
 
 **Flour correction (November 12):** The user stated that the Baseline's dough flour is Bob's Red Mill Organic Whole Wheat Flour. Preserved plans below that name King Arthur stone-ground whole wheat as the working flour reflect older notes; when any switch happened was not recorded.
