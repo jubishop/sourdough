@@ -106,9 +106,9 @@ const steps: RecipeStep[] = [
     details: [
       'Center a sheet of parchment paper over the open banneton, hold it in place, and invert the banneton and parchment together onto the countertop.',
       'Gently lift off the banneton. The seam is now underneath, and the smooth side faces up.',
-      'Lift the parchment with the loaf on it and set it down centered directly on the King Arthur round loaf lifter.',
+      'Lay a round perforated silicone liner centered on the King Arthur round loaf lifter. Lift the parchment with the loaf on it and set it down centered on the liner.',
       'Score a big X in the smooth top with two diagonal cuts that cross in the center. Start and end each cut about 1 inch from the edge of the dough. Hold the blade straight down and cut ½ inch deep.',
-      'Remove the hot Dutch oven. Hold the lifter handles to lower the scored loaf into the empty Dutch oven, with the parchment between the loaf and the lifter. Put the lid on. Leave the lifter and parchment under the loaf during the bake.',
+      'Remove the hot Dutch oven. Hold the lifter handles to lower the scored loaf into the empty Dutch oven, with the parchment and liner between the loaf and the lifter. Put the lid on. Leave the lifter, liner, and parchment under the loaf during the bake.',
     ],
     cue: 'The Dutch oven and lid are extremely hot. Use dry oven mitts and keep your hands clear of the iron.',
   },

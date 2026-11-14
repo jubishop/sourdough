@@ -1036,6 +1036,14 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
+On 2026-11-13, the user added a round perforated silicone liner on top of the
+King Arthur round loaf lifter, in both the baseline and the experiment. Lay
+the liner centered on the lifter, then set the parchment with the loaf
+centered on the liner, so the stack from the bottom is lifter, liner,
+parchment, loaf. All three stay under the loaf during the bake. The flip,
+scoring, and lowering with the lifter handles are unchanged. The reason was
+not stated.
+
 Later on 2026-11-10, the user changed the flip in both the baseline and the
 experiment. Center the parchment alone over the open banneton, hold it in
 place, and invert the banneton and parchment together onto the countertop.
