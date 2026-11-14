@@ -64,7 +64,7 @@ const steps: RecipeStep[] = [
     time: '~4–8 hr total',
     icon: FlaskConical,
     title: 'Aim for somewhere between 1 qt and 1 L at the glass edge',
-    body: 'Place the covered proofing container inside the proofing box set anywhere from 72°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for somewhere between 1 qt and 1 L where the dough meets the glass. Fermentation will make the center noticeably higher. The dough should look puffy and rounded, with bubbles at the edges and a gentle jiggle when you move the container.',
+    body: 'Place the covered proofing container inside the proofing box set anywhere from 72°F to 78°F, depending on how soon you want bulk fermentation to finish; warmer finishes sooner. Leave the dough undisturbed. Aim for somewhere between 1 qt and 1 L where the dough meets the glass. Fermentation will make the center noticeably higher.',
   },
   {
     id: 'shape',

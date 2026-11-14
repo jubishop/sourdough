@@ -1844,6 +1844,15 @@ instructions.
 The user wants a shorter guide based on the main dough. This removes the
 separate measurement and relies on observing the dough itself.
 
+On 2026-11-14, the user removed "The dough should look puffy and rounded,
+with bubbles at the edges and a gentle jiggle when you move the container."
+from the bulk step in both the baseline and the experiment. This supersedes
+every instruction above and under
+[Proofing container and mixing bowl](#proofing-container-and-mixing-bowl)
+to keep those visual readiness cues. The bulk step now relies on the volume
+target where the dough meets the glass and the note that the center rises
+higher. The reason was not stated.
+
 ## Flour specification
 
 On 2026-09-05, the user declined specifying flour brands and types for the
