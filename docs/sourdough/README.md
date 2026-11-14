@@ -47,4 +47,4 @@ The documents above were copied from ChatGPT Library and organized in GitHub. So
 
 ## Bake photos
 
-The [photo archive](photos/) contains the original JPEGs recovered from ChatGPT Library, plus photos added since. The dated records link to the October 31, November 3, November 5, November 6, November 7, and November 12 photos. The October 29 photos remain unconfirmed.
+The [photo archive](photos/) contains the original JPEGs recovered from ChatGPT Library, plus photos added since. The dated records link to the October 31, November 3, November 5, November 6, November 7, November 12, and November 14 photos. The October 29 photos remain unconfirmed.
