@@ -710,10 +710,11 @@ supersedes the 450°F preheat and 440°F covered setting and keeps the
 465°F for the first 10 minutes of the covered bake. The reason was not
 stated. See [Fixed bake time](#fixed-bake-time) for the full bake sequence.
 
-Since 2026-11-14, when the user promoted the 2026-11-13 bake changes to the
-baseline, the 465°F setting covers the whole 20-minute covered bake, with no
-390°F stretch. The 475°F preheat is unchanged. See
-[Fixed bake time](#fixed-bake-time).
+On 2026-11-14, the user first promoted the 2026-11-13 bake changes to the
+baseline, so the 465°F setting covered the whole 20-minute covered bake. Later
+that day, the user restored a 390°F stretch: the 465°F setting covers the
+first 20 minutes of the covered bake, then 390°F covers the last 10 minutes.
+The 475°F preheat is unchanged. See [Fixed bake time](#fixed-bake-time).
 
 ## Fixed bake time
 
@@ -990,16 +991,18 @@ baseline on 2026-11-14. They supersede the 30-minute covered bake with
 20 minutes at 390°F and the 45-minute uncovered bake.
 
 Later on 2026-11-14, the user added 10 minutes at the 390°F setting to the
-end of the experiment's covered bake, so its covered bake is 30 minutes:
-20 minutes at the 465°F setting, then 10 minutes at the 390°F setting. The
-user then shortened the experiment's uncovered bake to 45 minutes at the
-315°F setting, so its total is 75 minutes, matching the next-bake plan in the
-[November 14 bake record](sourdough/bakes/2026-11-14.md). These are
-experiment changes; the baseline keeps 20 minutes covered at 465°F and
-50 minutes uncovered, for 70 minutes total.
+end of the covered bake, so the covered bake is 30 minutes: 20 minutes at
+the 465°F setting, then 10 minutes at the 390°F setting. The user then
+shortened the uncovered bake to 45 minutes at the 315°F setting, so the
+total is 75 minutes, matching the next-bake plan in the
+[November 14 bake record](sourdough/bakes/2026-11-14.md). These changes
+began as experiments, and the user promoted them to the baseline the same
+day. They supersede 20 minutes covered at 465°F and the 50-minute uncovered
+bake.
 
-Bake for 20 minutes covered at a 465°F oven setting. Then remove the lid
-and bake uncovered for 50 minutes at a 315°F setting. These settings include the
+Bake for 30 minutes covered: 20 minutes at a 465°F oven setting, then
+10 minutes at a 390°F setting. Then remove the lid and bake uncovered for
+45 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
@@ -1075,11 +1078,12 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
-On 2026-11-14, the user changed the experiment to two perforated silicone
-liners on the lifter instead of one. Stack the two liners centered on the
-lifter, so the stack from the bottom is lifter, two liners, parchment, loaf.
-This is an experiment change; the baseline keeps one round perforated
-silicone liner. The reason was not stated.
+On 2026-11-14, the user changed to two perforated silicone liners on the
+lifter instead of one. Stack the two liners centered on the lifter, so the
+stack from the bottom is lifter, two liners, parchment, loaf. This
+supersedes the single round perforated silicone liner below. It began as an
+experiment, and the user promoted it to the baseline the same day. The
+reason was not stated.
 
 On 2026-11-13, the user added a round perforated silicone liner on top of the
 King Arthur round loaf lifter, in both the baseline and the experiment. Lay
