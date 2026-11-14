@@ -128,6 +128,7 @@ const steps: RecipeStep[] = [
     icon: Flame,
     title: 'Finish uncovered at 315°F',
     body: 'Remove the lid, lower the oven to 315°F, and bake for 45 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
+    cue: 'Aim for about 208°F in the center of the loaf.',
   },
   {
     id: 'cool',
