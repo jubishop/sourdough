@@ -702,6 +702,11 @@ supersedes the 450°F preheat and 440°F covered setting and keeps the
 465°F for the first 10 minutes of the covered bake. The reason was not
 stated. See [Fixed bake time](#fixed-bake-time) for the full bake sequence.
 
+Since 2026-11-14, when the user promoted the 2026-11-13 bake changes to the
+baseline, the 465°F setting covers the whole 20-minute covered bake, with no
+390°F stretch. The 475°F preheat is unchanged. See
+[Fixed bake time](#fixed-bake-time).
+
 ## Fixed bake time
 
 On 2026-09-05, the user said they do not have or want to use a probe to
@@ -958,27 +963,26 @@ On 2026-11-03, the user extended the uncovered bake to 45 minutes at the
 75 minutes. This supersedes the 40-minute uncovered bake. The reason was not
 stated.
 
-On 2026-11-13, the user shortened the experiment's 390°F stretch to
-10 minutes, so its covered bake is 20 minutes: 10 minutes at the 465°F
-setting, then 10 minutes at the 390°F setting. This is an experiment
-change; the baseline keeps 20 minutes at 390°F. The experiment keeps the
-45-minute uncovered bake at the 315°F setting, so its total is 65 minutes.
-The reason was not stated.
+On 2026-11-13, the user shortened the 390°F stretch to 10 minutes, so the
+covered bake is 20 minutes: 10 minutes at the 465°F setting, then
+10 minutes at the 390°F setting. The 45-minute uncovered bake at the 315°F
+setting stays, so the total is 65 minutes. The reason was not stated.
 
-Later on 2026-11-13, the user extended the experiment's uncovered bake to
-50 minutes at the 315°F setting, so its total is 70 minutes. This is an
-experiment change; the baseline keeps 45 minutes uncovered. The reason was
-not stated.
+Later on 2026-11-13, the user extended the uncovered bake to 50 minutes at
+the 315°F setting, so the total is 70 minutes. The reason was not stated.
 
-Later again on 2026-11-13, the user dropped the experiment's 390°F stretch,
-so its covered bake is 20 minutes at the 465°F setting throughout, followed
-by the 50-minute uncovered bake at the 315°F setting, for 70 minutes total.
-This is an experiment change and supersedes the experiment's 10 minutes at
-465°F then 10 minutes at 390°F. The reason was not stated.
+Later again on 2026-11-13, the user dropped the 390°F stretch, so the
+covered bake is 20 minutes at the 465°F setting throughout, followed by the
+50-minute uncovered bake at the 315°F setting, for 70 minutes total. This
+supersedes 10 minutes at 465°F then 10 minutes at 390°F. The reason was not
+stated.
 
-Bake for 30 minutes covered: 10 minutes at a 465°F oven setting, then
-20 minutes at a 390°F setting. Then remove the lid and bake uncovered for
-45 minutes at a 315°F setting. These settings include the
+These three changes began as experiments, and the user promoted them to the
+baseline on 2026-11-14. They supersede the 30-minute covered bake with
+20 minutes at 390°F and the 45-minute uncovered bake.
+
+Bake for 20 minutes covered at a 465°F oven setting. Then remove the lid
+and bake uncovered for 50 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
@@ -1812,25 +1816,25 @@ dough and starter and asked to skip this topic. Leave the current flour
 specification unchanged. The starter's flour composition remains unspecified;
 do not infer it from this decision.
 
-On 2026-11-12, the user asked to name the dough flour in both recipes,
-superseding the 2026-09-05 decision for the dough flour only. The baseline
-uses [Bob's Red Mill Organic Whole Wheat Flour](https://www.bobsredmill.com/product/organic-whole-wheat-flour),
-stone-ground from hard red wheat. The experiment, the next loaf's flour
-trial, uses
+On 2026-11-12, the user asked to name the dough flour, superseding the
+2026-09-05 decision for the dough flour only. The recipe uses
 [King Arthur Golden Whole Wheat Flour](https://shop.kingarthurbaking.com/items/golden-wheat-flour),
 milled from hard white spring wheat and formerly sold as King Arthur White
-Whole Wheat Flour. The product pages were checked on 2026-11-12. The
-autolyse step names the flour: "mix 500 g Bob's Red Mill Organic Whole Wheat
-Flour" in the baseline and "mix 500 g King Arthur Golden Whole Wheat Flour"
-in the experiment.
+Whole Wheat Flour. The autolyse step names it: "mix 500 g King Arthur Golden
+Whole Wheat Flour".
 
-Later on 2026-11-12, the user asked that the experiment's starter build use
-the same flour, to limit Bob's Red Mill carryover from the mother starter:
-"Add 60 g water + 60 g King Arthur Golden Whole Wheat Flour." The user then
-asked that the baseline's starter build name its usual flour too: "Add 60 g
-water + 60 g Bob's Red Mill Organic Whole Wheat Flour." The mother refresh
-and weekly care still say only "flour". See the
+Later on 2026-11-12, the user asked that the starter build use the same
+flour, to limit carryover of the mother starter's Bob's Red Mill flour:
+"Add 60 g water + 60 g King Arthur Golden Whole Wheat Flour." The mother
+refresh and weekly care still say only "flour". See the
 [November 13 planned trial](sourdough/bakes/2026-11-13.md).
+
+King Arthur Golden began as the experiment's flour trial, and the user
+promoted it to the baseline on 2026-11-14. It replaces
+[Bob's Red Mill Organic Whole Wheat Flour](https://www.bobsredmill.com/product/organic-whole-wheat-flour),
+stone-ground from hard red wheat, which the baseline named from 2026-11-12
+in both the autolyse and the starter build. The product pages were checked
+on 2026-11-12.
 
 ## Starter build timing
 

@@ -28,7 +28,7 @@ const steps: RecipeStep[] = [
     details: [
       starterInspection,
       'Take the mother starter from the refrigerator. Move 10 g into the temporary container; discard what remains in the mother jar.',
-      "Add 60 g water + 60 g Bob's Red Mill Organic Whole Wheat Flour.",
+      'Add 60 g water + 60 g King Arthur Golden Whole Wheat Flour.',
       'Wash and dry the empty mother jar while the build ripens at your pantry temperature.',
     ],
   },
@@ -38,7 +38,7 @@ const steps: RecipeStep[] = [
     time: '1 hr',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: "In your mixing bowl, mix 500 g Bob's Red Mill Organic Whole Wheat Flour and all 400 g water until no dry pockets remain. Cover and rest for 1 hour.",
+    body: 'In your mixing bowl, mix 500 g King Arthur Golden Whole Wheat Flour and all 400 g water until no dry pockets remain. Cover and rest for 1 hour.',
   },
   {
     id: 'mix',
@@ -114,19 +114,18 @@ const steps: RecipeStep[] = [
   {
     id: 'covered-bake',
     phase: 'Bake',
-    time: '30 min covered',
+    time: '20 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 465°F, then 390°F',
-    body: 'Lower the oven to 465°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
-    cue: 'After 10 minutes, lower the oven to 390°F and keep the lid on for the last 20 minutes.',
+    title: 'Bake covered at 465°F',
+    body: 'Lower the oven to 465°F and bake with the lid on for 20 minutes. The covered bake traps steam so the loaf can expand.',
   },
   {
     id: 'uncovered-bake',
     phase: 'Bake',
-    time: '45 min uncovered',
+    time: '50 min uncovered',
     icon: Flame,
     title: 'Finish uncovered at 315°F',
-    body: 'Remove the lid, lower the oven to 315°F, and bake for 45 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
+    body: 'Remove the lid, lower the oven to 315°F, and bake for 50 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
   },
   {
     id: 'cool',
