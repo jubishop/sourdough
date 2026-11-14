@@ -965,6 +965,11 @@ change; the baseline keeps 20 minutes at 390°F. The experiment keeps the
 45-minute uncovered bake at the 315°F setting, so its total is 65 minutes.
 The reason was not stated.
 
+Later on 2026-11-13, the user extended the experiment's uncovered bake to
+50 minutes at the 315°F setting, so its total is 70 minutes. This is an
+experiment change; the baseline keeps 45 minutes uncovered. The reason was
+not stated.
+
 Bake for 30 minutes covered: 10 minutes at a 465°F oven setting, then
 20 minutes at a 390°F setting. Then remove the lid and bake uncovered for
 45 minutes at a 315°F setting. These settings include the
