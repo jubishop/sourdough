@@ -1827,7 +1827,7 @@ Later on 2026-11-12, the user asked that the starter build use the same
 flour, to limit carryover of the mother starter's Bob's Red Mill flour:
 "Add 60 g water + 60 g King Arthur Golden Whole Wheat Flour." The mother
 refresh and weekly care still say only "flour". See the
-[November 13 planned trial](sourdough/bakes/2026-11-13.md).
+[November 13 Golden Wheat trial](sourdough/bakes/2026-11-13.md).
 
 King Arthur Golden began as the experiment's flour trial, and the user
 promoted it to the baseline on 2026-11-14. It replaces
