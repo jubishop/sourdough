@@ -989,6 +989,14 @@ These three changes began as experiments, and the user promoted them to the
 baseline on 2026-11-14. They supersede the 30-minute covered bake with
 20 minutes at 390°F and the 45-minute uncovered bake.
 
+Later on 2026-11-14, the user added 10 minutes at the 390°F setting to the
+end of the experiment's covered bake, so its covered bake is 30 minutes:
+20 minutes at the 465°F setting, then 10 minutes at the 390°F setting. The
+experiment keeps the 50-minute uncovered bake at the 315°F setting, so its
+total is 80 minutes. This is an experiment change; the baseline keeps
+20 minutes covered at 465°F, for 70 minutes total. The reason was not
+stated.
+
 Bake for 20 minutes covered at a 465°F oven setting. Then remove the lid
 and bake uncovered for 50 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
@@ -1065,6 +1073,12 @@ cooling time for this loaf in every room. Judge gummy
 crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
+
+On 2026-11-14, the user changed the experiment to two perforated silicone
+liners on the lifter instead of one. Stack the two liners centered on the
+lifter, so the stack from the bottom is lifter, two liners, parchment, loaf.
+This is an experiment change; the baseline keeps one round perforated
+silicone liner. The reason was not stated.
 
 On 2026-11-13, the user added a round perforated silicone liner on top of the
 King Arthur round loaf lifter, in both the baseline and the experiment. Lay
