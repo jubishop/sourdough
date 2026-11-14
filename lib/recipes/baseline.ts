@@ -38,7 +38,7 @@ const steps: RecipeStep[] = [
     time: '1 hr',
     icon: Wheat,
     title: 'Autolyse: hydrate the flour',
-    body: 'In your mixing bowl, mix 500 g King Arthur Golden Whole Wheat Flour and all 400 g water until no dry pockets remain. Cover and rest for 1 hour.',
+    body: 'In your stand mixer bowl, mix 500 g King Arthur Golden Whole Wheat Flour and all 400 g water with the paddle until no dry pockets remain. Cover and rest for 1 hour.',
   },
   {
     id: 'mix',
@@ -46,7 +46,7 @@ const steps: RecipeStep[] = [
     time: 'Mix until uniform',
     icon: Scale,
     title: 'Add starter and salt',
-    body: 'In the same mixing bowl, add 100 g active starter (levain) and 12 g salt. Squeeze and mix until reasonably uniform.',
+    body: 'In the same bowl, add 100 g active starter (levain) and 12 g salt. Mix with the paddle until reasonably uniform.',
     cue: 'The dough is at about 81.8% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
   },
   {

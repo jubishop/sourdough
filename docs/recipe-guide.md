@@ -231,6 +231,14 @@ be marked complete separately.
 The later 2026-09-30 decision under [Folding](#folding) replaces the separate
 kneading and stretch-and-fold steps with one squash-and-fold step.
 
+## Stand mixer
+
+On 2026-11-14, the user said both mixing steps use the stand mixer with
+the paddle, in both the baseline and the experiment. The autolyse step mixes
+the flour and water in the stand mixer bowl with the paddle, and the
+starter-and-salt step mixes them in with the paddle, replacing "Squeeze and
+mix". Mixer speed and mixing time are not specified.
+
 ## Proofing container and mixing bowl
 
 On 2026-09-10, the user initially chose to mix in the proofing container,
