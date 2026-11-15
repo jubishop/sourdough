@@ -23,6 +23,8 @@ When objectives conflict, generally respect the above order, but note any meanin
 - **Proofing temperature:** 72°F was a recent working proof-box setting but **not reconfirmed** for this next bake; log actual temperature. Do not invent a fixed value for the future test.
 - **Remaining ideas:** Further whole-wheat flour comparisons, fermentation amount/temperature, a scald of 15–20% of flour, hotter initial covered baking, etc. Prolonged uncovered baking did not solve rubbery chew. Enzyme excess is **unproven**; the retail Golden Wheat falling number is unverified. Both website recipes use a 1-hour autolyse, and since the November 14 promotion of the Experiment to the Baseline, both name King Arthur Golden Whole Wheat as their flour; this documentation itself makes no recipe code changes.
 
+**November 14 clarification:** Hydration and bassinage are now **two separately controlled future experiments**: [#4 higher hydration only](experiments.md#experiment-04-active) (85.5% overall with 420 g upfront, no bassinage) and [#14 same-hydration bassinage](experiments.md#experiment-14) (380 g upfront + 20 g later; total remains 81.8%). The previous combined higher-hydration/bassinage suggestion below is historical and should **not** be run as a one-variable test. First evaluate the paddle mixing change without bassinage. Neither test is scheduled for the next bake.
+
 The following **November 9 priority table is historical**, not an instruction overriding the Golden Wheat trial. See [experiment register](experiments.md) and [November 14 bake record](bakes/2026-11-14.md) for current status.
 
 ## Ranked experiments — first pass
