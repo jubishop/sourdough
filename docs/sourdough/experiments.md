@@ -4,7 +4,7 @@ status: current
 
 # Experiment register — 100% whole-wheat sourdough
 
-**Single canonical register.** This combines experiment definitions into one place. The six full Library-derived plans are preserved verbatim below. Other experiments are summarized from the historical goals document and bake journal; missing original plans are not represented as recovered. Historical instructions in preserved sections may be superseded by the [current working decisions](README.md).
+**Single canonical register.** This combines experiment definitions into one place. The six full Library-derived plans are preserved verbatim below, including the superseded November 9 combined hydration/bassinage plan for historical provenance. The active separate protocols for #4 and #14 are given before those preserved historical plans. Other experiments are summarized from the historical goals document and bake journal; missing original plans are not represented as recovered. Historical instructions in preserved sections may be superseded by the [current working decisions](README.md).
 
 ## Experiment overview
 
@@ -13,7 +13,7 @@ status: current
 | 1 | Autolyse duration (15 min assessed; 60 min selected with Golden Wheat; 0 and 150–180 min future) | Summary only; original not recovered |
 | 2 | Bulk endpoint (1 US quart and 1.0 L both extensively tried) | Summary only; original not recovered |
 | 3 | Initial covered bake temperature (hotter start proposed) | Summary only; original not recovered |
-| 4 | Hydration and bassinage | Full original below |
+| 4 | Higher hydration ONLY (no bassinage; 81.8% vs. 85.5%) | Active separated protocol below; original combined plan preserved as history |
 | 5 | Cold-proof duration | Full original below |
 | 6 | Folding frequency (two vs four tested; three provisional) | Summary only; original not recovered |
 | 7 | Bulk fermentation temperature (72°F working reference) | Summary only; original not recovered |
@@ -23,6 +23,7 @@ status: current
 | 11 | Alternative shaping techniques | Full original below |
 | 12 | Levain quantity (50, 100, 150 g) | Full original below |
 | 13 | Salt quantity (10, 12, 14 g) | Full original below |
+| 14 | Bassinage at the SAME 81.8% hydration (reserve 20 g of existing water) | New independent controlled protocol below; not tested |
 | — | Scald 15–20% flour | New unnumbered proposal; not tested |
 
 ## Brief plans for unrecovered experiment documents
@@ -48,8 +49,46 @@ status: current
 
 **Unnumbered scald proposal:** Scald 83–110 g of the 550 g total flour with sufficiently hot water, deducted from the fixed total 450 g water. Measure scald temperature. Possible enzyme inactivation competes with increased starch gelatinization and moisture retention. This remains hypothetical.
 
+## Active, independent hydration protocols — November 14, 2026
+
+These are **two separate future experiments**, not one combined test. Both are untested and **neither changes the next bake, the Baseline, or the site's Experiment recipe**. Establish the stand-mixer paddle method with all 400 g main-dough water added upfront first. Then change **only one experimental factor per bake**, retaining the current flour (King Arthur Golden Wheat), 100 g 100%-hydration levain, 12 g salt, 60-minute autolyse, fold cadence, bulk endpoint, cold proof, shaping, liner setup, and bake profile in matched comparisons. Use the same low-speed paddle mixing routine as far as practical; record actual mixing time, dough temperature and any additional hand-wetting during folds.
+
+<a id="experiment-04-active"></a>
+
+### Experiment #4 — Higher overall hydration, **without** bassinage
+
+**Question:** Does adding more water, independent of its timing, improve crumb openness and oven spring, or worsen the rubbery/gummy texture and lateral spread?
+
+| Trial | Main-dough flour | Main-dough water, **all added at initial mix** | Levain (100% hydration) | Total flour | Total water | Hydration |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Control | 500 g | 400 g | 100 g | 550 g | 450 g | **81.8%** |
+| Higher-hydration trial | 500 g | **420 g** | 100 g | 550 g | **470 g** | **85.5%** |
+
+- Add **all main-dough water upfront** with the flour in **both** trials. Do **not** reserve water or use bassinage in either loaf. Incorporate levain and salt after autolyse using the established paddle routine.
+- The 20 g increase is a proposed first meaningful contrast, **not a decision to change the recipe**. A smaller intermediate increase could be considered separately later.
+- Measure dough stickiness, folding resistance, shape retention, height/spread, vertical spring, crumb pore distribution and post-cooling rubbery/gummy mouthfeel. Repeat a promising result before adopting it.
+
+<a id="experiment-14"></a>
+
+### Experiment #14 — Bassinage at **unchanged** overall hydration
+
+**Question:** Does reserving and gradually incorporating part of the *existing* water after initial dough development improve handling, gluten strength, crumb openness or vertical spring **without increasing hydration**?
+
+| Trial | Main-dough flour | Water added initially | Water held back for bassinage | Levain (100% hydration) | Total flour | Total water | Hydration |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Control — no bassinage | 500 g | **400 g** | **0 g** | 100 g | 550 g | 450 g | **81.8%** |
+| Bassinage trial | 500 g | **380 g** | **20 g** | 100 g | 550 g | 450 g | **81.8%** |
+
+1. For the experimental loaf only, mix the 500 g flour with **380 g water** using the paddle, then perform the usual autolyse. In the control, use the full **400 g** upfront.
+2. Mix in 100 g levain and 12 g salt; develop modest cohesion with the paddle on low speed. For the experimental loaf, gradually add the **reserved 20 g water**, a little at a time, allowing it to incorporate. Do **not** add any extra water beyond the established 400 g main-dough total.
+3. Finish mixing, start the usual 30-minute rest, then make the first fold. Preserve later folds, proofing, shaping and baking as consistently as possible. Note that bassinage may take a few additional minutes of mixing; **record mixing time and dough temperature**, because this can itself influence the comparison.
+4. Compare spring, spread, dough strength, crumb openness, and rubberiness after full cooling; repeat if promising. Keep hand-wetting consistent between the two loaves, since wet folds can add unmeasured water.
+
+**Isolation rule:** #4 changes total hydration **without** changing water-addition timing; #14 changes water-addition timing **without** changing final hydration. Do **not** test the two changes in the same loaf. The 20 g quantity in each test is a separate design choice, not 20 g to be added in both.
+
 ## Preserved full experiment plans
 
+> **Historical record:** Original Experiment #4 below (dated November 9) combined higher hydration **and** bassinage. It is retained verbatim as a record of the earlier proposal, but its procedure and statement that it does not create another experiment are **superseded** by the independent active #4 and #14 protocols above (November 14). Do not use the original coupled plan as a controlled test.
 
 ---
 
