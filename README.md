@@ -15,9 +15,9 @@ Track work in [GitHub Issues](https://github.com/jubishop/sourdough/issues).
 ## Development
 
 Use the latest Node.js LTS (24 or later), the latest pnpm (12 or later), Git,
-and Python 3.9 or later. After cloning, run `bin/setup`; it prepares local
-search, then runs `bin/setup-application` to install the locked application
-dependencies. QMD and direnv are optional; setup reports skipped features.
+Python 3, and QMD, plus direnv when the project has an `.envrc`. After
+cloning, run `bin/setup`; it prepares local search, then runs
+`bin/setup-application` to install the locked application dependencies.
 Start the site with `pnpm dev` and open the local URL printed by Next.js.
 
 `bin/check --documents-only` checks Markdown, and `bin/check` runs foundation
