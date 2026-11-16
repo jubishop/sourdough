@@ -20,6 +20,12 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 
 7. **Hydration experiment split (November 14):** [Experiment #4](experiments.md#experiment-04-active) now tests **higher hydration only** (420 g main-dough water upfront; 85.5% overall) versus the 400 g / 81.8% control, with **no bassinage**. New [Experiment #14](experiments.md#experiment-14) tests **bassinage at unchanged 81.8% hydration** (380 g upfront + 20 g reserved for after levain/salt incorporation) versus all 400 g upfront. The earlier combined #4 protocol is preserved as superseded history. Both are future experiments; **first evaluate the stand-mixer paddle without bassinage**. No change to deployed recipes or next-bake instructions.
 
+## Latest planning decision — November 16, 2026
+
+- **Next planned test: no autolyse**, under existing [Experiment #1](experiments.md#next-planned-trial--experiment-1-no-autolyse-november-16-2026). The stand-mixer paddle could not incorporate levain and salt after autolyse because the dough formed a rotating clump. Next time, disperse 100 g levain and 12 g salt in the 400 g water first, then paddle-mix in 500 g King Arthur Golden Wheat flour until homogeneous. No autolyse or extra kneading; keep 81.8% hydration.
+- **Initial rest selected: 30 minutes**, measured from levain incorporation; then three planned squash-and-fold sessions at T+30, +60 and +90. A fourth at +120 was suggested as a possibility but **not decided**; use it only if the dough still needs strength and record the deviation. The aim is to finish folds earlier in fermentation.
+- This is a plan, not a result or an instruction to update the deployed recipes. See [November 16 observation and decision](bakes/2026-11-16.md). Earlier November 14 statements about a paddle with the 60-minute autolyse remain historical.
+
 ## Documentation rules
 
 - Add or update experiment plans in **experiments.md**, not separate numbered files.
