@@ -10,7 +10,7 @@ status: current
 
 | ID | Experiment | Source status |
 |---|---|---|
-| 1 | Autolyse duration (15 min assessed; 60 min selected with Golden Wheat; 0 and 150–180 min future) | Summary only; original not recovered |
+| 1 | Autolyse duration (15 min assessed; 60 min working; 0 min / all-in mix selected next, November 16) | Summary only; new no-autolyse protocol below |
 | 2 | Bulk endpoint (1 US quart and 1.0 L both extensively tried) | Summary only; original not recovered |
 | 3 | Initial covered bake temperature (hotter start proposed) | Summary only; original not recovered |
 | 4 | Higher hydration ONLY (no bassinage; 81.8% vs. 85.5%) | Active separated protocol below; original combined plan preserved as history |
@@ -25,6 +25,24 @@ status: current
 | 13 | Salt quantity (10, 12, 14 g) | Full original below |
 | 14 | Bassinage at the SAME 81.8% hydration (reserve 20 g of existing water) | New independent controlled protocol below; not tested |
 | — | Scald 15–20% flour | New unnumbered proposal; not tested |
+
+## Next planned trial — Experiment #1: no autolyse (November 16, 2026)
+
+**Status: planned next trial, not yet baked or evaluated.** This selects the previously proposed zero-minute option within existing Experiment #1, not a new numbered experiment. This research plan alone does not change the published Baseline or Experiment recipe.
+
+**Motivation and observation:** On November 16 the user reported that the stand-mixer paddle did not mix levain and salt into autolysed 100% whole-wheat dough: the dough clumped and spun around the attachment. Homogenizing the liquid components before flour is added may eliminate manual incorporation. This observation does not establish that autolyse itself harms the finished loaf.
+
+**Proposed all-in mixing and fold protocol:**
+
+1. Put **400 g water, 100 g ripe 100%-hydration levain and 12 g salt** in the mixer bowl. Disperse levain and dissolve salt using the paddle.
+2. Add **500 g King Arthur Golden Wheat whole-wheat flour**. Mix at low speed only until uniformly incorporated, without a separate autolyse, extra kneading, extra water or bassinage. Overall hydration remains **450/550 = 81.8%**.
+3. Treat addition of levain as the beginning of bulk fermentation (**T+0**). Rest **30 minutes**, rather than 60, to get the handling done earlier while gas retention is still limited.
+4. Plan squash-and-fold sessions at **T+30, T+60, T+90 minutes**. A **fourth session at T+120** is a *possible contingency only* if the dough still seems weak and extensible, not a confirmed additional experiment change. User raised four folds as a possibility November 16; the recommendation was to keep three for comparability, since previous late folds became very tight.
+5. Let bulk continue undisturbed afterward to the working endpoint. Hold flour, all ingredient amounts, bulk endpoint, shaping, cold-proof approach, liner setup and bake schedule consistent with the most recent established loaf where practical.
+
+**Assessment:** Record whether the mixer successfully incorporates everything without hand mixing, total mix time and dough temperature, dough strength at each fold and whether a fourth was used, bulk duration from the *earlier* levain addition, final rise/spread, crumb chewiness/rubberiness, pocket distribution and vertical spring. Omitting autolyse also means salt and levain are present during the initial rest; fermentation begins earlier than in the control. It is a process comparison rather than a perfectly isolated test of the chemistry of autolyse. Repeat beneficial findings before promotion to Baseline.
+
+[November 16 decision and mixing observation](bakes/2026-11-16.md).
 
 ## Brief plans for unrecovered experiment documents
 
