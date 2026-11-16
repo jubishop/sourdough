@@ -23,8 +23,9 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 ## Latest planning decision — November 16, 2026
 
 - **Next planned test: no autolyse**, under existing [Experiment #1](experiments.md#next-planned-trial--experiment-1-no-autolyse-november-16-2026). The stand-mixer paddle could not incorporate levain and salt after autolyse because the dough formed a rotating clump. Next time, disperse 100 g levain and 12 g salt in the 400 g water first, then paddle-mix in 500 g King Arthur Golden Wheat flour until homogeneous. No autolyse or extra kneading; keep 81.8% hydration.
-- **Initial rest selected: 30 minutes**, measured from levain incorporation; then three planned squash-and-fold sessions at T+30, +60 and +90. A fourth at +120 was suggested as a possibility but **not decided**; use it only if the dough still needs strength and record the deviation. The aim is to finish folds earlier in fermentation.
-- This is a plan, not a result or an instruction to update the deployed recipes. See [November 16 observation and decision](bakes/2026-11-16.md). Earlier November 14 statements about a paddle with the 60-minute autolyse remain historical.
+- **Initial rest selected: 30 minutes**, measured from levain incorporation; then three planned squash-and-fold sessions at T+30, +60 and +90. A fourth at +120 was suggested as a possibility but not decided at first; the user later chose it (next bullet). The aim is to finish folds earlier in fermentation.
+- **Experiment recipe updated (later November 16):** at the user's request, the site's Experiment recipe now has no autolyse (water, levain and salt paddle-mixed first, then flour added immediately) and **exactly four** squash-and-fold rounds, 30 minutes before each. The Baseline keeps the 1-hour autolyse and three rounds. Four rounds plus no autolyse changes two variables at once.
+- The plan itself is not a result. See [November 16 observation and decision](bakes/2026-11-16.md). Earlier November 14 statements about a paddle with the 60-minute autolyse remain historical.
 
 ## Documentation rules
 

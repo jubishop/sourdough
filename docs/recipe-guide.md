@@ -151,6 +151,17 @@ shorter rest was not stated. Use "1 hr" for the timing label and "rest for
 1 hour" in the instruction, with no "about" because the user stated a fixed
 time. See the [November 12 bake record](sourdough/bakes/2026-11-12.md).
 
+On 2026-11-16, the user removed the autolyse from the experiment. With the
+stand-mixer paddle, mix all 400 g water, 100 g active starter, and 12 g salt
+until the starter is dispersed and the salt dissolves, then immediately add
+the 500 g flour and mix until uniform. The `autolyse` step is deleted, so the
+experiment view shows it struck through, and the `mix` step, titled "Mix the
+dough", holds the new order. The experiment checklist has 11 steps. The paddle
+had failed to work starter and salt into autolysed dough, which clumped and
+spun on the attachment; see the
+[November 16 record](sourdough/bakes/2026-11-16.md). The baseline keeps the
+1-hour autolyse.
+
 ## Mixing starter and salt
 
 On 2026-09-07, the user requested a targeted video for Step 3 if a good
@@ -238,6 +249,9 @@ the paddle, in both the baseline and the experiment. The autolyse step mixes
 the flour and water in the stand mixer bowl with the paddle, and the
 starter-and-salt step mixes them in with the paddle, replacing "Squeeze and
 mix". Mixer speed and mixing time are not specified.
+
+On 2026-11-16, the experiment dropped the autolyse, so it has a single paddle
+mixing step; see [Autolyse water](#autolyse-water).
 
 ## Proofing container and mixing bowl
 
@@ -1579,6 +1593,14 @@ allows before it becomes excessively tight and stiff. Keep the 30-minute rest
 before each round, the covered rests in the mixing bowl outside the proofing
 box, and the transfer to the oiled proofing container, now after round 3. The
 reason was not stated.
+
+On 2026-11-16, the user set the experiment to exactly four squash-and-fold
+rounds, with the 30-minute rest before each now starting after the flour is
+mixed in, since the experiment has no autolyse. Each round still has up to
+four squash and folds, and the transfer to the oiled proofing container comes
+after round 4. The baseline keeps three rounds. The
+[November 16 record](sourdough/bakes/2026-11-16.md) notes the user considered
+the fourth round for added strength.
 
 The checklist now has 12 numbered steps. Squash and fold is Step 4,
 bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,

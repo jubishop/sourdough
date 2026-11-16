@@ -10,7 +10,6 @@ import {
   Snowflake,
   Sparkles,
   Sprout,
-  Wheat,
 } from 'lucide-react';
 
 import type { Recipe, RecipeStep } from './types';
@@ -34,30 +33,22 @@ const steps: RecipeStep[] = [
     ],
   },
   {
-    id: 'autolyse',
-    phase: 'Day 1',
-    time: '1 hr',
-    icon: Wheat,
-    title: 'Autolyse: hydrate the flour',
-    body: 'In your stand mixer bowl, mix 500 g King Arthur Golden Whole Wheat Flour and all 400 g water with the paddle until no dry pockets remain. Cover and rest for 1 hour.',
-  },
-  {
     id: 'mix',
     phase: 'Day 1',
     time: 'Mix until uniform',
     icon: Scale,
-    title: 'Add starter and salt',
-    body: 'In the same bowl, add 100 g active starter (levain) and 12 g salt. Mix with the paddle until reasonably uniform.',
+    title: 'Mix the dough',
+    body: 'In your stand mixer bowl, mix all 400 g water, 100 g active starter (levain), and 12 g salt with the paddle until the starter is dispersed and the salt dissolves. Then immediately add 500 g King Arthur Golden Whole Wheat Flour and mix with the paddle until reasonably uniform, with no dry pockets.',
     cue: 'The dough is at about 81.8% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
   },
   {
     id: 'slap-and-fold',
     phase: 'Day 1',
-    time: '3 rounds · 30 min before each',
+    time: '4 rounds · 30 min before each',
     icon: RotateCcw,
     title: 'Squash and fold',
-    body: 'Squash and fold for exactly three rounds. In each round, do up to four squash and folds, as many as you can before the dough becomes excessively tight and stiff. Rest 30 minutes before each round, starting after you mix in the starter and salt.',
-    cue: 'During every wait, keep the dough covered in the mixing bowl outside the proofing box. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After the third round, gently transfer the dough to the oiled container and cover it.',
+    body: 'Squash and fold for exactly four rounds. In each round, do up to four squash and folds, as many as you can before the dough becomes excessively tight and stiff. Rest 30 minutes before each round, starting after you mix in the flour.',
+    cue: 'During every wait, keep the dough covered in the mixing bowl outside the proofing box. Before transferring the dough, spread a thin, even film of olive oil over the entire bottom and sides of your 2-quart proofing container. Leave no bare spots or pools of oil. After the fourth round, gently transfer the dough to the oiled container and cover it.',
   },
   {
     id: 'bulk',
