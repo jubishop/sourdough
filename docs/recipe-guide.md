@@ -504,6 +504,12 @@ stated. Use "exactly 1 qt" in both the bulk-step title and body, measured
 where the dough meets the glass. The visual readiness cues were removed the
 same day; see [Visual bulk readiness](#visual-bulk-readiness).
 
+On 2026-11-17, the user changed the experiment's target to exactly 1 L at
+the glass edge, superseding exactly 1 qt there and switching from quarts to
+liters. The baseline keeps exactly 1 qt. The reason was not stated. Use
+"exactly 1 L" in both the experiment's bulk-step title and body, measured
+where the dough meets the glass.
+
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
 last stretch and fold. Leave the dough undisturbed for the rest of bulk
