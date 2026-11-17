@@ -1027,9 +1027,14 @@ center of the loaf." It is a target, not a required reading, and the bake
 times stay fixed. This relaxes the 2026-09-05 decision to leave internal
 temperature out of the instructions.
 
+On 2026-11-17, the user shortened the uncovered bake to 40 minutes at the
+315°F setting in both the baseline and the experiment, so the total is
+70 minutes. This supersedes the 45-minute uncovered bake and keeps the
+30-minute covered bake. The reason was not stated.
+
 Bake for 30 minutes covered: 20 minutes at a 465°F oven setting, then
 10 minutes at a 390°F setting. Then remove the lid and bake uncovered for
-45 minutes at a 315°F setting. These settings include the
+40 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Aim for about 208°F in the center
 of the loaf. Follow the minimum three-hour
