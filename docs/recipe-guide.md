@@ -1042,9 +1042,14 @@ Later on 2026-11-17, the user took that back and restored the 45-minute
 uncovered bake at the 315°F setting in both recipes, so the total is again
 75 minutes. This supersedes the same-day 40-minute uncovered bake.
 
-Bake for 30 minutes covered: 20 minutes at a 465°F oven setting, then
-10 minutes at a 390°F setting. Then remove the lid and bake uncovered for
-45 minutes at a 315°F setting. These settings include the
+Later again on 2026-11-17, the user dropped the 10-minute 390°F stretch in
+both recipes, so the covered bake is 20 minutes at the 465°F setting
+throughout, followed by the 45-minute uncovered bake at the 315°F setting,
+for 65 minutes total. This supersedes 20 minutes at 465°F then 10 minutes at
+390°F. The reason was not stated.
+
+Bake for 20 minutes covered at a 465°F oven setting. Then remove the lid and
+bake uncovered for 45 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Aim for about 208°F in the center
 of the loaf. Follow the minimum three-hour

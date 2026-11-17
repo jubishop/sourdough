@@ -106,11 +106,10 @@ const steps: RecipeStep[] = [
   {
     id: 'covered-bake',
     phase: 'Bake',
-    time: '30 min covered',
+    time: '20 min covered',
     icon: CookingPot,
-    title: 'Bake covered at 465°F, then 390°F',
-    body: 'Lower the oven to 465°F and bake with the lid on for 30 minutes. The covered bake traps steam so the loaf can expand.',
-    cue: 'After 20 minutes, lower the oven to 390°F and keep the lid on for the last 10 minutes.',
+    title: 'Bake covered at 465°F',
+    body: 'Lower the oven to 465°F and bake with the lid on for 20 minutes. The covered bake traps steam so the loaf can expand.',
   },
   {
     id: 'uncovered-bake',
