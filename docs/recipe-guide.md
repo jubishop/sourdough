@@ -159,8 +159,9 @@ experiment view shows it struck through, and the `mix` step, titled "Mix the
 dough", holds the new order. The experiment checklist has 11 steps. The paddle
 had failed to work starter and salt into autolysed dough, which clumped and
 spun on the attachment; see the
-[November 16 record](sourdough/bakes/2026-11-16.md). The baseline keeps the
-1-hour autolyse.
+[November 16 record](sourdough/bakes/2026-11-16.md). The baseline kept the
+1-hour autolyse until 2026-11-17, when the user promoted the experiment to the
+baseline, so both recipes now mix this way with no autolyse and have 11 steps.
 
 ## Mixing starter and salt
 
@@ -506,9 +507,9 @@ same day; see [Visual bulk readiness](#visual-bulk-readiness).
 
 On 2026-11-17, the user changed the experiment's target to exactly 1 L at
 the glass edge, superseding exactly 1 qt there and switching from quarts to
-liters. The baseline keeps exactly 1 qt. The reason was not stated. Use
-"exactly 1 L" in both the experiment's bulk-step title and body, measured
-where the dough meets the glass.
+liters. The reason was not stated. Later that day, the user promoted the
+experiment to the baseline, so both recipes use "exactly 1 L" in the
+bulk-step title and body, measured where the dough meets the glass.
 
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
@@ -1625,19 +1626,20 @@ On 2026-11-16, the user set the experiment to exactly four squash-and-fold
 rounds, with the 30-minute rest before each now starting after the flour is
 mixed in, since the experiment has no autolyse. Each round still has up to
 four squash and folds, and the transfer to the oiled proofing container comes
-after round 4. The baseline keeps three rounds. The
+after round 4. The
 [November 16 record](sourdough/bakes/2026-11-16.md) notes the user considered
-the fourth round for added strength.
+the fourth round for added strength. On 2026-11-17, the user promoted the
+experiment to the baseline, so both recipes do exactly four rounds.
 
-The checklist now has 12 numbered steps. Squash and fold is Step 4,
-bulk is Step 5, shaping is Step 6, cold proof is Step 7, preheat is Step 8,
-and scoring/loading is Step 9. Covered bake, uncovered bake, and cooling
-are Steps 10, 11, and 12.
+With no autolyse, the checklist now has 11 numbered steps. Mixing is Step 2,
+squash and fold is Step 3, bulk is Step 4, shaping is Step 5, cold proof is
+Step 6, preheat is Step 7, and scoring/loading is Step 8. Covered bake,
+uncovered bake, and cooling are Steps 9, 10, and 11.
 Update the schedule and preheat-overlap references
 accordingly. Older numbered references in this decision history describe
 the previous checklist.
 
-Count all 12 required steps toward progress. Step 4 can be marked complete
+Count all 11 required steps toward progress. Step 3 can be marked complete
 after the last round.
 Retain the ID `slap-and-fold` after the rename
 and retain the other steps' IDs so saved progress remains valid. Obsolete
