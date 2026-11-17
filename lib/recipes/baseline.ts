@@ -117,7 +117,6 @@ const steps: RecipeStep[] = [
     icon: Flame,
     title: 'Finish uncovered at 315°F',
     body: 'Remove the lid, lower the oven to 315°F, and bake for 45 minutes. The uncovered bake lets the crust dry and brown. Then remove the Dutch oven from the oven.',
-    cue: 'Aim for about 208°F in the center of the loaf.',
   },
   {
     id: 'cool',
@@ -125,7 +124,7 @@ const steps: RecipeStep[] = [
     time: 'At least 3 hr',
     icon: Sparkles,
     title: 'Let the crumb set',
-    body: 'Remove the loaf from the Dutch oven, place it on a wire rack, and immediately brush the crust with olive oil. Cool uncovered for at least 3 hours before slicing. Let it cool longer if it is still warm.',
+    body: 'Optionally, right after the Dutch oven comes out of the oven, probe the center of the loaf with a thermometer to check that it is at least 208°F. Then remove the loaf from the Dutch oven, place it on a wire rack, and immediately brush the crust with olive oil. Cool uncovered for at least 3 hours before slicing. Let it cool longer if it is still warm.',
     cue: 'Cutting early can make a properly baked loaf seem gummy.',
   },
 ];
