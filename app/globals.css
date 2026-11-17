@@ -176,7 +176,7 @@ main[data-version='experiment'] .workflow-section { box-shadow: inset 0 0.3125re
 }
 
 @media (max-width: 26em) {
-  .brand-name { display: none; }
+  .site-header:has(.version-switch) .brand-name { display: none; }
   .version-switch button { gap: 0.3125rem; padding-inline: 0.625rem; font-size: 0.75rem; }.version-switch button > svg { display: none; }
 }
 
