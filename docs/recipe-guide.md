@@ -1115,6 +1115,13 @@ crumb only after the loaf has cooled fully.
 
 ## Dutch oven base and preheat
 
+On 2026-11-17, the user added a plain, flat, circular King Arthur silicone
+liner on top of the two perforated liners, in both the baseline and the
+experiment. The user counted it as the fourth silicone piece, with the
+lifter. The stack from the bottom is lifter, two perforated liners, plain
+King Arthur liner, parchment, loaf, and all of it stays under the loaf
+during the bake. The reason was not stated.
+
 On 2026-11-14, the user changed to two perforated silicone liners on the
 lifter instead of one. Stack the two liners centered on the lifter, so the
 stack from the bottom is lifter, two liners, parchment, loaf. This
