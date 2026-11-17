@@ -29,6 +29,12 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - **Experiment bulk target changed (November 17):** at the user's request, the Experiment now aims for **exactly 1 L at the glass edge**, about 5% more than the Baseline's exactly 1 qt. The Experiment now differs from the Baseline in autolyse, fold count and bulk endpoint.
 - The plan itself is not a result. See [November 16 observation and decision](bakes/2026-11-16.md). Earlier November 14 statements about a paddle with the 60-minute autolyse remain historical.
 
+## Latest bake outcome and next-bake decision — November 17, 2026
+
+- **Observed:** The new loaf had disappointing vertical oven spring and a fairly tight crumb. Even after **30 minutes covered**, it did not look substantially risen at lid removal. Opening of the scored sections after uncovering may have **created an illusion** of further rise; actual whole-loaf growth after uncovering was not measured. Extending the covered interval from 20 to 30 minutes has shown **no convincing spring benefit**, but these bakes were not controlled single-variable comparisons.
+- **Next-bake decision:** Return to **20 minutes covered at 465°F, followed immediately by 45 minutes uncovered at 315°F** (**65 minutes total planned**). Omit the additional 10-minute covered segment at 390°F. Measure the finished loaf's **center temperature**, aiming for **~208°F**; if below roughly 205°F, bake another 5 minutes uncovered and recheck. The target is not a reported measured result for today's loaf. Continue assessing dough mixing and fermentation, including whether 1 qt is a conservative bulk endpoint; those causes remain unproven.
+- **Research notes only:** This decision has **not** changed either published recipe, which still specifies 20 min covered at 465°F, 10 min covered at 390°F, and 45 min uncovered at 315°F. The November 17 exterior and crumb photos were shared in chat but will be added to GitHub **by the user**, not this update. See [November 17 bake notes](bakes/2026-11-17.md).
+
 ## Documentation rules
 
 - Add or update experiment plans in **experiments.md**, not separate numbered files.
@@ -49,6 +55,8 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - [November 8 — temperature planning decision, not a bake](bakes/2026-11-08.md)
 - [November 12 — 15-minute autolyse outcome and earlier 1-hour plan](bakes/2026-11-12.md)
 - [November 14 — Golden Wheat result, improved gumminess, delayed spring, and next bake plan](bakes/2026-11-14.md)
+- [November 16 — failed paddle incorporation; no-autolyse plan (not a finished-bake result)](bakes/2026-11-16.md)
+- [November 17 — 30-minute covered trial, low apparent spring, and next 20/45-minute plan](bakes/2026-11-17.md)
 
 Historical plans in these files may have been superseded. Use the most recent verified bake notes and the working decisions above when planning future tests.
 
