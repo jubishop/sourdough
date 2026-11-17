@@ -127,6 +127,18 @@ The project ID is `prj_kLYoyycFstxYJVjvXD2Y3JpDTLOa`; the team ID is
 Vercel connection on 2026-09-06. If access to this team is rejected, reconnect
 Vercel with access to `artisanal-software`; do not select a different project.
 
+### Build cache
+
+Vercel restores `.next/cache` from the previous deployment. On 2026-11-17, a
+deployment with a `globals.css` change built from that restored Turbopack
+cache and served the old stylesheet, while the page markup updated. A
+deployment with `--force`, which skips the cache, served the new CSS.
+[`next.config.ts`](../next.config.ts) therefore turns off
+`turbopackFileSystemCacheForBuild`, on by default since Next.js 16.3, so
+every build compiles fresh; these builds take about 15 seconds. Keep it off.
+If a deployment still serves stale output, redeploy with
+`vercel --prod --force`.
+
 ### Node runtime
 
 Vercel ignores `.nvmrc` and selects Node from `engines.node` in
