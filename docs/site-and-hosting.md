@@ -41,7 +41,7 @@ transfer is implemented.
 ## Edit the recipe
 
 - [Baseline and experiment recipes](recipe-versions.md): the two recipe
-  files, how to edit them, and the rule to ask which one a change targets.
+  files, how to edit them, and how to choose which one a change targets.
 - [Starter maintenance](../lib/starter-maintenance.ts): weekly mother-starter
   care, shared by both recipes.
 - [Recipe page](../app/recipe-page.tsx): page markup, the recipe switch, and

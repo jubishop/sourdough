@@ -28,6 +28,8 @@ const views = {
   experiment: viewRecipe(experiment, baseline),
 };
 const experimentChanges = views.experiment.changes.length;
+// With no differences there is no experiment, so the page shows only the baseline.
+const hasExperiment = experimentChanges > 0;
 const plural = (count: number) => `${count} ${count === 1 ? 'change' : 'changes'}`;
 const tagLabels: Record<Exclude<ItemStatus, 'same'>, string> = { changed: 'Changed', added: 'New', removed: 'Removed' };
 
@@ -85,31 +87,26 @@ function ComparisonSummary({ changes }: { changes: Change[] }) {
     <div className="compare-summary">
       <p className="compare-title">
         <FlaskConical aria-hidden="true" />
-        {changes.length ? `${plural(changes.length)} from the baseline` : 'Same as the baseline'}
+        {plural(changes.length)} from the baseline
       </p>
-      {changes.length ? (
-        <>
-          <ul className="compare-links">
-            {changes.map((change) => (
-              <li key={change.anchor}>
-                <a href={`#${change.anchor}`}><ChangeTag status={change.status} />{change.label}</a>
-              </li>
-            ))}
-          </ul>
-          <p className="compare-legend">
-            <ins className="diff-added">New in the experiment</ins>
-            <del className="diff-removed">Baseline only</del>
-          </p>
-        </>
-      ) : (
-        <p className="compare-empty">Nothing differs yet. Every step follows the tested recipe.</p>
-      )}
+      <ul className="compare-links">
+        {changes.map((change) => (
+          <li key={change.anchor}>
+            <a href={`#${change.anchor}`}><ChangeTag status={change.status} />{change.label}</a>
+          </li>
+        ))}
+      </ul>
+      <p className="compare-legend">
+        <ins className="diff-added">New in the experiment</ins>
+        <del className="diff-removed">Baseline only</del>
+      </p>
     </div>
   );
 }
 
 export function RecipePage() {
-  const [version, setVersion] = useRecipeVersion();
+  const [storedVersion, setVersion] = useRecipeVersion();
+  const version = hasExperiment ? storedVersion : 'baseline';
   const [completed, setCompleted] = useChecklist();
   const comparing = version === 'experiment';
   const view = views[version];
@@ -131,18 +128,18 @@ export function RecipePage() {
           <span className="brand-mark"><Wheat aria-hidden="true" /></span>
           <span className="brand-name">Sourdough</span>
         </a>
-        <fieldset className="version-switch" data-version={version}>
-          <legend className="sr-only">Recipe version</legend>
-          <button type="button" aria-pressed={!comparing} onClick={() => setVersion('baseline')}>
-            <BadgeCheck aria-hidden="true" /> Baseline
-          </button>
-          <button type="button" aria-pressed={comparing} onClick={() => setVersion('experiment')}>
-            <FlaskConical aria-hidden="true" /> Experiment
-            {experimentChanges > 0 && (
+        {hasExperiment && (
+          <fieldset className="version-switch" data-version={version}>
+            <legend className="sr-only">Recipe version</legend>
+            <button type="button" aria-pressed={!comparing} onClick={() => setVersion('baseline')}>
+              <BadgeCheck aria-hidden="true" /> Baseline
+            </button>
+            <button type="button" aria-pressed={comparing} onClick={() => setVersion('experiment')}>
+              <FlaskConical aria-hidden="true" /> Experiment
               <span className="version-count"><span className="sr-only">, </span>{experimentChanges}<span className="sr-only"> {experimentChanges === 1 ? 'change' : 'changes'}</span></span>
-            )}
-          </button>
-        </fieldset>
+            </button>
+          </fieldset>
+        )}
         <a className="header-action" href="#workflow">Start baking <ChevronRight aria-hidden="true" /></a>
       </header>
 
@@ -153,9 +150,7 @@ export function RecipePage() {
             <h1 className="font-display">Whole-wheat sourdough</h1>
             <p className="version-note">
               {comparing
-                ? experimentChanges
-                  ? `The trial for the next loaf, with ${plural(experimentChanges)} from the baseline highlighted.`
-                  : 'The trial for the next loaf. It matches the baseline for now.'
+                ? `The trial for the next loaf, with ${plural(experimentChanges)} from the baseline highlighted.`
                 : 'The tested recipe: the best loaf so far.'}
             </p>
           </div>
