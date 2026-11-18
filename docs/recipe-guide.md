@@ -1640,6 +1640,13 @@ after round 4. The
 the fourth round for added strength. On 2026-11-17, the user promoted the
 experiment to the baseline, so both recipes do exactly four rounds.
 
+On 2026-11-18, the user removed the cap of four squash and folds per round in
+both the baseline and the experiment: each round now has as many squash and
+folds as the dough allows before it becomes excessively tight and stiff. This
+supersedes the "up to four" limit from 2026-11-10. Keep exactly four rounds,
+the 30-minute rest before each, and the transfer after round 4. The reason was
+not stated.
+
 With no autolyse, the checklist now has 11 numbered steps. Mixing is Step 2,
 squash and fold is Step 3, bulk is Step 4, shaping is Step 5, cold proof is
 Step 6, preheat is Step 7, and scoring/loading is Step 8. Covered bake,
