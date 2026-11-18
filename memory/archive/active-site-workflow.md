@@ -11,7 +11,7 @@ site is abandoned and asked that the correct workflow be remembered.
 
 For future sourdough-site work, start with
 [jubishop/sourdough](https://github.com/jubishop/sourdough), read its
-`AGENTS.md`, and follow the [site and hosting guide](../docs/site-and-hosting.md).
+`AGENTS.md`, and follow the [site and hosting guide](../../docs/site-and-hosting.md).
 That guide owns the production URL, Vercel project, and deployment procedure.
 Do not select an old ChatGPT Sites checkout merely because it is available
 locally, and do not commit, push, or publish changes to that retired copy.

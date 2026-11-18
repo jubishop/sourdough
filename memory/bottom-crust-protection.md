@@ -7,18 +7,20 @@ type: reference
 # Bottom crust protection
 
 The aluminum foil base is a saved option if the bottom of the loaf becomes
-too dark. It is no longer part of the active recipe. Follow the current
+too dark. It is no longer part of the active recipe: the foil was replaced on
+2026-09-29, and the bottom is now protected by the King Arthur lifter, silicone
+liners, and parchment. Follow the current
 [recipe guide decision](../docs/recipe-guide.md#dutch-oven-base-and-preheat)
-for the current baking setup; the foil method below is historical.
+for the baking setup; the foil method below is historical.
 
 ## Reason for removal
 
 On 2026-09-15, the user asked to remove the foil base because they think
 the silicone bread sling may provide enough protection for the bottom.
 They explicitly asked to save the foil method because they may want to
-bring it back. The sling's protection without foil has not yet been
-established for this loaf and equipment. Reconsider the foil if a future
-bake shows excessive bottom darkening.
+bring it back. The user restored the foil on 2026-09-17 and later replaced it
+with a trivet, parchment, and the current lifter and liners. Reconsider the
+foil if a future bake shows excessive bottom darkening.
 
 ## Former foil method
 

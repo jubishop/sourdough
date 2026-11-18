@@ -57,8 +57,6 @@ review records or convert them into ordinary memory pages.
 
 ## Active pages
 
-- [Use the active Vercel site](active-site-workflow.md): find the correct
-  repository and publishing target; leave the abandoned ChatGPT site alone.
 - [Bottom crust protection](bottom-crust-protection.md): why the foil base
   was removed and the former method to restore if needed.
 - [Oven dial offset](oven-dial-offset.md): the oven runs 15°F below its
