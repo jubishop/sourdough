@@ -96,8 +96,8 @@ provides it.
 Open the local URL printed by Next.js. No environment values are required.
 Use `bin/check` for foundation checks only, or `bin/check --documents-only`
 for Markdown checks; Markdown edits need none. Run `pnpm typecheck` or `pnpm lint` explicitly when code
-edits need them. `bin/check --full` adds `bin/check-application`: the Python
-tests, typechecking, lint, and the production build. None of these is required
+edits need them. `bin/check --full` adds `bin/check-application`:
+typechecking, lint, and the production build. None of these is required
 before pushing or deploying. Use `pnpm start` to serve the completed
 production build locally.
 
@@ -105,8 +105,8 @@ production build locally.
 
 ### When deployment is required
 
-Commit and push every change on `main` immediately, with no local checks and
-no pull request; the owner asked for this on 2026-10-15. Then deploy right away
+After the commit and push that
+[`AGENTS.md`](../AGENTS.md#complete-every-change) requires, deploy right away
 when the change affects recipe content, application behavior, appearance,
 dependencies, or build/runtime configuration. Confirm the deployment reaches
 `READY` and verify the live production site.
@@ -179,9 +179,8 @@ creation date, and `engines.pnpm` stops the install with
 ### Publish through the connected Vercel tool
 
 The connected `deploy_to_vercel` tool accepts source files directly, so an
-authenticated local CLI is not required. First run the required checks and
-commit and push the source. Prepare the tracked files from that revision,
-respecting `.vercelignore`; exclude local credentials, caches, and build output.
+authenticated local CLI is not required. First commit and push the source.
+Prepare the tracked files from that revision, respecting `.vercelignore`; exclude local credentials, caches, and build output.
 Preserve binary assets by encoding their original bytes as base64.
 
 Call the tool with `name: "sourdough"`, the team ID above,
