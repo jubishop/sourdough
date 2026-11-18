@@ -1051,17 +1051,18 @@ for 65 minutes total. This supersedes 20 minutes at 465°F then 10 minutes at
 
 Later again on 2026-11-17, the user moved the temperature note from the
 uncovered-bake step to the cooling step and made it an optional check that
-the center of the loaf is at least 208°F. They check it with a thermometer
-probe right after the Dutch oven comes out of the oven. This supersedes the
-uncovered-bake cue "Aim for about 208°F in the center of the loaf." The
-check stays optional, and the bake times stay fixed.
+the center of the loaf is at least 208°F. They probe it with a thermometer
+as soon as the loaf is out of the oven, never in the oven. A low reading
+informs the next bake; it never sends this loaf back into the oven or extends
+its bake. This supersedes the uncovered-bake cue "Aim for about 208°F in the
+center of the loaf." The bake times stay fixed.
 
 Bake for 20 minutes covered at a 465°F oven setting. Then remove the lid and
 bake uncovered for 45 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Optionally, probe the center of the
-loaf with a thermometer right away to check that it is at least 208°F.
-Follow the minimum three-hour
+loaf with a thermometer right away; a reading below 208°F adjusts the next
+bake, not this one. Follow the minimum three-hour
 [cooling rest](#cooling-rest). Keep the step label and instructions consistent
 with this fixed bake time.
 
