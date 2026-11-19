@@ -1062,8 +1062,12 @@ On 2026-11-19, the user extended the uncovered bake to 50 minutes at the
 the 45-minute uncovered bake and keeps the 20-minute covered bake at 465°F.
 The reason was not stated.
 
+Later on 2026-11-19, the user extended the uncovered bake to a full hour at
+the 315°F setting in both recipes, so the total is 80 minutes. This
+supersedes the same-day 50-minute uncovered bake. The reason was not stated.
+
 Bake for 20 minutes covered at a 465°F oven setting. Then remove the lid and
-bake uncovered for 50 minutes at a 315°F setting. These settings include the
+bake uncovered for 60 minutes at a 315°F setting. These settings include the
 [oven temperature adjustment](#oven-temperature-adjustment).
 Then remove the Dutch oven from the oven. Optionally, probe the center of the
 loaf with a thermometer right away; a reading below 208°F adjusts the next
