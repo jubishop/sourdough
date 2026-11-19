@@ -5,8 +5,8 @@ Usage: bin/vercel-request [REVISION]
 
 REVISION defaults to origin/main and must already be on origin/main. Files are
 listed by SHA-1 and size: the tracked files at REVISION minus those matching
-its .vercelignore and .gitignore, which the Vercel CLI never uploads either.
-projectSettings come from its vercel.json.
+its .vercelignore and the .gitignore file itself, which the Vercel CLI never
+uploads either. projectSettings come from its vercel.json.
 """
 
 import hashlib

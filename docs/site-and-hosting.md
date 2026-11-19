@@ -187,11 +187,11 @@ which must already be on `origin/main`:
 - `name: "sourdough"`, `project` set to the project ID above, and
   `target: "production"`.
 - `files`: the tracked files at that revision, minus those matching its
-  `.vercelignore` and `.gitignore`, which the CLI never uploads either. Each
-  entry is `{file, sha, size}`: the root-relative path, the SHA-1 of the
-  contents, and the size in bytes. Inlining contents instead would not fit in
-  a tool call; the base64 of `public/og.png` alone is about 1.5 million
-  characters.
+  `.vercelignore` and the `.gitignore` file itself, which the CLI never
+  uploads either. Each entry is `{file, sha, size}`: the root-relative path,
+  the SHA-1 of the contents, and the size in bytes. Inlining contents instead
+  would not fit in a tool call; the base64 of `public/og.png` alone is about
+  1.5 million characters.
 - `projectSettings` with `framework`, `buildCommand`, and `installCommand`
   from `vercel.json`.
 - `gitMetadata` with the commit's SHA, `commitRef: "main"`, its subject as
@@ -229,8 +229,9 @@ polling the production URL with a script.
 These steps follow the connected tool schemas as checked on 2026-11-18;
 Vercel's [MCP tool reference](https://vercel.com/docs/agent-resources/vercel-mcp/tools)
 defers to each connection's schemas. That day a `forceNew` production deploy
-of `cf45487` by these steps reached `READY` after one `missing_files` retry,
-for a `.gitignore` the CLI had never uploaded.
+of `cf45487` by these steps reached `READY` on its first call. An earlier
+deploy that also listed `.gitignore`, which no deploy had stored yet, got
+`missing_files`, uploaded it with `upload_file`, and succeeded on the retry.
 
 ### Publish through the CLI
 
