@@ -2046,6 +2046,11 @@ and 30 g fresh flour. The reason was not stated. Later that day, the user
 applied the same amounts to weekly maintenance: around 10 g of mother
 starter with 30 g water and 30 g fresh flour.
 
+On 2026-11-18, the user raised the water and fresh flour to 40 g each in
+the bake-day mother refresh of both recipes and in weekly maintenance,
+keeping around 10 g of starter, for a 1:4:4 feed. The reason was not
+stated.
+
 ## Mother storage guide
 
 On 2026-09-18, the user clarified that the mother goes back in the fridge
