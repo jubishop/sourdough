@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+"""Print the create_deployment requestBody for a pushed revision of the site.
+
+Usage: bin/vercel-request [REVISION]
+
+REVISION defaults to origin/main and must already be on origin/main. Files are
+listed by SHA-1 and size: the tracked files at REVISION minus those matching
+its .vercelignore and .gitignore, which the Vercel CLI never uploads either.
+projectSettings come from its vercel.json.
+"""
+
+import hashlib
+import json
+import os
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
+
+ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ID = "prj_kLYoyycFstxYJVjvXD2Y3JpDTLOa"
+
+
+def git(*args, env=None):
+    return subprocess.run(["git", *args], cwd=ROOT, env=env, capture_output=True, check=True).stdout
+
+
+def files(revision):
+    with tempfile.TemporaryDirectory() as temporary:
+        env = {**os.environ, "GIT_INDEX_FILE": str(Path(temporary, "index"))}
+        ignore = Path(temporary, "vercelignore")
+        ignore.write_bytes(git("show", f"{revision}:.vercelignore"))
+        git("read-tree", revision, env=env)
+        ignored = set(git("ls-files", "-z", "-ci", f"--exclude-from={ignore}", env=env).split(b"\0"))
+        entries = [entry for entry in git("ls-files", "-z", "-s", env=env).split(b"\0") if entry]
+    listed = []
+    for entry in entries:
+        fields, path = entry.split(b"\t", 1)
+        if path in ignored or path == b".gitignore":
+            continue
+        data = git("cat-file", "blob", fields.split()[1].decode())
+        listed.append({"file": path.decode(), "sha": hashlib.sha1(data).hexdigest(), "size": len(data)})
+    return listed
+
+
+def main():
+    if len(sys.argv) > 2 or sys.argv[1:2] in (["-h"], ["--help"]):
+        print(__doc__.strip(), file=sys.stderr)
+        return 2
+    revision = sys.argv[1] if len(sys.argv) == 2 else "origin/main"
+    try:
+        commit = git("rev-parse", "--verify", f"{revision}^{{commit}}").decode().strip()
+        if subprocess.run(["git", "merge-base", "--is-ancestor", commit, "origin/main"], cwd=ROOT).returncode:
+            raise RuntimeError(f"{revision} is not on origin/main; push it first.")
+        settings = json.loads(git("show", f"{commit}:vercel.json"))
+        body = {
+            "name": "sourdough",
+            "project": PROJECT_ID,
+            "target": "production",
+            "files": files(commit),
+            "projectSettings": {key: settings[key] for key in ("framework", "buildCommand", "installCommand")},
+            "gitMetadata": {
+                "commitSha": commit,
+                "commitRef": "main",
+                "commitMessage": git("log", "-1", "--format=%s", commit).decode().strip(),
+                "remoteUrl": git("remote", "get-url", "origin").decode().strip(),
+                "dirty": False,
+            },
+        }
+    except subprocess.CalledProcessError as error:
+        print(error.stderr.decode().strip() or error, file=sys.stderr)
+        return 1
+    except (RuntimeError, KeyError, ValueError) as error:
+        print(error, file=sys.stderr)
+        return 1
+    print(json.dumps(body, ensure_ascii=False, separators=(",", ":")))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

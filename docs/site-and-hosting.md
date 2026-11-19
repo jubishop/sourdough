@@ -137,7 +137,7 @@ deployment with `--force`, which skips the cache, served the new CSS.
 `turbopackFileSystemCacheForBuild`, on by default since Next.js 16.3, so
 every build compiles fresh; these builds take about 15 seconds. Keep it off.
 If a deployment still serves stale output, redeploy with
-`vercel --prod --force`.
+`vercel --prod --force`, or through the connected tool with `forceNew: "1"`.
 
 ### Node runtime
 
@@ -178,21 +178,46 @@ creation date, and `engines.pnpm` stops the install with
 
 ### Publish through the connected Vercel tool
 
-The connected `deploy_to_vercel` tool accepts source files directly, so an
-authenticated local CLI is not required. First commit and push the source.
-Prepare the tracked files from that revision, respecting `.vercelignore`;
-exclude local credentials, caches, and build output. Preserve binary assets by
-encoding their original bytes as base64.
+The connected `create_deployment` tool deploys files by reference to the
+team's Vercel file store, so an authenticated local CLI is not required. First
+commit and push the source, then run `bin/vercel-request`. It prints the call's
+`requestBody` for `origin/main`, or for a revision given as its argument,
+which must already be on `origin/main`:
 
-Call the tool with `name: "sourdough"`, the team ID above,
-`target: "production"`, and a `files` array. Each entry contains `file` (the
-root-relative path), `data` (the complete contents), and `encoding` (`utf-8`
-or `base64`). Use `projectSettings` with `framework: "nextjs"`,
-`buildCommand: "pnpm build"`, and
-`installCommand: "pnpm install --frozen-lockfile"`.
+- `name: "sourdough"`, `project` set to the project ID above, and
+  `target: "production"`.
+- `files`: the tracked files at that revision, minus those matching its
+  `.vercelignore` and `.gitignore`, which the CLI never uploads either. Each
+  entry is `{file, sha, size}`: the root-relative path, the SHA-1 of the
+  contents, and the size in bytes. Inlining contents instead would not fit in
+  a tool call; the base64 of `public/og.png` alone is about 1.5 million
+  characters.
+- `projectSettings` with `framework`, `buildCommand`, and `installCommand`
+  from `vercel.json`.
+- `gitMetadata` with the commit's SHA, `commitRef: "main"`, its subject as
+  `commitMessage`, the `origin` URL as `remoteUrl`, and `dirty: false`, so the
+  deployment list shows the commit as it does for CLI deploys.
 
-Poll the returned deployment ID with `get_deployment` and the same team ID
-until it reaches `READY` or a terminal failure. Check build logs if it fails.
+Call `create_deployment` with `teamId` set to the team ID above and that
+output as `requestBody`. Add `forceNew: "1"` to force a fresh build without
+the build cache when an identical deployment already exists, as when
+redeploying the commit production serves. Leave
+`skipAutoDetectionConfirmation` unset: the request sends the project's own
+framework, so a 400 asking to confirm framework detection means the project
+settings changed and need checking, not suppressing.
+
+Earlier CLI and tool deploys have already stored most files. A 400
+`missing_files` error does not name the missing ones; they are usually the
+files changed since the commit production serves, its `githubCommitSha` in
+`list_deployments`. Upload each with `upload_file`: `teamId`, the file's
+contents as base64 in `requestBody`, `xVercelDigest` set to its SHA-1, and
+`contentLength` set to its size. Then repeat the call. A missing file too
+large to pass as base64 in a tool call, such as a changed `public/og.png`,
+needs the CLI instead.
+
+Poll the returned deployment ID with `get_deployment`, setting `idOrUrl` to
+it and `teamId` to the team ID, until it reaches `READY` or a terminal
+failure. If it fails, read its build logs with `list_deployment_events`.
 Then verify the intended content at the production URL above, rather than
 treating an upload, a Git push, or an initializing deployment as publication.
 On 2026-11-03, Vercel's bot protection began answering a `curl` polling loop
@@ -200,9 +225,12 @@ against the production URL with a 403 "Vercel Security Checkpoint" page after
 about 30 requests in five minutes. A browser passed the challenge and showed
 the new content. Verify in a browser, or check once after `READY`, rather than
 polling the production URL with a script.
-This workflow was checked against the
-[Vercel MCP tool reference](https://vercel.com/docs/agent-resources/vercel-mcp/tools)
-on 2026-09-06.
+
+These steps follow the connected tool schemas as checked on 2026-11-18;
+Vercel's [MCP tool reference](https://vercel.com/docs/agent-resources/vercel-mcp/tools)
+defers to each connection's schemas. That day a `forceNew` production deploy
+of `cf45487` by these steps reached `READY` after one `missing_files` retry,
+for a `.gitignore` the CLI had never uploaded.
 
 ### Publish through the CLI
 
