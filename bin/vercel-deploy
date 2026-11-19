@@ -3,11 +3,11 @@
 
 Usage: bin/vercel-deploy [--force] [REVISION]
 
-REVISION defaults to origin/main and must already be on origin/main. The CLI
-uploads the directory it runs in, so this runs it in a temporary clone of
-REVISION outside the repository, holding only that revision's tracked files,
-and removes the clone on exit. The clone checks REVISION out as branch main
-with origin's URL, so the deployment records the commit, branch, and
+REVISION defaults to origin/main, fetched first, and must already be on it.
+The CLI uploads the directory it runs in, so this runs it in a temporary clone
+of REVISION outside the repository, holding only that revision's tracked
+files, and removes the clone on exit. The clone checks REVISION out as branch
+main with origin's URL, so the deployment records the commit, branch, and
 repository. --force builds without the build cache.
 """
 

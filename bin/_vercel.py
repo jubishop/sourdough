@@ -13,7 +13,11 @@ def git(*args, cwd=ROOT, env=None):
 
 
 def pushed_commit(revision):
-    """Return the full SHA of revision, refusing one not already on origin/main."""
+    """Return the full SHA of revision, refusing one not already on origin/main.
+
+    Fetches origin/main first, so a push from another clone isn't missed.
+    """
+    git("fetch", "--quiet", "origin", "main")
     commit = git("rev-parse", "--verify", f"{revision}^{{commit}}").decode().strip()
     if subprocess.run(["git", "merge-base", "--is-ancestor", commit, "origin/main"], cwd=ROOT).returncode:
         raise RuntimeError(f"{revision} is not on origin/main; push it first.")

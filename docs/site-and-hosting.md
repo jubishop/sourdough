@@ -181,9 +181,9 @@ creation date, and `engines.pnpm` stops the install with
 
 The connected `create_deployment` tool deploys files by reference to the
 team's Vercel file store, so an authenticated local CLI is not required. First
-commit and push the source, then run `bin/vercel-request`. It prints the call's
-`requestBody` for `origin/main`, or for a revision given as its argument,
-which must already be on `origin/main`:
+commit and push the source, then run `bin/vercel-request`. It fetches
+`origin/main` and prints the call's `requestBody` for it, or for a revision
+given as its argument, which must already be on `origin/main`:
 
 - `name: "sourdough"`, `project` set to the project ID above, and
   `target: "production"`.
@@ -244,9 +244,9 @@ pnpm lockfile. With an authenticated Vercel CLI, check the account with
 bin/vercel-deploy
 ```
 
-It deploys `origin/main` to production, or a revision given as its argument,
-which must already be on `origin/main`; add `--force` to build without the
-build cache. The CLI waits for the build and exits nonzero if it fails; then
+It fetches `origin/main` and deploys it to production, or a revision given as
+its argument, which must already be on `origin/main`; add `--force` to build
+without the build cache. The CLI waits for the build and exits nonzero if it fails; then
 verify the production site as the connected-tool steps describe. No database,
 authentication keys, or secret environment values are needed. Keep the
 production domain accessible to anonymous visitors.
