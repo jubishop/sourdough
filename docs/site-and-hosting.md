@@ -137,7 +137,8 @@ deployment with `--force`, which skips the cache, served the new CSS.
 `turbopackFileSystemCacheForBuild`, on by default since Next.js 16.3, so
 every build compiles fresh; these builds take about 15 seconds. Keep it off.
 If a deployment still serves stale output, redeploy with
-`vercel --prod --force`, or through the connected tool with `forceNew: "1"`.
+`bin/vercel-deploy --force`, or through the connected tool with
+`forceNew: "1"`.
 
 ### Node runtime
 
@@ -213,7 +214,7 @@ files changed since the commit production serves, its `githubCommitSha` in
 contents as base64 in `requestBody`, `xVercelDigest` set to its SHA-1, and
 `contentLength` set to its size. Then repeat the call. A missing file too
 large to pass as base64 in a tool call, such as a changed `public/og.png`,
-needs the CLI instead.
+needs [the CLI](#publish-through-the-cli) instead.
 
 Poll the returned deployment ID with `get_deployment`, setting `idOrUrl` to
 it and `teamId` to the team ID, until it reaches `READY` or a terminal
@@ -236,17 +237,35 @@ deploy that also listed `.gitignore`, which no deploy had stored yet, got
 ### Publish through the CLI
 
 The root [Vercel configuration](../vercel.json) selects Next.js and uses the
-pnpm lockfile. Deploy from the repository root. With an authenticated Vercel
-CLI, link the project and publish:
+pnpm lockfile. With an authenticated Vercel CLI, check the account with
+`vercel whoami`, commit and push the source, then publish:
 
 ```sh
-vercel link --scope artisanal-software --project sourdough
-vercel --prod
+bin/vercel-deploy
 ```
 
-The link file under `.vercel/` is local and ignored by Git. Verify the selected
-account before linking. No database, authentication keys, or secret environment
-values are needed. Keep the production domain accessible to anonymous visitors.
+It deploys `origin/main` to production, or a revision given as its argument,
+which must already be on `origin/main`; add `--force` to build without the
+build cache. The CLI waits for the build and exits nonzero if it fails; then
+verify the production site as the connected-tool steps describe. No database,
+authentication keys, or secret environment values are needed. Keep the
+production domain accessible to anonymous visitors.
+
+Never run `vercel --prod` from a working checkout. The CLI uploads the
+directory it runs in, minus `.vercelignore` and its built-in ignores, so it
+ships untracked and modified files, including another session's uncommitted
+work, under a commit SHA that doesn't contain them. A deploy of `0e32fe0` on
+2026-11-18 shipped a browser snapshot and local build output this way.
+`bin/vercel-deploy` therefore clones the revision into a temporary directory
+outside the repository, writes the project link to `.vercel/project.json`
+there, runs `vercel deploy --prod --yes`, and removes the clone on exit. It
+uses a clone, not a linked worktree, because the CLI reads the remote URL
+from the checkout's `.git/config` and the branch from `HEAD`; the clone checks
+the revision out as `main` with `origin`'s URL, so the deployment records the
+commit, branch, and repository as `bin/vercel-request` does. On 2026-11-18,
+its deploy of `d36608f` reached `READY` with exactly the files and SHA-1s
+that `bin/vercel-request` lists, while an untracked file and an uncommitted
+edit in the checkout stayed behind.
 
 Direct CLI deployment is configured. To enable deployment on Git pushes,
 connect GitHub in the Vercel account's login settings, then run

@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+"""Deploy a pushed revision of the site to production with the Vercel CLI.
+
+Usage: bin/vercel-deploy [--force] [REVISION]
+
+REVISION defaults to origin/main and must already be on origin/main. The CLI
+uploads the directory it runs in, so this runs it in a temporary clone of
+REVISION outside the repository, holding only that revision's tracked files,
+and removes the clone on exit. The clone checks REVISION out as branch main
+with origin's URL, so the deployment records the commit, branch, and
+repository. --force builds without the build cache.
+"""
+
+import json
+from pathlib import Path
+import signal
+import subprocess
+import sys
+import tempfile
+
+sys.dont_write_bytecode = True
+from _vercel import PROJECT_ID, ROOT, TEAM_ID, git, pushed_commit
+
+
+def stop(signum, _frame):
+    sys.exit(128 + signum)
+
+
+def checkout(commit, directory):
+    git("clone", "--quiet", "--shared", "--no-checkout", str(ROOT), str(directory))
+    git("remote", "set-url", "origin", git("remote", "get-url", "origin").decode().strip(), cwd=directory)
+    git("-c", "core.hooksPath=/dev/null", "checkout", "--quiet", "-B", "main", commit, cwd=directory)
+    link = {"orgId": TEAM_ID, "projectId": PROJECT_ID, "projectName": "sourdough"}
+    Path(directory, ".vercel").mkdir()
+    Path(directory, ".vercel", "project.json").write_text(json.dumps(link) + "\n")
+
+
+def main():
+    arguments = [argument for argument in sys.argv[1:] if argument != "--force"]
+    if len(arguments) > 1 or any(argument.startswith("-") for argument in arguments):
+        print(__doc__.strip(), file=sys.stderr)
+        return 2
+    force = len(arguments) < len(sys.argv) - 1
+    signal.signal(signal.SIGTERM, stop)
+    signal.signal(signal.SIGHUP, stop)
+    try:
+        commit = pushed_commit(arguments[0] if arguments else "origin/main")
+        with tempfile.TemporaryDirectory(prefix="sourdough-deploy-") as temporary:
+            directory = Path(temporary).resolve() / "sourdough"
+            checkout(commit, directory)
+            print(f"Deploying {commit} from a clean clone.", file=sys.stderr)
+            command = ["vercel", "deploy", "--prod", "--yes", *(["--force"] if force else [])]
+            return subprocess.run(command, cwd=directory).returncode
+    except subprocess.CalledProcessError as error:
+        print(error.stderr.decode().strip() or error, file=sys.stderr)
+        return 1
+    except FileNotFoundError:
+        print("The Vercel CLI is not installed; see docs/site-and-hosting.md.", file=sys.stderr)
+        return 1
+    except RuntimeError as error:
+        print(error, file=sys.stderr)
+        return 1
+    except KeyboardInterrupt:
+        return 130
+
+
+if __name__ == "__main__":
+    sys.exit(main())
