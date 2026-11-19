@@ -36,6 +36,13 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - **Next-bake decision:** Return to **20 minutes covered at 465°F, followed immediately by 45 minutes uncovered at 315°F** (**65 minutes total planned**). Omit the additional 10-minute covered segment at 390°F. Optionally measure the loaf's **center temperature** with a thermometer probe as soon as it is out of the oven, aiming for **at least 208°F**. A low reading informs the **next** bake; the user does not return the loaf to the oven or extend its bake (clarified later November 17, superseding a rule to bake 5 more minutes below about 205°F). The target is not a reported measured result for today's loaf. Continue assessing dough mixing and fermentation, including whether 1 qt is a conservative bulk endpoint; those causes remain unproven.
 - **Applied to both recipes (later November 17):** at the user's request, the Baseline and the Experiment now bake **20 min covered at 465°F, then 45 min uncovered at 315°F**, dropping the 10-minute covered 390°F stretch. The recipes' cooling step now gives the optional out-of-oven probe check, with any shortfall below 208°F adjusting the next bake. See [November 17 bake notes](bakes/2026-11-17.md), which include the exterior and crumb photos.
 
+## Latest bake outcome and working plan — November 19, 2026
+
+- **Actual November 19 oven results:** 20 minutes **covered at 465°F** and 45 minutes **uncovered at 315°F** yielded **205°F center**, short of the user's **208°F** target. An additional 15 minutes **uncovered at 315°F** reached the target (80 minutes total). The precise final temperature was not reported, and the user suspects that not all the extra time was necessary. Tentative practical schedule for the next loaf: **20 covered + 60 uncovered**, checking once at the end rather than repeatedly removing/reinserting the loaf.
+- **Significant fermentation confounder:** Starter, levain **and bulk** were unusually slow; the user is refreshing the starter roughly every 12 hours. The user carefully observed **real loaf expansion after uncovering at minute 20**, not merely score cuts spreading; exact timing is unknown. Slow fermentation may limit spring, but is **not established to delay its timing**. Keep the process otherwise unchanged until normal vigor returns before testing an extra 5 minutes covered at 390°F.
+- **Crumb review:** Mostly tight, small pores with a few larger holes and mild basal density, below desired openness. No user tasting assessment yet: photo cannot establish gumminess. The user will add the photo separately. See the [November 19 bake record](bakes/2026-11-19.md).
+- **Recipe-code discrepancy:** At this update, `lib/recipes/baseline.ts` still describes 20 minutes at 465°F + 10 minutes covered at 390°F + 45 minutes uncovered, despite earlier documentation reporting a 20/45 site change. **No deployed recipe was altered in this documentation update.**
+
 ## Documentation rules
 
 - Add or update experiment plans in **experiments.md**, not separate numbered files.
@@ -58,6 +65,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - [November 14 — Golden Wheat result, improved gumminess, delayed spring, and next bake plan](bakes/2026-11-14.md)
 - [November 16 — failed paddle incorporation; no-autolyse plan (not a finished-bake result)](bakes/2026-11-16.md)
 - [November 17 — 30-minute covered trial, low apparent spring, and next 20/45-minute plan](bakes/2026-11-17.md)
+- [November 19 — slow fermentation, late expansion, 205°F at 20/45, and crumb review](bakes/2026-11-19.md)
 
 Historical plans in these files may have been superseded. Use the most recent verified bake notes and the working decisions above when planning future tests.
 
