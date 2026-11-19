@@ -40,7 +40,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 
 - **Actual November 19 oven results:** 20 minutes **covered at 465°F** and 45 minutes **uncovered at 315°F** yielded **205°F center**, short of the user's **208°F** target. An additional 15 minutes **uncovered at 315°F** reached the target (80 minutes total). The precise final temperature was not reported, and the user suspects that not all the extra time was necessary. **Next bake confirmed by the user:** **20 minutes covered at 465°F + 10 minutes covered at 390°F + 45 minutes uncovered at 315°F** (75 minutes total), with one end-of-bake temperature check if desired. This differs from today's actual 20/60 schedule and has not yet been proven to reach 208°F.
 - **Significant fermentation confounder:** Starter, levain **and bulk** were unusually slow; the user is refreshing the starter roughly every 12 hours. The user carefully observed **real loaf expansion after uncovering at minute 20**, not merely score cuts spreading; exact timing is unknown. Slow fermentation may limit spring, but is **not established to delay its timing**. Despite the fermentation confounder, the user elected to restore **10 minutes covered at 390°F** on the next bake; keep other experimental changes on hold while starter vigor recovers.
-- **Crumb review:** Mostly tight, small pores with a few larger holes and mild basal density, below desired openness. No user tasting assessment yet: photo cannot establish gumminess. The user will add the photo separately. See the [November 19 bake record](bakes/2026-11-19.md).
+- **Crumb review:** Mostly tight, small pores with a few larger holes and mild basal density, below desired openness. No user tasting assessment yet: photo cannot establish gumminess. See the [November 19 bake record](bakes/2026-11-19.md).
 - **Recipe history clarified:** At this update, `lib/recipes/baseline.ts` describes the confirmed **next-bake 20/10/45 schedule**, despite the historical November 17 note about an earlier site change to 20/45. **No deployed recipe was altered in this documentation update.**
 
 ## Documentation rules
@@ -75,4 +75,4 @@ The documents above were copied from ChatGPT Library and organized in GitHub. So
 
 ## Bake photos
 
-The [photo archive](photos/) contains the original JPEGs recovered from ChatGPT Library, plus photos added since. The dated records link to the October 31, November 3, November 5, November 6, November 7, November 12, November 14, and November 17 photos. The October 29 photos remain unconfirmed.
+The [photo archive](photos/) contains the original JPEGs recovered from ChatGPT Library, plus photos added since. The dated records link to the October 31, November 3, November 5, November 6, November 7, November 12, November 14, November 17, and November 19 photos. The October 29 photos remain unconfirmed.
