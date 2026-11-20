@@ -1664,6 +1664,13 @@ supersedes the "up to four" limit from 2026-11-10. Keep exactly four rounds,
 the 30-minute rest before each, and the transfer after round 4. The reason was
 not stated.
 
+On 2026-11-20, the user changed both the baseline and the experiment to four
+to six squash-and-fold rounds, a minimum of four, superseding the exact
+four-round count. Keep as many squash and folds per round as the dough
+allows, the 30-minute rest before each round, and the covered rests in the
+mixing bowl. Transfer to the oiled proofing container after the last round.
+The reason was not stated.
+
 With no autolyse, the checklist now has 11 numbered steps. Mixing is Step 2,
 squash and fold is Step 3, bulk is Step 4, shaping is Step 5, cold proof is
 Step 6, preheat is Step 7, and scoring/loading is Step 8. Covered bake,
