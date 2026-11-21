@@ -511,6 +511,12 @@ liters. The reason was not stated. Later that day, the user promoted the
 experiment to the baseline, so both recipes use "exactly 1 L" in the
 bulk-step title and body, measured where the dough meets the glass.
 
+On 2026-11-21, as an experiment, the user raised the experiment's target to
+exactly 1.1 L at the glass edge, superseding exactly 1 L there. The reason
+was not stated. The experiment uses "exactly 1.1 L" in the bulk-step title
+and body, measured where the dough meets the glass; the baseline keeps
+exactly 1 L.
+
 Keep a single gentle transfer to the 2-quart proofing container, then
 cover it. With the decision under [Folding](#folding), transfer after the
 last stretch and fold. Leave the dough undisturbed for the rest of bulk
