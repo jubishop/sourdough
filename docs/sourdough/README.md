@@ -43,6 +43,13 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - **Crumb review:** Mostly tight, small pores with a few larger holes and mild basal density, below desired openness. No user tasting assessment yet: photo cannot establish gumminess. See the [November 19 bake record](bakes/2026-11-19.md).
 - **Recipe history clarified:** At this update, `lib/recipes/baseline.ts` describes the confirmed **next-bake 20/10/45 schedule**, despite the historical November 17 note about an earlier site change to 20/45. **No deployed recipe was altered in this documentation update.**
 
+## Latest bake outcome and fermentation priority — November 21, 2026
+
+- **Bulk endpoint:** The user clarified that the actual November 21 bake went **closer to 1.0 L at the glass edge**, rather than merely 1 US quart (~946 mL). This is an approximate actual observation, not a newly selected endpoint or confirmation of exactly 1.0 L.
+- **Oven:** Following the intended **20 min covered at 465°F + 10 min covered at 390°F + 45 min uncovered at 315°F** profile (75 min), the user saw **some expansion already present when uncovering**. The loaf was not markedly better overall; the X-score opened substantially, but meaningful extra *vertical* spring has not been established. We cannot tell whether the extra covered 10 minutes caused the expansion. **Internal temperature was not measured**; the user suspects at least 208°F, but that is unverified.
+- **Crumb / texture:** Fine, tight crumb with scattered bigger upper pockets, a denser lower band, and **still a bit gummy after completely cooling**. The baker reports that fully cooling before slicing is always standard practice. This rules out premature slicing, while the history of extended baking makes insufficient oven time a less compelling leading explanation (without proving every loaf fully baked).
+- **Next priority:** The user agrees **fermentation is the main variable to investigate next**, given recent sluggish starter, levain, and bulk behavior. Record actual starter vigor, dough temperature, elapsed bulk time, dome/volume cues and endpoint; consider a controlled later-endpoint trial only when vigor is stable. **No new endpoint, hydration, or baking schedule has been approved and neither deployed recipe was changed.** See [November 21 bake notes](bakes/2026-11-21.md). The three exterior/crumb photos were shared for review but are not yet in the Git repository.
+
 ## Documentation rules
 
 - Add or update experiment plans in **experiments.md**, not separate numbered files.
@@ -66,6 +73,7 @@ This is the shared research archive for the 100% whole-wheat sourdough project. 
 - [November 16 — failed paddle incorporation; no-autolyse plan (not a finished-bake result)](bakes/2026-11-16.md)
 - [November 17 — 30-minute covered trial, low apparent spring, and next 20/45-minute plan](bakes/2026-11-17.md)
 - [November 19 — slow fermentation, late expansion, 205°F at 20/45, and crumb review](bakes/2026-11-19.md)
+- [November 21 — some covered-phase expansion, tight slightly gummy crumb, and fermentation priority](bakes/2026-11-21.md)
 
 Historical plans in these files may have been superseded. Use the most recent verified bake notes and the working decisions above when planning future tests.
 
