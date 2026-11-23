@@ -40,12 +40,9 @@ transfer is implemented.
 
 ## Edit the recipe
 
-- [Baseline and experiment recipes](recipe-versions.md): the two recipe
-  files, how to edit them, and how to choose which one a change targets.
-- [Starter maintenance](../lib/starter-maintenance.ts): weekly mother-starter
-  care, shared by both recipes.
-- [Recipe page](../app/recipe-page.tsx): page markup, the recipe switch, and
-  the experiment's highlighted differences.
+- [Baking paths and recipe versions](recipe-versions.md): each path's recipe
+  files, weekly starter maintenance, the recipe page, and how to choose which
+  path and recipe a change targets.
 - [Styles](../app/globals.css): layout, colors, and responsive behavior.
 - [Layout](../app/layout.tsx): fonts, title, description, and sharing metadata.
 - [Checklist hook](../hooks/use-checklist.ts): device-local progress. It reads
