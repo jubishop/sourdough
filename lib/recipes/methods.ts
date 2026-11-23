@@ -7,7 +7,8 @@ import { experiment as loafPanExperiment } from './loaf-pan/experiment';
 import type { Recipe, RecipeMethod, RecipeVersion } from './types';
 
 // Each baking path holds its own baseline and experiment, listed in switch order.
-export const methods: { id: RecipeMethod; label: string; icon: LucideIcon; recipes: Record<RecipeVersion, Recipe> }[] = [
-  { id: 'dutch-oven', label: 'Dutch oven', icon: CookingPot, recipes: { baseline: dutchOvenBaseline, experiment: dutchOvenExperiment } },
-  { id: 'loaf-pan', label: 'Loaf pan', icon: RectangleHorizontal, recipes: { baseline: loafPanBaseline, experiment: loafPanExperiment } },
+// `label` heads the switch; `name` reads mid-sentence.
+export const methods: { id: RecipeMethod; label: string; name: string; icon: LucideIcon; recipes: Record<RecipeVersion, Recipe> }[] = [
+  { id: 'dutch-oven', label: 'Dutch oven', name: 'Dutch oven', icon: CookingPot, recipes: { baseline: dutchOvenBaseline, experiment: dutchOvenExperiment } },
+  { id: 'loaf-pan', label: 'Loaf pan', name: 'loaf pan', icon: RectangleHorizontal, recipes: { baseline: loafPanBaseline, experiment: loafPanExperiment } },
 ];

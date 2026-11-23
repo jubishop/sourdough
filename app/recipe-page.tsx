@@ -114,7 +114,7 @@ export function RecipePage() {
   const [completed, setCompleted] = useChecklist();
   const comparing = version === 'experiment';
   const view = views[method][version];
-  const methodLabel = methods.find(({ id }) => id === method)!.label;
+  const path = methods.find(({ id }) => id === method)!;
   const steps = view.steps.filter((step) => step.status !== 'removed');
   const completedSteps = steps.filter((step) => completed.includes(step.id)).length;
   const progress = Math.round((completedSteps / steps.length) * 100);
@@ -164,7 +164,7 @@ export function RecipePage() {
             <p className="version-note">
               {comparing
                 ? `The trial for the next loaf, with ${plural(experimentChanges)} from the baseline highlighted.`
-                : `The tested ${methodLabel.toLowerCase()} recipe: the best loaf so far.`}
+                : `The tested ${path.name} recipe: the best loaf so far.`}
             </p>
           </div>
           <a className="primary-link" href="#workflow">Open checklist <ChevronRight /></a>
@@ -173,7 +173,7 @@ export function RecipePage() {
 
       <section id="workflow" className="section workflow-section">
         <div className="shell">
-          <h2 className="sr-only">{methodLabel} {comparing ? 'experiment' : 'baseline'} bake checklist</h2>
+          <h2 className="sr-only">{path.label} {comparing ? 'experiment' : 'baseline'} bake checklist</h2>
           <div className="workflow-toolbar">
             {comparing && <ComparisonSummary changes={view.changes} />}
             <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>
