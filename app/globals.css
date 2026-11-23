@@ -74,6 +74,8 @@ svg { height: auto; flex-shrink: 0; }
 .version-switch button[aria-pressed='true'] { color: #fffaf2; }
 .version-switch[data-version='experiment'] button[aria-pressed='true'] { color: #2a2112; }
 .version-switch svg { width: 1rem; }
+/* The baking-path switch reuses the pill switch, in ink so it reads apart from the recipe-version switch. */
+.method-switch { align-self: flex-start; }.method-switch::before { background: var(--ink); box-shadow: 0 0.25rem 0.875rem rgba(32,26,20,.2); }.method-switch[data-method='loaf-pan']::before { transform: translateX(100%); }
 .version-count { min-width: 1.25rem; height: 1.25rem; padding: 0 0.3125rem; display: inline-grid; place-items: center; border-radius: 999em; background: var(--honey); color: #2a2112; font-size: 0.6875rem; font-weight: 800; }
 .version-switch button[aria-pressed='true'] .version-count { background: #2a2112; color: var(--honey); }
 .header-action { grid-column: 3; justify-self: end; display: inline-flex; align-items: center; gap: 0.3125rem; white-space: nowrap; font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }

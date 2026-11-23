@@ -5,31 +5,31 @@ import { BadgeCheck, CheckCircle2, ChevronRight, FlaskConical, RotateCcw, Snowfl
 
 import { Checkbox } from '@/components/ui/checkbox';
 import { useChecklist } from '@/hooks/use-checklist';
-import { useRecipeVersion } from '@/hooks/use-recipe-version';
-import { baseline } from '@/lib/recipes/baseline';
+import { useRecipeMethod, useRecipeVersion } from '@/hooks/use-recipe-choice';
 import {
   type Change,
   type Chunk,
   type ItemStatus,
   type ListEntry,
+  type RecipeView,
   type StepView,
   motherRefreshAnchor,
   stepAnchor,
   textChunks,
   viewRecipe,
 } from '@/lib/recipes/compare';
-import { experiment } from '@/lib/recipes/experiment';
+import { methods } from '@/lib/recipes/methods';
+import type { RecipeMethod, RecipeVersion } from '@/lib/recipes/types';
 import { starterMaintenance } from '@/lib/starter-maintenance';
 import { cn } from '@/lib/utils';
 
-// The baseline shows plainly; the experiment marks every difference from it.
-const views = {
-  baseline: viewRecipe(baseline, baseline),
-  experiment: viewRecipe(experiment, baseline),
-};
-const experimentChanges = views.experiment.changes.length;
-// With no differences there is no experiment, so the page shows only the baseline.
-const hasExperiment = experimentChanges > 0;
+// Each path's baseline shows plainly; its experiment marks every difference from it.
+const views = Object.fromEntries(
+  methods.map(({ id, recipes }) => [id, {
+    baseline: viewRecipe(recipes.baseline, recipes.baseline),
+    experiment: viewRecipe(recipes.experiment, recipes.baseline),
+  }]),
+) as Record<RecipeMethod, Record<RecipeVersion, RecipeView>>;
 const plural = (count: number) => `${count} ${count === 1 ? 'change' : 'changes'}`;
 const tagLabels: Record<Exclude<ItemStatus, 'same'>, string> = { changed: 'Changed', added: 'New', removed: 'Removed' };
 
@@ -105,11 +105,16 @@ function ComparisonSummary({ changes }: { changes: Change[] }) {
 }
 
 export function RecipePage() {
+  const [method, setMethod] = useRecipeMethod();
   const [storedVersion, setVersion] = useRecipeVersion();
+  const experimentChanges = views[method].experiment.changes.length;
+  // With no differences there is no experiment, so the page shows only the path's baseline.
+  const hasExperiment = experimentChanges > 0;
   const version = hasExperiment ? storedVersion : 'baseline';
   const [completed, setCompleted] = useChecklist();
   const comparing = version === 'experiment';
-  const view = views[version];
+  const view = views[method][version];
+  const methodLabel = methods.find(({ id }) => id === method)!.label;
   const steps = view.steps.filter((step) => step.status !== 'removed');
   const completedSteps = steps.filter((step) => completed.includes(step.id)).length;
   const progress = Math.round((completedSteps / steps.length) * 100);
@@ -122,7 +127,7 @@ export function RecipePage() {
   }
 
   return (
-    <main data-version={version}>
+    <main data-version={version} data-method={method}>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Sourdough home">
           <span className="brand-mark"><Wheat aria-hidden="true" /></span>
@@ -148,10 +153,18 @@ export function RecipePage() {
           <div className="recipe-intro-copy">
             <p className="eyebrow version-eyebrow"><span /> {comparing ? 'Experiment · the next loaf' : 'Baseline · tested best'}</p>
             <h1 className="font-display">Whole-wheat sourdough</h1>
+            <fieldset className="version-switch method-switch" data-method={method}>
+              <legend className="sr-only">Baking path</legend>
+              {methods.map(({ id, label, icon: Icon }) => (
+                <button key={id} type="button" aria-pressed={method === id} onClick={() => setMethod(id)}>
+                  <Icon aria-hidden="true" /> {label}
+                </button>
+              ))}
+            </fieldset>
             <p className="version-note">
               {comparing
                 ? `The trial for the next loaf, with ${plural(experimentChanges)} from the baseline highlighted.`
-                : 'The tested recipe: the best loaf so far.'}
+                : `The tested ${methodLabel.toLowerCase()} recipe: the best loaf so far.`}
             </p>
           </div>
           <a className="primary-link" href="#workflow">Open checklist <ChevronRight /></a>
@@ -160,7 +173,7 @@ export function RecipePage() {
 
       <section id="workflow" className="section workflow-section">
         <div className="shell">
-          <h2 className="sr-only">{comparing ? 'Experiment' : 'Baseline'} bake checklist</h2>
+          <h2 className="sr-only">{methodLabel} {comparing ? 'experiment' : 'baseline'} bake checklist</h2>
           <div className="workflow-toolbar">
             {comparing && <ComparisonSummary changes={view.changes} />}
             <div className="progress-copy" aria-live="polite"><strong>{completedSteps} of {steps.length}</strong><span>steps complete</span><div className="progress-track"><i style={{ width: `${progress}%` }} /></div></div>

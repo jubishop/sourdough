@@ -27,3 +27,6 @@ export type Recipe = {
 };
 
 export type RecipeVersion = 'baseline' | 'experiment';
+
+// The two baking paths, which part after squash and fold.
+export type RecipeMethod = 'dutch-oven' | 'loaf-pan';

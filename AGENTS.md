@@ -36,16 +36,21 @@ work and acceptance criteria. `bin/check --full` adds typechecking, lint, and
 the production build; see the
 [development workflow](docs/development-workflow.md).
 
-## Baseline and experiment recipes
+## Baking paths and recipe versions
 
-The site has two recipes: the baseline, the owner's tested best, and the
-experiment, what they are trying on the next loaf. While the two match, there
-is no experiment and the site shows only the baseline: apply a recipe change
-to both files, without asking or mentioning the experiment, unless the owner
+The site has two baking paths, Dutch oven and loaf pan, which share steps 1–3
+and the mother-starter refresh. A change to a shared step changes both paths.
+For a step with a counterpart in both paths, such as the cold proof or the
+bakes, ask which path a change targets when the instruction does not say.
+
+Each path has two recipes: the baseline, the owner's tested best, and the
+experiment, what they are trying on the next loaf. While a path's two match,
+it has no experiment and the site shows only its baseline: apply a recipe
+change to both, without asking or mentioning the experiment, unless the owner
 raises it. While they differ, ask which one a change targets when the
-instruction does not say. Weekly mother-starter care is separate from both and
-shared, so it needs no such question. See
-[baseline and experiment recipes](docs/recipe-versions.md).
+instruction does not say. Weekly mother-starter care is separate from every
+recipe and shared, so it needs no such question. See
+[baking paths and recipe versions](docs/recipe-versions.md).
 
 ## Complete every change
 

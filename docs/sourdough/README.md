@@ -1,6 +1,6 @@
 # Sourdough research
 
-This is the shared research archive for the 100% whole-wheat sourdough project. The deployed recipe source remains in `lib/recipes/baseline.ts` and `lib/recipes/experiment.ts`; these research documents do not change the deployed recipe.
+This is the shared research archive for the 100% whole-wheat sourdough project. The deployed recipe source remains in `lib/recipes/`, with a baseline and an experiment for each of the Dutch oven and loaf pan paths; these research documents do not change the deployed recipe.
 
 ## Start here
 

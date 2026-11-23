@@ -5,8 +5,11 @@ status: current
 # Recipe guide decisions
 
 This document records accepted choices for the baking instructions in the
-[baseline recipe](../lib/recipes/baseline.ts). Experiment changes are marked
-as such; see [baseline and experiment recipes](recipe-versions.md). The
+[Dutch oven baseline](../lib/recipes/dutch-oven/baseline.ts) and the
+[loaf pan baseline](../lib/recipes/loaf-pan/baseline.ts). Decisions before
+2026-11-22 describe the Dutch oven path unless they name the loaf pan.
+Experiment changes are marked as such; see
+[baking paths and recipe versions](recipe-versions.md). The
 [site and hosting guide](site-and-hosting.md) owns hosting and the fixed
 one-loaf scope.
 
@@ -30,6 +33,41 @@ the instructions to follow.
 Cold-proof timing is also flexible within 8–16 hours at approximately 38°F.
 See [Cold-proof timing and flavor](#cold-proof-timing-and-flavor) for the
 decision that supersedes the earlier 12–24-hour range.
+
+## Loaf pan path
+
+On 2026-11-22, the user added a loaf pan path beside the Dutch oven, chosen
+with a switch on the site. Steps 1–3 and the mother-starter refresh are
+shared; see [baking paths and recipe versions](recipe-versions.md). The
+loaf pan path has no bulk container, shaping, banneton, or preheat:
+
+- **Squash and fold:** the shared rounds, but before the transfer, line the
+  loaf pan with parchment paper that sticks out above the rim enough to lift
+  the baked loaf out by it. After the last round, transfer the dough straight
+  into the lined pan and cover it with plastic wrap.
+- **Rise:** in the proofing box at 72–78°F, warmer finishing sooner, left
+  undisturbed until the dough at the sides of the pan is 1 cm below the rim.
+- **Cold proof:** take off the plastic wrap, seal the pan in a large Ziploc
+  bag, and refrigerate immediately for 8–16 hours at about 38°F.
+- **Load:** take the pan from the refrigerator and the bag. Score one long
+  cut lengthwise down the middle, starting and ending about 1 inch from the
+  ends of the dough, blade straight down, ¼ inch deep; the user chose a
+  shallower cut than the Dutch oven's ½ inch. Turn a second matching loaf pan
+  upside down on top as a lid and place the covered pan in a cold oven.
+- **Bake:** turn the oven on to 465°F and start timing at once, so the
+  warm-up counts, for 45 minutes covered. The user first said 30 minutes,
+  then chose 45 the same day. Then lift off the top pan, lower the oven to
+  315°F, and bake 45 minutes uncovered. A cue warns that both pans are
+  extremely hot.
+- **Cool:** lift the loaf out by the parchment, peel it away, and set the
+  loaf on a wire rack. The 208°F center check is optional, as in the Dutch
+  oven path: a low reading adjusts the next bake, and the loaf does not go
+  back in. Then brush the crust with olive oil and cool uncovered for at
+  least 3 hours.
+
+The user approved the full step text the same day, including the parchment
+peel and the hot-pan cue, which they had not specified. Both loaf pan
+recipes started identical, so the site shows no loaf pan experiment.
 
 ## Autolyse water
 
