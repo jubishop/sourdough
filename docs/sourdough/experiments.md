@@ -6,6 +6,26 @@ status: current
 
 **Single canonical register.** This combines experiment definitions into one place. The six full Library-derived plans are preserved verbatim below, including the superseded November 9 combined hydration/bassinage plan for historical provenance. The active separate protocols for #4 and #14 are given before those preserved historical plans. Other experiments are summarized from the historical goals document and bake journal; missing original plans are not represented as recovered. Historical instructions in preserved sections may be superseded by the [current working decisions](README.md).
 
+## Loaf-pan experiments — separate register
+
+Started November 24, 2026. These experiments apply specifically to the covered cast-iron loaf-pan baking path and have independent numbering from the existing experiments below. Listing an experiment does not schedule it for the next bake or change either published recipe.
+
+| ID | Experiment | Status |
+|---|---|---|
+| LP-1 | No scoring before baking | Proposed; not yet tested |
+
+### LP-1 — No scoring
+
+**Question:** Does omitting the score improve vertical oven spring or produce a more evenly rounded top in the loaf pan?
+
+**Rationale:** The pan constrains lateral expansion. The covered, cold-start bake may also delay surface setting, potentially reducing the need for a deliberate expansion seam. An intact surface may yield a rounded dome, but it could also restrict spring or split unpredictably, especially near the pan edges.
+
+**Control:** The established loaf-pan method with one longitudinal score before baking.
+
+**Test:** Omit scoring entirely; leave the dough surface intact when loading the covered pan into the cold oven. Keep the flour, dough mass, hydration, levain, salt, mixing, folds, bulk endpoint, shaping, cold proof, pan preparation, cover, and bake schedule identical to the scored control as far as practical. Record actual fermentation and baking conditions.
+
+**Assessment:** Compare cooled loaf height above the rim, dome shape and symmetry, uncontrolled cracks or side blowouts, crumb openness and uniformity, gumminess, and any compressed regions. Photograph the top, sides, and center slice consistently. Repeat a promising result before adopting it as the loaf-pan baseline.
+
 ## Experiment overview
 
 | ID | Experiment | Source status |
