@@ -43,7 +43,8 @@ loaf pan path has no bulk container, shaping, banneton, or preheat:
 
 - **Squash and fold:** the shared rounds, but before the transfer, line the
   loaf pan with parchment paper that sticks out above the rim enough to lift
-  the baked loaf out by it. After the last round, transfer the dough straight
+  the baked loaf out by it. On 2026-11-23, the user added rubbing a thin
+  layer of avocado oil inside the pan first, so the parchment sticks to it. After the last round, transfer the dough straight
   into the lined pan and cover it with plastic wrap.
 - **Rise:** in the proofing box at 72–78°F, warmer finishing sooner, left
   undisturbed until the dough at the sides of the pan is 1 cm below the rim.

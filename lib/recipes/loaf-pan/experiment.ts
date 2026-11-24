@@ -11,7 +11,7 @@ import type { Recipe, RecipeStep } from '../types';
 const steps: RecipeStep[] = [
   wakeStarter,
   mixDough,
-  squashAndFold('Before transferring the dough, line your loaf pan with parchment paper that sticks out above the rim, enough to lift the baked loaf out by it. After the last round, gently transfer the dough to the lined pan and cover it with plastic wrap.'),
+  squashAndFold('Before transferring the dough, rub a thin layer of avocado oil over the inside of your loaf pan so the parchment paper sticks to it. Then line the pan with parchment paper that sticks out above the rim, enough to lift the baked loaf out by it. After the last round, gently transfer the dough to the lined pan and cover it with plastic wrap.'),
   {
     id: 'pan-rise',
     phase: 'Bulk fermentation',
