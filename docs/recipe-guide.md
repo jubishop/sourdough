@@ -316,6 +316,13 @@ every wait between folding sessions. After the final fold and transfer,
 place the covered proofing container inside the box set to 76°F for bulk
 fermentation. The reason was not stated.
 
+On 2026-11-23, the user clarified that once the stand mixer finishes, they
+move the dough into a large glass bowl, which is easier to manage during
+squash and fold. The dough stays covered in that glass bowl outside the
+proofing box for every rest until the path's final transfer. This applies to
+every path and recipe; earlier mentions of the mixing bowl for the rests
+mean this glass bowl.
+
 On 2026-10-01, the user raised the proofing-box temperature to 78°F,
 superseding the 76°F setting. The reason was not stated. Keep using the
 box only after the final fold and transfer to the covered proofing container.

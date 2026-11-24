@@ -30,7 +30,7 @@ export const mixDough: RecipeStep = {
   time: 'Mix until uniform',
   icon: Scale,
   title: 'Mix the dough',
-  body: 'In your stand mixer bowl, mix all 400 g water, 100 g active starter (levain), and 12 g salt with the paddle until the starter is dispersed and the salt dissolves. Then immediately add 500 g King Arthur Golden Whole Wheat Flour and mix with the paddle until reasonably uniform, with no dry pockets.',
+  body: 'In your stand mixer bowl, mix all 400 g water, 100 g active starter (levain), and 12 g salt with the paddle until the starter is dispersed and the salt dissolves. Then immediately add 500 g King Arthur Golden Whole Wheat Flour and mix with the paddle until reasonably uniform, with no dry pockets. Then move the dough into a large glass bowl, which is easier to work with during squash and fold.',
   cue: 'The dough is at about 81.8% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
 };
 
@@ -42,7 +42,7 @@ export const squashAndFold = (transfer: string): RecipeStep => ({
   icon: RotateCcw,
   title: 'Squash and fold',
   body: 'Squash and fold for four to six rounds. In each round, do as many squash and folds as you can before the dough becomes excessively tight and stiff. Rest 30 minutes before each round, starting after you mix in the flour.',
-  cue: `During every wait, keep the dough covered in the mixing bowl outside the proofing box. ${transfer}`,
+  cue: `During every wait, keep the dough covered in the glass bowl outside the proofing box. ${transfer}`,
 });
 
 export const motherRefresh: Recipe['motherRefresh'] = {
