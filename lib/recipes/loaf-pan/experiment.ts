@@ -3,8 +3,16 @@
 // what the experiment changes.
 import { CookingPot, Flame, FlaskConical, Snowflake, Sparkles } from 'lucide-react';
 
-import { mixDough, motherRefresh, squashAndFold, wakeStarter } from '../shared';
+import { mixDough as sharedMixDough, motherRefresh, squashAndFold, wakeStarter } from '../shared';
 import type { Recipe, RecipeStep } from '../types';
+
+// The experiment's own copy of the shared mix step, with 420 g water instead of
+// 400 g. It keeps the step's ID so the comparison shows the change.
+const mixDough: RecipeStep = {
+  ...sharedMixDough,
+  body: 'In your stand mixer bowl, mix all 420 g water, 100 g active starter (levain), and 12 g salt with the paddle until the starter is dispersed and the salt dissolves. Then immediately add 500 g King Arthur Golden Whole Wheat Flour and mix with the paddle until reasonably uniform, with no dry pockets. Then move the dough into a large glass bowl, which is easier to work with during squash and fold.',
+  cue: 'The dough is at about 85.5% total hydration. Wet your hands lightly; do not add flour to make it easier to handle.',
+};
 
 // Steps unique to this path take a `pan-` ID, so checklist progress never
 // carries over from a Dutch oven step.

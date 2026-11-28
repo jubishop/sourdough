@@ -130,6 +130,13 @@ during the autolyse: 80% hydration before levain and about 81.8% total
 hydration with 100 g of levain, before any water from wet hands. Keep the
 stated hydration based on the weighed water only.
 
+On 2026-11-27, the user set the loaf pan experiment's dough water to 420 g,
+an experiment only; the loaf pan baseline and both Dutch oven recipes keep
+400 g. The reason was not stated. The experiment replaces the shared `mix`
+step with its own copy, keeping the step's ID: mix all 420 g water with the
+starter and salt, for about 85.5% total hydration (470 g water, 550 g
+flour), before any water from wet hands.
+
 On 2026-09-09, the user requested removal of all Step 2 substeps. Keep the
 main mixing instruction, the rest, and the starter-overlap cue.
 The reason was not stated.
